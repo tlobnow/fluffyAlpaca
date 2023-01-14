@@ -22,8 +22,14 @@ do
 	then
 		echo "Working on $LIST"
 	else
-		for i in ${LOC_FASTA}/${FOLDER}/*.fasta; do 
-			cp -r ${LOC_SCRIPTS}/template ${LOC_SCRIPTS}/myRuns/$(basename -a -s .fasta $i); done
+		if [ $STOICH = 'simple' ]
+			then
+			for i in ${LOC_FASTA}/${FOLDER}/*.fasta; do 
+				cp -r ${LOC_SCRIPTS}/template ${LOC_SCRIPTS}/myRuns/$(basename -a -s .fasta $i); done
+		else
+			for i in ${LOC_FASTA}/${FOLDER}/*.fasta; do
+				cp -r ${LOC_SCRIPTS}/template ${LOC_SCRIPTS}/myRuns/$(basename -a -s .fasta $i)_COMPLEX ; done
+		fi
 		cp ${LOC_FASTA}/${FOLDER}/*.fasta $LOC_FASTA
 	fi
 done <$LIST
@@ -32,7 +38,15 @@ done <$LIST
 #### MODEL PARAMETER CAN BE CHANGED IN SOURCE.INC ####
 
 if [ $MODEL = 'yes' ]; then
-	parallel 'sh 01_MODEL.sh {}' :::: ${LOC_LISTS}/${FOLDER}_inds
-else 
-	echo "Please adjust 'source.inc' to your needs and set 'MODEL=yes' to start the pipeline."
-fi
+
+	if [ $STOICH = 'simple' ]; then
+		echo "running 01_MODEL_simple.sh based on ${LOC_LISTS}/${FOLDER}_inds"
+		parallel 'sh 01_MODEL_simple.sh {}' :::: ${LOC_LISTS}/${FOLDER}_inds
+
+	elif [  $STOICH = 'advanced' ]; then
+		echo "running 01_MODEL_complex.sh based on ${LOC_LISTS}/${FOLDER}_inds"
+		parallel 'sh 01_MODEL_complex.sh {}' :::: ${LOC_LISTS}/${FOLDER}_inds
+	else 
+		echo "Please adjust 'source.inc' to your needs and set 'MODEL=yes' to start the pipeline."
+	fi
+fi	

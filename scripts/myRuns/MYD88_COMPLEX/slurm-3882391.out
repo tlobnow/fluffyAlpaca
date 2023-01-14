@@ -1,0 +1,31 @@
+Info: input file name is MYD88_COMPLEX
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/myRuns/MYD88_COMPLEX/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0114 23:04:24.855461 22692183856960 tpu_client.py:54] Starting the local TPU driver.
+I0114 23:04:24.855824 22692183856960 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0114 23:04:25.231091 22692183856960 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0114 23:04:28.704363 22692183856960 run_af2c_mod.py:482] Have 1 models: ['model_3_multimer_v2_p1']
+Info: working on target IL1R_x1+IL1AP_x1+MYD88_x6
+I0114 23:04:29.705606 22692183856960 run_af2c_mod.py:512] Using random seed 8267134367266935371 for the data pipeline
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 found monomer IL1R msa_depth = 13158, seq_len = 576, num_templ = 20
+Info: IL1R MSA size is too large, reducing to 10000
+Info: IL1R reducing the number of structural templates to 4
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 found monomer IL1AP msa_depth = 11997, seq_len = 570, num_templ = 20
+Info: IL1AP MSA size is too large, reducing to 10000
+Info: IL1AP reducing the number of structural templates to 4
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 found monomer MYD88 msa_depth = 5045, seq_len = 296, num_templ = 20
+Info: MYD88 reducing the number of structural templates to 4
+Info: 8 chain(s) to model {'A': 'IL1R_1', 'B': 'IL1AP_1', 'C': 'MYD88_1', 'D': 'MYD88_1', 'E': 'MYD88_1', 'F': 'MYD88_1', 'G': 'MYD88_1', 'H': 'MYD88_1'}
+Info: modeling IL1R_x1+IL1AP_x1+MYD88_x6 with msa_depth = 14999, seq_len = 2922, num_templ = 32
+I0114 23:04:33.650367 22692183856960 run_af2c_mod.py:216] Running model model_3_multimer_v2_p1_230114_935371
+I0114 23:04:33.650916 22692183856960 model.py:206] Running predict with shape(feat) = {'msa': (14999, 2922), 'bert_mask': (14999, 2922), 'num_alignments': (), 'aatype': (2922,), 'seq_length': (), 'template_aatype': (32, 2922), 'template_all_atom_mask': (32, 2922, 37), 'template_all_atom_positions': (32, 2922, 37, 3), 'all_atom_positions': (2922, 37, 3), 'template_domain_names': (32,), 'asym_id': (2922,), 'sym_id': (2922,), 'entity_id': (2922,), 'residue_index': (2922,), 'deletion_matrix': (14999, 2922), 'seq_mask': (2922,), 'msa_mask': (14999, 2922), 'cluster_bias_mask': (14999,), 'pdb_residue_index': (2922,)}

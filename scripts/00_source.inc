@@ -1,8 +1,10 @@
 	# see NOTES below for explanation. Change to MODEL to 'yes' to start pipeline components
 MODEL=yes
 
-FOLDER=GFP
-FOLDER=MYD88-DD
+#FOLDER=GFP
+#FOLDER=MYD88-DD
+
+FOLDER=MYD88
 
 	# Specify the folder where your fasta files are located.
 	# This folder will be used to create a list of the fasta base names, for which models will be run.
@@ -16,17 +18,19 @@ LOC_SCRIPTS=~/fluffyAlpaca/scripts           	  # Specify where the scripts   ar
 LOC_LISTS=~/fluffyAlpaca/scripts/lists       	  # Specify where your lists    are located
 LOC_FASTA=~/fluffyAlpaca/fasta_files		  # Specify where fasta_files   are located
 LOC_FEATURES=~/fluffyAlpaca/feature_files/${FILE} # Specify where feature_files are located
-#LOC_PKL=~/fluffyAlpaca/output_files/PKL          # Specify where the PKL files are located
 
 
-STOICH=simple # See NOTES below for explanation.
+STOICH=advanced
+	# See NOTES below for explanation.
 
 if   [ $STOICH = 'simple' ]; then
 	STOICHIOMETRY=${FILE}:${N}
 	LOC_OUT=~/fluffyAlpaca/output_files/${FILE}_x${N}
+
 elif [ $STOICH = 'advanced' ]; then
-	STOICHIOMETRY=IL1R:1/IL1AP:1/+${FILE}:${N}
-	LOC_OUT=~/fluffyAlpaca/output_files/IL1R_x1+IL1AP_x1+${FILE}_x${N}
+	STOICHIOMETRY=IL1R:1/IL1AP:1/${FILE}:${N}
+	#COMPLEX=IL1R_x1+IL1AP_x1_${FILE}_x${N}
+	LOC_OUT=~/fluffyAlpaca/output_files/${FILE}_COMPLEX_x${N}
 else 
 	echo "Please specify your stoichiometry of choice."
 	echo "You can unhash the advanced version if necessary."
