@@ -1,0 +1,52 @@
+# STOCKHOLM 1.0
+
+#=GS sp|P42212|GFP_AEQVI      DE Green fluorescent protein OS=Aequorea victoria OX=6100 GN=GFP PE=1 SV=1
+#=GS MGYP000597656644/392-629 DE [subseq from] PL=00 UP=0 BIOMES=1000000000000
+#=GS MGYP000167924073/1-127   DE [subseq from] PL=00 UP=0 BIOMES=0000000010100
+#=GS MGYP001105360192/1-60    DE [subseq from] PL=00 UP=0 BIOMES=1000000000000
+#=GS MGYP001105360192/74-130  DE [subseq from] PL=00 UP=0 BIOMES=1000000000000
+#=GS MGYP000535776163/11-77   DE [subseq from] PL=01 UP=0 BIOMES=0000000000001
+#=GS MGYP000273347436/52-114  DE [subseq from] PL=00 UP=0 BIOMES=0000000000001
+#=GS MGYP000237953966/52-113  DE [subseq from] PL=00 UP=0 BIOMES=0000000000001
+#=GS MGYP000667706967/61-129  DE [subseq from] PL=00 UP=0 BIOMES=0110000000000
+#=GS MGYP000547889416/19-116  DE [subseq from] PL=00 UP=0 BIOMES=0110000000000
+#=GS MGYP000013848182/8-60    DE [subseq from] PL=00 UP=0 BIOMES=0000000000001
+#=GS MGYP000076090142/19-82   DE [subseq from] PL=01 UP=0 BIOMES=0110000000000
+#=GS MGYP000589181447/12-66   DE [subseq from] PL=00 UP=0 BIOMES=0110000000000
+#=GS MGYP000135068163/36-94   DE [subseq from] PL=10 UP=0 BIOMES=0110000000000
+#=GS MGYP000748412262/13-64   DE [subseq from] PL=00 UP=0 BIOMES=0110000000000
+
+sp|P42212|GFP_AEQVI              MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTT-G-K-LPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPD
+MGYP000597656644/392-629         MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTT-G-K-LPVPWPTLVTTFSYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYITADKQKNGIKANFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPD
+MGYP000167924073/1-127           ------------------------------------------------------------------------------------------------------------------MKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPD
+MGYP001105360192/1-60            MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTT-G-K-LPVPWVSL-----------------------------------------------------------------------------------------------------------------------------------------
+MGYP001105360192/74-130          -----------------------------------------------------------QPTLVTTFCYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTIFFKDDGNYKTRKFKQ------------------------------------------------------------------------------------
+MGYP000535776163/11-77           ---------------------------------------GKQSMDLVVKE-GAP-LPFAYDILTTAFNYGNRAFVQYPDHIP--DFFKQSFPKGFSWERSLMFEDGGICI------------------------------------------------------------------------------------------
+MGYP000273347436/52-114          -----------------------------------------------KVG-G-P-LPFAYDILTTAFHYGNRVFAEYPDHIP--DYFKQSFPGGYSWERSLTFEDGGICIARNDI-------------------------------------------------------------------------------------
+MGYP000237953966/52-113          ------------------------------------------------EG-G-P-LPFAYDILTTAFHYGNRVFAEYPDHIP--DYFKQSFPGGYSWERSLTFEDGGICIARNDI-------------------------------------------------------------------------------------
+MGYP000667706967/61-129          ---------------------------------------GKQTIDLIVEEGG-P-LPFAFDILTTAFQYGNRAFTHYPSAI--LDYFKQSFPEGFSWERTMAFQDEGFCDVK----------------------------------------------------------------------------------------
+MGYP000547889416/19-116          -----------------IRGTANGKTFRLAGEGQGRPYDGKLGSVLKSTT-G-P-LHIPMHLLDIVAIFGYPTYSNYHED--TKDLFK--ISDGYEYERSIKYENGGHMKTLHKITKHSDHL------------------------------------------------------------------------------
+MGYP000013848182/8-60            -------------------------------------------------G-G-P-LPFAFDILTTVFDYGNRVFAKYPNEI--SDYFKQSFPEGYSWERSMSYEDGG---------------------------------------------------------------------------------------------
+MGYP000076090142/19-82           ---------------------------------------GKQTANFKVIT-GAP-LLFSFDLLSSAFKYGNRCFTKYPEGMP--DYFKQAFPAGMSYERTFTFEDGG---------------------------------------------------------------------------------------------
+MGYP000589181447/12-66           -----------------------------------------------------KPLPFSFDILSTVFQYGNRCFTKYPEGMT--DYFKQAFPDGMSYERSFLYEDGGVAT------------------------------------------------------------------------------------------
+MGYP000135068163/36-94           ---------------------------------------------IIKPA-G-KPLPFSFDILSTAFQYGNLCFTKYPADM--PDYFKQAFPDGMSYERSFLFEDGGV--------------------------------------------------------------------------------------------
+MGYP000748412262/13-64           -----------------------------------------------------P-LPFSFDILSSAFEYGNRCFTKYPEGMT--DYFKQAFPDGMSYERSFLFEDGGV--------------------------------------------------------------------------------------------
+#=GC RF                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.x.x.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+sp|P42212|GFP_AEQVI              NHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDELYK
+MGYP000597656644/392-629         NHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDELYK
+MGYP000167924073/1-127           NHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITLGMDELYK
+MGYP001105360192/1-60            -----------------------------------------
+MGYP001105360192/74-130          -----------------------------------------
+MGYP000535776163/11-77           -----------------------------------------
+MGYP000273347436/52-114          -----------------------------------------
+MGYP000237953966/52-113          -----------------------------------------
+MGYP000667706967/61-129          -----------------------------------------
+MGYP000547889416/19-116          -----------------------------------------
+MGYP000013848182/8-60            -----------------------------------------
+MGYP000076090142/19-82           -----------------------------------------
+MGYP000589181447/12-66           -----------------------------------------
+MGYP000135068163/36-94           -----------------------------------------
+MGYP000748412262/13-64           -----------------------------------------
+#=GC RF                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

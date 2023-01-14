@@ -89,4 +89,4 @@ FEATURE_MODE='monomer+species'
 
 
 # for use with checkpoint_tag that enables checkpoint saving, disabled by default
-CHECKPOINT_TAG=ckpt
+#CHECKPOINT_TAG=ckpt

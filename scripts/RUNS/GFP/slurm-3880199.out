@@ -1,0 +1,60 @@
+Info: input file name is GFP
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/RUNS/GFP/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0114 17:56:54.646694 22723015718720 tpu_client.py:54] Starting the local TPU driver.
+I0114 17:56:54.647090 22723015718720 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0114 17:56:55.005614 22723015718720 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0114 17:56:58.525924 22723015718720 run_af2c_mod.py:482] Have 1 models: ['model_2_multimer_v2_p1']
+Info: working on target GFP_x6
+I0114 17:57:01.529192 22723015718720 run_af2c_mod.py:512] Using random seed 6884679438438402278 for the data pipeline
+Info: GFP_x6 found monomer GFP msa_depth = 2019, seq_len = 238, num_templ = 20
+Info: GFP reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'GFP_1', 'B': 'GFP_1', 'C': 'GFP_1', 'D': 'GFP_1', 'E': 'GFP_1', 'F': 'GFP_1'}
+Info: modeling GFP_x6 with msa_depth = 2020, seq_len = 1428, num_templ = 24
+I0114 17:57:02.060107 22723015718720 run_af2c_mod.py:216] Running model model_2_multimer_v2_p1_230114_402278
+I0114 17:57:02.060815 22723015718720 model.py:206] Running predict with shape(feat) = {'msa': (2020, 1428), 'bert_mask': (2020, 1428), 'num_alignments': (), 'aatype': (1428,), 'seq_length': (), 'template_aatype': (24, 1428), 'template_all_atom_mask': (24, 1428, 37), 'template_all_atom_positions': (24, 1428, 37, 3), 'all_atom_positions': (1428, 37, 3), 'template_domain_names': (24,), 'asym_id': (1428,), 'sym_id': (1428,), 'entity_id': (1428,), 'residue_index': (1428,), 'deletion_matrix': (2020, 1428), 'seq_mask': (1428,), 'msa_mask': (2020, 1428), 'cluster_bias_mask': (2020,), 'pdb_residue_index': (1428,)}
+I0114 18:54:28.953217 22723015718720 model.py:226] Saving checkpoint at recycle round 20
+Traceback (most recent call last):
+  File "/raven/u/flobnow/af2complex/src/alphafold/model/model.py", line 234, in predict
+    }, prev_iter), f, protocol=4)
+OSError: [Errno 122] Disk quota exceeded
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/u/flobnow/af2complex/src/run_af2c_mod.py", line 535, in <module>
+    app.run(main)
+  File "/u/flobnow/.local/lib/python3.7/site-packages/absl/app.py", line 312, in run
+    _run_main(main, args)
+  File "/u/flobnow/.local/lib/python3.7/site-packages/absl/app.py", line 258, in _run_main
+    sys.exit(main(argv))
+  File "/u/flobnow/af2complex/src/run_af2c_mod.py", line 521, in main
+    flags=FLAGS,
+  File "/u/flobnow/af2complex/src/run_af2c_mod.py", line 259, in predict_structure
+    asym_id_list=asym_id_list, asym_id=asym_id, edge_contacts_thres=FLAGS.cluster_edge_thres)
+  File "/raven/u/flobnow/af2complex/src/alphafold/model/model.py", line 236, in predict
+    logging.info(f"Checkpoint saved to {self.checkpoint_file}")
+OSError: [Errno 122] Disk quota exceeded
+srun: error: ravg1165: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=3880199.0
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  2_AF2C
+Node list: ravg1165
+Job start: Sat Jan 14 17:56:34 CET 2023
+Job end:   Sat Jan 14 18:54:31 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/RUNS/GFP

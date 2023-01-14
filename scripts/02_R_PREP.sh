@@ -21,4 +21,4 @@ for i in {1..5}; do
   mv ranking_model_${i}_*   ${FILE}_ranking_model_${i}.json
 done
 
-rm -r checkpoint
+[-f checkpoint ] rm -r checkpoint

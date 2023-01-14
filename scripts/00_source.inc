@@ -11,11 +11,11 @@ N=6
 	# Specify the number of monomers in run your run: e.g. 6 would create a homohexamer
 
 
-LOC_SCRIPTS=~/fluffyAlpaca/scripts           # Specify where the scripts   are located
-LOC_LISTS=~/fluffyAlpaca/scripts/lists       # Specify where your lists    are located
-LOC_FASTA=~/fluffyAlpaca/fasta_files		# Specify where fasta_files   are located
+LOC_SCRIPTS=~/fluffyAlpaca/scripts           	  # Specify where the scripts   are located
+LOC_LISTS=~/fluffyAlpaca/scripts/lists       	  # Specify where your lists    are located
+LOC_FASTA=~/fluffyAlpaca/fasta_files		  # Specify where fasta_files   are located
 LOC_FEATURES=~/fluffyAlpaca/feature_files/${FILE} # Specify where feature_files are located
-LOC_PKL=~/fluffyAlpaca/output_files/PKL           # Specify where the PKL files are located
+#LOC_PKL=~/fluffyAlpaca/output_files/PKL          # Specify where the PKL files are located
 
 
 STOICH=simple # See NOTES below for explanation.

@@ -73,4 +73,4 @@ srun $PYTHON_PATH/python3 -u $AF_DIR/run_af2c_mod.py \
   --model_preset=$MODEL_PRESET \
   --save_recycled=$RECYCLING_SETTING \
   --msa_pairing=$MSA_PAIRING \
-  --checkpoint_tag=$CHECKPOINT_TAG
+#  --checkpoint_tag=$CHECKPOINT_TAG
