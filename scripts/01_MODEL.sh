@@ -4,7 +4,7 @@ FILE=$1
 source ./00_source.inc
 
 ### ENTER FOLDER
-cd ${LOC_SCRIPTS}/RUNS/${FILE}
+cd ${LOC_SCRIPTS}/myRuns/${FILE}
 
 ### SET FILE NAME IN  USER PARAMETERS
 echo FILE=${FILE} > 00_user_parameters.inc
@@ -16,45 +16,57 @@ echo $STOICHIOMETRY > target.lst
 
 if [ -f $LOC_FEATURES/features.pkl ]
 	then
+	echo "---------------------------------------------------"
 	echo "(1) MSA OF ${FILE} FINISHED SUCCESSFULLY."
-	if [ -f $LOC_OUT/ranking_model_1_* -a $LOC_OUT/ranking_model_2_* -a $LOC_OUT/ranking_model_3_* -a $LOC_OUT/ranking_model_4_* -a $LOC_OUT/ranking_model_5_* ]
-	#if [ -f $LOC_OUT/model_1_* -a $LOC_OUT/model_2_* -a $LOC_OUT/model_3_* -a $LOC_OUT/model_4_* -a $LOC_OUT/model_5_* -a $LOC_OUT/model_1_*_*_*_*_*.pkl -a $LOC_OUT/model_2_*_*_*_*_*.pkl -a $LOC_OUT/model_3_*_*_*_*_*.pkl -a $LOC_OUT/model_4_*_*_*_*_*.pkl -a $LOC_OUT/model_5_*_*_*_*_*.pkl ]
+	if [ -f $LOC_OUT/ranking_model_1_*_*_*_*.json -a $LOC_OUT/ranking_model_2_*_*_*_*.json -a $LOC_OUT/ranking_model_3_*_*_*_*.json -a $LOC_OUT/ranking_model_4_*_*_*_*.json -a $LOC_OUT/ranking_model_5_*_*_*_*.json ]
 		then
+		[ -f $LOC_OUT/model_1_*_*_*_*.pkl ]; rm *.pkl
 		echo "(2) PREDICTION OF ${FILE} FINISHED SUCCESSFULLY."
-		if [ -f $LOC_OUT/relaxed_model_1_* -a $LOC_OUT/relaxed_model_2_* -a $LOC_OUT/relaxed_model_3_*  -a $LOC_OUT/relaxed_model_4_* -a $LOC_OUT/relaxed_model_5_* ]
+		if [ -f $LOC_OUT/relaxed_model_1_*_*_*_*.pdb -a $LOC_OUT/relaxed_model_2_*_*_*_*.pdb -a $LOC_OUT/relaxed_model_3_*_*_*_*.pdb  -a $LOC_OUT/relaxed_model_4_*_*_*_*.pdb -a $LOC_OUT/relaxed_model_5_*_*_*_*.pdb ]
 			then
 			echo "(3) RELAXATION OF ${FILE} FINISHED SUCCESSFULLY."
-			if [ -f $LOC_PKL/${FILE}_model_1_x${N}.pkl -a $LOC_PKL/${FILE}_model_2_x${N}.pkl -a $LOC_PKL/${FILE}_model_3_x${N}.pkl -a $LOC_PKL/${FILE}_model_4_x${N}.pkl -a $LOC_PKL/${FILE}_model_5_x${N}.pkl ]
+			if [ -f $LOC_OUT/${FILE}_rlx_model_1_x${N}.pdb -a $LOC_OUT/${FILE}_rlx_model_2_x${N}.pdb -a $LOC_OUT/${FILE}_rlx_model_3_x${N}.pdb -a $LOC_OUT/${FILE}_rlx_model_4_x${N}.pdb -a $LOC_OUT/${FILE}_rlx_model_5_x${N}.pdb ]
 				then
 				echo "(5) PIPELINE FINISHED SUCCESSFULLY. SEE $LOC_OUT"
 			else
 				echo "(4) PREPARING ${FILE} FOR ANALYSIS IN R." 
 				# = integrated 02_R_PREP.sh script
 
-				cd ${LOC_SCRIPTS}/RUNS/${FILE}/
+				cd ${LOC_SCRIPTS}/myRuns/${FILE}/
 				cat slurm* > ${LOC_OUT}/slurm.out
-				mkdir -p ${LOC_SCRIPTS}/RUNS/${FILE}/temp/
-				mv slurm* ${LOC_SCRIPTS}/RUNS/${FILE}/temp/
+				mkdir -p ${LOC_SCRIPTS}/myRuns/${FILE}/temp/
+				mv slurm* ${LOC_SCRIPTS}/myRuns/${FILE}/temp/
 
 				cd $LOC_OUT
 				for i in {1..5}; do
 				  mv model_${i}_*_*_*_*.pdb ${FILE}_model_${i}_x${N}.pdb
-				  mv model_${i}_*_*_*_*.pkl $LOC_PKL/${FILE}_model_${i}_x${N}.pkl
+				  [ -f model_${i}_*_*_*_*.pkl ]; rm model_${i}_*_*_*_*.pkl
 				  mv relaxed_model_${i}_*   ${FILE}_rlx_model_${i}_x${N}.pdb
 				  mv ranking_model_${i}_*   ${FILE}_ranking_model_${i}.json
 				done
-				[-f checkpoint ] rm -r checkpoint
+				[ -f checkpoint ]; rm -r checkpoint
 			fi
 		else
 			cd $LOC_OUT
-			[-f relaxed_* ] && rm relaxed_* # remove old, incomplete relaxation
-			#cd ${LOC_SCRIPTS}/RUNS/${FILE}
-	                bash ${LOC_SCRIPTS}/RUNS/${FILE}/submit_rlx.sh
+			[ -f relaxed_* ] && rm relaxed_* # remove old, incomplete relaxation
+			cd ${LOC_SCRIPTS}/myRuns/${FILE}
+	                bash ${LOC_SCRIPTS}/myRuns/${FILE}/submit_rlx.sh
 		fi
 
-	elif [ -f $LOC_OUT/relaxed_model_1_* -o $LOC_OUT/relaxed_model_2_* -o $LOC_OUT/relaxed_model_3_*  -o $LOC_OUT/relaxed_model_4_* -o $LOC_OUT/relaxed_model_5_* ]
+	elif [ -f $LOC_OUT/${FILE}_rlx_model_1_x${N}.pdb -a $LOC_OUT/${FILE}_rlx_model_2_x${N}.pdb -a $LOC_OUT/${FILE}_rlx_model_3_x${N}.pdb -a $LOC_OUT/${FILE}_rlx_model_4_x${N}.pdb -a $LOC_OUT/${FILE}_rlx_model_5_x${N}.pdb ]
+                then
+		[ -f $LOC_OUT/model_*_*_*_*_*_*.pkl ]; rm $LOC_OUT/model_*_*_*_*_*_*.pkl
+		echo "(2) PREDICTION OF ${FILE} FINISHED SUCCESSFULLY."
+		echo "(3) RELAXATION OF ${FILE} FINISHED SUCCESSFULLY."
+		echo "(4) R PREPARATION OF ${FILE} FINISHED SUCCESSFULLY."
+                echo "(5) PIPELINE FINISHED SUCCESSFULLY. FILES:"
+		ls $LOC_OUT
+		echo "---------------------------------------------------"
+
+	elif [ -f $LOC_OUT/relaxed_model_* ]
+		#-o $LOC_OUT/relaxed_model_2_* -o $LOC_OUT/relaxed_model_3_*  -o $LOC_OUT/relaxed_model_4_* -o $LOC_OUT/relaxed_model_5_* ]
 		then
-		echo " ---> INCOMPLETE PREDICTION OF $STOICHIOMETRY"
+		#echo " ---> INCOMPLETE PREDICTION OF $STOICHIOMETRY"
 		for i in {1..5}; do
 			if [ -f $LOC_OUT/model_${i}_* ]
 				then 
@@ -64,13 +76,13 @@ if [ -f $LOC_FEATURES/features.pkl ]
 					then 
 					rm $LOC_OUT/model_${i}_*_*_*_*_*.pkl
 				fi
-				bash ${LOC_SCRIPTS}/RUNS/${FILE}/submit_${i}.sh
+				bash ${LOC_SCRIPTS}/myRuns/${FILE}/submit_${i}.sh
 			fi
 		done
 	else echo " ---> NO PREDICTION YET. STARTING SMALL PIPELINE FOR ${FILE}"
-		bash ${LOC_SCRIPTS}/RUNS/${FILE}/submit_small_pipe.sh		
+		bash ${LOC_SCRIPTS}/myRuns/${FILE}/submit_small_pipe.sh		
 	fi
 else
         echo " ---> NO MSA YET. STARTING BIG PIPELINE FOR ${FILE}"
-        bash ${LOC_SCRIPTS}/RUNS/${FILE}/submit_big_pipe.sh
+        bash ${LOC_SCRIPTS}/myRuns/${FILE}/submit_big_pipe.sh
 fi

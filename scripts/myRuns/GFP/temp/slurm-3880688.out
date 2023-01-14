@@ -1,0 +1,78 @@
+Info: input file name is GFP
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/myRuns/GFP/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0114 19:10:22.012465 23317989742400 tpu_client.py:54] Starting the local TPU driver.
+I0114 19:10:22.012850 23317989742400 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0114 19:10:22.339184 23317989742400 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0114 19:10:25.798216 23317989742400 run_af2c_mod.py:482] Have 1 models: ['model_4_multimer_v2_p1']
+Info: working on target GFP_x6
+I0114 19:10:26.799455 23317989742400 run_af2c_mod.py:512] Using random seed 919595411562251140 for the data pipeline
+Info: GFP_x6 found monomer GFP msa_depth = 2019, seq_len = 238, num_templ = 20
+Info: GFP reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'GFP_1', 'B': 'GFP_1', 'C': 'GFP_1', 'D': 'GFP_1', 'E': 'GFP_1', 'F': 'GFP_1'}
+Info: modeling GFP_x6 with msa_depth = 2020, seq_len = 1428, num_templ = 24
+I0114 19:10:27.316733 23317989742400 run_af2c_mod.py:216] Running model model_4_multimer_v2_p1_230114_251140
+I0114 19:10:27.317297 23317989742400 model.py:206] Running predict with shape(feat) = {'msa': (2020, 1428), 'bert_mask': (2020, 1428), 'num_alignments': (), 'aatype': (1428,), 'seq_length': (), 'template_aatype': (24, 1428), 'template_all_atom_mask': (24, 1428, 37), 'template_all_atom_positions': (24, 1428, 37, 3), 'all_atom_positions': (1428, 37, 3), 'template_domain_names': (24,), 'asym_id': (1428,), 'sym_id': (1428,), 'entity_id': (1428,), 'residue_index': (1428,), 'deletion_matrix': (2020, 1428), 'seq_mask': (1428,), 'msa_mask': (2020, 1428), 'cluster_bias_mask': (2020,), 'pdb_residue_index': (1428,)}
+I0114 20:33:09.243109 23317989742400 run_af2c_mod.py:271] Total JAX model model_4_multimer_v2_p1_230114_251140 predict time (includes compilation time): 4961.9 seconds
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_00,  tol =   inf, pLDDT = 78.81, pTM-score = 0.3200, piTM-score = 0.0292, interface-score = 0.0050, iRes = 20   iCnt = 10  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_01,  tol = 63.07, pLDDT = 78.12, pTM-score = 0.3068, piTM-score = 0.0099, interface-score = 0.0001, iRes = 8    iCnt = 5   
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_02,  tol =  6.79, pLDDT = 77.77, pTM-score = 0.3010, piTM-score = 0.0383, interface-score = 0.0003, iRes = 15   iCnt = 10  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_03,  tol =  2.31, pLDDT = 77.56, pTM-score = 0.3077, piTM-score = 0.0220, interface-score = 0.0002, iRes = 13   iCnt = 8   
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_04,  tol =  2.11, pLDDT = 77.80, pTM-score = 0.3192, piTM-score = 0.0271, interface-score = 0.0008, iRes = 21   iCnt = 12  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_05,  tol =  1.35, pLDDT = 77.11, pTM-score = 0.3366, piTM-score = 0.0986, interface-score = 0.0179, iRes = 44   iCnt = 34  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_06,  tol =  3.80, pLDDT = 77.85, pTM-score = 0.3835, piTM-score = 0.1346, interface-score = 0.0652, iRes = 74   iCnt = 70  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_07,  tol =  2.69, pLDDT = 79.04, pTM-score = 0.4157, piTM-score = 0.1583, interface-score = 0.1132, iRes = 94   iCnt = 85  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_08,  tol =  0.65, pLDDT = 78.67, pTM-score = 0.4185, piTM-score = 0.1839, interface-score = 0.1293, iRes = 104  iCnt = 91  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_09,  tol =  0.72, pLDDT = 78.56, pTM-score = 0.4074, piTM-score = 0.1534, interface-score = 0.1195, iRes = 97   iCnt = 80  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_10,  tol =  0.91, pLDDT = 78.70, pTM-score = 0.4076, piTM-score = 0.1553, interface-score = 0.1130, iRes = 94   iCnt = 80  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_11,  tol =  0.23, pLDDT = 77.98, pTM-score = 0.4026, piTM-score = 0.1561, interface-score = 0.1309, iRes = 102  iCnt = 82  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_12,  tol =  0.21, pLDDT = 77.60, pTM-score = 0.3973, piTM-score = 0.1551, interface-score = 0.1133, iRes = 91   iCnt = 70  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_13,  tol =  0.29, pLDDT = 76.91, pTM-score = 0.3812, piTM-score = 0.1480, interface-score = 0.1052, iRes = 92   iCnt = 71  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_14,  tol =  0.37, pLDDT = 76.71, pTM-score = 0.3878, piTM-score = 0.1539, interface-score = 0.1104, iRes = 93   iCnt = 75  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_15,  tol =  0.31, pLDDT = 77.27, pTM-score = 0.3956, piTM-score = 0.1517, interface-score = 0.1152, iRes = 94   iCnt = 77  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_16,  tol =  0.20, pLDDT = 77.73, pTM-score = 0.4090, piTM-score = 0.1642, interface-score = 0.1399, iRes = 107  iCnt = 86  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_17,  tol =  0.54, pLDDT = 78.05, pTM-score = 0.4113, piTM-score = 0.1874, interface-score = 0.1318, iRes = 132  iCnt = 158 
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_18,  tol =  4.39, pLDDT = 77.42, pTM-score = 0.3805, piTM-score = 0.1499, interface-score = 0.0803, iRes = 78   iCnt = 64  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140_recycled_19,  tol =  5.34, pLDDT = 77.98, pTM-score = 0.4061, piTM-score = 0.1629, interface-score = 0.1201, iRes = 95   iCnt = 77  
+Info: GFP_x6 model_4_multimer_v2_p1_230114_251140 performed 20 recycles, final tol = 1.39, pLDDT = 78.74, pTM-score = 0.4387, piTM-score = 0.1898, interface-score = 0.1740, iRes = 109  iCnt = 91  
+Info: num_clusters = 2, cluster_sizes = [4, 2],  clusters = [['GFP_0', 'GFP_2', 'GFP_3', 'GFP_5'], ['GFP_1', 'GFP_4']]
+
+I0114 20:33:15.423047 23317989742400 run_af2c_mod.py:404] Final timings for GFP_x6: {'features': 0.52, 'process_features_model_4_multimer_v2_p1_230114_251140': 0.0, 'predict_and_compile_model_4_multimer_v2_p1_230114_251140': 4961.9}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  4_AF2C
+Node list: ravg1077
+Job start: Sat Jan 14 19:09:55 CET 2023
+Job end:   Sat Jan 14 20:33:18 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/GFP
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/GFP/script2_comp_model_4.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3880688           4_AF2C      1           108                             01:23:23      0:0
+3880688.0        python3      1      1    108    65369.36M    65369.36M   01:23:17      0:0
+  
+Maximum memory per node: 68.544745 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 1.9 %
+  

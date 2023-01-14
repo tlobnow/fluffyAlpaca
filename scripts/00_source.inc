@@ -1,8 +1,9 @@
 	# see NOTES below for explanation. Change to MODEL to 'yes' to start pipeline components
 MODEL=yes
 
-#FOLDER=TIR_LIB
 FOLDER=GFP
+FOLDER=MYD88-DD
+
 	# Specify the folder where your fasta files are located.
 	# This folder will be used to create a list of the fasta base names, for which models will be run.
 	# Once created, you can adapt the list to batches if necessary.

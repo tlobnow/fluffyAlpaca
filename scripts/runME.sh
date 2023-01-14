@@ -23,7 +23,7 @@ do
 		echo "Working on $LIST"
 	else
 		for i in ${LOC_FASTA}/${FOLDER}/*.fasta; do 
-			cp -r ${LOC_SCRIPTS}/template ${LOC_SCRIPTS}/RUNS/$(basename -a -s .fasta $i); done
+			cp -r ${LOC_SCRIPTS}/template ${LOC_SCRIPTS}/myRuns/$(basename -a -s .fasta $i); done
 		cp ${LOC_FASTA}/${FOLDER}/*.fasta $LOC_FASTA
 	fi
 done <$LIST

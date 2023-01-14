@@ -1,0 +1,78 @@
+Info: input file name is MYD88-DD
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/myRuns/MYD88-DD/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0114 20:07:02.099352 23211704956736 tpu_client.py:54] Starting the local TPU driver.
+I0114 20:07:02.101530 23211704956736 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0114 20:07:02.436431 23211704956736 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+Info: working on target MYD88-DD_x6
+I0114 20:07:05.927655 23211704956736 run_af2c_mod.py:482] Have 1 models: ['model_1_multimer_v2_p1']
+I0114 20:07:05.927814 23211704956736 run_af2c_mod.py:512] Using random seed 4757814126968643928 for the data pipeline
+Info: MYD88-DD_x6 found monomer MYD88-DD msa_depth = 1611, seq_len = 156, num_templ = 20
+Info: MYD88-DD reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'MYD88-DD_1', 'B': 'MYD88-DD_1', 'C': 'MYD88-DD_1', 'D': 'MYD88-DD_1', 'E': 'MYD88-DD_1', 'F': 'MYD88-DD_1'}
+Info: modeling MYD88-DD_x6 with msa_depth = 1611, seq_len = 936, num_templ = 24
+I0114 20:07:06.764110 23211704956736 run_af2c_mod.py:216] Running model model_1_multimer_v2_p1_230114_643928
+I0114 20:07:06.764646 23211704956736 model.py:206] Running predict with shape(feat) = {'msa': (1611, 936), 'bert_mask': (1611, 936), 'num_alignments': (), 'aatype': (936,), 'seq_length': (), 'template_aatype': (24, 936), 'template_all_atom_mask': (24, 936, 37), 'template_all_atom_positions': (24, 936, 37, 3), 'all_atom_positions': (936, 37, 3), 'template_domain_names': (24,), 'asym_id': (936,), 'sym_id': (936,), 'entity_id': (936,), 'residue_index': (936,), 'deletion_matrix': (1611, 936), 'seq_mask': (936,), 'msa_mask': (1611, 936), 'cluster_bias_mask': (1611,), 'pdb_residue_index': (936,)}
+I0114 20:39:45.466448 23211704956736 run_af2c_mod.py:271] Total JAX model model_1_multimer_v2_p1_230114_643928 predict time (includes compilation time): 1958.7 seconds
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_00,  tol =   inf, pLDDT = 64.60, pTM-score = 0.2586, piTM-score = 0.0213, interface-score = 0.0026, iRes = 11   iCnt = 8   
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_01,  tol = 88.42, pLDDT = 64.88, pTM-score = 0.2738, piTM-score = 0.0400, interface-score = 0.0061, iRes = 17   iCnt = 14  
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_02,  tol = 37.19, pLDDT = 67.96, pTM-score = 0.3625, piTM-score = 0.3024, interface-score = 0.2716, iRes = 70   iCnt = 63  
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_03,  tol = 29.41, pLDDT = 70.36, pTM-score = 0.4453, piTM-score = 0.4021, interface-score = 0.4600, iRes = 102  iCnt = 101 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_04,  tol =  5.07, pLDDT = 71.18, pTM-score = 0.4726, piTM-score = 0.4396, interface-score = 0.5177, iRes = 122  iCnt = 117 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_05,  tol =  2.30, pLDDT = 70.72, pTM-score = 0.4598, piTM-score = 0.4264, interface-score = 0.5154, iRes = 123  iCnt = 121 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_06,  tol =  1.88, pLDDT = 70.73, pTM-score = 0.4536, piTM-score = 0.4141, interface-score = 0.4950, iRes = 113  iCnt = 107 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_07,  tol =  1.92, pLDDT = 70.60, pTM-score = 0.4530, piTM-score = 0.4105, interface-score = 0.4972, iRes = 118  iCnt = 113 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_08,  tol =  1.60, pLDDT = 70.95, pTM-score = 0.4641, piTM-score = 0.4233, interface-score = 0.5055, iRes = 113  iCnt = 108 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_09,  tol =  1.63, pLDDT = 71.25, pTM-score = 0.4806, piTM-score = 0.4391, interface-score = 0.5381, iRes = 124  iCnt = 126 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_10,  tol =  1.54, pLDDT = 71.03, pTM-score = 0.4654, piTM-score = 0.4258, interface-score = 0.5226, iRes = 124  iCnt = 120 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_11,  tol =  1.22, pLDDT = 71.35, pTM-score = 0.4812, piTM-score = 0.4396, interface-score = 0.5379, iRes = 122  iCnt = 116 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_12,  tol =  1.66, pLDDT = 71.15, pTM-score = 0.4704, piTM-score = 0.4275, interface-score = 0.5199, iRes = 118  iCnt = 111 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_13,  tol =  1.26, pLDDT = 71.31, pTM-score = 0.4738, piTM-score = 0.4328, interface-score = 0.5288, iRes = 117  iCnt = 107 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_14,  tol =  2.72, pLDDT = 71.30, pTM-score = 0.4745, piTM-score = 0.4339, interface-score = 0.5321, iRes = 120  iCnt = 110 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_15,  tol =  2.11, pLDDT = 71.21, pTM-score = 0.4741, piTM-score = 0.4364, interface-score = 0.5358, iRes = 124  iCnt = 114 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_16,  tol =  1.77, pLDDT = 70.53, pTM-score = 0.4499, piTM-score = 0.4102, interface-score = 0.4883, iRes = 107  iCnt = 97  
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_17,  tol =  2.85, pLDDT = 70.74, pTM-score = 0.4592, piTM-score = 0.4173, interface-score = 0.5079, iRes = 117  iCnt = 106 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_18,  tol =  2.22, pLDDT = 70.61, pTM-score = 0.4575, piTM-score = 0.4154, interface-score = 0.5036, iRes = 115  iCnt = 104 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928_recycled_19,  tol =  3.67, pLDDT = 70.84, pTM-score = 0.4569, piTM-score = 0.4114, interface-score = 0.5050, iRes = 114  iCnt = 107 
+Info: MYD88-DD_x6 model_1_multimer_v2_p1_230114_643928 performed 20 recycles, final tol = 3.45, pLDDT = 71.58, pTM-score = 0.4818, piTM-score = 0.4384, interface-score = 0.5375, iRes = 113  iCnt = 107 
+Info: num_clusters = 1, cluster_sizes = [6],  clusters = [['MYD88-DD_0', 'MYD88-DD_1', 'MYD88-DD_2', 'MYD88-DD_3', 'MYD88-DD_4', 'MYD88-DD_5']]
+
+I0114 20:39:49.383371 23211704956736 run_af2c_mod.py:404] Final timings for MYD88-DD_x6: {'features': 0.83, 'process_features_model_1_multimer_v2_p1_230114_643928': 0.0, 'predict_and_compile_model_1_multimer_v2_p1_230114_643928': 1958.7}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  1_AF2C
+Node list: ravg1044
+Job start: Sat Jan 14 20:06:32 CET 2023
+Job end:   Sat Jan 14 20:39:54 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/MYD88-DD
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/MYD88-DD/script2_comp_model_1.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3880811           1_AF2C      1           108                             00:33:22      0:0
+3880811.0        python3      1      1    108    36165.23M    36165.23M   00:33:15      0:0
+  
+Maximum memory per node: 37.921997 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 1.8 %
+  
