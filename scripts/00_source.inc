@@ -2,9 +2,8 @@
 MODEL=yes
 
 #FOLDER=GFP
-#FOLDER=MYD88-DD
-
-FOLDER=MYD88
+FOLDER=MYD88-DD
+#FOLDER=MYD88
 
 	# Specify the folder where your fasta files are located.
 	# This folder will be used to create a list of the fasta base names, for which models will be run.
@@ -19,8 +18,8 @@ LOC_LISTS=~/fluffyAlpaca/scripts/lists       	  # Specify where your lists    ar
 LOC_FASTA=~/fluffyAlpaca/fasta_files		  # Specify where fasta_files   are located
 LOC_FEATURES=~/fluffyAlpaca/feature_files/${FILE} # Specify where feature_files are located
 
-
-STOICH=advanced
+STOICH=simple
+#STOICH=advanced
 	# See NOTES below for explanation.
 
 if   [ $STOICH = 'simple' ]; then

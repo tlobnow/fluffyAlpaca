@@ -30,7 +30,7 @@ if [ -f $LOC_FEATURES/features.pkl ]
 				echo "(5) PIPELINE FINISHED SUCCESSFULLY. SEE $LOC_OUT"
 			else
 				echo "(4) PREPARING ${FILE} FOR ANALYSIS IN R." 
-				# = integrated 02_R_PREP.sh script
+				# this is an integrated 02_R_PREP.sh script
 
 				cd ${LOC_SCRIPTS}/myRuns/${FILE}/
 				cat slurm* > ${LOC_OUT}/slurm.out
@@ -48,7 +48,7 @@ if [ -f $LOC_FEATURES/features.pkl ]
 			fi
 		else
 			cd $LOC_OUT
-			[ -f relaxed_* ] && rm relaxed_* # remove old, incomplete relaxation
+			[ -f relaxed_* ] && rm relaxed_*
 			cd ${LOC_SCRIPTS}/myRuns/${FILE}
 	                bash ${LOC_SCRIPTS}/myRuns/${FILE}/submit_rlx.sh
 		fi
@@ -64,18 +64,13 @@ if [ -f $LOC_FEATURES/features.pkl ]
 		echo "---------------------------------------------------"
 
 	elif [ -f $LOC_OUT/relaxed_model_* ]
-		#-o $LOC_OUT/relaxed_model_2_* -o $LOC_OUT/relaxed_model_3_*  -o $LOC_OUT/relaxed_model_4_* -o $LOC_OUT/relaxed_model_5_* ]
 		then
-		#echo " ---> INCOMPLETE PREDICTION OF $STOICHIOMETRY"
 		for i in {1..5}; do
 			if [ -f $LOC_OUT/model_${i}_* ]
 				then 
 				echo " ---> PREDICTION ${i} DONE."
 			else 
-				if [ -f $LOC_OUT/model_${i}_*_*_*_*_*.pkl ] 
-					then 
-					rm $LOC_OUT/model_${i}_*_*_*_*_*.pkl
-				fi
+				[ -f $LOC_OUT/model_${i}_*_*_*_*_*.pkl ]; rm $LOC_OUT/model_${i}_*_*_*_*_*.pkl
 				bash ${LOC_SCRIPTS}/myRuns/${FILE}/submit_${i}.sh
 			fi
 		done
