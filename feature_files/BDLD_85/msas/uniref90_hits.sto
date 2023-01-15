@@ -1,0 +1,201 @@
+# STOCKHOLM 1.0
+
+#=GS tr|A0A142XB68|A0A142XB68_9BACT DE HEAT repeat protein OS=Gemmata sp. SH-PL17 OX=1630693 GN=VT84_06375 PE=4 SV=1
+#=GS UniRef90_A0A142XB68/1-518      DE [subseq from] Uncharacterized protein n=1 Tax=Gemmata sp. SH-PL17 TaxID=1630693 RepID=A0A142XB68_9BACT
+#=GS UniRef90_A0A150R961/1-437      DE [subseq from] PNP_UDP_1 domain-containing protein n=1 Tax=Sorangium cellulosum TaxID=56 RepID=A0A150R961_SORCE
+#=GS UniRef90_A0A838J7Z9/20-391     DE [subseq from] Uncharacterized protein n=2 Tax=Ktedonobacterales TaxID=388448 RepID=A0A838J7Z9_9CHLR
+#=GS UniRef90_UPI00195D6C7E/2-334   DE [subseq from] hypothetical protein n=1 Tax=Archangium primigenium TaxID=2792470 RepID=UPI00195D6C7E
+#=GS UniRef90_A0A142XB67/706-815    DE [subseq from] 5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase n=1 Tax=Gemmata sp. SH-PL17 TaxID=1630693 RepID=A0A142XB67_9BACT
+#=GS UniRef90_A0A4Q5XKK3/695-773    DE [subseq from] Caspase family protein n=1 Tax=Myxococcales bacterium TaxID=2026763 RepID=A0A4Q5XKK3_9DELT
+#=GS UniRef90_A0A6P0WRV4/6-79       DE [subseq from] Uncharacterized protein n=1 Tax=Caldora sp. SIO3E6 TaxID=2607806 RepID=A0A6P0WRV4_9CYAN
+#=GS UniRef90_A0A0C1N6U8/602-671    DE [subseq from] PNP_UDP_1 domain-containing protein n=1 Tax=Tolypothrix bouteillei VB521301 TaxID=1479485 RepID=A0A0C1N6U8_9CYAN
+#=GS UniRef90_A0A6P0WWU2/3-70       DE [subseq from] Uncharacterized protein (Fragment) n=1 Tax=Caldora sp. SIO3E6 TaxID=2607806 RepID=A0A6P0WWU2_9CYAN
+#=GS UniRef90_UPI0004AEB6B6/221-291 DE [subseq from] CHAT domain-containing protein n=1 Tax=Nostocales TaxID=1161 RepID=UPI0004AEB6B6
+#=GS UniRef90_A0A6G9SQT4/217-288    DE [subseq from] CHAT domain-containing protein n=4 Tax=Nostocales TaxID=1161 RepID=A0A6G9SQT4_9CYAN
+#=GS UniRef90_A0A218QDN5/220-291    DE [subseq from] Uncharacterized protein n=1 Tax=Tolypothrix sp. NIES-4075 TaxID=2005459 RepID=A0A218QDN5_9CYAN
+#=GS UniRef90_UPI000A37EBF7/232-302 DE [subseq from] CHAT domain-containing protein n=1 Tax=Nostoc sp. 106C TaxID=1932667 RepID=UPI000A37EBF7
+#=GS UniRef90_A0A252DUS7/327-397    DE [subseq from] CHAT domain-containing protein n=7 Tax=Nostocales TaxID=1161 RepID=A0A252DUS7_9NOSO
+#=GS UniRef90_A0A371PB19/122-262    DE [subseq from] Uncharacterized protein n=1 Tax=Aeromicrobium endophyticum TaxID=2292704 RepID=A0A371PB19_9ACTN
+#=GS UniRef90_D5C178/7-75           DE [subseq from] FGE-sulfatase domain-containing protein n=1 Tax=Nitrosococcus halophilus (strain Nc4) TaxID=472759 RepID=D5C178_NITHN
+#=GS UniRef90_A0A1I4LUX9/288-359    DE [subseq from] Putative serine esterase n=1 Tax=Nitrosomonas communis TaxID=44574 RepID=A0A1I4LUX9_9PROT
+#=GS UniRef90_UPI001ABA8AD6/218-288 DE [subseq from] CHAT domain-containing protein n=2 Tax=Aetokthonos hydrillicola TaxID=1550245 RepID=UPI001ABA8AD6
+#=GS UniRef90_UPI0005C7A834/10-81   DE [subseq from] hypothetical protein n=1 Tax=Rivularia sp. PCC 7116 TaxID=373994 RepID=UPI0005C7A834
+#=GS UniRef90_UPI00195C2DCD/9-57    DE [subseq from] hypothetical protein n=1 Tax=Micromonospora sp. MMS20-R2-29 TaxID=2807622 RepID=UPI00195C2DCD
+#=GS UniRef90_UPI001944B11A/232-302 DE [subseq from] hypothetical protein n=1 Tax=Asanoa siamensis TaxID=926357 RepID=UPI001944B11A
+#=GS UniRef90_A0A846C928/274-344    DE [subseq from] 5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase n=2 Tax=unclassified Symploca TaxID=2620434 RepID=A0A846C928_9CYAN
+#=GS UniRef90_A0A836S9N6/149-228    DE [subseq from] Uncharacterized protein n=1 Tax=Thiotrichaceae bacterium TaxID=2030882 RepID=A0A836S9N6_9GAMM
+#=GS UniRef90_A0A6M0G9Y0/287-357    DE [subseq from] 5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase n=1 Tax=Symploca sp. SIO2E6 TaxID=2607809 RepID=A0A6M0G9Y0_9CYAN
+#=GS UniRef90_UPI001944E0B2/321-404 DE [subseq from] hypothetical protein n=1 Tax=Actinoplanes durhamensis TaxID=113563 RepID=UPI001944E0B2
+#=GS UniRef90_UPI00194421D3/358-424 DE [subseq from] hypothetical protein n=1 Tax=Virgisporangium aliadipatigenens TaxID=741659 RepID=UPI00194421D3
+#=GS UniRef90_W4MB13/55-122         DE [subseq from] Uncharacterized protein n=2 Tax=Candidatus Entotheonella TaxID=93171 RepID=W4MB13_9BACT
+#=GS UniRef90_A0A1Z4LQG3/617-685    DE [subseq from] PNP_UDP_1 domain-containing protein n=1 Tax=Calothrix parasitica NIES-267 TaxID=1973488 RepID=A0A1Z4LQG3_9CYAN
+#=GS UniRef90_R7XWP1/115-286        DE [subseq from] Uncharacterized protein n=1 Tax=Nocardioides sp. CF8 TaxID=110319 RepID=R7XWP1_9ACTN
+#=GS UniRef90_A0A7W8TT44/122-281    DE [subseq from] Uncharacterized protein n=1 Tax=Neomicrococcus aestuarii TaxID=556325 RepID=A0A7W8TT44_9MICC
+#=GS UniRef90_UPI0019424268/3-75    DE [subseq from] nucleotide-binding protein n=1 Tax=Virgisporangium aliadipatigenens TaxID=741659 RepID=UPI0019424268
+#=GS UniRef90_I9KD35/441-509        DE [subseq from] Uncharacterized protein n=1 Tax=Frankia sp. QA3 TaxID=710111 RepID=I9KD35_9ACTN
+#=GS UniRef90_UPI001940BDBC/17-80   DE [subseq from] hypothetical protein n=1 Tax=Virgisporangium aliadipatigenens TaxID=741659 RepID=UPI001940BDBC
+#=GS UniRef90_UPI001C84CF2B/336-403 DE [subseq from] hypothetical protein n=1 Tax=Actinoplanes sp. TRM66264-DLM TaxID=2856853 RepID=UPI001C84CF2B
+#=GS UniRef90_A0A6I3KSE3/266-344    DE [subseq from] PNP_UDP_1 domain-containing protein n=1 Tax=Nocardia sp. CT2-14 TaxID=2675850 RepID=A0A6I3KSE3_9NOCA
+#=GS UniRef90_UPI0006897D13/296-388 DE [subseq from] hypothetical protein n=1 Tax=Actinoplanes subtropicus TaxID=543632 RepID=UPI0006897D13
+#=GS UniRef90_UPI00051A3919/207-269 DE [subseq from] hypothetical protein n=1 Tax=Nocardia seriolae TaxID=37332 RepID=UPI00051A3919
+#=GS UniRef90_A0A6I5XC38/115-262    DE [subseq from] Uncharacterized protein n=1 Tax=Tetrasphaera sp. HKS02 TaxID=1813880 RepID=A0A6I5XC38_9MICO
+#=GS UniRef90_UPI001C04E07B/558-624 DE [subseq from] hypothetical protein n=1 Tax=Actinoplanes bogorensis TaxID=1610840 RepID=UPI001C04E07B
+#=GS UniRef90_A0A0B8NJL3/277-339    DE [subseq from] Adenosylhomocysteine nucleosidase n=4 Tax=Nocardia seriolae TaxID=37332 RepID=A0A0B8NJL3_9NOCA
+#=GS UniRef90_UPI0019459DEC/516-590 DE [subseq from] hypothetical protein n=1 Tax=Virgisporangium aliadipatigenens TaxID=741659 RepID=UPI0019459DEC
+#=GS UniRef90_A0A4Q7W7D0/507-592    DE [subseq from] Uncharacterized protein n=1 Tax=Plantactinospora sp. CNZ321 TaxID=2512141 RepID=A0A4Q7W7D0_9ACTN
+#=GS UniRef90_A0A8B5WX07/190-261    DE [subseq from] Toll/interleukin-1 receptor domain-containing protein n=1 Tax=Candidatus Competibacteraceae bacterium TaxID=2053538 RepID=A0A8B5WX07_9GAMM
+#=GS UniRef90_A0A846G612/473-534    DE [subseq from] CHAT domain-containing protein n=1 Tax=Okeania sp. SIO2B3 TaxID=2607784 RepID=A0A846G612_9CYAN
+#=GS UniRef90_A0A846G540/15-68      DE [subseq from] Uncharacterized protein n=1 Tax=Okeania sp. SIO2B3 TaxID=2607784 RepID=A0A846G540_9CYAN
+#=GS UniRef90_UPI0019524EFA/252-322 DE [subseq from] 5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase n=1 Tax=Virgisporangium aurantiacum TaxID=175570 RepID=UPI0019524EFA
+#=GS UniRef90_X6FKV6/100-241        DE [subseq from] Uncharacterized protein n=1 Tax=Mesorhizobium sp. L48C026A00 TaxID=1287182 RepID=X6FKV6_9HYPH
+
+tr|A0A142XB68|A0A142XB68_9BACT         MADWQPWVGRLENEG----DDAVDELTALLLSTPPDPTATTIAIK-ALSAARSDLSVRSAALALAWVATDDDTDSVDQLEQAYDSRRSHVFLAPALLSSLTLLGLRNPTARTGAARYLLKLKVGEPGPLLVAGAKAIGVL-CDRF---DLPDLRMKLVAIAGSSDVPVRAEARCQLALMRLADALLADSGDGLTNSLSAA
+UniRef90_A0A142XB68/1-518              MADWQPWVGRLENEG----DDAVDELTALLLSTPPDPTATTIAIK-ALSAARSDLSVRSAALALAWVATDDDTDSVDQLEQAYDSRRSHVFLAPALLSSLTLLGLRNPTARTGAARYLLKLKVGEPGPLLVAGAKAIGVL-CDRF---DLPDLRMKLVAIAGSSDVPVRAEARCQLALMRLADALLADSGDGLTNSLSAA
+UniRef90_A0A150R961/1-437              MSEWQDWMTRLDSAADADVDDVIHELAAQMLASPPDPSATAVAMR-ALARAKSDLSVRSAAMALAYTASADDVEAVESLERAFEARRRHAFLAPSLLGTLSLFGLRNAAARVGVTRYLLRLRTEDPRPLLIAGLKAIGLL-CDRE---DEPALRTKLFALAVSDDIAVRAEARQQIAMLKLADALLADSHAGLTASLAAA
+UniRef90_A0A838J7Z9/20-391             --------------L----DDYIDELSDSIISNNIKENQAAQAMKIAIAKSMRVLTLRSAILALSISSEDSDEESIDLLADGLRSSRKDSFLGPSYLDALMIFALRSPIARAALANAMVRLNLEDSKFLLLKAAQVIGFL-DKHV---VHQDLRAKLTQLSESTDIEVSTEALFQLANLSLSDTLRSNNLESFKAKLSEA
+UniRef90_UPI00195D6C7E/2-334           ----------------------------------------------------------------------------DELAAKFREWRNDAFLAPEALDALATLAVRNPLARAETRSQLLRLTDADSRYLLVRAAKVIARLECLGF---N-TDVRTLLDRWADHEDDAVRAEARQQAAVLRLYDTLQREDLAGVRHGLKEA
+UniRef90_A0A142XB67/706-815            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A4Q5XKK3/695-773            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6P0WRV4/6-79               --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A0C1N6U8/602-671            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6P0WWU2/3-70               --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0004AEB6B6/221-291         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6G9SQT4/217-288            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A218QDN5/220-291            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI000A37EBF7/232-302         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A252DUS7/327-397            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A371PB19/122-262            -------------------------------------------------------------------------------------KDTSGLQAYAYLETLTRLGFTDDTARYRALEHLSTLGLDDPDDLLERLPKLIGLA-LDCW---NEGGLRDRLSMLLE-HD-ATRADAAYELAQLTLRDALQASTFDDVLAGLTSA
+UniRef90_D5C178/7-75                   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A1I4LUX9/288-359            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001ABA8AD6/218-288         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0005C7A834/10-81           --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI00195C2DCD/9-57            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001944B11A/232-302         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A846C928/274-344            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A836S9N6/149-228            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6M0G9Y0/287-357            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001944E0B2/321-404         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI00194421D3/358-424         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_W4MB13/55-122                 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A1Z4LQG3/617-685            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_R7XWP1/115-286                -------------------------------------------------------------------------------ERAEATRTTQGLQAYAYLEVLTRLGLTEATGKFRAMAFMASVTLGDSADLLERLPRLVGLA-MDQW---REDTLGGVLMTLLEHPD--AQADALFELGQQTLRSALEANSVESVMQGLGDA
+UniRef90_A0A7W8TT44/122-281            -------------------------------------------------------------------------------------KATNGLQAYAYLEALARLGLTDTTARFRALEFLNTVEPSDSEDLLERLPKLMGFA-LDYW---NDEGLGDRLRVLL-EHDI-TRADAAYELAQLTLRTALEARTVEDVLAGLRSA
+UniRef90_UPI0019424268/3-75            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_I9KD35/441-509                --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001940BDBC/17-80           --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001C84CF2B/336-403         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6I3KSE3/266-344            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0006897D13/296-388         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI00051A3919/207-269         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6I5XC38/115-262            -------------------------------------------------------------------------------DRAQETRSSQGLQAYAYLEVLTRLGLTEATGRFRALAFMASVTLDDSAELLERLPRLVGLA-MDQW---REDTLGTLLTTLLEHPDA--HTDALFELGQQMLRSALESDSVESVMHGLVEA
+UniRef90_UPI001C04E07B/558-624         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A0B8NJL3/277-339            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0019459DEC/516-590         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A4Q7W7D0/507-592            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A8B5WX07/190-261            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A846G612/473-534            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A846G540/15-68              --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0019524EFA/252-322         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_X6FKV6/100-241                ---------------------------------------------------------------------------------RFESRSEHGWMRSHALRGALVVAQGDPGLIRRLQSYLLDVTADDDGAYLRHVAKVAGAI-LRRYPDDDFRDLLSRLVAVDAAAD-----EAALELGLDRLQEGLLAKTHDALTSALAAA
+#=GC RF                                xxxxxxxxxxxxxxx....xxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+tr|A0A142XB68|A0A142XB68_9BACT         REAFRVAEESEEVRPDATLFRLLLDAVLQFAALERDRSAAAVGVKKVAAQLRDMGGRLAEEIFRMDRSPAA-SQ--VASQCAVVASALETAAAEVESSVRWTNFDCSVVRLAECYGEVRYRPAALVGNDQAFAALSSVADRVLKPRLGPVLALKVGRESFEQVIRNYESSGGQQEILDGLKALQEASIEAERVKGFRLSS
+UniRef90_A0A142XB68/1-518              REAFRVAEESEEVRPDATLFRLLLDAVLQFAALERDRSAAAVGVKKVAAQLRDMGGRLAEEIFRMDRSPAA-SQ--VASQCAVVASALETAAAEVESSVRWTNFDCSVVRLAECYGEVRYRPAALVGNDQAFAALSSVADRVLKPRLGPVLALKVGRESFEQVIRNYESSGGQQEILDGLKALQEASIEAERVKGFRLSS
+UniRef90_A0A150R961/1-437              KAAFEVAEESEEVRPDASLFRLMIDAVLQFDNIEFNREAAAERVGHLGSELREMGGRRAEQIFRMDRSPAA-SQ--IAHRCEVVASALEAAAKEVANAAKWTNFDRSVVRLAECYSEVRYRSAALPGYERTGETIAGVADRVVKLRLGPVLARKVGRESFEEVIRHYEAGESLPEVLGGLQELQRVALEVERSGTHSL-S
+UniRef90_A0A838J7Z9/20-391             RATYERVANLGPVRPDAELYYKLLLLIETFMNLTWNNSQVIAYISEIQQELQ---TTLYQKWWVDYRSPFA-DV--CVSRVLAIADAISRVAQNLSSSEDWYQFDTVLTEFTALIMIIHNEDAPYNIQPDTRLNFGSTSNFIIMPRLGPVVNNSIGRRRLRRIIEAYQMAHGNDDISKNLEAIEQEVIEIDKLSFL--NG
+UniRef90_UPI00195D6C7E/2-334           RVAFARAELSEEDRLDARLFLAVIDLLLAYLAAMSSESSDASAL---RTQAQDLAALIANPMGRTWYGYASGSEALLEYRMYRIADGFARLTDAIQGAEEWTNFDEALVELAAVL-RLMWDSGTTEGPSGLMGSLGALESRVVVPQLGPFLERVVGRVRLRRVIANHESRHGSDAQGAVLHRLYEATLAGEYAGGTPKGA
+UniRef90_A0A142XB67/706-815            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A4Q5XKK3/695-773            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6P0WRV4/6-79               --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A0C1N6U8/602-671            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6P0WWU2/3-70               --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0004AEB6B6/221-291         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6G9SQT4/217-288            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A218QDN5/220-291            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI000A37EBF7/232-302         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A252DUS7/327-397            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A371PB19/122-262            RDQFTTVESLEEAREDATLYRCALDLTVSFVA------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_D5C178/7-75                   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A1I4LUX9/288-359            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001ABA8AD6/218-288         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0005C7A834/10-81           --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI00195C2DCD/9-57            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001944B11A/232-302         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A846C928/274-344            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A836S9N6/149-228            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6M0G9Y0/287-357            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001944E0B2/321-404         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI00194421D3/358-424         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_W4MB13/55-122                 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A1Z4LQG3/617-685            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_R7XWP1/115-286                RARFAEVEAAEEARDDATIYRAALDVVVAFSAAPTGVQ--ADPVEAVTALSEALGRRAA---------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A7W8TT44/122-281            RNQFTTVESMEEAREDATLYRCVLELTVTFVTGESSNGEQAETIDTLTAAI-----------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0019424268/3-75            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_I9KD35/441-509                --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001940BDBC/17-80           --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001C84CF2B/336-403         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6I3KSE3/266-344            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0006897D13/296-388         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI00051A3919/207-269         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A6I5XC38/115-262            RSRFADVEAAEEARDDATIYRAALDVLLAFSAA-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001C04E07B/558-624         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A0B8NJL3/277-339            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0019459DEC/516-590         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A4Q7W7D0/507-592            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A8B5WX07/190-261            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A846G612/473-534            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A846G540/15-68              --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0019524EFA/252-322         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_X6FKV6/100-241                QDWFRRSLAMSERRSDAALYEICTSVLID---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GC RF                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+tr|A0A142XB68|A0A142XB68_9BACT         EGA-ALLYEQAKTANCTPDELVRRFNLTLSANGGNGLALGIELLPQGARMNGSG-LDPK---VRLVLSGRLVTRWTELAIYFDIPPSDKAKFKQGHEPEHIFEWLEQRSRL-----G--ELRGAFDHLKWPDLIEELDRHPW
+UniRef90_A0A142XB68/1-518              EGA-ALLYEQAKTANCTPDELVRRFNLTLSANGGNGLALGIELLPQGARMNGSG-LDPK---VRLVLSGRLVTRWTELAIYFDIPPSDKAKFKQGHEPEHIFEWLEQRSRL-----G--ELRGAFDHLKWPDLIEELDRHPW
+UniRef90_A0A150R961/1-437              EGAIGNIRAMAAAAGCTPEELIRRFSVTIEQNDRDGLAAYTTLRPS------------------------------------------------------------------------------------------------
+UniRef90_A0A838J7Z9/20-391             ES--------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI00195D6C7E/2-334           EVQ-SQLDRE-VAAGPSPE---------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A142XB67/706-815            -----------------AHNLETNFPLSLRA-GGKALGGPEAPVPPAPRL--IK-LSGK---AKLTLYAGLVTRWSALATYLDISLEDRAKFLQGHEPRQIFEWLEERNRL-----G--ELRGAFKDLGWPDLIEELDRHP-
+UniRef90_A0A4Q5XKK3/695-773            --------------------------------------------------VASP-LPAK---ARIAIKHALVRRWDDLADYFEIPLSDKVKFEHGYGGQRTLEWLEERGRL-----H--ELRQAFTHFHWDDLLAELDRH--
+UniRef90_A0A6P0WRV4/6-79               ---------------------------------------------------------GP---TRIVICRRLVNRWLELAIYFEISQAERAAFRQGEEPLCTLDWLEQHNKL-----NKSELQKAFEELDWKDLIVELDS---
+UniRef90_A0A0C1N6U8/602-671            ----------------------------------------------------------Q---IKMIICQRLVHDWQELADYFDIPPHQRAVFNRGREPQGVWEWLEQRNKL-----S--ELKTALEVIGRNDLIKELN----
+UniRef90_A0A6P0WWU2/3-70               ---------------------------------------------------------------------RVTIRWQDLAIYLEIPLADRATFSQGHEPLRTLEWLEQHTQQPSEFKN--KLRQAFEELGWNDLIDELDG---
+UniRef90_UPI0004AEB6B6/221-291         ----------------------------------------------------------K---AKNYICQRLVDDWEQLADHFDIPKHQKNSFERGKEPNRVWEWLEQRSRL-----G--ELEVALSDIGRDDLVEELKK---
+UniRef90_A0A6G9SQT4/217-288            --------------------------------------------------------SGR---TKIFICQRLTQDWQDLADYFDIKPHERAGFRQGREPQSIWEWLEQRNRL-----D--ELESALAEIGRDDLADELK----
+UniRef90_A0A218QDN5/220-291            ---------------------------------------------------------GK---VKIKVCQNLIQDWHNLADYFDIPLEQRASFEAGRQPYRIWEWLEQRSRL-----G--ELEVALSDIGRDDLVEELKK---
+UniRef90_UPI000A37EBF7/232-302         ----------------------------------------------------------Q---TKIFICRRLTQDWQDLADYFEIQPHERAGFKPGREPHSIWEWLEQRNRL-----G--ELESALIEIGREDLAQELKK---
+UniRef90_A0A252DUS7/327-397            ----------------------------------------------------------Q---TKIFICRRLTQDWQDLADYFEIQPHERAGFKTGREPHSIWEWLEQRNRL-----G--ELESALIEIGREDLAQELKK---
+UniRef90_A0A371PB19/122-262            ----------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_D5C178/7-75                   ----------------------------------------------------------K---QKIAFSKRLQRDWKDLADYFDIPPQEQAAFDKGHEPRDIWVWLEERERL-----Q--ELPEALHYIDREDIIAEV-----
+UniRef90_A0A1I4LUX9/288-359            ---------------------------------------------------------GS---LKLAFCERLGHSWRELADILEIRPSEQARFQQGLEPKAIWEWLEQRKRL-----T--ELPSALRRIDRHDLAEEFDR---
+UniRef90_UPI001ABA8AD6/218-288         ----------------------------------------------------------R---TKIYICQRLTQDWQDLADYFDIKAHERAGFKPGREPHSIWEWLEQRNRL-----G--DLESALIAIGRDDLAEELKK---
+UniRef90_UPI0005C7A834/10-81           ---------------------------------------------------------GR---VKTIICKRLTNDWQDLADYFDIQLHEREGFRSGRQAHGVWEWLEQRDRI-----G--ELESALNDIGRDDLVEELKK---
+UniRef90_UPI00195C2DCD/9-57            ------------------------------------------------------------------------RDWADLAEYFEIPPSQRARFDKGREASAVWDWLESRKRL-----G--ELDGALRAL--------------
+UniRef90_UPI001944B11A/232-302         --------------------------------------------------------PGS---VRLLVCQRLVGDWQRLAIYFDIPAYERAAFARGPGPDGVWDWLVARQRL-----R--ELPDALDFIGRADLTAEL-----
+UniRef90_A0A846C928/274-344            --------------------------------------------------------SGK---TKIMLCRRLSKDWKDLADYFDIPEYKRARFSQGYECQEIWEWLQDRNQL-----H--RLRKALKFIDREDLIELL-----
+UniRef90_A0A836S9N6/149-228            -----------------------------------------------DKETSLV-LSGK---IKIKFCQRLGVDWQDLADYLKIPPHRRSQFRQGRECQAIWEWLEERENL-----N--ILKEALDVLDRQDLVELLN----
+UniRef90_A0A6M0G9Y0/287-357            --------------------------------------------------------SGK---TKIMLCRRLNKDWKDLADYFDIPEYKRARFSQGYECQAIWEWLQERNQL-----Y--RLRDALEFIDREDLARWL-----
+UniRef90_UPI001944E0B2/321-404         -----------------------------------------RLLPARPPERPAGKLPGA---VRLDVVHRLVDDWVKLADLAEVPRYDRARFPAGDEPRRVLDWLEERGRL-----A--ELPELLDKIDRPDLAT-------
+UniRef90_UPI00194421D3/358-424         --------------------------------------------------------------DKLAFCRQLGDSWRELADALEVPPHAKARFGHGDEPRDLWEWLEMRGRL-----G--ELPAALDRICRTDLADP------
+UniRef90_W4MB13/55-122                 ---------------------------------------------------------------QIDFLHRLGHSWQELADYFDIPVYDQARFERGEEGRRIWVWLENRKRL-----H--ELPKALALINRNDLVQVLY----
+UniRef90_A0A1Z4LQG3/617-685            ----------------------------------------------------------K---LKITICNRLVRDWEDLADYFDIKLHERETFEKGKEARRVWEWLEQRNRL-----H--ELEDALIAIGREDLAEEF-----
+UniRef90_R7XWP1/115-286                ----------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_A0A7W8TT44/122-281            ----------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI0019424268/3-75            -------------------------------------------------------TDPN---ARLAFLRQLGGSWREVAIFLQIPPWEQSRWRQGDESGHIWEWLQARDRL-----H--DLPDALTAVDRADLAGVLD----
+UniRef90_I9KD35/441-509                ----------------------------------------------------------K---VR--VCQGLYAEWPELADYVGVPAWEKARFKAGRGASEVWEWLERRFRM-----D--ELAPALRELGRPELADILDR---
+UniRef90_UPI001940BDBC/17-80           ------------------------------------------------------------------FCRRLGGDWRDLADLIDIPAYERARFPAGDEPRAVWDWLERRDRL-----P--ELPGLLDRIDRTDLGDRL-----
+UniRef90_UPI001C84CF2B/336-403         --------------------------------------------------------------VKVEVLRALIYDWHDLADLLGVPPFDVYRFTRGDEPRSLWTWLEVRERL-----G--ELPGALDEIGRTDLADRL-----
+UniRef90_A0A6I3KSE3/266-344            -------------------------------------------KPLGAVNTF----PGT---VKLVVCQRLLDDWEKVADYFDVPPHNRAPFRHGRQARDLWVWLEIRDKL-----H--ELPDALTVIGRADLAEI------
+UniRef90_UPI0006897D13/296-388         -----------------------------SAEVMFGLLAGFR--PAAGPGSRAA-VPGK---IKVDVLRGLLGDWRDLADHLGVPPHDTFRFGAGDQPRQLWEWLEIRRRL-----G--ELPAALDGIGRTDLAD-------
+UniRef90_UPI00051A3919/207-269         --------------------------------------------------------------AKLAVCRRLLDDWKEVADYFEVPPHGRARFGRGDEPRELWAWLEIRDKL-----H--ELPDALVEIGRGD----------
+UniRef90_A0A6I5XC38/115-262            ----------------------------------------------------------------------------------------------------------------------------------------------
+UniRef90_UPI001C04E07B/558-624         ----------------------------------------------------------E---IKLEFVRRLGSDWRDLADYVDVPSYKQAQFTPGDEPRALWEWLESRQRL-----A--ELPAALVKIGRPDLAD-------
+UniRef90_A0A0B8NJL3/277-339            --------------------------------------------------------------AKLAVCRRLLDDWKEVADYFEVPPHGRARFGRGDEPRELWAWLEIRDKL-----H--ELPDALVEIGRGD----------
+UniRef90_UPI0019459DEC/516-590         ------------------------------------------------RKSASGRLSGK---AKLEFAQRLGDSWNELADFLGVPRHAKARFPQGDEARELWEWLEVRNRL-----R--ELPAVLDEIGREDL---------
+UniRef90_A0A4Q7W7D0/507-592            ---------------------------------------------TGVRPGGSG-RDSYSGLTRVHFGRRLGDSWPELADLLGMRPDEVDRLPQGREASHIWSWLEVRRRL-----P--ELRDALFALDRPDLVNLLDE---
+UniRef90_A0A8B5WX07/190-261            --------------------------------------------------------PGP---VQITLCQRLGEDWANLAVYFDIPPDRRRSFAPGRECHDILVWLKERDQM-----D--RLPEGLAGIDRPDLVELLN----
+UniRef90_A0A846G612/473-534            ------------------------------------------------------------------FCQKLGDSYRNLALYFEIPPQDQNRWPAGSECEKILEWLENRSRF-----D--ELPEALIEIEREDLVD-------
+UniRef90_A0A846G540/15-68              --------------------------------------------------------------------------HKDLALYFEIPPRDQNRWPAGSECEKILEWLENRSRF-----D--ELPEALVEIKREDLVY-------
+UniRef90_UPI0019524EFA/252-322         ----------------------------------------------------------P---VMLSICWALADDWTTLAYYFQIPRHELVRYPPGHEPMRLWDWLAVRRRL-----R--ELPAALAFIGRQDLAEALMR---
+UniRef90_X6FKV6/100-241                ----------------------------------------------------------------------------------------------------------------------------------------------
+#=GC RF                                xxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.....x..xxxxxxxxxxxxxxxxxxxxxxx
+//
