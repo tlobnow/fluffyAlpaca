@@ -1,0 +1,536 @@
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:19:09.695383 22466406926144 templates.py:857] Using precomputed obsolete pdbs /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb_mmcif/obsolete.dat.
+I0117 13:19:09.980086 22466406926144 tpu_client.py:54] Starting the local TPU driver.
+I0117 13:19:10.083359 22466406926144 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 13:19:10.433921 22466406926144 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 13:19:16.904888 22466406926144 run_alphafold.py:384] Have 5 models: ['model_1_pred_0', 'model_2_pred_0', 'model_3_pred_0', 'model_4_pred_0', 'model_5_pred_0']
+I0117 13:19:16.905111 22466406926144 run_alphafold.py:400] Using random seed 1486489394116038772 for the data pipeline
+I0117 13:19:16.905301 22466406926144 run_alphafold.py:165] Predicting BDLD1_PLANKTO
+I0117 13:19:16.908981 22466406926144 jackhmmer.py:139] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/jackhmmer -o /dev/null -A /dev/shm/tmptcfo01f7/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 54 -N 1 /u/flobnow/fluffyAlpaca/fasta_files/BDLD1_PLANKTO.fasta /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/uniref90/uniref90.fasta"
+I0117 13:19:17.053330 22466406926144 utils.py:36] Started Jackhmmer (uniref90.fasta) query
+I0117 13:24:30.411050 22466406926144 utils.py:40] Finished Jackhmmer (uniref90.fasta) query in 313.357 seconds
+I0117 13:24:32.433691 22466406926144 jackhmmer.py:139] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/jackhmmer -o /dev/null -A /dev/shm/tmps8ly0izn/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 54 -N 1 /u/flobnow/fluffyAlpaca/fasta_files/BDLD1_PLANKTO.fasta /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/mgnify/mgy_clusters_2018_12.fa"
+I0117 13:24:32.475056 22466406926144 utils.py:36] Started Jackhmmer (mgy_clusters_2018_12.fa) query
+I0117 13:30:39.184781 22466406926144 utils.py:40] Finished Jackhmmer (mgy_clusters_2018_12.fa) query in 366.709 seconds
+I0117 13:30:39.187324 22466406926144 hhsearch.py:85] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhsearch -i /dev/shm/tmp478hjmx7/query.a3m -o /dev/shm/tmp478hjmx7/output.hhr -maxseq 1000000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb70/pdb70"
+I0117 13:30:39.277588 22466406926144 utils.py:36] Started HHsearch query
+I0117 13:31:07.732995 22466406926144 utils.py:40] Finished HHsearch query in 28.455 seconds
+I0117 13:31:07.737055 22466406926144 hhblits.py:134] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhblits -i /u/flobnow/fluffyAlpaca/fasta_files/BDLD1_PLANKTO.fasta -cpu 54 -oa3m /dev/shm/tmp8zdgpbxd/output.a3m -o /dev/null -n 3 -e 0.001 -maxseq 1000000 -realign_max 100000 -maxfilt 100000 -min_prefilter_hits 1000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/bfd/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/uniclust30/uniclust30_2018_08/uniclust30_2018_08"
+I0117 13:31:07.802249 22466406926144 utils.py:36] Started HHblits query
+I0117 13:38:38.639329 22466406926144 utils.py:40] Finished HHblits query in 450.837 seconds
+I0117 13:38:38.678325 22466406926144 templates.py:878] Searching for template for: RLQLKDAKSPRNLFDFNFKVLFCSEHRLYGWIFPIFLKQLRDRQHPDDMLWTQLDDLCTKVEAWKNQPQACQQQVPQSEHKLFKSLLRIDFDEQEEAVMEVLDSPSYNKTAAFLVHGEEKFGQ
+I0117 13:38:38.923695 22466406926144 templates.py:268] Found an exact template match 4ynh_A.
+I0117 13:38:39.068920 22466406926144 templates.py:268] Found an exact template match 1e9k_A.
+I0117 13:38:39.666147 22466406926144 templates.py:268] Found an exact template match 1rq6_A.
+I0117 13:38:40.799146 22466406926144 templates.py:268] Found an exact template match 2l2l_B.
+I0117 13:38:41.238566 22466406926144 templates.py:268] Found an exact template match 4tps_A.
+I0117 13:38:41.373351 22466406926144 templates.py:268] Found an exact template match 2gno_A.
+I0117 13:38:41.702133 22466406926144 templates.py:268] Found an exact template match 4uaf_E.
+I0117 13:38:41.900268 22466406926144 templates.py:268] Found an exact template match 4uad_E.
+I0117 13:38:41.958167 22466406926144 templates.py:268] Found an exact template match 1sbx_A.
+I0117 13:38:45.541612 22466406926144 templates.py:268] Found an exact template match 5jb3_S.
+I0117 13:38:45.556818 22466406926144 pipeline.py:234] Uniref90 MSA size: 15 sequences.
+I0117 13:38:45.556938 22466406926144 pipeline.py:235] BFD MSA size: 328 sequences.
+I0117 13:38:45.556981 22466406926144 pipeline.py:236] MGnify MSA size: 7 sequences.
+I0117 13:38:45.557018 22466406926144 pipeline.py:238] Final (deduplicated) MSA size: 346 sequences.
+I0117 13:38:45.557259 22466406926144 pipeline.py:241] Total number of templates (NB: this can include bad templates and is later filtered to top 4): 10.
+Info: input file name is BDLD1_PLANKTO
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0117 14:08:01.241991 23089965209408 tpu_client.py:54] Starting the local TPU driver.
+I0117 14:08:01.242410 23089965209408 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 14:08:01.597973 23089965209408 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 14:08:05.022531 23089965209408 run_af2c_mod.py:482] Have 1 models: ['model_1_multimer_v2_p1']
+Info: working on target BDLD1_PLANKTO_x6
+I0117 14:08:14.032367 23089965209408 run_af2c_mod.py:512] Using random seed 6944022391822633383 for the data pipeline
+Info: BDLD1_PLANKTO_x6 found monomer BDLD1_PLANKTO msa_depth = 346, seq_len = 123, num_templ = 10
+Info: BDLD1_PLANKTO reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'BDLD1_PLANKTO_1', 'B': 'BDLD1_PLANKTO_1', 'C': 'BDLD1_PLANKTO_1', 'D': 'BDLD1_PLANKTO_1', 'E': 'BDLD1_PLANKTO_1', 'F': 'BDLD1_PLANKTO_1'}
+Info: modeling BDLD1_PLANKTO_x6 with msa_depth = 512, seq_len = 738, num_templ = 24
+I0117 14:08:14.114639 23089965209408 run_af2c_mod.py:216] Running model model_1_multimer_v2_p1_230117_633383
+I0117 14:08:14.115715 23089965209408 model.py:206] Running predict with shape(feat) = {'msa': (512, 738), 'bert_mask': (512, 738), 'num_alignments': (), 'aatype': (738,), 'seq_length': (), 'template_aatype': (24, 738), 'template_all_atom_mask': (24, 738, 37), 'template_all_atom_positions': (24, 738, 37, 3), 'all_atom_positions': (738, 37, 3), 'template_domain_names': (24,), 'asym_id': (738,), 'sym_id': (738,), 'entity_id': (738,), 'residue_index': (738,), 'deletion_matrix': (512, 738), 'seq_mask': (738,), 'msa_mask': (512, 738), 'cluster_bias_mask': (512,), 'pdb_residue_index': (738,)}
+I0117 14:27:34.326468 23089965209408 run_af2c_mod.py:271] Total JAX model model_1_multimer_v2_p1_230117_633383 predict time (includes compilation time): 1160.2 seconds
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_00,  tol =   inf, pLDDT = 37.25, pTM-score = 0.1984, piTM-score = 0.1832, interface-score = 0.1372, iRes = 248  iCnt = 331 
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_01,  tol = 54.84, pLDDT = 38.48, pTM-score = 0.1911, piTM-score = 0.1387, interface-score = 0.0606, iRes = 108  iCnt = 86  
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_02,  tol = 13.52, pLDDT = 38.38, pTM-score = 0.1858, piTM-score = 0.1005, interface-score = 0.0551, iRes = 97   iCnt = 76  
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_03,  tol =  4.43, pLDDT = 38.29, pTM-score = 0.1935, piTM-score = 0.1241, interface-score = 0.0686, iRes = 97   iCnt = 71  
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_04,  tol =  2.54, pLDDT = 38.74, pTM-score = 0.1977, piTM-score = 0.1399, interface-score = 0.1065, iRes = 119  iCnt = 92  
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_05,  tol =  1.78, pLDDT = 39.08, pTM-score = 0.1926, piTM-score = 0.1297, interface-score = 0.0860, iRes = 125  iCnt = 98  
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_06,  tol =  1.80, pLDDT = 38.70, pTM-score = 0.2020, piTM-score = 0.1373, interface-score = 0.1308, iRes = 117  iCnt = 87  
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_07,  tol =  2.31, pLDDT = 39.41, pTM-score = 0.2005, piTM-score = 0.1307, interface-score = 0.1208, iRes = 129  iCnt = 103 
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_08,  tol =  1.66, pLDDT = 39.35, pTM-score = 0.2069, piTM-score = 0.1354, interface-score = 0.1446, iRes = 118  iCnt = 83  
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_09,  tol =  1.70, pLDDT = 39.86, pTM-score = 0.2010, piTM-score = 0.1458, interface-score = 0.1271, iRes = 135  iCnt = 112 
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_10,  tol =  1.19, pLDDT = 39.08, pTM-score = 0.2069, piTM-score = 0.1383, interface-score = 0.1518, iRes = 126  iCnt = 90  
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_11,  tol =  1.23, pLDDT = 39.25, pTM-score = 0.1970, piTM-score = 0.1377, interface-score = 0.1145, iRes = 128  iCnt = 108 
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_12,  tol =  1.08, pLDDT = 39.00, pTM-score = 0.2050, piTM-score = 0.1394, interface-score = 0.1535, iRes = 123  iCnt = 85  
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_13,  tol =  1.72, pLDDT = 39.32, pTM-score = 0.2020, piTM-score = 0.1440, interface-score = 0.1446, iRes = 142  iCnt = 107 
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_14,  tol =  1.40, pLDDT = 39.27, pTM-score = 0.2085, piTM-score = 0.1375, interface-score = 0.1617, iRes = 123  iCnt = 90  
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_15,  tol =  1.36, pLDDT = 39.47, pTM-score = 0.2041, piTM-score = 0.1488, interface-score = 0.1510, iRes = 136  iCnt = 104 
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_16,  tol =  1.85, pLDDT = 38.97, pTM-score = 0.2087, piTM-score = 0.1512, interface-score = 0.1791, iRes = 135  iCnt = 104 
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_17,  tol =  1.66, pLDDT = 39.59, pTM-score = 0.2056, piTM-score = 0.1467, interface-score = 0.1459, iRes = 140  iCnt = 115 
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_18,  tol =  2.32, pLDDT = 39.09, pTM-score = 0.2115, piTM-score = 0.1398, interface-score = 0.1658, iRes = 125  iCnt = 99  
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383_recycled_19,  tol =  1.32, pLDDT = 39.69, pTM-score = 0.2065, piTM-score = 0.1539, interface-score = 0.1590, iRes = 143  iCnt = 115 
+Info: BDLD1_PLANKTO_x6 model_1_multimer_v2_p1_230117_633383 performed 20 recycles, final tol = 1.25, pLDDT = 39.82, pTM-score = 0.2122, piTM-score = 0.1669, interface-score = 0.1904, iRes = 154  iCnt = 110 
+Info: num_clusters = 2, cluster_sizes = [4, 2],  clusters = [['BDLD1_PLANKTO_0', 'BDLD1_PLANKTO_1', 'BDLD1_PLANKTO_2', 'BDLD1_PLANKTO_3'], ['BDLD1_PLANKTO_4', 'BDLD1_PLANKTO_5']]
+
+I0117 14:27:37.509856 23089965209408 run_af2c_mod.py:404] Final timings for BDLD1_PLANKTO_x6: {'features': 0.08, 'process_features_model_1_multimer_v2_p1_230117_633383': 0.0, 'predict_and_compile_model_1_multimer_v2_p1_230117_633383': 1160.2}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  1_AF2C
+Node list: ravg1057
+Job start: Tue Jan 17 14:06:56 CET 2023
+Job end:   Tue Jan 17 14:27:39 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/script2_comp_model_1.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3906480           1_AF2C      1           108                             00:20:43      0:0
+3906480.0        python3      1      1    108    27934.41M    27934.41M   00:19:58      0:0
+  
+Maximum memory per node: 29.291356 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 1.8 %
+  
+Info: input file name is BDLD1_PLANKTO
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0117 14:08:01.400802 22913999685440 tpu_client.py:54] Starting the local TPU driver.
+I0117 14:08:01.403908 22913999685440 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 14:08:01.741174 22913999685440 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 14:08:05.273918 22913999685440 run_af2c_mod.py:482] Have 1 models: ['model_2_multimer_v2_p1']
+Info: working on target BDLD1_PLANKTO_x6
+I0117 14:08:08.274851 22913999685440 run_af2c_mod.py:512] Using random seed 3001449243733341677 for the data pipeline
+Info: BDLD1_PLANKTO_x6 found monomer BDLD1_PLANKTO msa_depth = 346, seq_len = 123, num_templ = 10
+Info: BDLD1_PLANKTO reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'BDLD1_PLANKTO_1', 'B': 'BDLD1_PLANKTO_1', 'C': 'BDLD1_PLANKTO_1', 'D': 'BDLD1_PLANKTO_1', 'E': 'BDLD1_PLANKTO_1', 'F': 'BDLD1_PLANKTO_1'}
+Info: modeling BDLD1_PLANKTO_x6 with msa_depth = 512, seq_len = 738, num_templ = 24
+I0117 14:08:08.347452 22913999685440 run_af2c_mod.py:216] Running model model_2_multimer_v2_p1_230117_341677
+I0117 14:08:08.347918 22913999685440 model.py:206] Running predict with shape(feat) = {'msa': (512, 738), 'bert_mask': (512, 738), 'num_alignments': (), 'aatype': (738,), 'seq_length': (), 'template_aatype': (24, 738), 'template_all_atom_mask': (24, 738, 37), 'template_all_atom_positions': (24, 738, 37, 3), 'all_atom_positions': (738, 37, 3), 'template_domain_names': (24,), 'asym_id': (738,), 'sym_id': (738,), 'entity_id': (738,), 'residue_index': (738,), 'deletion_matrix': (512, 738), 'seq_mask': (738,), 'msa_mask': (512, 738), 'cluster_bias_mask': (512,), 'pdb_residue_index': (738,)}
+I0117 14:27:32.544804 22913999685440 run_af2c_mod.py:271] Total JAX model model_2_multimer_v2_p1_230117_341677 predict time (includes compilation time): 1164.2 seconds
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_00,  tol =   inf, pLDDT = 37.43, pTM-score = 0.1891, piTM-score = 0.1091, interface-score = 0.0930, iRes = 234  iCnt = 327 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_01,  tol = 50.41, pLDDT = 37.23, pTM-score = 0.1947, piTM-score = 0.1100, interface-score = 0.1003, iRes = 243  iCnt = 304 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_02,  tol = 15.20, pLDDT = 37.24, pTM-score = 0.1940, piTM-score = 0.1051, interface-score = 0.0837, iRes = 140  iCnt = 144 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_03,  tol =  8.32, pLDDT = 37.89, pTM-score = 0.1926, piTM-score = 0.1167, interface-score = 0.0941, iRes = 168  iCnt = 179 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_04,  tol =  4.96, pLDDT = 37.71, pTM-score = 0.1895, piTM-score = 0.1267, interface-score = 0.0827, iRes = 130  iCnt = 131 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_05,  tol =  3.03, pLDDT = 37.48, pTM-score = 0.1873, piTM-score = 0.1107, interface-score = 0.0811, iRes = 124  iCnt = 132 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_06,  tol =  2.19, pLDDT = 37.17, pTM-score = 0.1869, piTM-score = 0.0934, interface-score = 0.0753, iRes = 147  iCnt = 179 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_07,  tol =  6.31, pLDDT = 37.48, pTM-score = 0.1907, piTM-score = 0.1178, interface-score = 0.0758, iRes = 113  iCnt = 102 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_08,  tol =  4.13, pLDDT = 38.34, pTM-score = 0.1930, piTM-score = 0.1213, interface-score = 0.0809, iRes = 101  iCnt = 83  
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_09,  tol =  2.40, pLDDT = 36.95, pTM-score = 0.1900, piTM-score = 0.1027, interface-score = 0.0809, iRes = 130  iCnt = 107 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_10,  tol =  2.45, pLDDT = 37.05, pTM-score = 0.1755, piTM-score = 0.1291, interface-score = 0.0097, iRes = 48   iCnt = 50  
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_11,  tol = 16.20, pLDDT = 38.20, pTM-score = 0.1841, piTM-score = 0.1146, interface-score = 0.0214, iRes = 55   iCnt = 44  
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_12,  tol = 11.24, pLDDT = 39.00, pTM-score = 0.1957, piTM-score = 0.1525, interface-score = 0.1081, iRes = 163  iCnt = 202 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_13,  tol = 22.17, pLDDT = 36.67, pTM-score = 0.1884, piTM-score = 0.0893, interface-score = 0.0308, iRes = 57   iCnt = 38  
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_14,  tol =  8.76, pLDDT = 38.88, pTM-score = 0.2005, piTM-score = 0.1223, interface-score = 0.0853, iRes = 160  iCnt = 172 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_15,  tol = 18.58, pLDDT = 38.06, pTM-score = 0.1969, piTM-score = 0.1280, interface-score = 0.0988, iRes = 128  iCnt = 106 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_16,  tol = 10.44, pLDDT = 38.16, pTM-score = 0.1887, piTM-score = 0.1016, interface-score = 0.0446, iRes = 116  iCnt = 114 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_17,  tol = 17.57, pLDDT = 36.00, pTM-score = 0.1772, piTM-score = 0.0140, interface-score = 0.0001, iRes = 10   iCnt = 6   
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_18,  tol = 11.28, pLDDT = 37.76, pTM-score = 0.1893, piTM-score = 0.1390, interface-score = 0.0634, iRes = 129  iCnt = 139 
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677_recycled_19,  tol = 20.92, pLDDT = 39.44, pTM-score = 0.1945, piTM-score = 0.1338, interface-score = 0.1070, iRes = 118  iCnt = 90  
+Info: BDLD1_PLANKTO_x6 model_2_multimer_v2_p1_230117_341677 performed 20 recycles, final tol = 10.84, pLDDT = 36.54, pTM-score = 0.1808, piTM-score = 0.0995, interface-score = 0.0394, iRes = 97   iCnt = 81  
+Info: num_clusters = 2, cluster_sizes = [5, 1],  clusters = [['BDLD1_PLANKTO_0', 'BDLD1_PLANKTO_1', 'BDLD1_PLANKTO_2', 'BDLD1_PLANKTO_3', 'BDLD1_PLANKTO_5'], ['BDLD1_PLANKTO_4']]
+
+I0117 14:27:35.790417 22913999685440 run_af2c_mod.py:404] Final timings for BDLD1_PLANKTO_x6: {'features': 0.07, 'process_features_model_2_multimer_v2_p1_230117_341677': 0.0, 'predict_and_compile_model_2_multimer_v2_p1_230117_341677': 1164.2}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  2_AF2C
+Node list: ravg1059
+Job start: Tue Jan 17 14:06:56 CET 2023
+Job end:   Tue Jan 17 14:27:38 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/script2_comp_model_2.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3906481           2_AF2C      1           108                             00:20:42      0:0
+3906481.0        python3      1      1    108    28271.11M    28271.11M   00:19:54      0:0
+  
+Maximum memory per node: 29.644411 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 1.8 %
+  
+Info: input file name is BDLD1_PLANKTO
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0117 14:08:01.429809 22381954910016 tpu_client.py:54] Starting the local TPU driver.
+I0117 14:08:01.432543 22381954910016 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 14:08:01.760401 22381954910016 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 14:08:05.281617 22381954910016 run_af2c_mod.py:482] Have 1 models: ['model_3_multimer_v2_p1']
+Info: working on target BDLD1_PLANKTO_x6
+I0117 14:08:12.287710 22381954910016 run_af2c_mod.py:512] Using random seed 3270841443736236567 for the data pipeline
+Info: BDLD1_PLANKTO_x6 found monomer BDLD1_PLANKTO msa_depth = 346, seq_len = 123, num_templ = 10
+Info: BDLD1_PLANKTO reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'BDLD1_PLANKTO_1', 'B': 'BDLD1_PLANKTO_1', 'C': 'BDLD1_PLANKTO_1', 'D': 'BDLD1_PLANKTO_1', 'E': 'BDLD1_PLANKTO_1', 'F': 'BDLD1_PLANKTO_1'}
+Info: modeling BDLD1_PLANKTO_x6 with msa_depth = 512, seq_len = 738, num_templ = 24
+I0117 14:08:12.359400 22381954910016 run_af2c_mod.py:216] Running model model_3_multimer_v2_p1_230117_236567
+I0117 14:08:12.359872 22381954910016 model.py:206] Running predict with shape(feat) = {'msa': (512, 738), 'bert_mask': (512, 738), 'num_alignments': (), 'aatype': (738,), 'seq_length': (), 'template_aatype': (24, 738), 'template_all_atom_mask': (24, 738, 37), 'template_all_atom_positions': (24, 738, 37, 3), 'all_atom_positions': (738, 37, 3), 'template_domain_names': (24,), 'asym_id': (738,), 'sym_id': (738,), 'entity_id': (738,), 'residue_index': (738,), 'deletion_matrix': (512, 738), 'seq_mask': (738,), 'msa_mask': (512, 738), 'cluster_bias_mask': (512,), 'pdb_residue_index': (738,)}
+I0117 14:27:27.790528 22381954910016 run_af2c_mod.py:271] Total JAX model model_3_multimer_v2_p1_230117_236567 predict time (includes compilation time): 1155.4 seconds
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_00,  tol =   inf, pLDDT = 36.88, pTM-score = 0.1931, piTM-score = 0.1096, interface-score = 0.0718, iRes = 113  iCnt = 113 
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_01,  tol = 52.96, pLDDT = 42.58, pTM-score = 0.1872, piTM-score = 0.2404, interface-score = 0.0495, iRes = 249  iCnt = 555 
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_02,  tol = 24.58, pLDDT = 45.88, pTM-score = 0.2114, piTM-score = 0.1419, interface-score = 0.1205, iRes = 42   iCnt = 34  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_03,  tol = 20.03, pLDDT = 44.68, pTM-score = 0.2114, piTM-score = 0.0633, interface-score = 0.0504, iRes = 39   iCnt = 26  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_04,  tol =  3.86, pLDDT = 46.28, pTM-score = 0.2137, piTM-score = 0.0873, interface-score = 0.0800, iRes = 50   iCnt = 35  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_05,  tol =  4.53, pLDDT = 45.07, pTM-score = 0.2179, piTM-score = 0.1371, interface-score = 0.1384, iRes = 87   iCnt = 64  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_06,  tol =  3.31, pLDDT = 45.15, pTM-score = 0.2094, piTM-score = 0.0798, interface-score = 0.0611, iRes = 47   iCnt = 30  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_07,  tol =  1.38, pLDDT = 45.62, pTM-score = 0.2234, piTM-score = 0.1447, interface-score = 0.1410, iRes = 97   iCnt = 67  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_08,  tol =  3.26, pLDDT = 45.39, pTM-score = 0.2177, piTM-score = 0.1105, interface-score = 0.1093, iRes = 68   iCnt = 47  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_09,  tol =  1.85, pLDDT = 45.16, pTM-score = 0.2256, piTM-score = 0.1379, interface-score = 0.1404, iRes = 83   iCnt = 69  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_10,  tol =  3.56, pLDDT = 44.40, pTM-score = 0.2115, piTM-score = 0.0588, interface-score = 0.0467, iRes = 42   iCnt = 30  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_11,  tol =  3.75, pLDDT = 46.48, pTM-score = 0.2249, piTM-score = 0.1451, interface-score = 0.1598, iRes = 103  iCnt = 82  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_12,  tol =  5.07, pLDDT = 45.30, pTM-score = 0.2268, piTM-score = 0.1266, interface-score = 0.1219, iRes = 93   iCnt = 72  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_13,  tol =  2.48, pLDDT = 43.97, pTM-score = 0.2058, piTM-score = 0.0851, interface-score = 0.0700, iRes = 61   iCnt = 37  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_14,  tol =  8.48, pLDDT = 41.95, pTM-score = 0.1965, piTM-score = 0.0845, interface-score = 0.0752, iRes = 62   iCnt = 35  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_15,  tol =  1.73, pLDDT = 40.86, pTM-score = 0.1941, piTM-score = 0.0630, interface-score = 0.0465, iRes = 37   iCnt = 21  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_16,  tol =  2.56, pLDDT = 42.33, pTM-score = 0.1987, piTM-score = 0.0777, interface-score = 0.0481, iRes = 43   iCnt = 23  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_17,  tol =  3.35, pLDDT = 41.12, pTM-score = 0.1912, piTM-score = 0.1049, interface-score = 0.0375, iRes = 37   iCnt = 20  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_18,  tol =  4.94, pLDDT = 43.34, pTM-score = 0.2032, piTM-score = 0.1093, interface-score = 0.0713, iRes = 44   iCnt = 31  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567_recycled_19,  tol =  4.18, pLDDT = 42.71, pTM-score = 0.2006, piTM-score = 0.1222, interface-score = 0.0987, iRes = 47   iCnt = 35  
+Info: BDLD1_PLANKTO_x6 model_3_multimer_v2_p1_230117_236567 performed 20 recycles, final tol = 3.86, pLDDT = 42.34, pTM-score = 0.1940, piTM-score = 0.1006, interface-score = 0.0559, iRes = 45   iCnt = 25  
+Info: num_clusters = 5, cluster_sizes = [1, 2, 1, 1, 1],  clusters = [['BDLD1_PLANKTO_0'], ['BDLD1_PLANKTO_1', 'BDLD1_PLANKTO_2'], ['BDLD1_PLANKTO_3'], ['BDLD1_PLANKTO_4'], ['BDLD1_PLANKTO_5']]
+
+I0117 14:27:30.957484 22381954910016 run_af2c_mod.py:404] Final timings for BDLD1_PLANKTO_x6: {'features': 0.07, 'process_features_model_3_multimer_v2_p1_230117_236567': 0.0, 'predict_and_compile_model_3_multimer_v2_p1_230117_236567': 1155.4}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  3_AF2C
+Node list: ravg1061
+Job start: Tue Jan 17 14:06:56 CET 2023
+Job end:   Tue Jan 17 14:27:33 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/script2_comp_model_3.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3906482           3_AF2C      1           108                             00:20:37      0:0
+3906482.0        python3      1      1    108    28179.78M    28179.78M   00:19:49      0:0
+  
+Maximum memory per node: 29.548642 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 1.8 %
+  
+Info: input file name is BDLD1_PLANKTO
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0117 14:08:01.426622 22927027828544 tpu_client.py:54] Starting the local TPU driver.
+I0117 14:08:01.429060 22927027828544 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 14:08:01.759094 22927027828544 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 14:08:05.238553 22927027828544 run_af2c_mod.py:482] Have 1 models: ['model_4_multimer_v2_p1']
+Info: working on target BDLD1_PLANKTO_x6
+I0117 14:08:06.239785 22927027828544 run_af2c_mod.py:512] Using random seed 2200575951309022144 for the data pipeline
+Info: BDLD1_PLANKTO_x6 found monomer BDLD1_PLANKTO msa_depth = 346, seq_len = 123, num_templ = 10
+Info: BDLD1_PLANKTO reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'BDLD1_PLANKTO_1', 'B': 'BDLD1_PLANKTO_1', 'C': 'BDLD1_PLANKTO_1', 'D': 'BDLD1_PLANKTO_1', 'E': 'BDLD1_PLANKTO_1', 'F': 'BDLD1_PLANKTO_1'}
+Info: modeling BDLD1_PLANKTO_x6 with msa_depth = 512, seq_len = 738, num_templ = 24
+I0117 14:08:06.342577 22927027828544 run_af2c_mod.py:216] Running model model_4_multimer_v2_p1_230117_022144
+I0117 14:08:06.343038 22927027828544 model.py:206] Running predict with shape(feat) = {'msa': (512, 738), 'bert_mask': (512, 738), 'num_alignments': (), 'aatype': (738,), 'seq_length': (), 'template_aatype': (24, 738), 'template_all_atom_mask': (24, 738, 37), 'template_all_atom_positions': (24, 738, 37, 3), 'all_atom_positions': (738, 37, 3), 'template_domain_names': (24,), 'asym_id': (738,), 'sym_id': (738,), 'entity_id': (738,), 'residue_index': (738,), 'deletion_matrix': (512, 738), 'seq_mask': (738,), 'msa_mask': (512, 738), 'cluster_bias_mask': (512,), 'pdb_residue_index': (738,)}
+I0117 14:27:29.323484 22927027828544 run_af2c_mod.py:271] Total JAX model model_4_multimer_v2_p1_230117_022144 predict time (includes compilation time): 1163.0 seconds
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_00,  tol =   inf, pLDDT = 37.82, pTM-score = 0.2176, piTM-score = 0.1836, interface-score = 0.2252, iRes = 226  iCnt = 285 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_01,  tol = 48.22, pLDDT = 39.99, pTM-score = 0.2174, piTM-score = 0.1653, interface-score = 0.2526, iRes = 149  iCnt = 138 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_02,  tol = 10.80, pLDDT = 39.45, pTM-score = 0.2097, piTM-score = 0.1543, interface-score = 0.2177, iRes = 154  iCnt = 139 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_03,  tol =  2.00, pLDDT = 39.10, pTM-score = 0.2072, piTM-score = 0.1534, interface-score = 0.2202, iRes = 153  iCnt = 142 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_04,  tol =  2.06, pLDDT = 41.18, pTM-score = 0.2169, piTM-score = 0.1703, interface-score = 0.2653, iRes = 161  iCnt = 150 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_05,  tol =  1.36, pLDDT = 40.22, pTM-score = 0.2141, piTM-score = 0.1623, interface-score = 0.2454, iRes = 165  iCnt = 145 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_06,  tol =  1.13, pLDDT = 39.38, pTM-score = 0.2109, piTM-score = 0.1504, interface-score = 0.2262, iRes = 172  iCnt = 153 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_07,  tol =  1.31, pLDDT = 41.52, pTM-score = 0.2195, piTM-score = 0.1697, interface-score = 0.2681, iRes = 164  iCnt = 142 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_08,  tol =  1.78, pLDDT = 40.28, pTM-score = 0.2157, piTM-score = 0.1634, interface-score = 0.2453, iRes = 168  iCnt = 148 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_09,  tol =  1.41, pLDDT = 40.23, pTM-score = 0.2119, piTM-score = 0.1633, interface-score = 0.2322, iRes = 154  iCnt = 135 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_10,  tol =  1.28, pLDDT = 40.16, pTM-score = 0.2122, piTM-score = 0.1533, interface-score = 0.2226, iRes = 163  iCnt = 139 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_11,  tol =  1.14, pLDDT = 39.79, pTM-score = 0.2122, piTM-score = 0.1595, interface-score = 0.2340, iRes = 154  iCnt = 143 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_12,  tol =  0.64, pLDDT = 40.11, pTM-score = 0.2124, piTM-score = 0.1595, interface-score = 0.2387, iRes = 158  iCnt = 139 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_13,  tol =  0.88, pLDDT = 40.33, pTM-score = 0.2151, piTM-score = 0.1628, interface-score = 0.2581, iRes = 163  iCnt = 144 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_14,  tol =  0.58, pLDDT = 40.24, pTM-score = 0.2142, piTM-score = 0.1580, interface-score = 0.2407, iRes = 164  iCnt = 147 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_15,  tol =  0.42, pLDDT = 39.86, pTM-score = 0.2133, piTM-score = 0.1601, interface-score = 0.2362, iRes = 162  iCnt = 149 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_16,  tol =  0.64, pLDDT = 39.87, pTM-score = 0.2125, piTM-score = 0.1605, interface-score = 0.2347, iRes = 162  iCnt = 144 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_17,  tol =  0.66, pLDDT = 40.56, pTM-score = 0.2184, piTM-score = 0.1643, interface-score = 0.2629, iRes = 166  iCnt = 151 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_18,  tol =  0.62, pLDDT = 40.54, pTM-score = 0.2152, piTM-score = 0.1680, interface-score = 0.2594, iRes = 171  iCnt = 153 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144_recycled_19,  tol =  0.71, pLDDT = 40.25, pTM-score = 0.2164, piTM-score = 0.1624, interface-score = 0.2629, iRes = 167  iCnt = 149 
+Info: BDLD1_PLANKTO_x6 model_4_multimer_v2_p1_230117_022144 performed 20 recycles, final tol = 0.65, pLDDT = 40.32, pTM-score = 0.2142, piTM-score = 0.1662, interface-score = 0.2600, iRes = 167  iCnt = 152 
+Info: num_clusters = 3, cluster_sizes = [2, 2, 2],  clusters = [['BDLD1_PLANKTO_0', 'BDLD1_PLANKTO_1'], ['BDLD1_PLANKTO_2', 'BDLD1_PLANKTO_3'], ['BDLD1_PLANKTO_4', 'BDLD1_PLANKTO_5']]
+
+I0117 14:27:32.472385 22927027828544 run_af2c_mod.py:404] Final timings for BDLD1_PLANKTO_x6: {'features': 0.1, 'process_features_model_4_multimer_v2_p1_230117_022144': 0.0, 'predict_and_compile_model_4_multimer_v2_p1_230117_022144': 1163.0}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  4_AF2C
+Node list: ravg1064
+Job start: Tue Jan 17 14:06:56 CET 2023
+Job end:   Tue Jan 17 14:27:34 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/script2_comp_model_4.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3906483           4_AF2C      1           108                             00:20:38      0:0
+3906483.0        python3      1      1    108    28114.62M    28114.62M   00:19:50      0:0
+  
+Maximum memory per node: 29.480313 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 1.8 %
+  
+Info: input file name is BDLD1_PLANKTO
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0117 14:08:01.386962 22979265906496 tpu_client.py:54] Starting the local TPU driver.
+I0117 14:08:01.403924 22979265906496 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 14:08:01.740033 22979265906496 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 14:08:05.294379 22979265906496 run_af2c_mod.py:482] Have 1 models: ['model_5_multimer_v2_p1']
+Info: working on target BDLD1_PLANKTO_x6
+I0117 14:08:08.297169 22979265906496 run_af2c_mod.py:512] Using random seed 8864390154754727123 for the data pipeline
+Info: BDLD1_PLANKTO_x6 found monomer BDLD1_PLANKTO msa_depth = 346, seq_len = 123, num_templ = 10
+Info: BDLD1_PLANKTO reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'BDLD1_PLANKTO_1', 'B': 'BDLD1_PLANKTO_1', 'C': 'BDLD1_PLANKTO_1', 'D': 'BDLD1_PLANKTO_1', 'E': 'BDLD1_PLANKTO_1', 'F': 'BDLD1_PLANKTO_1'}
+Info: modeling BDLD1_PLANKTO_x6 with msa_depth = 512, seq_len = 738, num_templ = 24
+I0117 14:08:08.371050 22979265906496 run_af2c_mod.py:216] Running model model_5_multimer_v2_p1_230117_727123
+I0117 14:08:08.371514 22979265906496 model.py:206] Running predict with shape(feat) = {'msa': (512, 738), 'bert_mask': (512, 738), 'num_alignments': (), 'aatype': (738,), 'seq_length': (), 'template_aatype': (24, 738), 'template_all_atom_mask': (24, 738, 37), 'template_all_atom_positions': (24, 738, 37, 3), 'all_atom_positions': (738, 37, 3), 'template_domain_names': (24,), 'asym_id': (738,), 'sym_id': (738,), 'entity_id': (738,), 'residue_index': (738,), 'deletion_matrix': (512, 738), 'seq_mask': (738,), 'msa_mask': (512, 738), 'cluster_bias_mask': (512,), 'pdb_residue_index': (738,)}
+I0117 14:27:28.897738 22979265906496 run_af2c_mod.py:271] Total JAX model model_5_multimer_v2_p1_230117_727123 predict time (includes compilation time): 1160.5 seconds
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_00,  tol =   inf, pLDDT = 35.31, pTM-score = 0.2057, piTM-score = 0.1566, interface-score = 0.1185, iRes = 221  iCnt = 222 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_01,  tol = 48.98, pLDDT = 36.48, pTM-score = 0.2082, piTM-score = 0.1466, interface-score = 0.1200, iRes = 158  iCnt = 133 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_02,  tol =  6.47, pLDDT = 36.22, pTM-score = 0.2050, piTM-score = 0.1426, interface-score = 0.1003, iRes = 142  iCnt = 119 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_03,  tol =  3.33, pLDDT = 36.06, pTM-score = 0.1958, piTM-score = 0.1287, interface-score = 0.0963, iRes = 130  iCnt = 106 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_04,  tol =  7.97, pLDDT = 36.33, pTM-score = 0.2064, piTM-score = 0.1669, interface-score = 0.1912, iRes = 202  iCnt = 212 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_05,  tol =  6.51, pLDDT = 35.11, pTM-score = 0.1951, piTM-score = 0.1195, interface-score = 0.1060, iRes = 166  iCnt = 154 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_06,  tol =  4.63, pLDDT = 35.49, pTM-score = 0.1973, piTM-score = 0.1431, interface-score = 0.1005, iRes = 170  iCnt = 147 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_07,  tol =  6.93, pLDDT = 35.16, pTM-score = 0.2021, piTM-score = 0.1386, interface-score = 0.0962, iRes = 149  iCnt = 124 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_08,  tol =  8.13, pLDDT = 35.98, pTM-score = 0.2002, piTM-score = 0.1373, interface-score = 0.1088, iRes = 171  iCnt = 156 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_09,  tol =  5.99, pLDDT = 35.83, pTM-score = 0.1993, piTM-score = 0.1279, interface-score = 0.0981, iRes = 151  iCnt = 136 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_10,  tol =  2.63, pLDDT = 35.91, pTM-score = 0.2009, piTM-score = 0.1387, interface-score = 0.1231, iRes = 187  iCnt = 180 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_11,  tol =  2.51, pLDDT = 36.26, pTM-score = 0.2020, piTM-score = 0.1231, interface-score = 0.1176, iRes = 177  iCnt = 178 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_12,  tol =  2.22, pLDDT = 35.33, pTM-score = 0.1986, piTM-score = 0.1401, interface-score = 0.1040, iRes = 171  iCnt = 172 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_13,  tol =  2.61, pLDDT = 35.86, pTM-score = 0.2015, piTM-score = 0.1269, interface-score = 0.1311, iRes = 200  iCnt = 211 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_14,  tol =  1.62, pLDDT = 36.22, pTM-score = 0.1997, piTM-score = 0.1306, interface-score = 0.1242, iRes = 185  iCnt = 170 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_15,  tol =  1.84, pLDDT = 36.05, pTM-score = 0.2047, piTM-score = 0.1362, interface-score = 0.1308, iRes = 195  iCnt = 195 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_16,  tol =  1.83, pLDDT = 36.32, pTM-score = 0.1949, piTM-score = 0.1369, interface-score = 0.1092, iRes = 161  iCnt = 140 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_17,  tol = 10.59, pLDDT = 35.37, pTM-score = 0.1913, piTM-score = 0.1243, interface-score = 0.0925, iRes = 157  iCnt = 139 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_18,  tol =  6.15, pLDDT = 36.19, pTM-score = 0.1950, piTM-score = 0.1133, interface-score = 0.0860, iRes = 167  iCnt = 191 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123_recycled_19,  tol = 10.91, pLDDT = 36.28, pTM-score = 0.2020, piTM-score = 0.1379, interface-score = 0.1180, iRes = 174  iCnt = 155 
+Info: BDLD1_PLANKTO_x6 model_5_multimer_v2_p1_230117_727123 performed 20 recycles, final tol = 4.36, pLDDT = 35.49, pTM-score = 0.2032, piTM-score = 0.1337, interface-score = 0.1286, iRes = 220  iCnt = 240 
+Info: num_clusters = 1, cluster_sizes = [6],  clusters = [['BDLD1_PLANKTO_0', 'BDLD1_PLANKTO_1', 'BDLD1_PLANKTO_2', 'BDLD1_PLANKTO_3', 'BDLD1_PLANKTO_4', 'BDLD1_PLANKTO_5']]
+
+I0117 14:27:32.261870 22979265906496 run_af2c_mod.py:404] Final timings for BDLD1_PLANKTO_x6: {'features': 0.07, 'process_features_model_5_multimer_v2_p1_230117_727123': 0.0, 'predict_and_compile_model_5_multimer_v2_p1_230117_727123': 1160.5}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  5_AF2C
+Node list: ravg1067
+Job start: Tue Jan 17 14:06:56 CET 2023
+Job end:   Tue Jan 17 14:27:34 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/script2_comp_model_5.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3906484           5_AF2C      1           108                             00:20:38      0:0
+3906484.0        python3      1      1    108    28129.94M    28129.94M   00:19:50      0:0
+  
+Maximum memory per node: 29.496381 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 1.8 %
+  
+Info: target file is /u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/target.lst
+Info: input directory of unrelaxed models is /u/flobnow/fluffyAlpaca/output_files
+Info: output directory of relaxed models is /u/flobnow/fluffyAlpaca/output_files
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:29:06.790837 22391397533504 run_af2c_min.py:88] BDLD1_PLANKTO_x6 processing model_3_multimer_v2_p1_230117_236567.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:29:19.721649 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 122 (GLN) of chain 0>: ['OXT'], <Residue 245 (GLN) of chain 1>: ['OXT'], <Residue 368 (GLN) of chain 2>: ['OXT'], <Residue 491 (GLN) of chain 3>: ['OXT'], <Residue 614 (GLN) of chain 4>: ['OXT'], <Residue 737 (GLN) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:29:20.884508 22391397533504 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 14:29:22.092249 22391397533504 amber_minimize.py:69] Restraining 6210 / 12252 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:31:12.372204 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:31:13.494496 22391397533504 tpu_client.py:54] Starting the local TPU driver.
+I0117 14:31:13.494814 22391397533504 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 14:31:13.714898 22391397533504 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 14:31:24.236834 22391397533504 amber_minimize.py:500] Iteration completed: Einit 5174036101.15 Efinal -11039.89 Time 102.11 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:31:33.724719 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 122 (GLN) of chain 0>: ['OXT'], <Residue 245 (GLN) of chain 1>: ['OXT'], <Residue 368 (GLN) of chain 2>: ['OXT'], <Residue 491 (GLN) of chain 3>: ['OXT'], <Residue 614 (GLN) of chain 4>: ['OXT'], <Residue 737 (GLN) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:31:36.066032 22391397533504 run_af2c_min.py:110] BDLD1_PLANKTO_x6 relaxation done, time spent 149.0 seconds, Efinal -11039.89, rmsd 0.47
+I0117 14:31:36.066156 22391397533504 run_af2c_min.py:88] BDLD1_PLANKTO_x6 processing model_1_multimer_v2_p1_230117_633383.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:31:45.672565 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 122 (GLN) of chain 0>: ['OXT'], <Residue 245 (GLN) of chain 1>: ['OXT'], <Residue 368 (GLN) of chain 2>: ['OXT'], <Residue 491 (GLN) of chain 3>: ['OXT'], <Residue 614 (GLN) of chain 4>: ['OXT'], <Residue 737 (GLN) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:31:46.770667 22391397533504 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 14:31:47.982859 22391397533504 amber_minimize.py:69] Restraining 6210 / 12252 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:33:00.537982 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:33:03.528894 22391397533504 amber_minimize.py:500] Iteration completed: Einit 150919857749.91 Efinal -9021.07 Time 63.93 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:33:13.153474 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 122 (GLN) of chain 0>: ['OXT'], <Residue 245 (GLN) of chain 1>: ['OXT'], <Residue 368 (GLN) of chain 2>: ['OXT'], <Residue 491 (GLN) of chain 3>: ['OXT'], <Residue 614 (GLN) of chain 4>: ['OXT'], <Residue 737 (GLN) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:33:15.682552 22391397533504 run_af2c_min.py:110] BDLD1_PLANKTO_x6 relaxation done, time spent 99.3 seconds, Efinal -9021.07, rmsd 0.48
+I0117 14:33:15.682803 22391397533504 run_af2c_min.py:88] BDLD1_PLANKTO_x6 processing model_5_multimer_v2_p1_230117_727123.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:33:25.339811 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 122 (GLN) of chain 0>: ['OXT'], <Residue 245 (GLN) of chain 1>: ['OXT'], <Residue 368 (GLN) of chain 2>: ['OXT'], <Residue 491 (GLN) of chain 3>: ['OXT'], <Residue 614 (GLN) of chain 4>: ['OXT'], <Residue 737 (GLN) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:33:26.481883 22391397533504 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 14:33:27.707281 22391397533504 amber_minimize.py:69] Restraining 6210 / 12252 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:35:33.165938 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:35:36.172855 22391397533504 amber_minimize.py:500] Iteration completed: Einit 163988807620.91 Efinal -5714.41 Time 117.56 s num residue violations 4 num residue exclusions 0 
+I0117 14:35:36.173470 22391397533504 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 14:35:37.379106 22391397533504 amber_minimize.py:69] Restraining 6172 / 12252 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:36:52.949180 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:36:55.915276 22391397533504 amber_minimize.py:500] Iteration completed: Einit 20067.82 Efinal -11088.60 Time 67.02 s num residue violations 2 num residue exclusions 4 
+I0117 14:36:55.915887 22391397533504 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 14:36:57.162836 22391397533504 amber_minimize.py:69] Restraining 6172 / 12252 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:38:14.300457 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:38:17.290642 22391397533504 amber_minimize.py:500] Iteration completed: Einit 15667.49 Efinal -12343.83 Time 68.94 s num residue violations 2 num residue exclusions 4 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:38:26.722421 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 122 (GLN) of chain 0>: ['OXT'], <Residue 245 (GLN) of chain 1>: ['OXT'], <Residue 368 (GLN) of chain 2>: ['OXT'], <Residue 491 (GLN) of chain 3>: ['OXT'], <Residue 614 (GLN) of chain 4>: ['OXT'], <Residue 737 (GLN) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:38:29.201883 22391397533504 run_af2c_min.py:110] BDLD1_PLANKTO_x6 relaxation done, time spent 313.0 seconds, Efinal -12343.83, rmsd 0.37
+I0117 14:38:29.202018 22391397533504 run_af2c_min.py:88] BDLD1_PLANKTO_x6 processing model_2_multimer_v2_p1_230117_341677.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:38:38.657537 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 122 (GLN) of chain 0>: ['OXT'], <Residue 245 (GLN) of chain 1>: ['OXT'], <Residue 368 (GLN) of chain 2>: ['OXT'], <Residue 491 (GLN) of chain 3>: ['OXT'], <Residue 614 (GLN) of chain 4>: ['OXT'], <Residue 737 (GLN) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:38:39.805304 22391397533504 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 14:38:41.033647 22391397533504 amber_minimize.py:69] Restraining 6210 / 12252 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:40:09.539034 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:40:12.550195 22391397533504 amber_minimize.py:500] Iteration completed: Einit 355150722652904576.00 Efinal -10359.41 Time 80.49 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:40:22.031506 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 122 (GLN) of chain 0>: ['OXT'], <Residue 245 (GLN) of chain 1>: ['OXT'], <Residue 368 (GLN) of chain 2>: ['OXT'], <Residue 491 (GLN) of chain 3>: ['OXT'], <Residue 614 (GLN) of chain 4>: ['OXT'], <Residue 737 (GLN) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:40:24.376769 22391397533504 run_af2c_min.py:110] BDLD1_PLANKTO_x6 relaxation done, time spent 114.9 seconds, Efinal -10359.41, rmsd 0.71
+I0117 14:40:24.376891 22391397533504 run_af2c_min.py:88] BDLD1_PLANKTO_x6 processing model_4_multimer_v2_p1_230117_022144.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:40:35.643857 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 122 (GLN) of chain 0>: ['OXT'], <Residue 245 (GLN) of chain 1>: ['OXT'], <Residue 368 (GLN) of chain 2>: ['OXT'], <Residue 491 (GLN) of chain 3>: ['OXT'], <Residue 614 (GLN) of chain 4>: ['OXT'], <Residue 737 (GLN) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:40:36.766660 22391397533504 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 14:40:38.004079 22391397533504 amber_minimize.py:69] Restraining 6210 / 12240 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:41:53.621491 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:41:56.640460 22391397533504 amber_minimize.py:500] Iteration completed: Einit 403562919.01 Efinal -11697.29 Time 67.42 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 14:42:06.088994 22391397533504 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 122 (GLN) of chain 0>: ['OXT'], <Residue 245 (GLN) of chain 1>: ['OXT'], <Residue 368 (GLN) of chain 2>: ['OXT'], <Residue 491 (GLN) of chain 3>: ['OXT'], <Residue 614 (GLN) of chain 4>: ['OXT'], <Residue 737 (GLN) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 14:42:08.566375 22391397533504 run_af2c_min.py:110] BDLD1_PLANKTO_x6 relaxation done, time spent 103.7 seconds, Efinal -11697.29, rmsd 0.44
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  6_RLX
+Node list: ravg1198
+Job start: Tue Jan 17 14:28:56 CET 2023
+Job end:   Tue Jan 17 14:42:09 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_PLANKTO/script3_relaxation.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3906485            6_RLX      1           108                             00:13:13      0:0
+3906485.0        python3      1      1    108    14258.13M    14258.13M   00:13:08      0:0
+  
+Maximum memory per node: 14.950736 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 68.9 %
+  

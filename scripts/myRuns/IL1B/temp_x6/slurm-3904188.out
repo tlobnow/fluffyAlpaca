@@ -1,0 +1,78 @@
+Info: input file name is IL1B
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/myRuns/IL1B/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0117 10:03:59.015882 23328401028928 tpu_client.py:54] Starting the local TPU driver.
+I0117 10:03:59.080238 23328401028928 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 10:03:59.498861 23328401028928 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 10:04:02.966767 23328401028928 run_af2c_mod.py:482] Have 1 models: ['model_4_multimer_v2_p1']
+Info: working on target IL1B_x6
+I0117 10:04:11.976036 23328401028928 run_af2c_mod.py:512] Using random seed 2760554629551907870 for the data pipeline
+Info: IL1B_x6 found monomer IL1B msa_depth = 1546, seq_len = 269, num_templ = 20
+Info: IL1B reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'IL1B_1', 'B': 'IL1B_1', 'C': 'IL1B_1', 'D': 'IL1B_1', 'E': 'IL1B_1', 'F': 'IL1B_1'}
+Info: modeling IL1B_x6 with msa_depth = 1547, seq_len = 1614, num_templ = 24
+I0117 10:04:12.752590 23328401028928 run_af2c_mod.py:216] Running model model_4_multimer_v2_p1_230117_907870
+I0117 10:04:12.753137 23328401028928 model.py:206] Running predict with shape(feat) = {'msa': (1547, 1614), 'bert_mask': (1547, 1614), 'num_alignments': (), 'aatype': (1614,), 'seq_length': (), 'template_aatype': (24, 1614), 'template_all_atom_mask': (24, 1614, 37), 'template_all_atom_positions': (24, 1614, 37, 3), 'all_atom_positions': (1614, 37, 3), 'template_domain_names': (24,), 'asym_id': (1614,), 'sym_id': (1614,), 'entity_id': (1614,), 'residue_index': (1614,), 'deletion_matrix': (1547, 1614), 'seq_mask': (1614,), 'msa_mask': (1547, 1614), 'cluster_bias_mask': (1547,), 'pdb_residue_index': (1614,)}
+I0117 11:54:53.944046 23328401028928 run_af2c_mod.py:271] Total JAX model model_4_multimer_v2_p1_230117_907870 predict time (includes compilation time): 6641.2 seconds
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_00,  tol =   inf, pLDDT = 49.76, pTM-score = 0.2310, piTM-score = 0.1894, interface-score = 0.0748, iRes = 383  iCnt = 811 
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_01,  tol = 82.21, pLDDT = 51.93, pTM-score = 0.2344, piTM-score = 0.1039, interface-score = 0.0835, iRes = 208  iCnt = 320 
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_02,  tol = 20.20, pLDDT = 53.43, pTM-score = 0.2353, piTM-score = 0.1108, interface-score = 0.0821, iRes = 161  iCnt = 267 
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_03,  tol =  8.72, pLDDT = 53.90, pTM-score = 0.2356, piTM-score = 0.1082, interface-score = 0.0677, iRes = 136  iCnt = 222 
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_04,  tol =  7.01, pLDDT = 54.07, pTM-score = 0.2366, piTM-score = 0.1106, interface-score = 0.0921, iRes = 172  iCnt = 258 
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_05,  tol =  7.85, pLDDT = 54.75, pTM-score = 0.2370, piTM-score = 0.1075, interface-score = 0.0660, iRes = 153  iCnt = 224 
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_06,  tol =  5.71, pLDDT = 54.66, pTM-score = 0.2361, piTM-score = 0.1219, interface-score = 0.0445, iRes = 126  iCnt = 202 
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_07,  tol =  5.20, pLDDT = 54.92, pTM-score = 0.2360, piTM-score = 0.1243, interface-score = 0.0324, iRes = 100  iCnt = 160 
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_08,  tol =  5.20, pLDDT = 54.62, pTM-score = 0.2375, piTM-score = 0.1414, interface-score = 0.0391, iRes = 108  iCnt = 163 
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_09,  tol =  4.59, pLDDT = 54.96, pTM-score = 0.2365, piTM-score = 0.1645, interface-score = 0.0233, iRes = 68   iCnt = 97  
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_10,  tol =  6.14, pLDDT = 55.08, pTM-score = 0.2356, piTM-score = 0.0852, interface-score = 0.0046, iRes = 31   iCnt = 28  
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_11,  tol =  4.65, pLDDT = 54.27, pTM-score = 0.2356, piTM-score = 0.0273, interface-score = 0.0004, iRes = 19   iCnt = 16  
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_12,  tol =  4.17, pLDDT = 54.36, pTM-score = 0.2361, piTM-score = 0.0250, interface-score = 0.0003, iRes = 17   iCnt = 14  
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_13,  tol =  6.07, pLDDT = 54.47, pTM-score = 0.2359, piTM-score = 0.0174, interface-score = 0.0001, iRes = 12   iCnt = 9   
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_14,  tol =  3.27, pLDDT = 54.41, pTM-score = 0.2359, piTM-score = 0.0138, interface-score = 0.0002, iRes = 15   iCnt = 8   
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_15,  tol =  7.71, pLDDT = 54.22, pTM-score = 0.2356, piTM-score = 0.0119, interface-score = 0.0001, iRes = 13   iCnt = 7   
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_16,  tol =  5.68, pLDDT = 54.54, pTM-score = 0.2351, piTM-score = 0.0078, interface-score = 0.0001, iRes = 9    iCnt = 5   
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_17,  tol =  4.97, pLDDT = 55.03, pTM-score = 0.2350, piTM-score = 0.0138, interface-score = 0.0001, iRes = 13   iCnt = 8   
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_18,  tol =  4.78, pLDDT = 54.57, pTM-score = 0.2355, piTM-score = 0.0340, interface-score = 0.0005, iRes = 22   iCnt = 14  
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870_recycled_19,  tol =  2.95, pLDDT = 54.72, pTM-score = 0.2353, piTM-score = 0.0199, interface-score = 0.0002, iRes = 17   iCnt = 11  
+Info: IL1B_x6 model_4_multimer_v2_p1_230117_907870 performed 20 recycles, final tol = 5.17, pLDDT = 54.88, pTM-score = 0.2349, piTM-score = 0.0161, interface-score = 0.0002, iRes = 16   iCnt = 9   
+Info: num_clusters = 6, cluster_sizes = [1, 1, 1, 1, 1, 1],  clusters = [['IL1B_0'], ['IL1B_1'], ['IL1B_2'], ['IL1B_3'], ['IL1B_4'], ['IL1B_5']]
+
+I0117 11:55:02.434436 23328401028928 run_af2c_mod.py:404] Final timings for IL1B_x6: {'features': 0.78, 'process_features_model_4_multimer_v2_p1_230117_907870': 0.0, 'predict_and_compile_model_4_multimer_v2_p1_230117_907870': 6641.2}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  4_AF2C
+Node list: ravg1149
+Job start: Tue Jan 17 10:03:20 CET 2023
+Job end:   Tue Jan 17 11:55:18 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/IL1B
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/IL1B/script2_comp_model_4.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3904188           4_AF2C      1           108                             01:51:58      0:0
+3904188.0        python3      1      1    108    79444.32M    79444.32M   01:51:49      0:0
+  
+Maximum memory per node: 83.303408 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 1.9 %
+  

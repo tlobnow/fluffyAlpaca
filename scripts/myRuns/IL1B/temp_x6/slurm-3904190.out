@@ -1,0 +1,145 @@
+Info: target file is /u/flobnow/fluffyAlpaca/scripts/myRuns/IL1B/target.lst
+Info: input directory of unrelaxed models is /u/flobnow/fluffyAlpaca/output_files
+Info: output directory of relaxed models is /u/flobnow/fluffyAlpaca/output_files
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 11:56:17.237558 22913509050176 run_af2c_min.py:88] IL1B_x6 processing model_2_multimer_v2_p1_230117_361720.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 11:56:42.979288 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 268 (SER) of chain 0>: ['OXT'], <Residue 537 (SER) of chain 1>: ['OXT'], <Residue 806 (SER) of chain 2>: ['OXT'], <Residue 1075 (SER) of chain 3>: ['OXT'], <Residue 1344 (SER) of chain 4>: ['OXT'], <Residue 1613 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 11:56:45.425648 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 11:56:48.005141 22913509050176 amber_minimize.py:69] Restraining 13050 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:04:42.243561 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:04:45.048815 22913509050176 tpu_client.py:54] Starting the local TPU driver.
+I0117 12:04:45.156604 22913509050176 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 12:04:45.444139 22913509050176 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 12:05:05.627649 22913509050176 amber_minimize.py:500] Iteration completed: Einit 3342437824582.42 Efinal 15594.14 Time 454.87 s num residue violations 54 num residue exclusions 0 
+I0117 12:05:05.671550 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 12:05:08.148631 22913509050176 amber_minimize.py:69] Restraining 12612 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:11:05.484270 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:11:16.639278 22913509050176 amber_minimize.py:500] Iteration completed: Einit 81900.33 Efinal 8059.75 Time 337.88 s num residue violations 17 num residue exclusions 54 
+I0117 12:11:16.640187 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 12:11:19.165004 22913509050176 amber_minimize.py:69] Restraining 12601 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:15:57.540861 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:16:08.773073 22913509050176 amber_minimize.py:500] Iteration completed: Einit 78830.41 Efinal 5886.42 Time 259.15 s num residue violations 17 num residue exclusions 55 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:16:30.510878 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 268 (SER) of chain 0>: ['OXT'], <Residue 537 (SER) of chain 1>: ['OXT'], <Residue 806 (SER) of chain 2>: ['OXT'], <Residue 1075 (SER) of chain 3>: ['OXT'], <Residue 1344 (SER) of chain 4>: ['OXT'], <Residue 1613 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:16:35.787695 22913509050176 run_af2c_min.py:110] IL1B_x6 relaxation done, time spent 1217.8 seconds, Efinal 5886.42, rmsd 0.38
+I0117 12:16:35.787825 22913509050176 run_af2c_min.py:88] IL1B_x6 processing model_5_multimer_v2_p1_230117_949173.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:16:58.532542 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 268 (SER) of chain 0>: ['OXT'], <Residue 537 (SER) of chain 1>: ['OXT'], <Residue 806 (SER) of chain 2>: ['OXT'], <Residue 1075 (SER) of chain 3>: ['OXT'], <Residue 1344 (SER) of chain 4>: ['OXT'], <Residue 1613 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:17:01.004922 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 12:17:03.504922 22913509050176 amber_minimize.py:69] Restraining 13050 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:24:13.053364 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:24:24.209477 22913509050176 amber_minimize.py:500] Iteration completed: Einit 83580212.69 Efinal 12708.41 Time 410.35 s num residue violations 56 num residue exclusions 0 
+I0117 12:24:24.210347 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 12:24:26.689290 22913509050176 amber_minimize.py:69] Restraining 12598 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:30:09.950720 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:30:21.042922 22913509050176 amber_minimize.py:500] Iteration completed: Einit 101188.67 Efinal 6721.11 Time 323.93 s num residue violations 33 num residue exclusions 56 
+I0117 12:30:21.043801 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 12:30:23.567973 22913509050176 amber_minimize.py:69] Restraining 12570 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:34:30.240764 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:34:41.188581 22913509050176 amber_minimize.py:500] Iteration completed: Einit 69345.55 Efinal 5008.97 Time 227.43 s num residue violations 25 num residue exclusions 60 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:35:03.481119 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 268 (SER) of chain 0>: ['OXT'], <Residue 537 (SER) of chain 1>: ['OXT'], <Residue 806 (SER) of chain 2>: ['OXT'], <Residue 1075 (SER) of chain 3>: ['OXT'], <Residue 1344 (SER) of chain 4>: ['OXT'], <Residue 1613 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:35:08.604289 22913509050176 run_af2c_min.py:110] IL1B_x6 relaxation done, time spent 1112.0 seconds, Efinal 5008.97, rmsd 0.37
+I0117 12:35:08.604414 22913509050176 run_af2c_min.py:88] IL1B_x6 processing model_1_multimer_v2_p1_230117_598188.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:35:31.374546 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 268 (SER) of chain 0>: ['OXT'], <Residue 537 (SER) of chain 1>: ['OXT'], <Residue 806 (SER) of chain 2>: ['OXT'], <Residue 1075 (SER) of chain 3>: ['OXT'], <Residue 1344 (SER) of chain 4>: ['OXT'], <Residue 1613 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:35:33.846479 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 12:35:36.332702 22913509050176 amber_minimize.py:69] Restraining 13050 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:41:54.316678 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:42:05.436613 22913509050176 amber_minimize.py:500] Iteration completed: Einit 560685759.51 Efinal 14059.11 Time 358.77 s num residue violations 11 num residue exclusions 0 
+I0117 12:42:05.437239 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 12:42:07.911027 22913509050176 amber_minimize.py:69] Restraining 12954 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:46:28.039992 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:46:39.123522 22913509050176 amber_minimize.py:500] Iteration completed: Einit 96142.57 Efinal 8593.08 Time 240.53 s num residue violations 3 num residue exclusions 11 
+I0117 12:46:39.124407 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 12:46:41.624215 22913509050176 amber_minimize.py:69] Restraining 12954 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:55:06.539339 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:55:17.503082 22913509050176 amber_minimize.py:500] Iteration completed: Einit 109556.91 Efinal 6813.66 Time 485.33 s num residue violations 3 num residue exclusions 11 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:55:40.036348 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 268 (SER) of chain 0>: ['OXT'], <Residue 537 (SER) of chain 1>: ['OXT'], <Residue 806 (SER) of chain 2>: ['OXT'], <Residue 1075 (SER) of chain 3>: ['OXT'], <Residue 1344 (SER) of chain 4>: ['OXT'], <Residue 1613 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:55:45.269033 22913509050176 run_af2c_min.py:110] IL1B_x6 relaxation done, time spent 1235.9 seconds, Efinal 6813.66, rmsd 0.40
+I0117 12:55:45.269156 22913509050176 run_af2c_min.py:88] IL1B_x6 processing model_4_multimer_v2_p1_230117_907870.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 12:56:07.845683 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 268 (SER) of chain 0>: ['OXT'], <Residue 537 (SER) of chain 1>: ['OXT'], <Residue 806 (SER) of chain 2>: ['OXT'], <Residue 1075 (SER) of chain 3>: ['OXT'], <Residue 1344 (SER) of chain 4>: ['OXT'], <Residue 1613 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 12:56:10.284942 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 12:56:12.796138 22913509050176 amber_minimize.py:69] Restraining 13050 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:01:38.490194 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 13:01:49.637986 22913509050176 amber_minimize.py:500] Iteration completed: Einit 8316459901625285.00 Efinal 13309.21 Time 306.36 s num residue violations 12 num residue exclusions 0 
+I0117 13:01:49.638891 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 13:01:52.173324 22913509050176 amber_minimize.py:69] Restraining 12950 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:06:01.033837 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 13:06:12.018085 22913509050176 amber_minimize.py:500] Iteration completed: Einit 76425.51 Efinal 8189.88 Time 229.60 s num residue violations 2 num residue exclusions 12 
+I0117 13:06:12.018955 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 13:06:14.558832 22913509050176 amber_minimize.py:69] Restraining 12950 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:10:32.265333 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 13:10:43.257560 22913509050176 amber_minimize.py:500] Iteration completed: Einit 71302.57 Efinal 6370.49 Time 238.39 s num residue violations 2 num residue exclusions 12 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:11:05.997351 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 268 (SER) of chain 0>: ['OXT'], <Residue 537 (SER) of chain 1>: ['OXT'], <Residue 806 (SER) of chain 2>: ['OXT'], <Residue 1075 (SER) of chain 3>: ['OXT'], <Residue 1344 (SER) of chain 4>: ['OXT'], <Residue 1613 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 13:11:11.240505 22913509050176 run_af2c_min.py:110] IL1B_x6 relaxation done, time spent 925.1 seconds, Efinal 6370.49, rmsd 0.37
+I0117 13:11:11.240634 22913509050176 run_af2c_min.py:88] IL1B_x6 processing model_3_multimer_v2_p1_230117_179917.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:11:34.009444 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 268 (SER) of chain 0>: ['OXT'], <Residue 537 (SER) of chain 1>: ['OXT'], <Residue 806 (SER) of chain 2>: ['OXT'], <Residue 1075 (SER) of chain 3>: ['OXT'], <Residue 1344 (SER) of chain 4>: ['OXT'], <Residue 1613 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 13:11:36.502469 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 13:11:39.007251 22913509050176 amber_minimize.py:69] Restraining 13050 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:17:02.129457 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 13:17:13.270223 22913509050176 amber_minimize.py:500] Iteration completed: Einit 210103.06 Efinal 12360.64 Time 303.75 s num residue violations 10 num residue exclusions 0 
+I0117 13:17:13.271091 22913509050176 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0117 13:17:15.760763 22913509050176 amber_minimize.py:69] Restraining 12956 / 25686 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:21:56.777323 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 13:22:07.855880 22913509050176 amber_minimize.py:500] Iteration completed: Einit 99576.27 Efinal 7547.75 Time 261.77 s num residue violations 0 num residue exclusions 10 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:22:30.343756 22913509050176 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 268 (SER) of chain 0>: ['OXT'], <Residue 537 (SER) of chain 1>: ['OXT'], <Residue 806 (SER) of chain 2>: ['OXT'], <Residue 1075 (SER) of chain 3>: ['OXT'], <Residue 1344 (SER) of chain 4>: ['OXT'], <Residue 1613 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0117 13:22:35.512603 22913509050176 run_af2c_min.py:110] IL1B_x6 relaxation done, time spent 683.5 seconds, Efinal 7547.75, rmsd 0.40
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  6_RLX
+Node list: ravg1057
+Job start: Tue Jan 17 11:55:39 CET 2023
+Job end:   Tue Jan 17 13:22:37 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/IL1B
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/IL1B/script3_relaxation.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3904190            6_RLX      1           108                             01:26:58      0:0
+3904190.0        python3      1      1    108    26235.87M    26235.87M   01:26:47      0:0
+  
+Maximum memory per node: 27.510303 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 83.6 %
+  

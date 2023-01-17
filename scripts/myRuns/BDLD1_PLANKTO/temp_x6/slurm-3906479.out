@@ -1,0 +1,36 @@
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:19:09.695383 22466406926144 templates.py:857] Using precomputed obsolete pdbs /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb_mmcif/obsolete.dat.
+I0117 13:19:09.980086 22466406926144 tpu_client.py:54] Starting the local TPU driver.
+I0117 13:19:10.083359 22466406926144 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 13:19:10.433921 22466406926144 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 13:19:16.904888 22466406926144 run_alphafold.py:384] Have 5 models: ['model_1_pred_0', 'model_2_pred_0', 'model_3_pred_0', 'model_4_pred_0', 'model_5_pred_0']
+I0117 13:19:16.905111 22466406926144 run_alphafold.py:400] Using random seed 1486489394116038772 for the data pipeline
+I0117 13:19:16.905301 22466406926144 run_alphafold.py:165] Predicting BDLD1_PLANKTO
+I0117 13:19:16.908981 22466406926144 jackhmmer.py:139] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/jackhmmer -o /dev/null -A /dev/shm/tmptcfo01f7/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 54 -N 1 /u/flobnow/fluffyAlpaca/fasta_files/BDLD1_PLANKTO.fasta /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/uniref90/uniref90.fasta"
+I0117 13:19:17.053330 22466406926144 utils.py:36] Started Jackhmmer (uniref90.fasta) query
+I0117 13:24:30.411050 22466406926144 utils.py:40] Finished Jackhmmer (uniref90.fasta) query in 313.357 seconds
+I0117 13:24:32.433691 22466406926144 jackhmmer.py:139] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/jackhmmer -o /dev/null -A /dev/shm/tmps8ly0izn/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 54 -N 1 /u/flobnow/fluffyAlpaca/fasta_files/BDLD1_PLANKTO.fasta /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/mgnify/mgy_clusters_2018_12.fa"
+I0117 13:24:32.475056 22466406926144 utils.py:36] Started Jackhmmer (mgy_clusters_2018_12.fa) query
+I0117 13:30:39.184781 22466406926144 utils.py:40] Finished Jackhmmer (mgy_clusters_2018_12.fa) query in 366.709 seconds
+I0117 13:30:39.187324 22466406926144 hhsearch.py:85] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhsearch -i /dev/shm/tmp478hjmx7/query.a3m -o /dev/shm/tmp478hjmx7/output.hhr -maxseq 1000000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb70/pdb70"
+I0117 13:30:39.277588 22466406926144 utils.py:36] Started HHsearch query
+I0117 13:31:07.732995 22466406926144 utils.py:40] Finished HHsearch query in 28.455 seconds
+I0117 13:31:07.737055 22466406926144 hhblits.py:134] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhblits -i /u/flobnow/fluffyAlpaca/fasta_files/BDLD1_PLANKTO.fasta -cpu 54 -oa3m /dev/shm/tmp8zdgpbxd/output.a3m -o /dev/null -n 3 -e 0.001 -maxseq 1000000 -realign_max 100000 -maxfilt 100000 -min_prefilter_hits 1000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/bfd/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/uniclust30/uniclust30_2018_08/uniclust30_2018_08"
+I0117 13:31:07.802249 22466406926144 utils.py:36] Started HHblits query
+I0117 13:38:38.639329 22466406926144 utils.py:40] Finished HHblits query in 450.837 seconds
+I0117 13:38:38.678325 22466406926144 templates.py:878] Searching for template for: RLQLKDAKSPRNLFDFNFKVLFCSEHRLYGWIFPIFLKQLRDRQHPDDMLWTQLDDLCTKVEAWKNQPQACQQQVPQSEHKLFKSLLRIDFDEQEEAVMEVLDSPSYNKTAAFLVHGEEKFGQ
+I0117 13:38:38.923695 22466406926144 templates.py:268] Found an exact template match 4ynh_A.
+I0117 13:38:39.068920 22466406926144 templates.py:268] Found an exact template match 1e9k_A.
+I0117 13:38:39.666147 22466406926144 templates.py:268] Found an exact template match 1rq6_A.
+I0117 13:38:40.799146 22466406926144 templates.py:268] Found an exact template match 2l2l_B.
+I0117 13:38:41.238566 22466406926144 templates.py:268] Found an exact template match 4tps_A.
+I0117 13:38:41.373351 22466406926144 templates.py:268] Found an exact template match 2gno_A.
+I0117 13:38:41.702133 22466406926144 templates.py:268] Found an exact template match 4uaf_E.
+I0117 13:38:41.900268 22466406926144 templates.py:268] Found an exact template match 4uad_E.
+I0117 13:38:41.958167 22466406926144 templates.py:268] Found an exact template match 1sbx_A.
+I0117 13:38:45.541612 22466406926144 templates.py:268] Found an exact template match 5jb3_S.
+I0117 13:38:45.556818 22466406926144 pipeline.py:234] Uniref90 MSA size: 15 sequences.
+I0117 13:38:45.556938 22466406926144 pipeline.py:235] BFD MSA size: 328 sequences.
+I0117 13:38:45.556981 22466406926144 pipeline.py:236] MGnify MSA size: 7 sequences.
+I0117 13:38:45.557018 22466406926144 pipeline.py:238] Final (deduplicated) MSA size: 346 sequences.
+I0117 13:38:45.557259 22466406926144 pipeline.py:241] Total number of templates (NB: this can include bad templates and is later filtered to top 4): 10.

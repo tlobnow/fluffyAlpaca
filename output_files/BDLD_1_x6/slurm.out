@@ -1,0 +1,443 @@
+Info: input file name is BDLD_1
+Info: input target list is /u/flobnow/playground/scripts/pipe/BDLD_1/target.lst
+Info: input feature directory is /u/flobnow/playground/feature_files
+Info: result output directory is /u/flobnow/playground/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0109 08:34:12.708155 23377241511744 tpu_client.py:54] Starting the local TPU driver.
+I0109 08:34:12.708509 23377241511744 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0109 08:34:13.052820 23377241511744 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0109 08:34:16.507415 23377241511744 run_af2c_mod.py:482] Have 1 models: ['model_1_multimer_v2_p1']
+Info: working on target BDLD_1_x6
+I0109 08:34:20.511687 23377241511744 run_af2c_mod.py:512] Using random seed 4457175522627818645 for the data pipeline
+Info: BDLD_1_x6 found monomer BDLD_1 msa_depth = 438, seq_len = 73, num_templ = 20
+Info: BDLD_1 reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'BDLD_1_1', 'B': 'BDLD_1_1', 'C': 'BDLD_1_1', 'D': 'BDLD_1_1', 'E': 'BDLD_1_1', 'F': 'BDLD_1_1'}
+Info: modeling BDLD_1_x6 with msa_depth = 512, seq_len = 438, num_templ = 24
+I0109 08:34:20.568417 23377241511744 run_af2c_mod.py:216] Running model model_1_multimer_v2_p1_230109_818645
+I0109 08:34:20.568880 23377241511744 model.py:206] Running predict with shape(feat) = {'msa': (512, 438), 'bert_mask': (512, 438), 'num_alignments': (), 'aatype': (438,), 'seq_length': (), 'template_aatype': (24, 438), 'template_all_atom_mask': (24, 438, 37), 'template_all_atom_positions': (24, 438, 37, 3), 'all_atom_positions': (438, 37, 3), 'template_domain_names': (24,), 'asym_id': (438,), 'sym_id': (438,), 'entity_id': (438,), 'residue_index': (438,), 'deletion_matrix': (512, 438), 'seq_mask': (438,), 'msa_mask': (512, 438), 'cluster_bias_mask': (512,), 'pdb_residue_index': (438,)}
+I0109 08:36:55.497027 23377241511744 model.py:226] Saving checkpoint at recycle round 6
+I0109 08:36:55.651840 23377241511744 model.py:236] Checkpoint saved to /u/flobnow/playground/output_files/BDLD_1_x6/checkpoint/model_1_multimer_v2_p1_ckpt.pkl
+I0109 08:37:54.035777 23377241511744 run_af2c_mod.py:271] Total JAX model model_1_multimer_v2_p1_230109_818645 predict time (includes compilation time): 213.5 seconds
+Info: BDLD_1_x6 model_1_multimer_v2_p1_230109_818645_recycled_00,  tol =   inf, pLDDT = 82.05, pTM-score = 0.3527, piTM-score = 0.2778, interface-score = 0.2546, iRes = 84   iCnt = 79  
+Info: BDLD_1_x6 model_1_multimer_v2_p1_230109_818645_recycled_01,  tol = 52.29, pLDDT = 92.60, pTM-score = 0.7275, piTM-score = 0.5710, interface-score = 0.6560, iRes = 98   iCnt = 98  
+Info: BDLD_1_x6 model_1_multimer_v2_p1_230109_818645_recycled_02,  tol =  1.08, pLDDT = 94.18, pTM-score = 0.7846, piTM-score = 0.6111, interface-score = 0.7019, iRes = 97   iCnt = 100 
+Info: BDLD_1_x6 model_1_multimer_v2_p1_230109_818645_recycled_03,  tol =  0.22, pLDDT = 94.39, pTM-score = 0.7951, piTM-score = 0.6127, interface-score = 0.7001, iRes = 91   iCnt = 96  
+Info: BDLD_1_x6 model_1_multimer_v2_p1_230109_818645_recycled_04,  tol =  0.21, pLDDT = 94.30, pTM-score = 0.7883, piTM-score = 0.6075, interface-score = 0.6931, iRes = 90   iCnt = 95  
+Info: BDLD_1_x6 model_1_multimer_v2_p1_230109_818645_recycled_05,  tol =  0.11, pLDDT = 94.25, pTM-score = 0.7839, piTM-score = 0.6030, interface-score = 0.6879, iRes = 89   iCnt = 94  
+Info: BDLD_1_x6 model_1_multimer_v2_p1_230109_818645 performed 6 recycles, final tol = 0.07, pLDDT = 94.51, pTM-score = 0.7971, piTM-score = 0.6101, interface-score = 0.6957, iRes = 88   iCnt = 93  
+Info: num_clusters = 1, cluster_sizes = [6],  clusters = [['BDLD_1_0', 'BDLD_1_1', 'BDLD_1_2', 'BDLD_1_3', 'BDLD_1_4', 'BDLD_1_5']]
+
+I0109 08:37:55.879441 23377241511744 run_af2c_mod.py:404] Final timings for BDLD_1_x6: {'features': 0.06, 'process_features_model_1_multimer_v2_p1_230109_818645': 0.0, 'predict_and_compile_model_1_multimer_v2_p1_230109_818645': 213.5}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  1_AF2C
+Node list: ravg1068
+Job start: Mon Jan  9 08:34:05 CET 2023
+Job end:   Mon Jan  9 08:37:58 CET 2023
+Work dir:  /raven/u/flobnow/playground/scripts/pipe/BDLD_1
+Command:   /raven/u/flobnow/playground/scripts/pipe/BDLD_1/script2_comp_model_1.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3824615           1_AF2C      1           108                             00:03:53      0:0
+3824615.0        python3      1      1    108    16932.62M    16932.62M   00:03:51      0:0
+  
+Maximum memory per node: 17.755134 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 2.1 %
+  
+Info: input file name is BDLD_1
+Info: input target list is /u/flobnow/playground/scripts/pipe/BDLD_1/target.lst
+Info: input feature directory is /u/flobnow/playground/feature_files
+Info: result output directory is /u/flobnow/playground/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0109 08:46:18.933994 22357016819520 tpu_client.py:54] Starting the local TPU driver.
+I0109 08:46:18.934349 22357016819520 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0109 08:46:19.250665 22357016819520 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0109 08:46:22.650462 22357016819520 run_af2c_mod.py:482] Have 1 models: ['model_2_multimer_v2_p1']
+Info: working on target BDLD_1_x6
+I0109 08:46:29.657702 22357016819520 run_af2c_mod.py:512] Using random seed 2188501149707433935 for the data pipeline
+Info: BDLD_1_x6 found monomer BDLD_1 msa_depth = 438, seq_len = 73, num_templ = 20
+Info: BDLD_1 reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'BDLD_1_1', 'B': 'BDLD_1_1', 'C': 'BDLD_1_1', 'D': 'BDLD_1_1', 'E': 'BDLD_1_1', 'F': 'BDLD_1_1'}
+Info: modeling BDLD_1_x6 with msa_depth = 512, seq_len = 438, num_templ = 24
+I0109 08:46:29.718929 22357016819520 run_af2c_mod.py:216] Running model model_2_multimer_v2_p1_230109_433935
+I0109 08:46:29.720870 22357016819520 model.py:206] Running predict with shape(feat) = {'msa': (512, 438), 'bert_mask': (512, 438), 'num_alignments': (), 'aatype': (438,), 'seq_length': (), 'template_aatype': (24, 438), 'template_all_atom_mask': (24, 438, 37), 'template_all_atom_positions': (24, 438, 37, 3), 'all_atom_positions': (438, 37, 3), 'template_domain_names': (24,), 'asym_id': (438,), 'sym_id': (438,), 'entity_id': (438,), 'residue_index': (438,), 'deletion_matrix': (512, 438), 'seq_mask': (438,), 'msa_mask': (512, 438), 'cluster_bias_mask': (512,), 'pdb_residue_index': (438,)}
+I0109 08:51:30.323788 22357016819520 model.py:226] Saving checkpoint at recycle round 20
+I0109 08:51:30.426870 22357016819520 model.py:236] Checkpoint saved to /u/flobnow/playground/output_files/BDLD_1_x6/checkpoint/model_2_multimer_v2_p1_ckpt.pkl
+I0109 08:53:42.165449 22357016819520 run_af2c_mod.py:271] Total JAX model model_2_multimer_v2_p1_230109_433935 predict time (includes compilation time): 432.4 seconds
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_00,  tol =   inf, pLDDT = 82.56, pTM-score = 0.4211, piTM-score = 0.3707, interface-score = 0.3098, iRes = 58   iCnt = 47  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_01,  tol = 53.49, pLDDT = 86.44, pTM-score = 0.4423, piTM-score = 0.3462, interface-score = 0.4056, iRes = 82   iCnt = 77  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_02,  tol =  1.63, pLDDT = 85.00, pTM-score = 0.4120, piTM-score = 0.3167, interface-score = 0.3256, iRes = 74   iCnt = 68  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_03,  tol =  0.67, pLDDT = 84.73, pTM-score = 0.4010, piTM-score = 0.3173, interface-score = 0.3190, iRes = 71   iCnt = 62  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_04,  tol =  0.27, pLDDT = 84.36, pTM-score = 0.3923, piTM-score = 0.3179, interface-score = 0.2906, iRes = 67   iCnt = 53  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_05,  tol =  0.26, pLDDT = 84.12, pTM-score = 0.3898, piTM-score = 0.3162, interface-score = 0.2874, iRes = 67   iCnt = 54  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_06,  tol =  0.15, pLDDT = 84.61, pTM-score = 0.4003, piTM-score = 0.3129, interface-score = 0.2999, iRes = 66   iCnt = 52  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_07,  tol =  0.24, pLDDT = 84.42, pTM-score = 0.3899, piTM-score = 0.3067, interface-score = 0.2801, iRes = 65   iCnt = 49  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_08,  tol =  0.36, pLDDT = 84.34, pTM-score = 0.3918, piTM-score = 0.3051, interface-score = 0.2858, iRes = 66   iCnt = 51  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_09,  tol =  0.10, pLDDT = 84.67, pTM-score = 0.4010, piTM-score = 0.3113, interface-score = 0.3045, iRes = 67   iCnt = 53  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_10,  tol =  0.13, pLDDT = 85.40, pTM-score = 0.4188, piTM-score = 0.3277, interface-score = 0.3315, iRes = 70   iCnt = 58  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_11,  tol =  0.25, pLDDT = 85.97, pTM-score = 0.4313, piTM-score = 0.3353, interface-score = 0.3517, iRes = 70   iCnt = 57  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_12,  tol =  0.16, pLDDT = 84.91, pTM-score = 0.4044, piTM-score = 0.3131, interface-score = 0.3071, iRes = 66   iCnt = 52  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_13,  tol =  0.25, pLDDT = 85.08, pTM-score = 0.4081, piTM-score = 0.3218, interface-score = 0.3234, iRes = 69   iCnt = 55  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_14,  tol =  0.23, pLDDT = 84.84, pTM-score = 0.4031, piTM-score = 0.3142, interface-score = 0.3071, iRes = 66   iCnt = 52  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_15,  tol =  0.15, pLDDT = 85.27, pTM-score = 0.4156, piTM-score = 0.3256, interface-score = 0.3317, iRes = 70   iCnt = 57  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_16,  tol =  0.23, pLDDT = 85.01, pTM-score = 0.4044, piTM-score = 0.3104, interface-score = 0.3074, iRes = 68   iCnt = 54  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_17,  tol =  0.22, pLDDT = 83.94, pTM-score = 0.3820, piTM-score = 0.3016, interface-score = 0.2698, iRes = 64   iCnt = 48  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_18,  tol =  0.37, pLDDT = 83.95, pTM-score = 0.3842, piTM-score = 0.3021, interface-score = 0.2808, iRes = 65   iCnt = 50  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935_recycled_19,  tol =  0.13, pLDDT = 84.33, pTM-score = 0.3903, piTM-score = 0.3024, interface-score = 0.2876, iRes = 66   iCnt = 52  
+Info: BDLD_1_x6 model_2_multimer_v2_p1_230109_433935 performed 20 recycles, final tol = 0.19, pLDDT = 85.10, pTM-score = 0.4121, piTM-score = 0.3233, interface-score = 0.3238, iRes = 69   iCnt = 55  
+Info: num_clusters = 2, cluster_sizes = [4, 2],  clusters = [['BDLD_1_0', 'BDLD_1_1', 'BDLD_1_2', 'BDLD_1_3'], ['BDLD_1_4', 'BDLD_1_5']]
+
+I0109 08:53:44.118132 22357016819520 run_af2c_mod.py:404] Final timings for BDLD_1_x6: {'features': 0.06, 'process_features_model_2_multimer_v2_p1_230109_433935': 0.0, 'predict_and_compile_model_2_multimer_v2_p1_230109_433935': 432.4}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  2_AF2C
+Node list: ravg1189
+Job start: Mon Jan  9 08:46:12 CET 2023
+Job end:   Mon Jan  9 08:53:46 CET 2023
+Work dir:  /raven/u/flobnow/playground/scripts/pipe/BDLD_1
+Command:   /raven/u/flobnow/playground/scripts/pipe/BDLD_1/script2_comp_model_2.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3824632           2_AF2C      1           108                             00:07:34      0:0
+3824632.0        python3      1      1    108    18797.77M    18797.77M   00:07:32      0:0
+  
+Maximum memory per node: 19.710886 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 2.0 %
+  
+Info: input file name is BDLD_1
+Info: input target list is /u/flobnow/playground/scripts/pipe/BDLD_1/target.lst
+Info: input feature directory is /u/flobnow/playground/feature_files
+Info: result output directory is /u/flobnow/playground/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0109 08:46:19.365077 23078511257408 tpu_client.py:54] Starting the local TPU driver.
+I0109 08:46:19.365444 23078511257408 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0109 08:46:19.677935 23078511257408 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0109 08:46:23.163346 23078511257408 run_af2c_mod.py:482] Have 1 models: ['model_3_multimer_v2_p1']
+Info: working on target BDLD_1_x6
+I0109 08:46:33.173578 23078511257408 run_af2c_mod.py:512] Using random seed 5761068410200945052 for the data pipeline
+Info: BDLD_1_x6 found monomer BDLD_1 msa_depth = 438, seq_len = 73, num_templ = 20
+Info: BDLD_1 reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'BDLD_1_1', 'B': 'BDLD_1_1', 'C': 'BDLD_1_1', 'D': 'BDLD_1_1', 'E': 'BDLD_1_1', 'F': 'BDLD_1_1'}
+Info: modeling BDLD_1_x6 with msa_depth = 512, seq_len = 438, num_templ = 24
+I0109 08:46:33.235611 23078511257408 run_af2c_mod.py:216] Running model model_3_multimer_v2_p1_230109_945052
+I0109 08:46:33.236810 23078511257408 model.py:206] Running predict with shape(feat) = {'msa': (512, 438), 'bert_mask': (512, 438), 'num_alignments': (), 'aatype': (438,), 'seq_length': (), 'template_aatype': (24, 438), 'template_all_atom_mask': (24, 438, 37), 'template_all_atom_positions': (24, 438, 37, 3), 'all_atom_positions': (438, 37, 3), 'template_domain_names': (24,), 'asym_id': (438,), 'sym_id': (438,), 'entity_id': (438,), 'residue_index': (438,), 'deletion_matrix': (512, 438), 'seq_mask': (438,), 'msa_mask': (512, 438), 'cluster_bias_mask': (512,), 'pdb_residue_index': (438,)}
+I0109 08:48:51.227879 23078511257408 model.py:226] Saving checkpoint at recycle round 5
+I0109 08:48:51.335711 23078511257408 model.py:236] Checkpoint saved to /u/flobnow/playground/output_files/BDLD_1_x6/checkpoint/model_3_multimer_v2_p1_ckpt.pkl
+I0109 08:49:44.439566 23078511257408 run_af2c_mod.py:271] Total JAX model model_3_multimer_v2_p1_230109_945052 predict time (includes compilation time): 191.2 seconds
+Info: BDLD_1_x6 model_3_multimer_v2_p1_230109_945052_recycled_00,  tol =   inf, pLDDT = 86.59, pTM-score = 0.5149, piTM-score = 0.3998, interface-score = 0.4581, iRes = 82   iCnt = 74  
+Info: BDLD_1_x6 model_3_multimer_v2_p1_230109_945052_recycled_01,  tol = 50.54, pLDDT = 88.61, pTM-score = 0.5304, piTM-score = 0.4166, interface-score = 0.5201, iRes = 83   iCnt = 78  
+Info: BDLD_1_x6 model_3_multimer_v2_p1_230109_945052_recycled_02,  tol =  1.35, pLDDT = 87.67, pTM-score = 0.4892, piTM-score = 0.3867, interface-score = 0.4823, iRes = 80   iCnt = 69  
+Info: BDLD_1_x6 model_3_multimer_v2_p1_230109_945052_recycled_03,  tol =  0.76, pLDDT = 87.58, pTM-score = 0.4802, piTM-score = 0.3806, interface-score = 0.4769, iRes = 80   iCnt = 69  
+Info: BDLD_1_x6 model_3_multimer_v2_p1_230109_945052_recycled_04,  tol =  0.14, pLDDT = 87.67, pTM-score = 0.4823, piTM-score = 0.3849, interface-score = 0.4816, iRes = 80   iCnt = 70  
+Info: BDLD_1_x6 model_3_multimer_v2_p1_230109_945052 performed 5 recycles, final tol = 0.05, pLDDT = 87.73, pTM-score = 0.4815, piTM-score = 0.3806, interface-score = 0.4804, iRes = 80   iCnt = 70  
+Info: num_clusters = 1, cluster_sizes = [6],  clusters = [['BDLD_1_0', 'BDLD_1_1', 'BDLD_1_2', 'BDLD_1_3', 'BDLD_1_4', 'BDLD_1_5']]
+
+I0109 08:49:46.495533 23078511257408 run_af2c_mod.py:404] Final timings for BDLD_1_x6: {'features': 0.06, 'process_features_model_3_multimer_v2_p1_230109_945052': 0.0, 'predict_and_compile_model_3_multimer_v2_p1_230109_945052': 191.2}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  3_AF2C
+Node list: ravg1199
+Job start: Mon Jan  9 08:46:12 CET 2023
+Job end:   Mon Jan  9 08:49:48 CET 2023
+Work dir:  /raven/u/flobnow/playground/scripts/pipe/BDLD_1
+Command:   /raven/u/flobnow/playground/scripts/pipe/BDLD_1/script2_comp_model_3.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3824640           3_AF2C      1           108                             00:03:36      0:0
+3824640.0        python3      1      1    108    16861.40M    16861.40M   00:03:34      0:0
+  
+Maximum memory per node: 17.680462 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 2.2 %
+  
+Info: input file name is BDLD_1
+Info: input target list is /u/flobnow/playground/scripts/pipe/BDLD_1/target.lst
+Info: input feature directory is /u/flobnow/playground/feature_files
+Info: result output directory is /u/flobnow/playground/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0109 08:46:19.366447 22688685123392 tpu_client.py:54] Starting the local TPU driver.
+I0109 08:46:19.366805 22688685123392 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0109 08:46:19.690388 22688685123392 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0109 08:46:23.030614 22688685123392 run_af2c_mod.py:482] Have 1 models: ['model_4_multimer_v2_p1']
+Info: working on target BDLD_1_x6
+I0109 08:46:32.039842 22688685123392 run_af2c_mod.py:512] Using random seed 6357714255313062605 for the data pipeline
+Info: BDLD_1_x6 found monomer BDLD_1 msa_depth = 438, seq_len = 73, num_templ = 20
+Info: BDLD_1 reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'BDLD_1_1', 'B': 'BDLD_1_1', 'C': 'BDLD_1_1', 'D': 'BDLD_1_1', 'E': 'BDLD_1_1', 'F': 'BDLD_1_1'}
+Info: modeling BDLD_1_x6 with msa_depth = 512, seq_len = 438, num_templ = 24
+I0109 08:46:32.100356 22688685123392 run_af2c_mod.py:216] Running model model_4_multimer_v2_p1_230109_062605
+I0109 08:46:32.101556 22688685123392 model.py:206] Running predict with shape(feat) = {'msa': (512, 438), 'bert_mask': (512, 438), 'num_alignments': (), 'aatype': (438,), 'seq_length': (), 'template_aatype': (24, 438), 'template_all_atom_mask': (24, 438, 37), 'template_all_atom_positions': (24, 438, 37, 3), 'all_atom_positions': (438, 37, 3), 'template_domain_names': (24,), 'asym_id': (438,), 'sym_id': (438,), 'entity_id': (438,), 'residue_index': (438,), 'deletion_matrix': (512, 438), 'seq_mask': (438,), 'msa_mask': (512, 438), 'cluster_bias_mask': (512,), 'pdb_residue_index': (438,)}
+I0109 08:49:21.080962 22688685123392 model.py:226] Saving checkpoint at recycle round 8
+I0109 08:49:21.168205 22688685123392 model.py:236] Checkpoint saved to /u/flobnow/playground/output_files/BDLD_1_x6/checkpoint/model_4_multimer_v2_p1_ckpt.pkl
+I0109 08:50:29.565549 22688685123392 run_af2c_mod.py:271] Total JAX model model_4_multimer_v2_p1_230109_062605 predict time (includes compilation time): 237.5 seconds
+Info: BDLD_1_x6 model_4_multimer_v2_p1_230109_062605_recycled_00,  tol =   inf, pLDDT = 79.42, pTM-score = 0.3723, piTM-score = 0.3110, interface-score = 0.2599, iRes = 75   iCnt = 63  
+Info: BDLD_1_x6 model_4_multimer_v2_p1_230109_062605_recycled_01,  tol = 52.34, pLDDT = 87.93, pTM-score = 0.5165, piTM-score = 0.4051, interface-score = 0.4931, iRes = 91   iCnt = 91  
+Info: BDLD_1_x6 model_4_multimer_v2_p1_230109_062605_recycled_02,  tol =  1.31, pLDDT = 88.80, pTM-score = 0.5214, piTM-score = 0.3803, interface-score = 0.4779, iRes = 80   iCnt = 80  
+Info: BDLD_1_x6 model_4_multimer_v2_p1_230109_062605_recycled_03,  tol =  0.82, pLDDT = 89.45, pTM-score = 0.5419, piTM-score = 0.3972, interface-score = 0.4966, iRes = 78   iCnt = 78  
+Info: BDLD_1_x6 model_4_multimer_v2_p1_230109_062605_recycled_04,  tol =  0.16, pLDDT = 89.37, pTM-score = 0.5321, piTM-score = 0.3905, interface-score = 0.4938, iRes = 78   iCnt = 78  
+Info: BDLD_1_x6 model_4_multimer_v2_p1_230109_062605_recycled_05,  tol =  0.14, pLDDT = 89.95, pTM-score = 0.5571, piTM-score = 0.4078, interface-score = 0.5142, iRes = 79   iCnt = 79  
+Info: BDLD_1_x6 model_4_multimer_v2_p1_230109_062605_recycled_06,  tol =  0.23, pLDDT = 89.63, pTM-score = 0.5382, piTM-score = 0.3963, interface-score = 0.5053, iRes = 79   iCnt = 80  
+Info: BDLD_1_x6 model_4_multimer_v2_p1_230109_062605_recycled_07,  tol =  0.24, pLDDT = 89.34, pTM-score = 0.5309, piTM-score = 0.3885, interface-score = 0.4962, iRes = 79   iCnt = 79  
+Info: BDLD_1_x6 model_4_multimer_v2_p1_230109_062605 performed 8 recycles, final tol = 0.06, pLDDT = 88.95, pTM-score = 0.5146, piTM-score = 0.3783, interface-score = 0.4820, iRes = 78   iCnt = 78  
+Info: num_clusters = 1, cluster_sizes = [6],  clusters = [['BDLD_1_0', 'BDLD_1_1', 'BDLD_1_2', 'BDLD_1_3', 'BDLD_1_4', 'BDLD_1_5']]
+
+I0109 08:50:31.458832 22688685123392 run_af2c_mod.py:404] Final timings for BDLD_1_x6: {'features': 0.06, 'process_features_model_4_multimer_v2_p1_230109_062605': 0.0, 'predict_and_compile_model_4_multimer_v2_p1_230109_062605': 237.5}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  4_AF2C
+Node list: ravg1038
+Job start: Mon Jan  9 08:46:12 CET 2023
+Job end:   Mon Jan  9 08:50:33 CET 2023
+Work dir:  /raven/u/flobnow/playground/scripts/pipe/BDLD_1
+Command:   /raven/u/flobnow/playground/scripts/pipe/BDLD_1/script2_comp_model_4.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3824660           4_AF2C      1           108                             00:04:21      0:0
+3824660.0        python3      1      1    108    17264.68M    17264.68M   00:04:19      0:0
+  
+Maximum memory per node: 18.103325 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 2.0 %
+  
+Info: input file name is BDLD_1
+Info: input target list is /u/flobnow/playground/scripts/pipe/BDLD_1/target.lst
+Info: input feature directory is /u/flobnow/playground/feature_files
+Info: result output directory is /u/flobnow/playground/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0109 08:50:26.870303 23367069427520 tpu_client.py:54] Starting the local TPU driver.
+I0109 08:50:26.870661 23367069427520 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0109 08:50:27.194705 23367069427520 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0109 08:50:30.638090 23367069427520 run_af2c_mod.py:482] Have 1 models: ['model_5_multimer_v2_p1']
+Info: working on target BDLD_1_x6
+I0109 08:50:35.643348 23367069427520 run_af2c_mod.py:512] Using random seed 3298647715418438780 for the data pipeline
+Info: BDLD_1_x6 found monomer BDLD_1 msa_depth = 438, seq_len = 73, num_templ = 20
+Info: BDLD_1 reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'BDLD_1_1', 'B': 'BDLD_1_1', 'C': 'BDLD_1_1', 'D': 'BDLD_1_1', 'E': 'BDLD_1_1', 'F': 'BDLD_1_1'}
+Info: modeling BDLD_1_x6 with msa_depth = 512, seq_len = 438, num_templ = 24
+I0109 08:50:35.703511 23367069427520 run_af2c_mod.py:216] Running model model_5_multimer_v2_p1_230109_438780
+I0109 08:50:35.706635 23367069427520 model.py:206] Running predict with shape(feat) = {'msa': (512, 438), 'bert_mask': (512, 438), 'num_alignments': (), 'aatype': (438,), 'seq_length': (), 'template_aatype': (24, 438), 'template_all_atom_mask': (24, 438, 37), 'template_all_atom_positions': (24, 438, 37, 3), 'all_atom_positions': (438, 37, 3), 'template_domain_names': (24,), 'asym_id': (438,), 'sym_id': (438,), 'entity_id': (438,), 'residue_index': (438,), 'deletion_matrix': (512, 438), 'seq_mask': (438,), 'msa_mask': (512, 438), 'cluster_bias_mask': (512,), 'pdb_residue_index': (438,)}
+I0109 08:52:41.541221 23367069427520 model.py:226] Saving checkpoint at recycle round 4
+I0109 08:52:41.666741 23367069427520 model.py:236] Checkpoint saved to /u/flobnow/playground/output_files/BDLD_1_x6/checkpoint/model_5_multimer_v2_p1_ckpt.pkl
+I0109 08:53:28.920254 23367069427520 run_af2c_mod.py:271] Total JAX model model_5_multimer_v2_p1_230109_438780 predict time (includes compilation time): 173.2 seconds
+Info: BDLD_1_x6 model_5_multimer_v2_p1_230109_438780_recycled_00,  tol =   inf, pLDDT = 92.75, pTM-score = 0.7568, piTM-score = 0.5850, interface-score = 0.6922, iRes = 90   iCnt = 85  
+Info: BDLD_1_x6 model_5_multimer_v2_p1_230109_438780_recycled_01,  tol = 50.09, pLDDT = 92.64, pTM-score = 0.7264, piTM-score = 0.5728, interface-score = 0.6750, iRes = 95   iCnt = 90  
+Info: BDLD_1_x6 model_5_multimer_v2_p1_230109_438780_recycled_02,  tol =  1.07, pLDDT = 92.10, pTM-score = 0.6891, piTM-score = 0.5459, interface-score = 0.6405, iRes = 92   iCnt = 87  
+Info: BDLD_1_x6 model_5_multimer_v2_p1_230109_438780_recycled_03,  tol =  0.34, pLDDT = 91.92, pTM-score = 0.6753, piTM-score = 0.5357, interface-score = 0.6368, iRes = 94   iCnt = 89  
+Info: BDLD_1_x6 model_5_multimer_v2_p1_230109_438780 performed 4 recycles, final tol = 0.09, pLDDT = 91.65, pTM-score = 0.6644, piTM-score = 0.5273, interface-score = 0.6324, iRes = 95   iCnt = 90  
+Info: num_clusters = 1, cluster_sizes = [6],  clusters = [['BDLD_1_0', 'BDLD_1_1', 'BDLD_1_2', 'BDLD_1_3', 'BDLD_1_4', 'BDLD_1_5']]
+
+I0109 08:53:30.786896 23367069427520 run_af2c_mod.py:404] Final timings for BDLD_1_x6: {'features': 0.06, 'process_features_model_5_multimer_v2_p1_230109_438780': 0.0, 'predict_and_compile_model_5_multimer_v2_p1_230109_438780': 173.2}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  5_AF2C
+Node list: ravg1126
+Job start: Mon Jan  9 08:50:20 CET 2023
+Job end:   Mon Jan  9 08:53:32 CET 2023
+Work dir:  /raven/u/flobnow/playground/scripts/pipe/BDLD_1
+Command:   /raven/u/flobnow/playground/scripts/pipe/BDLD_1/script2_comp_model_5.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3824687           5_AF2C      1           108                             00:03:12      0:0
+3824687.0        python3      1      1    108    16680.52M    16680.52M   00:03:11      0:0
+  
+Maximum memory per node: 17.490797 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 2.2 %
+  
+Info: target file is /u/flobnow/playground/scripts/pipe/BDLD_1/target.lst
+Info: input directory of unrelaxed models is /u/flobnow/playground/output_files
+Info: output directory of relaxed models is /u/flobnow/playground/output_files
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:12:59.820374 22977990162240 run_af2c_min.py:88] BDLD_1_x6 processing model_1_multimer_v2_p1_230109_818645.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:13:04.962839 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 72 (SER) of chain 0>: ['OXT'], <Residue 145 (SER) of chain 1>: ['OXT'], <Residue 218 (SER) of chain 2>: ['OXT'], <Residue 291 (SER) of chain 3>: ['OXT'], <Residue 364 (SER) of chain 4>: ['OXT'], <Residue 437 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:13:05.612642 22977990162240 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0109 09:13:06.399686 22977990162240 amber_minimize.py:69] Restraining 3612 / 7236 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:13:29.676445 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:13:30.324274 22977990162240 tpu_client.py:54] Starting the local TPU driver.
+I0109 09:13:30.324665 22977990162240 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0109 09:13:30.540193 22977990162240 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0109 09:13:39.282523 22977990162240 amber_minimize.py:500] Iteration completed: Einit 5099.16 Efinal -16702.19 Time 21.89 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:13:41.591528 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 72 (SER) of chain 0>: ['OXT'], <Residue 145 (SER) of chain 1>: ['OXT'], <Residue 218 (SER) of chain 2>: ['OXT'], <Residue 291 (SER) of chain 3>: ['OXT'], <Residue 364 (SER) of chain 4>: ['OXT'], <Residue 437 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:13:42.927683 22977990162240 run_af2c_min.py:110] BDLD_1_x6 relaxation done, time spent 42.9 seconds, Efinal -16702.19, rmsd 0.42
+I0109 09:13:42.927802 22977990162240 run_af2c_min.py:88] BDLD_1_x6 processing model_3_multimer_v2_p1_230109_945052.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:13:45.197598 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 72 (SER) of chain 0>: ['OXT'], <Residue 145 (SER) of chain 1>: ['OXT'], <Residue 218 (SER) of chain 2>: ['OXT'], <Residue 291 (SER) of chain 3>: ['OXT'], <Residue 364 (SER) of chain 4>: ['OXT'], <Residue 437 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:13:45.813559 22977990162240 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0109 09:13:46.548153 22977990162240 amber_minimize.py:69] Restraining 3612 / 7236 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:14:03.922177 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:14:05.199055 22977990162240 amber_minimize.py:500] Iteration completed: Einit 3314.07 Efinal -16616.23 Time 16.14 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:14:07.420903 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 72 (SER) of chain 0>: ['OXT'], <Residue 145 (SER) of chain 1>: ['OXT'], <Residue 218 (SER) of chain 2>: ['OXT'], <Residue 291 (SER) of chain 3>: ['OXT'], <Residue 364 (SER) of chain 4>: ['OXT'], <Residue 437 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:14:08.747263 22977990162240 run_af2c_min.py:110] BDLD_1_x6 relaxation done, time spent 25.6 seconds, Efinal -16616.23, rmsd 0.40
+I0109 09:14:08.747384 22977990162240 run_af2c_min.py:88] BDLD_1_x6 processing model_2_multimer_v2_p1_230109_433935.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:14:11.054667 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 72 (SER) of chain 0>: ['OXT'], <Residue 145 (SER) of chain 1>: ['OXT'], <Residue 218 (SER) of chain 2>: ['OXT'], <Residue 291 (SER) of chain 3>: ['OXT'], <Residue 364 (SER) of chain 4>: ['OXT'], <Residue 437 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:14:11.668509 22977990162240 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0109 09:14:12.405874 22977990162240 amber_minimize.py:69] Restraining 3612 / 7236 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:14:30.126317 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:14:31.408437 22977990162240 amber_minimize.py:500] Iteration completed: Einit 5792.57 Efinal -16440.20 Time 16.46 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:14:33.709142 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 72 (SER) of chain 0>: ['OXT'], <Residue 145 (SER) of chain 1>: ['OXT'], <Residue 218 (SER) of chain 2>: ['OXT'], <Residue 291 (SER) of chain 3>: ['OXT'], <Residue 364 (SER) of chain 4>: ['OXT'], <Residue 437 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:14:35.075044 22977990162240 run_af2c_min.py:110] BDLD_1_x6 relaxation done, time spent 26.1 seconds, Efinal -16440.20, rmsd 0.41
+I0109 09:14:35.075165 22977990162240 run_af2c_min.py:88] BDLD_1_x6 processing model_5_multimer_v2_p1_230109_438780.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:14:37.371533 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 72 (SER) of chain 0>: ['OXT'], <Residue 145 (SER) of chain 1>: ['OXT'], <Residue 218 (SER) of chain 2>: ['OXT'], <Residue 291 (SER) of chain 3>: ['OXT'], <Residue 364 (SER) of chain 4>: ['OXT'], <Residue 437 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:14:38.024977 22977990162240 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0109 09:14:38.771099 22977990162240 amber_minimize.py:69] Restraining 3612 / 7236 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:15:00.740022 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:15:02.021411 22977990162240 amber_minimize.py:500] Iteration completed: Einit 3985.58 Efinal -16654.09 Time 20.72 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:15:04.311165 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 72 (SER) of chain 0>: ['OXT'], <Residue 145 (SER) of chain 1>: ['OXT'], <Residue 218 (SER) of chain 2>: ['OXT'], <Residue 291 (SER) of chain 3>: ['OXT'], <Residue 364 (SER) of chain 4>: ['OXT'], <Residue 437 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:15:05.644773 22977990162240 run_af2c_min.py:110] BDLD_1_x6 relaxation done, time spent 30.3 seconds, Efinal -16654.09, rmsd 0.42
+I0109 09:15:05.644888 22977990162240 run_af2c_min.py:88] BDLD_1_x6 processing model_4_multimer_v2_p1_230109_062605.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:15:09.528033 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 72 (SER) of chain 0>: ['OXT'], <Residue 145 (SER) of chain 1>: ['OXT'], <Residue 218 (SER) of chain 2>: ['OXT'], <Residue 291 (SER) of chain 3>: ['OXT'], <Residue 364 (SER) of chain 4>: ['OXT'], <Residue 437 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:15:10.146957 22977990162240 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0109 09:15:10.885002 22977990162240 amber_minimize.py:69] Restraining 3612 / 7236 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:15:32.897543 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:15:34.176511 22977990162240 amber_minimize.py:500] Iteration completed: Einit 7114.87 Efinal -16736.70 Time 20.74 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0109 09:15:36.430674 22977990162240 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 72 (SER) of chain 0>: ['OXT'], <Residue 145 (SER) of chain 1>: ['OXT'], <Residue 218 (SER) of chain 2>: ['OXT'], <Residue 291 (SER) of chain 3>: ['OXT'], <Residue 364 (SER) of chain 4>: ['OXT'], <Residue 437 (SER) of chain 5>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0109 09:15:37.765578 22977990162240 run_af2c_min.py:110] BDLD_1_x6 relaxation done, time spent 31.9 seconds, Efinal -16736.70, rmsd 0.40
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  6_RLX
+Node list: ravg1004
+Job start: Mon Jan  9 09:12:54 CET 2023
+Job end:   Mon Jan  9 09:15:38 CET 2023
+Work dir:  /raven/u/flobnow/playground/scripts/pipe/BDLD_1
+Command:   /raven/u/flobnow/playground/scripts/pipe/BDLD_1/script3_relaxation.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3824693            6_RLX      1           108                             00:02:44      0:0
+3824693.0        python3      1      1    108    12604.41M    12604.41M   00:02:42      0:0
+  
+Maximum memory per node: 13.216680 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 50.6 %
+  

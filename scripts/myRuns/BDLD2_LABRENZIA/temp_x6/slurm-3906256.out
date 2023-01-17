@@ -1,0 +1,78 @@
+Info: input file name is BDLD2_LABRENZIA
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD2_LABRENZIA/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0117 14:08:01.407713 22698221586240 tpu_client.py:54] Starting the local TPU driver.
+I0117 14:08:01.408106 22698221586240 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 14:08:01.739760 22698221586240 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 14:08:05.218721 22698221586240 run_af2c_mod.py:482] Have 1 models: ['model_3_multimer_v2_p1']
+Info: working on target BDLD2_LABRENZIA_x6
+I0117 14:08:05.218881 22698221586240 run_af2c_mod.py:512] Using random seed 6746761450677722278 for the data pipeline
+Info: BDLD2_LABRENZIA_x6 found monomer BDLD2_LABRENZIA msa_depth = 1908, seq_len = 137, num_templ = 20
+Info: BDLD2_LABRENZIA reducing the number of structural templates to 4
+Info: 6 chain(s) to model {'A': 'BDLD2_LABRENZIA_1', 'B': 'BDLD2_LABRENZIA_1', 'C': 'BDLD2_LABRENZIA_1', 'D': 'BDLD2_LABRENZIA_1', 'E': 'BDLD2_LABRENZIA_1', 'F': 'BDLD2_LABRENZIA_1'}
+Info: modeling BDLD2_LABRENZIA_x6 with msa_depth = 1908, seq_len = 822, num_templ = 24
+I0117 14:08:05.615675 22698221586240 run_af2c_mod.py:216] Running model model_3_multimer_v2_p1_230117_722278
+I0117 14:08:05.616213 22698221586240 model.py:206] Running predict with shape(feat) = {'msa': (1908, 822), 'bert_mask': (1908, 822), 'num_alignments': (), 'aatype': (822,), 'seq_length': (), 'template_aatype': (24, 822), 'template_all_atom_mask': (24, 822, 37), 'template_all_atom_positions': (24, 822, 37, 3), 'all_atom_positions': (822, 37, 3), 'template_domain_names': (24,), 'asym_id': (822,), 'sym_id': (822,), 'entity_id': (822,), 'residue_index': (822,), 'deletion_matrix': (1908, 822), 'seq_mask': (822,), 'msa_mask': (1908, 822), 'cluster_bias_mask': (1908,), 'pdb_residue_index': (822,)}
+I0117 14:32:37.051997 22698221586240 run_af2c_mod.py:271] Total JAX model model_3_multimer_v2_p1_230117_722278 predict time (includes compilation time): 1471.4 seconds
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_00,  tol =   inf, pLDDT = 40.69, pTM-score = 0.1545, piTM-score = 0.1608, interface-score = 0.0299, iRes = 126  iCnt = 241 
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_01,  tol = 69.57, pLDDT = 41.98, pTM-score = 0.1619, piTM-score = 0.0067, interface-score = 0.0000, iRes = 6    iCnt = 3   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_02,  tol = 35.20, pLDDT = 42.51, pTM-score = 0.1654, piTM-score = 0.2451, interface-score = 0.0335, iRes = 128  iCnt = 267 
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_03,  tol = 32.82, pLDDT = 42.11, pTM-score = 0.1656, piTM-score = 0.0000, interface-score = 0.0000, iRes = 0    iCnt = 0   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_04,  tol = 24.76, pLDDT = 37.86, pTM-score = 0.1659, piTM-score = 0.0712, interface-score = 0.0011, iRes = 24   iCnt = 20  
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_05,  tol = 16.16, pLDDT = 38.90, pTM-score = 0.1689, piTM-score = 0.0925, interface-score = 0.0029, iRes = 28   iCnt = 31  
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_06,  tol =  5.35, pLDDT = 37.39, pTM-score = 0.1685, piTM-score = 0.0117, interface-score = 0.0001, iRes = 10   iCnt = 5   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_07,  tol =  7.65, pLDDT = 36.44, pTM-score = 0.1721, piTM-score = 0.0000, interface-score = 0.0000, iRes = 0    iCnt = 0   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_08,  tol =  8.33, pLDDT = 36.12, pTM-score = 0.1720, piTM-score = 0.0035, interface-score = 0.0000, iRes = 3    iCnt = 2   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_09,  tol =  7.16, pLDDT = 36.57, pTM-score = 0.1684, piTM-score = 0.0014, interface-score = 0.0000, iRes = 2    iCnt = 1   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_10,  tol =  3.98, pLDDT = 35.70, pTM-score = 0.1650, piTM-score = 0.0102, interface-score = 0.0001, iRes = 10   iCnt = 6   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_11,  tol =  4.90, pLDDT = 36.59, pTM-score = 0.1715, piTM-score = 0.0014, interface-score = 0.0000, iRes = 2    iCnt = 1   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_12,  tol =  6.29, pLDDT = 37.26, pTM-score = 0.1730, piTM-score = 0.0220, interface-score = 0.0001, iRes = 10   iCnt = 7   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_13,  tol =  5.60, pLDDT = 37.02, pTM-score = 0.1767, piTM-score = 0.0182, interface-score = 0.0001, iRes = 8    iCnt = 6   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_14,  tol =  4.04, pLDDT = 36.83, pTM-score = 0.1694, piTM-score = 0.0170, interface-score = 0.0001, iRes = 8    iCnt = 7   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_15,  tol =  6.05, pLDDT = 36.87, pTM-score = 0.1704, piTM-score = 0.0114, interface-score = 0.0001, iRes = 6    iCnt = 4   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_16,  tol =  3.73, pLDDT = 36.19, pTM-score = 0.1652, piTM-score = 0.0063, interface-score = 0.0000, iRes = 6    iCnt = 4   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_17,  tol =  4.53, pLDDT = 36.52, pTM-score = 0.1647, piTM-score = 0.0014, interface-score = 0.0000, iRes = 2    iCnt = 1   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_18,  tol =  2.37, pLDDT = 36.36, pTM-score = 0.1701, piTM-score = 0.0032, interface-score = 0.0000, iRes = 4    iCnt = 2   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278_recycled_19,  tol =  3.98, pLDDT = 37.51, pTM-score = 0.1656, piTM-score = 0.0050, interface-score = 0.0000, iRes = 5    iCnt = 3   
+Info: BDLD2_LABRENZIA_x6 model_3_multimer_v2_p1_230117_722278 performed 20 recycles, final tol = 8.57, pLDDT = 35.88, pTM-score = 0.1677, piTM-score = 0.0408, interface-score = 0.0005, iRes = 19   iCnt = 14  
+Info: num_clusters = 6, cluster_sizes = [1, 1, 1, 1, 1, 1],  clusters = [['BDLD2_LABRENZIA_0'], ['BDLD2_LABRENZIA_1'], ['BDLD2_LABRENZIA_2'], ['BDLD2_LABRENZIA_3'], ['BDLD2_LABRENZIA_4'], ['BDLD2_LABRENZIA_5']]
+
+I0117 14:32:40.530075 22698221586240 run_af2c_mod.py:404] Final timings for BDLD2_LABRENZIA_x6: {'features': 0.39, 'process_features_model_3_multimer_v2_p1_230117_722278': 0.0, 'predict_and_compile_model_3_multimer_v2_p1_230117_722278': 1471.4}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  3_AF2C
+Node list: ravg1193
+Job start: Tue Jan 17 14:06:56 CET 2023
+Job end:   Tue Jan 17 14:32:42 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD2_LABRENZIA
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD2_LABRENZIA/script2_comp_model_3.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3906256           3_AF2C      1           108                             00:25:46      0:0
+3906256.0        python3      1      1    108    30795.50M    30795.50M   00:24:58      0:0
+  
+Maximum memory per node: 32.291426 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 1.8 %
+  

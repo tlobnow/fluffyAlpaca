@@ -6,11 +6,12 @@ MODEL=yes
 #FOLDER=MYD88
 #FOLDER=TIR_LIB
 FOLDER=BDLD
+#FOLDER=IL1B
 	# Specify the folder where your fasta files are located.
 	# This folder will be used to create a list of the fasta base names, for which models will be run.
 	# Once created, you can adapt the list to batches if necessary.
 
-N=6
+N=10
 	# Specify the number of monomers in run your run: e.g. 6 would create a homohexamer
 
 

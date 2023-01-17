@@ -1,0 +1,1013 @@
+Query         sp|P10749|IL1B_MOUSE Interleukin-1 beta OS=Mus musculus OX=10090 GN=Il1b PE=1 SV=1
+Match_columns 269
+No_of_seqs    169 out of 1032
+Neff          5.4669
+Searched_HMMs 80799
+Date          Tue Jan 17 09:55:23 2023
+Command       /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhsearch -i /dev/shm/tmpfqdzqh1v/query.a3m -o /dev/shm/tmpfqdzqh1v/output.hhr -maxseq 1000000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2NVH_A Interleukin-1 beta; Wat 100.0 1.2E-42 1.5E-47  296.7   0.0  151  119-269     2-153 (153)
+  2 1TWE_A Interleukin-1 beta; Hyd 100.0 1.2E-42 1.5E-47  296.6   0.0  151  119-269     2-153 (153)
+  3 1TWM_A Interleukin-1 beta prec 100.0 2.5E-42   3E-47  294.9   0.0  151  119-269     2-153 (153)
+  4 1TOO_A Interleukin-1 beta; Hyd 100.0 3.2E-42   4E-47  294.2   0.0  151  119-269     2-153 (153)
+  5 4GAI_A EBI-005; IL-1beta, IL-1 100.0 7.3E-42 9.1E-47  291.9   0.0  150  119-269     2-153 (153)
+  6 5MVZ_V Fab 4AB007 H-chain, Fab 100.0 9.3E-42 1.1E-46  298.1   0.0  159  111-269    18-177 (177)
+  7 2WRY_A INTERLEUKIN-1BETA; IMMU 100.0 1.8E-40 2.2E-45  285.8   0.0  149  118-266     5-161 (162)
+  8 1IRP_A INTERLEUKIN-1 RECEPTOR  100.0 7.9E-40 9.8E-45  280.0   0.0  142  119-267     8-152 (153)
+  9 4P0L_A IL-36Ra, chimera; chime 100.0 8.7E-40 1.1E-44  279.6   0.0  144  122-267     5-153 (154)
+ 10 6NCU_B Interleukin-37; inflamm 100.0 9.4E-40 1.2E-44  279.2   0.0  145  121-267     4-154 (154)
+ 11 1ILT_A INTERLEUKIN-1 RECEPTOR  100.0 2.2E-39 2.8E-44  277.0   0.0  141  120-267     8-151 (152)
+ 12 1IRA_X INTERLEUKIN-1 RECEPTOR  100.0 2.2E-39 2.8E-44  277.0   0.0  141  120-267     8-151 (152)
+ 13 6HPI_A Interleukin-36 alpha; P 100.0 6.6E-39 8.1E-44  275.3   0.0  144  121-267     9-157 (158)
+ 14 5HN1_B Interleukin-37; Interle 100.0   1E-38 1.3E-43  278.3   0.0  145  121-267    13-163 (175)
+ 15 5HN1_A Interleukin-37; Interle 100.0 1.7E-38 2.1E-43  277.0   0.0  145  121-267    13-163 (175)
+ 16 1MD6_A interleukin 1 family, m 100.0 1.2E-37 1.5E-42  266.6   0.0  142  122-267     5-153 (154)
+ 17 5BOW_A Interleukin-1 family me 100.0 1.5E-36 1.9E-41  259.3   0.0  143  121-266     5-149 (151)
+ 18 5UC6_A Interleukin-1 alpha/DNA 100.0 5.2E-36 6.4E-41  257.8   0.0  138  121-267    18-157 (159)
+ 19 4IZE_A Interleukin-36 gamma; b 100.0 1.3E-35 1.7E-40  253.7   0.0  141  122-266     5-150 (152)
+ 20 2L5X_A Interleukin-1 alpha, Pr 100.0 3.8E-35 4.7E-40  250.6   0.0  138  121-267    10-149 (151)
+ 21 4XFS_B IL-18 SER Mut I; Interl  99.9 2.2E-30 2.7E-35  222.6   0.0  140  121-266     6-155 (157)
+ 22 2VXT_I MURINE IGG 125-2H, INTE  99.9 3.8E-29 4.7E-34  215.1   0.0  139  121-266     6-155 (157)
+ 23 3KMV_E Alpha-L-arabinofuranosi  58.5     7.7 9.6E-05   33.9   0.0   27  225-254   104-130 (157)
+ 24 3KMV_F Alpha-L-arabinofuranosi  58.5     7.7 9.6E-05   33.9   0.0   27  225-254   104-130 (157)
+ 25 1IJT_A fibroblast growth facto  54.6      10 0.00012   32.2   0.0   48  215-263    76-125 (128)
+ 26 2M49_C Fibroblast growth facto  52.1      12 0.00014   31.8   0.0   49  215-264    73-123 (126)
+ 27 2FDB_M fibroblast growth facto  50.3      13 0.00016   33.4   0.0   48  215-263   104-153 (164)
+ 28 4CJM_D FIBROBLAST GROWTH FACTO  49.9      13 0.00016   32.3   0.0   37  215-252    77-114 (141)
+ 29 1BLD_A BASIC FIBROBLAST GROWTH  41.8      22 0.00027   31.7   0.0   51  215-266   100-152 (155)
+ 30 4OEE_A Fibroblast growth facto  39.4      25 0.00031   31.3   0.0   72  181-265    78-151 (155)
+ 31 5ZXE_A Consensus sequence base  36.2      30 0.00037   29.4   0.0   52  215-267    74-128 (130)
+ 32 4DS7_E Calmodulin, Spindle pol  36.0      31 0.00038   26.2   0.0   23   56-78      8-30  (55)
+ 33 4DS7_H Calmodulin, Spindle pol  36.0      31 0.00038   26.2   0.0   23   56-78      8-30  (55)
+ 34 3KMV_E Alpha-L-arabinofuranosi  32.8      37 0.00046   29.8   0.0   19  224-242     8-26  (157)
+ 35 3KMV_F Alpha-L-arabinofuranosi  32.8      37 0.00046   29.8   0.0   19  224-242     8-26  (157)
+ 36 1BFG_A BASIC FIBROBLAST GROWTH  32.7      38 0.00047   29.8   0.0   51  215-266    91-143 (146)
+ 37 1EV2_A CRYSTAL STRUCTURE OF FG  32.2      39 0.00048   29.0   0.0   74  181-267    55-130 (132)
+ 38 6SXT_A Alpha-L-arabinofuranosi  30.6      43 0.00053   35.7   0.0   27  225-254   384-410 (483)
+ 39 3KMV_E Alpha-L-arabinofuranosi  29.9      45 0.00056   29.3   0.0   16  226-241    57-72  (157)
+ 40 3KMV_F Alpha-L-arabinofuranosi  29.9      45 0.00056   29.3   0.0   16  226-241    57-72  (157)
+ 41 2D43_A alpha-L-arabinofuranosi  29.4      46 0.00057   35.5   0.0   27  225-254   383-409 (482)
+ 42 1QQL_A FIBROBLAST GROWTH FACTO  28.2      50 0.00062   28.7   0.0   53  215-268    82-138 (140)
+ 43 1RG8_A Heparin-binding growth   27.3      53 0.00066   29.0   0.0   73  181-266    66-142 (146)
+ 44 2D43_A alpha-L-arabinofuranosi  27.1      54 0.00067   35.0   0.0   28  216-243   419-448 (482)
+ 45 3AKH_A Putative secreted alpha  26.2      58 0.00071   32.9   0.0   17  226-242   416-432 (468)
+ 46 3AKI_A Putative secreted alpha  26.2      58 0.00071   32.9   0.0   17  226-242   416-432 (468)
+ 47 2UUS_A HEPARIN-BINDING GROWTH   25.9      59 0.00073   27.8   0.0   51  215-266    76-130 (132)
+ 48 6SXT_A Alpha-L-arabinofuranosi  24.5      65  0.0008   34.4   0.0   28  216-243   420-449 (483)
+ 49 2J3P_B HEPARIN-BINDING GROWTH   23.7      69 0.00085   27.5   0.0   52  215-267    76-131 (134)
+ 50 4XKI_A Fibroblast Growth Facto  20.2      90  0.0011   27.5   0.0   74  181-267    67-144 (147)
+
+No 1
+>2NVH_A Interleukin-1 beta; Water  Hydration  Protein; HET: SO4; 1.53A {Homo sapiens} SCOP: b.42.1.2
+Probab=100.00  E-value=1.2e-42  Score=296.74  Aligned_cols=151  Identities=78%  Similarity=1.196  Sum_probs=137.6  Template_Neff=6.800
+
+Q sp|P10749|IL1B  119 PIRQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQ  198 (269)
+Q Consensus       119 ~~~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~Lq  198 (269)
+                      +.++.+|+|+|.+||+|||+++++|+|++|||++...+++|+|.+|++....++.||+|||+++++||||++++|+|+|+
+T Consensus         2 ~~~~~~~~i~D~~qk~lvl~~~~~L~a~~l~~~~~~~~~~f~i~~y~~~~~~~~~PV~L~i~~~~~~LsC~~~~~~p~L~   81 (153)
+T 2NVH_A            2 PVRSLNCTLRDSQQKSLVMSGPYELKALHLQGQDMEQQVVFSMSFVQGEESNDKIPVALGLKEKNLYLSCVLKDDKPTLQ   81 (153)
+T ss_dssp             CCCEEEEEEEETTCCEEEESSSSCEEEECCCGGGGGGSCCEEEEECSSCCCSSEEEEEEEETTSSEEEEEEEETTEEEEE
+T ss_pred             CCccEEEEEECCCCCEEEEeCCeEEEEeeccCCCCCCcEEEEEEEcCCCcccCCceEEEEEeCCeEEEEEEeeCCceEEE
+Confidence            34677899999999999999877999999999988999999999998865458999999999999999999999999999
+
+
+Q sp|P10749|IL1B  199 LESVDPKQYPKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESVSS  269 (269)
+Q Consensus       199 LEev~~~~~~~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~~~  269 (269)
+                      ||+++++++.+.++.+||+||+.+.|++++||||+|||||||||.++++||+|++.+|. ++|+|+|+..+|
+T Consensus        82 le~~~~~~~~~~~~~~~f~Fy~~~~g~~~~FESa~~pgWFI~Ts~~~~~pV~l~~~~~~~~~t~F~~~~~~~  153 (153)
+T 2NVH_A           82 LESVDPKNYPKKKMEKRFVFNKIEINNKLEFESAQFPNWYISTSQAENMPVFLGGTKGGQDITDFTMQFVSS  153 (153)
+T ss_dssp             EEECCTTSCSCSSCCGGGCEEEEEETTEEEEEESSSTTCEEEBCSSTTEECEEESCSSSSSBCCEEEEECC-
+T ss_pred             EEecCcccCCCcccccceEEEEeccCCeEEEEeccCCCeEEEecCCCCccEEEccCCCCceeEEEEEEEcCC
+Confidence            99999887655566799999999888899999999999999999999999999999887 899999998875
+
+
+No 2
+>1TWE_A Interleukin-1 beta; Hydrophobic cavity, Hydrophobicity, water, IMMUNE; 2.1A {Homo sapiens} SCOP: b.42.1.2
+Probab=100.00  E-value=1.2e-42  Score=296.61  Aligned_cols=151  Identities=77%  Similarity=1.191  Sum_probs=138.2  Template_Neff=6.800
+
+Q sp|P10749|IL1B  119 PIRQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQ  198 (269)
+Q Consensus       119 ~~~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~Lq  198 (269)
+                      +.++.+|+|+|.+||+|||+++++|+|++|||++...+++|+|.+|++....++.||+|||+++++||||++++|+|+|+
+T Consensus         2 ~~~~~~~~i~D~~~k~lvl~~~~~L~a~~lq~~~~~~~~~f~i~~Y~~~~~~~g~PV~L~i~~~~~~LsC~~~~~~p~L~   81 (153)
+T 1TWE_A            2 PVRSLNCTLRDSQQKSLVMSGPYELKALHLQGQDMEQQVVFSMSFVQGEESNDKIPVALGLKEKNLYLSCVLKDDKPTLQ   81 (153)
+T ss_dssp             CSCEEEEEEEETTCCEEEECSTTCEEEECCCGGGGGGBCCEEEEECSSCCCSSEEEEEEEETTSSEEEEEEESSSSEEEE
+T ss_pred             CCccEEEEEECCCCCEEEEeCCeEEEEeeccCCCCCCcEEEEEEEcCCCcccCCceEEEEEeCCeEEEEEEecCCceEEE
+Confidence            34678899999999999999877999999999988999999999998865458999999999999999999999999999
+
+
+Q sp|P10749|IL1B  199 LESVDPKQYPKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESVSS  269 (269)
+Q Consensus       199 LEev~~~~~~~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~~~  269 (269)
+                      ||+++++++.+.++.+||+||+++.|++++||||+|||||||||.++++||+|++..|. ++|+|+|+..+|
+T Consensus        82 lee~~~~~~~~~~~~~~f~Fy~~~~g~~~~FESa~~pgWFIsTs~~~~~pV~l~~~~~~~~~t~F~~~~~~~  153 (153)
+T 1TWE_A           82 LESVDPKNYPKKKMEKRFVYNKIEINNKLEFESAQFPNWYISTSQAENMPVFLGGTKGGQDITDFTMQFVSS  153 (153)
+T ss_dssp             EEECCTTTCSCSSCCGGGEEEEEECSSCEEEEESSSTTCEEEBCSSTTEECEEESCSSSSSBCCEEEEECCC
+T ss_pred             EEEcCcccCCCcccccceEEEEeccCCEEEEEeccCCCeEEEecCCCCccEEEccCCCCceeEEEEEEEcCC
+Confidence            99999887665566799999999988899999999999999999999999999999887 899999998775
+
+
+No 3
+>1TWM_A Interleukin-1 beta precursor; Hydrophobic cavity, water, solvation, hydrophobicity; 2.26A {Homo sapiens} SCOP: b.42.1.2
+Probab=100.00  E-value=2.5e-42  Score=294.92  Aligned_cols=151  Identities=77%  Similarity=1.191  Sum_probs=138.4  Template_Neff=6.700
+
+Q sp|P10749|IL1B  119 PIRQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQ  198 (269)
+Q Consensus       119 ~~~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~Lq  198 (269)
+                      +.++.+|+|+|.+||+|||++.++|+|++|||++...+++|+|.+|++....++.||+|+|+++++||||++++|+|+|+
+T Consensus         2 ~~~~~~~~i~D~~qk~lvl~~~~~l~a~~l~~~~~~~~~~f~i~~y~~~~~~~~~PV~L~i~~~~~~LsC~~~~~~p~L~   81 (153)
+T 1TWM_A            2 PVRSLNCTLRDSQQKSLVMSGPYELKALHLQGQDMEQQVVFSMSFVQGEESNDKIPVALGLKEKNLYLSCVLKDDKPTLQ   81 (153)
+T ss_dssp             CSEEEEEEEEETTCCEEEECSSSCEEEECCCGGGGGGBCCEEEEECSSCCCSSEEEEEEEETTSSEEEEEEESSSSEEEE
+T ss_pred             CCccEEEEEECCCCCEEEEeCCeEEEEeeccCCCCCCcEEEEEEEcCCCcccCCceEEEEEeCCeEEEEEEeeCCceEEE
+Confidence            35678899999999999999877999999999988999999999998865458999999999999999999999999999
+
+
+Q sp|P10749|IL1B  199 LESVDPKQYPKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESVSS  269 (269)
+Q Consensus       199 LEev~~~~~~~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~~~  269 (269)
+                      ||++++++|.+.+..+|||||++..|++++||||+|||||||||.++++||+|++.+|. ++|+|+|+.++|
+T Consensus        82 lee~~~~~~~~~~~~~~FlFy~~~~g~~~~FESA~~pGWFI~Ts~~~~~pV~l~~~~~~~~~t~F~~~~~~~  153 (153)
+T 1TWM_A           82 LESVDPKNYPKKKMEKRFVFNKIEINNKLEFESAQFPNWYISTSQAENMPVFLGGTKGGQDITDYTMQFVSS  153 (153)
+T ss_dssp             EEECCTTTCSCSSCCGGGEEEEEECSSSEEEEESSSTTCEEEBCSSTTEECEEESCSSSSSBCCEEEEECCC
+T ss_pred             EEecCcccCCCcccccceEEEEeccCCeEEEEeccCCCeEEEecCCCCccEEEccCCCCcceEEEEEEEcCC
+Confidence            99999888655566799999999888899999999999999999999999999999887 899999998875
+
+
+No 4
+>1TOO_A Interleukin-1 beta; Hydrophobic cavity, Hydrophobicity, IMMUNE SYSTEM; 2.1A {Homo sapiens} SCOP: b.42.1.2
+Probab=100.00  E-value=3.2e-42  Score=294.18  Aligned_cols=151  Identities=77%  Similarity=1.188  Sum_probs=138.2  Template_Neff=6.700
+
+Q sp|P10749|IL1B  119 PIRQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQ  198 (269)
+Q Consensus       119 ~~~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~Lq  198 (269)
+                      +.++.+|+|+|.+||+|||+++++|+|++|||++...+++|+|.+|++....++.||+|+|+++++||||++++|+|+|+
+T Consensus         2 ~~~~~~~~i~D~~qk~lvl~~~~~L~a~~l~~~~~~~~~~f~i~~Y~~~~~~~~~PV~L~i~~~~l~LsC~~~~~~p~L~   81 (153)
+T 1TOO_A            2 PVRSLNCTLRDSQQKSLVMSGPYELKALHLQGQDMEQQVVFSMSFVQGEESNDKIPVALGLKEKNLYLSCVLKDDKPTLQ   81 (153)
+T ss_dssp             CSEEEEEEEEETTCCEEEECSTTCEEEECCCGGGGGGSCCEEEEECSSCCCSSEEEEEEEETTSSEEEEEEEETTEEEEE
+T ss_pred             CCccEEEEEECCCCCEEEEeCCeEEEEeeccCCCCCCcEEEEEEEcCCCcccCCceEEEEEeCCeEEEEEEecCCceEEE
+Confidence            34677899999999999999877999999999988999999999998865458999999999999999999999999999
+
+
+Q sp|P10749|IL1B  199 LESVDPKQYPKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESVSS  269 (269)
+Q Consensus       199 LEev~~~~~~~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~~~  269 (269)
+                      ||++++++|.+.+..+||+||++..|++++||||+|||||||||.++++||+|++.+|. ++|+|+|+.++|
+T Consensus        82 lee~~~~~~~~~~~~~~f~Fy~~~~G~~~~FESa~~pGWFI~Ts~~~~~pV~l~~~~~~~~~t~F~~~~~~~  153 (153)
+T 1TOO_A           82 LESVDPKNYPKKKMEKRFVFNKIEINNKLEFESAQFPNWYISTSQAENMPVFLGGTKGGQDITDWTMQFVSS  153 (153)
+T ss_dssp             EEECCTTTCSCSSCCGGGCEEEEECSSCEEEEESSSTTCEEEBCSSTTEECEEESCSSSSSBCCEEEEECCC
+T ss_pred             EEecCcccCCCcccccceEEEEeccCCEEEEEeccCCCeEEEecCCCCcCeEEccCCCCcceEEEEEEEcCC
+Confidence            99999887765566799999999989999999999999999999999999999999887 899999998875
+
+
+No 5
+>4GAI_A EBI-005; IL-1beta, IL-1Ra, IL-1R1, IL-1 signaling; 1.49A {Homo sapiens}
+Probab=100.00  E-value=7.3e-42  Score=291.87  Aligned_cols=150  Identities=61%  Similarity=0.940  Sum_probs=135.0  Template_Neff=6.800
+
+Q sp|P10749|IL1B  119 PIRQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQ  198 (269)
+Q Consensus       119 ~~~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~Lq  198 (269)
+                      +.++.+|+|+|.+||+|||++ .+|+|++|||++..++++|+|.+|++....++.||+|||+++|+||||.+++|+|+|+
+T Consensus         2 ~~~~~~~~i~D~~qk~lvl~~-~~L~a~~l~~~~~~~~~~f~i~~y~~~~~~~~~PV~L~i~~~~~~LsC~~~~~~p~L~   80 (153)
+T 4GAI_A            2 PVRSLNCRIWDVNQKTFYLRN-NQLVAGYLQGPNVNLEEKFSMSFVQGEESNDKIPVALGLKEKNLYLSCVLKDDKPTLQ   80 (153)
+T ss_dssp             CCCEEEEEEEETTCCEEEEET-TEEEEECCCGGGGGGCCCEEEEECCCCCCSSCEEEEEEETTTCEEEEEEEETTEEEEE
+T ss_pred             CCCceEEEEEcCCCCEEEEEC-CEEEEeecCCCCCCCCceEEEEEcCCCcccCCceEEEEEeCCeEEEEEEecCCceEEE
+Confidence            356788999999999999987 6899999999888889999999998765448999999999999999999999999999
+
+
+Q sp|P10749|IL1B  199 LESVDPKQYPKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ--DIIDFTMESVSS  269 (269)
+Q Consensus       199 LEev~~~~~~~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~--~~~~F~~~~~~~  269 (269)
+                      ||+++++++.+.++.+|||||+++.|++++||||+|||||||||.++++||.|++..+.  ++|+|+|+.+.|
+T Consensus        81 lee~~~~~~~~~~~~~~flFy~~~~g~~~~FESa~~pGWFi~Ts~~~~~pv~l~~~~~~~~~~t~F~~~~~~~  153 (153)
+T 4GAI_A           81 LESVDPKNYPKKKMEKRFVFNKIEINNKLEFESAQFPNWFLCTAMEADQPVSLTNMPDEGVMVTKFYMQFVSS  153 (153)
+T ss_dssp             EEECCTTTCSCSSCCGGGCEEEEEETTEEEEEESSSTTCEEEBCSSTTEECEEESCTTSTTCBCCEEEEECC-
+T ss_pred             EEecCcccCCCcccccceEEEEeccCCEEEEEEccCCCeEEEecccCCeeEEeeeCCCCCceeEEEEEEEcCC
+Confidence            99999887554556799999999989999999999999999999999999999998774  799999998764
+
+
+No 6
+>5MVZ_V Fab 4AB007 H-chain, Fab 4AB007; Interleukin-1-beta, Fab 4AB007, Signaling protein; HET: GOL; 2.15A {Homo sapiens}
+Probab=100.00  E-value=9.3e-42  Score=298.08  Aligned_cols=159  Identities=75%  Similarity=1.153  Sum_probs=136.3  Template_Neff=6.100
+
+Q sp|P10749|IL1B  111 DNLLVCDVPIRQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVM  190 (269)
+Q Consensus       111 ~~~~~~~~~~~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~  190 (269)
+                      ++.+......++..|+|+|.+||+|||+++++|+|++|||++...+++|+|.+|++....++.||+|||+++++||||++
+T Consensus        18 ~~~~~~~~~~~~~~~~I~D~~qk~Lvl~~~~~L~Av~lq~~~~~~~v~f~i~~Y~~~~~~~g~PV~LgI~~~~l~LsC~~   97 (177)
+T 5MVZ_V           18 ENLYFQGAPVRSLNCTLRDSQQKSLVMSGPYELKALHLQGQDMEQQVVFSMSFVQGEESNDKIPVALGLKEKNLYLSCVL   97 (177)
+T ss_dssp             CEEETTTCCCEEEEEEEEETTCCEEEECSSSCEEEECC----CCCCCCEEEEECCC--CCCCCCCCCEESSSSEEEEEEE
+T ss_pred             cccccccccceeEEEEEECCCCCEEEEeCCeEEEEeeccCCcCCCcEEEEEEEcCCCcccCCceEEEEEeCCeEEEEEEe
+Confidence            33333344557789999999999999998779999999999889999999999988654589999999999999999999
+
+
+Q sp|P10749|IL1B  191 KDGTPTLQLESVDPKQYPKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESVSS  269 (269)
+Q Consensus       191 ~~~~P~LqLEev~~~~~~~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~~~  269 (269)
+                      ++|+|+|+||++++++|.+.+...|||||++..|++++||||+|||||||||.++++||.|++.+|. .+|+|+|+.++|
+T Consensus        98 ~~~~P~Lqlee~~~~~i~~~~~~~~FlFy~~~~G~~~~FESAa~PGWFIsTs~~~~~pV~l~~~~~~~~~t~F~~~~~~~  177 (177)
+T 5MVZ_V           98 KDDKPTLQLESVDPKNYPKKKMEKRFVFNKIEINNKLEFESAQFPNWYISTSQAENMPVFLGGTKGGQDITDFTMQFVSS  177 (177)
+T ss_dssp             SSSSEEEEEEECCTTTCSCSSCCTTSCCCCCCBTTBBCEECSSSTTCEEEEESSSSEECEEECSSTTSEECCEEEEECC-
+T ss_pred             cCCceEEEEEEeCcccCCCcccccceEEEEcccCCEEEEEeccCCCeEEEeecCCCccEEEccCCCCceeEEEEEEEcCC
+Confidence            9999999999999887755566799999999989899999999999999999999999999999887 899999998875
+
+
+No 7
+>2WRY_A INTERLEUKIN-1BETA; IMMUNE SYSTEM, PYROGEN, MITOGEN, INFLAMMATORY; 1.58A {GALLUS GALLUS}
+Probab=100.00  E-value=1.8e-40  Score=285.79  Aligned_cols=149  Identities=36%  Similarity=0.613  Sum_probs=131.6  Template_Neff=6.800
+
+Q sp|P10749|IL1B  118 VPIRQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPS-----NDKIPVALGLKGKNLYLSCVMKD  192 (269)
+Q Consensus       118 ~~~~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~-----~~~~PV~LgI~g~nLyLSC~~~~  192 (269)
+                      +..++..|+|+|.+||+|||+++.+|+|++||+++...+++|+|.+|.+...     .++.||+|||+++++||||+++|
+T Consensus         5 ~~~~~~~~~i~D~~qk~lvl~~~~~l~a~~lq~~~~~~~~~~~i~~y~~~~~~~~~~~~g~PV~LgI~~~~~~LsC~~~~   84 (162)
+T 2WRY_A            5 RYTRSQSFDIFDINQKCFVLESPTQLVALHLQGPSSSQKVRLNIALYRPRGPRGSAGTGQMPVALGIKGYKLYMSCVMSG   84 (162)
+T ss_dssp             EEEEEEEEEEEETTSCEEEEEETTEEEEECCCSSCCCCBCEEEEEEEEEC-----CCCCSCEEEEEETTTTEEEEEEEET
+T ss_pred             ccccceEEEEEeCCCCEEEEcCCCEEEEEecCCCCCCCceeEEEEEECCCCCCCCCCCCCccEEEEEeCCeEEEEeEecC
+Confidence            3456778999999999999998778999999999888999999999876432     37899999999999999999999
+
+
+Q sp|P10749|IL1B  193 GTPTLQLESVDPKQYPKKKMEKRFVFNKIEV--KSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMES  266 (269)
+Q Consensus       193 ~~P~LqLEev~~~~~~~~~~~~rFlFyk~~~--~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~  266 (269)
+                      |+|+|+||+++++++...++.++||||++..  +++++||||+|||||||||.++++||+|++..|. .+|+|+|+.
+T Consensus        85 ~~p~Lqlee~~~~~~~~~~~~~~flFy~~~~~~~~~~~FESa~~PGWFI~Ts~e~~~pV~l~~~~~~~~~t~F~~~~  161 (162)
+T 2WRY_A           85 TEPTLQLEEADVMRDIDSVELTRFIFYRLDSPTEGTTRFESAAFPGWFICTSLQPRQPVGITNQPDQVNIATYKLSG  161 (162)
+T ss_dssp             TEEEEEEEECCCCSEECSTTGGGGCEEEEEETTTTEEEEEESSSTTCEEEBCSSSSEECEEESSTTSSSBCCEEEEC
+T ss_pred             CccEEEEEecCccccccccCceeeEEEEecCCCCCeEEEEEecCCCeEEEeeccCCeeeEEecCCCCcceEEEEEEe
+Confidence            9999999999988754444669999999876  3789999999999999999999999999999987 899999874
+
+
+No 8
+>1IRP_A INTERLEUKIN-1 RECEPTOR ANTAGONIST PROTEIN (NMR; CYTOKINE; NMR {Homo sapiens} SCOP: b.42.1.2
+Probab=100.00  E-value=7.9e-40  Score=280.02  Aligned_cols=142  Identities=28%  Similarity=0.470  Sum_probs=127.0  Template_Neff=6.100
+
+Q sp|P10749|IL1B  119 PIRQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQ  198 (269)
+Q Consensus       119 ~~~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~Lq  198 (269)
+                      ..++..|+|+|.+||+|||++ ..|+|++|||++..++++|+|..      .++.||+|||+++++||||++++++|+|+
+T Consensus         8 ~~~~~~~~i~D~~qk~Lvl~~-~~LvA~~lq~~n~~~~v~~~~~p------~~~~PV~L~i~~~~~~LsC~~~~~~p~L~   80 (153)
+T 1IRP_A            8 SSKMQAFRIWDVNQKTFYLRN-NQLVAGYLQGPNVNLEEKIDVVP------IEPHALFLGIHGGKMCLSCVKSGDETRLQ   80 (153)
+T ss_dssp             TSCCCEEEEEETTTEEEEESS-SSEEEESCCCSSSCCCCCEEEEE------SSSSCEEEEETTTTEEEEEEEETTEEEEE
+T ss_pred             CCCCeEEEEEcCCCCEEEEEC-CEEEEeecCCCCCCcceEEEEEe------CCCceEEEEEECCeEEEEeeecCCeEEEE
+Confidence            346778999999999999986 68999999998877899999942      45899999999999999999999999999
+
+
+Q sp|P10749|IL1B  199 LESVDPKQYP-KKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ--DIIDFTMESV  267 (269)
+Q Consensus       199 LEev~~~~~~-~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~--~~~~F~~~~~  267 (269)
+                      ||++++++|. ..++.+||+||+...|++++||||+|||||||||.++++||.|++..|.  ++|+|+|+..
+T Consensus        81 lee~~~~~i~~~~~~~~~flFy~~~~G~~~~FESa~~pGWFIsTs~~~~~pV~l~~~~~~~~~~t~F~~~~~  152 (153)
+T 1IRP_A           81 LEAVNITDLSENRKQDKRFAFIRSDSGPTTSFESAACPGWFLCTAMEADQPVSLTNMPDEGVMVTKFYFQED  152 (153)
+T ss_dssp             EEECCCSSCCCSSCCSSTTEEEECCBTTEECEEEESSSEEEEEECSSSSCBEEEESSCSSSSSCCCEEEEEC
+T ss_pred             EEecChhhcccccccccceEEEEecCCCceEEEEecCCCeEEEEeccCCeeEEeecCCCCCeeeeEEEEEeC
+Confidence            9999998875 3455699999999888889999999999999999999999999999884  7999999864
+
+
+No 9
+>4P0L_A IL-36Ra, chimera; chimera protein, interleukin; 1.55A {Homo sapiens}
+Probab=100.00  E-value=8.7e-40  Score=279.55  Aligned_cols=144  Identities=28%  Similarity=0.434  Sum_probs=123.8  Template_Neff=6.700
+
+Q sp|P10749|IL1B  122 QLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPS---NDKIPVALGLKGKNLYLSCVMKDGTPTLQ  198 (269)
+Q Consensus       122 ~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~---~~~~PV~LgI~g~nLyLSC~~~~~~P~Lq  198 (269)
+                      +..|+|+|.+||+|||++ .+|+|++|||++...+++|+|.+|++...   .++.||+|||+++|+||||++ +++|+|+
+T Consensus         5 ~~~~~i~D~~qk~lvl~~-~~L~A~~lq~~~~~~~~~f~i~~y~~~~~~~~~~~~PV~Lgi~~~~~~LsC~~-~~~p~Lq   82 (154)
+T 4P0L_A            5 ALCFRMKDSALKVLYLHN-NQLLAGGLHAGKVIKGEEISVVPNRWPEALEQGRGSPVILGVQGGSQCLSCGV-GQEPTLT   82 (154)
+T ss_dssp             -CCEEEEETTCCEEEEET-TEEEEECC-----CCCCCBEEEECSCGGGSCGGGCEEEEEEETTTTEEEECCS-SSSCCCE
+T ss_pred             CeEEEEEcCCCCEEEEEC-CEEEEeecCCCCCCCCeEEEEEEeCCHHHhccCCCCeEEEEEECCcEEEEeec-CCccEEE
+Confidence            457899999999999987 58999999998889999999999987543   479999999999999999996 8999999
+
+
+Q sp|P10749|IL1B  199 LESVDPKQY-PKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESV  267 (269)
+Q Consensus       199 LEev~~~~~-~~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~  267 (269)
+                      ||+++++++ ...++.+|||||++..|++++||||+|||||||||.++++||+|++..|. ++|+|+|+..
+T Consensus        83 lee~~~~~l~~~~~~~~~flFy~~~~g~~~~FESa~~pGWFIsTs~~~~~pV~l~~~~~~~~~t~F~~~~~  153 (154)
+T 4P0L_A           83 LEPVNIMELYLGAKESKSFTFYRADAGLTSSFESAAYPGWFLCTVPEADQPVRLTQELGKSYNTDFYFQQC  153 (154)
+T ss_dssp             EESCCHHHHHHTSSCCGGGEEEEEECSSCEEEEESSSTTCEEEBCSSTTEECEEESCCSSSSBCCEEEEEC
+T ss_pred             EEecCchhhccCccCCcceEEEEeccCCeEEEEEecCCCcEEEecccCCeEEEEecCCCCceeeEEEEEEC
+Confidence            999998742 23456699999999888899999999999999999999999999999886 8999999864
+
+
+No 10
+>6NCU_B Interleukin-37; inflammation, interleukin, cytokine, innate immune; 3.5A {Homo sapiens}
+Probab=100.00  E-value=9.4e-40  Score=279.23  Aligned_cols=145  Identities=25%  Similarity=0.438  Sum_probs=127.6  Template_Neff=6.800
+
+Q sp|P10749|IL1B  121 RQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEP-SNDKIPVALGLKGKNLYLSCVMKDG--TPTL  197 (269)
+Q Consensus       121 ~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~-~~~~~PV~LgI~g~nLyLSC~~~~~--~P~L  197 (269)
+                      .+..|+|+|.+||+|||++ .+|+|++|| .+..+++.|.|.+|.... ..+|.||+|||+++++||||++++|  +|+|
+T Consensus         4 ~~~~~~i~D~~~k~lvl~~-~~L~A~~~~-~~~~~e~~~~i~~y~~~~~~~~g~PV~L~i~~~~~~LsC~~~~~~~~p~L   81 (154)
+T 6NCU_B            4 NPKKFSIHDQDHKVLVLDS-GNLIAVPDK-NYIRPEIFFALASSLSSASAEKGSPILLGVSKGEFCLYCDKDKGQSHPSL   81 (154)
+T ss_pred             CCeEEEEECCCCCEEEEEC-CEEEEeecc-cCCCCcEEEEEEeeCCCCccccCCeEEEEEECCeEEEEeeecCCCCCcEE
+Confidence            3567899999999999997 689999998 567789999999887642 3589999999999999999999876  9999
+
+
+Q sp|P10749|IL1B  198 QLESVDPKQYPK--KKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESV  267 (269)
+Q Consensus       198 qLEev~~~~~~~--~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~  267 (269)
+                      +||+++++++.+  +.+++|||||++..|++++||||+|||||||||.++++||+|++..|. .+|+|+|+.+
+T Consensus        82 qlee~~i~~i~~~~~~~~~~flFy~~~~G~~~~FESaa~pGWFi~ts~~~~~pV~l~~~~~~~~~t~F~~~~~  154 (154)
+T 6NCU_B           82 QLKKEKLMKLAAQKESARRPFIFYRAQVGSWNMLESAAHPGWFICTSCNCNEPVGVTDKFENRKHIEFSFQPV  154 (154)
+T ss_pred             EEEecChhHHhhcccccccceEEEEccCCCeeEEEEccCCCeEEEecCCCCcceEeccCCCCcceeeEEEEEC
+Confidence            999999888754  333489999999988889999999999999999999999999999887 7999999864
+
+
+No 11
+>1ILT_A INTERLEUKIN-1 RECEPTOR ANTAGONIST (IL-1RA) (ALPHA; CYTOKINE; 2.0A {Homo sapiens} SCOP: b.42.1.2
+Probab=100.00  E-value=2.2e-39  Score=276.97  Aligned_cols=141  Identities=28%  Similarity=0.473  Sum_probs=126.3  Template_Neff=6.100
+
+Q sp|P10749|IL1B  120 IRQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQL  199 (269)
+Q Consensus       120 ~~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~LqL  199 (269)
+                      .++..|+|+|.+||+|||++ ..|+|.+|||+|..++++|+|..      .++.||+|||+++++||||++++++|+|+|
+T Consensus         8 ~~~~~~~i~D~~~k~Lvl~~-~~LvA~~lq~~n~~~~v~~~~~p------~~~~PV~L~i~~~~~~LsC~~~~~~p~L~l   80 (152)
+T 1ILT_A            8 SKMQAFRIWDVNQKTFYLRN-NQLVAGYLQGPNVNLEEKIDVVP------IEPHALFLGIHGGKMCLSCVKSGDETRLQL   80 (152)
+T ss_pred             CCCeEEEEEcCCCCEEEEEC-CEEEEeecCCCCCCcceEEEEEe------CCCceEEEEEECCeEEEEeeecCCeEEEEE
+Confidence            45678999999999999986 68999999998877899999942      458999999999999999999999999999
+
+
+Q sp|P10749|IL1B  200 ESVDPKQYP-KKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ--DIIDFTMESV  267 (269)
+Q Consensus       200 Eev~~~~~~-~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~--~~~~F~~~~~  267 (269)
+                      |++++++|. ..++..||+||+.+.|++++||||+|||||||||.++++||+|++..|.  ++|+|+|+..
+T Consensus        81 ee~~~~~i~~~~~~~~~f~Fy~~~~G~~~~FESA~~pGWFisTs~~~~~pV~l~~~~~~~~~~t~F~~~~~  151 (152)
+T 1ILT_A           81 EAVNITDLSENRKQDKRFAFIRSDSGPTTSFESAACPGWFLCTAMEADQPVSLTNMPDEGVMVTKFYFQED  151 (152)
+T ss_pred             EecChhhcccccccccceEEEEecCCCceEEEEecCCCeEEEEeccCCeeEEeecCCCCCeeeeEEEEEeC
+Confidence            999998875 3455699999999888889999999999999999999999999999874  7999999864
+
+
+No 12
+>1IRA_X INTERLEUKIN-1 RECEPTOR ANTAGONIST; CYTOKINE RECEPTOR, RECEPTOR ANTAGONIST, IMMUNOGLOBULIN; HET: NAG; 2.7A {Homo sapiens} SCOP: b.42.1.2
+Probab=100.00  E-value=2.2e-39  Score=276.97  Aligned_cols=141  Identities=28%  Similarity=0.473  Sum_probs=126.3  Template_Neff=6.100
+
+Q sp|P10749|IL1B  120 IRQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQL  199 (269)
+Q Consensus       120 ~~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~LqL  199 (269)
+                      .++..|+|+|.+||+|||++ ..|+|.+|||+|..++++|+|..      .++.||+|||+++++||||++++++|+|+|
+T Consensus         8 ~~~~~~~i~D~~~k~Lvl~~-~~LvA~~lq~~n~~~~v~~~~~p------~~~~PV~L~i~~~~~~LsC~~~~~~p~L~l   80 (152)
+T 1IRA_X            8 SKMQAFRIWDVNQKTFYLRN-NQLVAGYLQGPNVNLEEKIDVVP------IEPHALFLGIHGGKMCLSCVKSGDETRLQL   80 (152)
+T ss_dssp             CCCEEEECBBTTCCEEEEET-TEEEEECCBGGGGGGCCCEEEEE------EETTEEEEEETTTTEEEEEEEETTEEEEEE
+T ss_pred             CCCeEEEEEcCCCCEEEEEC-CEEEEeecCCCCCCcceEEEEEe------CCCceEEEEEECCeEEEEeeecCCeEEEEE
+Confidence            45678999999999999986 68999999998877899999942      458999999999999999999999999999
+
+
+Q sp|P10749|IL1B  200 ESVDPKQYP-KKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ--DIIDFTMESV  267 (269)
+Q Consensus       200 Eev~~~~~~-~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~--~~~~F~~~~~  267 (269)
+                      |++++++|. ..++..||+||+.+.|++++||||+|||||||||.++++||+|++..|.  ++|+|+|+..
+T Consensus        81 ee~~~~~i~~~~~~~~~f~Fy~~~~G~~~~FESA~~pGWFisTs~~~~~pV~l~~~~~~~~~~t~F~~~~~  151 (152)
+T 1IRA_X           81 EAVNITDLSENRKQDKRFAFIRSDSGPTTSFESAACPGWFLCTAMEADQPVSLTNMPDEGVMVTKFYFQED  151 (152)
+T ss_dssp             ECCCGGGCCTTSSGGGGGEEEEEEETTEEEEEESSSTTCEEEBCSSSSEECEEESCGGGCSSBCCBCCEEC
+T ss_pred             EecChhhcccccccccceEEEEecCCCceEEEEecCCCeEEEEeccCCeeEEeecCCCCCeeeeEEEEEeC
+Confidence            999998875 3455699999999888889999999999999999999999999999874  7999999864
+
+
+No 13
+>6HPI_A Interleukin-36 alpha; PROTEIN INTERLEUKIN-1 SUPERFAMILY BETA-TREFOIL HEME-BINDING; NMR {Homo sapiens}
+Probab=100.00  E-value=6.6e-39  Score=275.33  Aligned_cols=144  Identities=26%  Similarity=0.423  Sum_probs=116.4  Template_Neff=6.600
+
+Q sp|P10749|IL1B  121 RQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPS---NDKIPVALGLKGKNLYLSCVMKDGTPTL  197 (269)
+Q Consensus       121 ~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~---~~~~PV~LgI~g~nLyLSC~~~~~~P~L  197 (269)
+                      ++.+|+|+|.+||+|||++ .+|+|++||+.+  .+++|+|.+|++...   .++.||+|||+++|+||||+++||+|+|
+T Consensus         9 ~~~~~~i~D~~qk~lvl~~-~~L~A~~lq~~~--~~~~~~i~~y~~~~~~~~~~g~PV~L~i~~~~l~LsC~~~~~~p~L   85 (158)
+T 6HPI_A            9 TPQQGSIQDINHRVWVLQD-QTLIAVPRKDRM--SPVTIALISCRHVETLEKDRGNPIYLGLNGLNLCLMCAKVGDQPTL   85 (158)
+T ss_dssp             SCEEEESGGGTTCCEEEET-TEEEECSS----------------CCCGGSCCTTCCEEEEEEETTTEECCEEECSSSEEE
+T ss_pred             CCeEEEEEcCCCCEEEEEC-CEEEEeeCCCCC--CCeEEEEEEeCCcccCccccCCeEEEEEECCeEEEEeEeeCCeeEE
+Confidence            4677899999999999997 689999998754  489999998887542   4789999999999999999999999999
+
+
+Q sp|P10749|IL1B  198 QLESVDPKQYP-KKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESV  267 (269)
+Q Consensus       198 qLEev~~~~~~-~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~  267 (269)
+                      +||+++++++. .++..+||+||++..|++++||||+|||||||||.++++||+|++..|. .+|+|+|+.+
+T Consensus        86 ~lee~~i~~li~~~~~~~~flFy~~~~G~~~~FESa~~PGWFi~ts~~~~~pV~l~~~~~~~~~t~F~~~~~  157 (158)
+T 6HPI_A           86 QLKEKDIMDLYNQPEPVKSFLFYHSQSGRNSTFESVAFPGWFIAVSSEGGCPLILTQELGKANTTDFGLTML  157 (158)
+T ss_dssp             CCSSCCHHHHHHTTCCCTTTCEEEEESSSCEEEEESSSTTCEEECCCSSCCBCEEESCCSSSSCCSBCCEEE
+T ss_pred             EEEecCCcccccCCccccceEEEEeccCCceEEEEccCCCcEEEecCCCCcceEeecCCCCcceeeEEEEEc
+Confidence            99999987743 3456699999999888889999999999999999999999999999987 8999999754
+
+
+No 14
+>5HN1_B Interleukin-37; Interleukin-1 Cytokine Inflammation Interleukin-18, CYTOKINE; HET: SO4; 2.25A {Homo sapiens}
+Probab=100.00  E-value=1e-38  Score=278.26  Aligned_cols=145  Identities=25%  Similarity=0.438  Sum_probs=123.2  Template_Neff=6.500
+
+Q sp|P10749|IL1B  121 RQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEP-SNDKIPVALGLKGKNLYLSCVMKDG--TPTL  197 (269)
+Q Consensus       121 ~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~-~~~~~PV~LgI~g~nLyLSC~~~~~--~P~L  197 (269)
+                      ++..|+|+|.+||+|||++ .+|+|++|| ++..+++.|.|.+|.... ..+|.||+|||+++++||||+++||  +|+|
+T Consensus        13 ~~~~~~I~D~~qk~lvl~~-~~L~A~~~~-~~~~~e~~~~i~~y~~~~~~~~g~PV~LgI~~~~~~LsC~~~~~~~~p~L   90 (175)
+T 5HN1_B           13 NPKKFSIHDQDHKVLVLDS-GNLIAVPDK-NYIRPEIFFALASSLSSASAEKGSPILLGVSKGEFCLYCDKDKGQSHPSL   90 (175)
+T ss_dssp             CCEEEEEECTTSEEEEEET-TEEEEEECC-TTBCCCCEEEEECCCSSCCTTSCEEEEEEETTTTEEEEEEC----CCCEE
+T ss_pred             CCcEEEEEcCCCCEEEEeC-CEEEEeeCc-ccCCCeEEEEEEeeCCccccccCCeEEEEEeCCeEEEEEecCCCCcCcEE
+Confidence            3668999999999999996 689999998 567789999998887642 3589999999999999999999876  9999
+
+
+Q sp|P10749|IL1B  198 QLESVDPKQYPK--KKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESV  267 (269)
+Q Consensus       198 qLEev~~~~~~~--~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~  267 (269)
+                      +||++++++|.+  +.+.+||||||+..|++++||||+||||||||+.++++||.|++..|. ++|+|+|+..
+T Consensus        91 qlee~~l~~i~~~~~~~~~~FlFy~~~~G~~~~FESAa~PGWFIsTs~~~~~pV~l~~~~~~~~~t~F~~~~~  163 (175)
+T 5HN1_B           91 QLKKEKLMKLAAQKESARRPFIFYRAQVGSWNMLESAAHPGWFICTSCNCNEPVGVTDKFENRKHIEFSFQPV  163 (175)
+T ss_dssp             EEEECCHHHHHTSCHHHHGGGEEEEEC-CCCBEEEESSSTTCEEECCSSTTEECEEESCC---CCSCBEEEEC
+T ss_pred             EEEecCHHHHHhccccccCceEEEEcccCCeeEEEEccCCCcEEeeeCCCCeeeEeeeCCCCceeEEEEEEec
+Confidence            999999888754  233489999999989889999999999999999999999999999887 7999999864
+
+
+No 15
+>5HN1_A Interleukin-37; Interleukin-1 Cytokine Inflammation Interleukin-18, CYTOKINE; HET: SO4; 2.25A {Homo sapiens}
+Probab=100.00  E-value=1.7e-38  Score=277.01  Aligned_cols=145  Identities=25%  Similarity=0.438  Sum_probs=127.8  Template_Neff=6.500
+
+Q sp|P10749|IL1B  121 RQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEP-SNDKIPVALGLKGKNLYLSCVMKDG--TPTL  197 (269)
+Q Consensus       121 ~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~-~~~~~PV~LgI~g~nLyLSC~~~~~--~P~L  197 (269)
+                      ++..|+|+|.+||+|||++ .+|+|+++| ++..+++.|.|.+|.... ..+|.||+|||+++++||||+++||  +|+|
+T Consensus        13 ~~~~~~I~D~~qk~lvl~~-~~L~A~~~~-~~~~~e~~~~i~~y~~~~~~~~g~PV~LgI~~~~~~LsC~~~~~~~~p~L   90 (175)
+T 5HN1_A           13 NPKKFSIHDQDHKVLVLDS-GNLIAVPDK-NYIRPEIFFALASSLSSASAEKGSPILLGVSKGEFCLYCDKDKGQSHPSL   90 (175)
+T ss_pred             CCcEEEEEcCCCCEEEEEC-CEEEEeecc-cCCCCeEEEEEEeeCCCCccccCCeEEEEEECCeEEEEeeecCCCCCcEE
+Confidence            3568999999999999996 689999998 566789999998887642 3589999999999999999999876  9999
+
+
+Q sp|P10749|IL1B  198 QLESVDPKQYPK--KKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESV  267 (269)
+Q Consensus       198 qLEev~~~~~~~--~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~  267 (269)
+                      +||++++++|.+  +.+.+||||||+..|++++||||+||||||||+.++++||.|++..|. ++|+|+|+..
+T Consensus        91 qlee~~l~~i~~~~~~~~~~FlFy~~~~G~~~~FESAa~PGWFIsTs~~~~~pV~l~~~~~~~~~t~F~~~~~  163 (175)
+T 5HN1_A           91 QLKKEKLMKLAAQKESARRPFIFYRAQVGSWNMLESAAHPGWFICTSCNCNEPVGVTDKFENRKHIEFSFQPV  163 (175)
+T ss_pred             EEEecCHHHHHhcCcccccceEEEEccCCCceEEEEccCCCcEEEeeCCCCcCeEEecCCCCcceEEEEEEec
+Confidence            999999888754  233489999999989889999999999999999999999999999887 7999999865
+
+
+No 16
+>1MD6_A interleukin 1 family, member 5; beta triple, alpha helix, IMMUNE; 1.6A {Mus musculus} SCOP: b.42.1.2
+Probab=100.00  E-value=1.2e-37  Score=266.56  Aligned_cols=142  Identities=30%  Similarity=0.467  Sum_probs=116.8  Template_Neff=6.500
+
+Q sp|P10749|IL1B  122 QLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGE-PSNDKIPVALGLKGKNLYLSCVMKDGTPTLQLE  200 (269)
+Q Consensus       122 ~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~-~~~~~~PV~LgI~g~nLyLSC~~~~~~P~LqLE  200 (269)
+                      +..|+|+|.+||+|||++. +|+|++|||......+.+  .+|... ...++.||+|||+++|+||||++. ++|+|+||
+T Consensus         5 ~~~~~i~D~~~k~lvl~~~-~L~A~~~q~~~~~~~~~i--~~~~~~~~~~~~~PV~L~i~~~~~~LsC~~~-~~p~LqLe   80 (154)
+T 1MD6_A            5 ALCFRMKDSALKVLYLHNN-QLLAGGLHAEKVIKGEEI--SVVPNRALDASLSPVILGVQGGSQCLSCGTE-KGPILKLE   80 (154)
+T ss_dssp             CEEEEEEETTCCBEEEETT-EEEECCHHHHTTSCCCCE--EEEECTTSCGGGCEEEEEETTTTEEEECCSS-SSCCCEEE
+T ss_pred             CeEEEEEcCCCCEEEEECC-EEEEcccccccccCCcEE--EEEeCCCCCcCCCcEEEEEeCCcEEEEeecC-CCCEEEEE
+Confidence            5678999999999999876 899999998433333332  233322 135799999999999999999975 56999999
+
+
+Q sp|P10749|IL1B  201 SVDPKQY-PKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSG----Q-DIIDFTMESV  267 (269)
+Q Consensus       201 ev~~~~~-~~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g----~-~~~~F~~~~~  267 (269)
+                      +++++++ ...++.+||+||+...|++++||||+|||||||||.++++||+|++..|    + ++|+|+|+..
+T Consensus        81 e~~~~~l~~~~~~~~~flFy~~~~G~~~~FESa~~PGWFIsTs~e~~~pV~l~~~~~~~~~~~~~t~F~~~~~  153 (154)
+T 1MD6_A           81 PVNIMELYLGAKESKSFTFYRRDMGLTSSFESAAYPGWFLCTSPEADQPVRLTQIPEDPAWDAPITDFYFQQC  153 (154)
+T ss_dssp             SCCHHHHHHSSSCCGGGEEEEEECSSCEEEEESSSTTCEEEBCSSSSEECEEECCCSSCCTTSCBCCEEEEEC
+T ss_pred             EeccchhccCcccccceEEEEeccCCeEEEEEecCCCeEEEecCCCCcceEeecCCCCCCCCCCcEEEEEEEC
+Confidence            9998753 2345569999999988888999999999999999999999999999987    3 7999999865
+
+
+No 17
+>5BOW_A Interleukin-1 family member 10; BETA TREFOIL, INNATE IMMUNE SIGNALING; HET: EDO; 1.31A {Homo sapiens}
+Probab=100.00  E-value=1.5e-36  Score=259.30  Aligned_cols=143  Identities=26%  Similarity=0.390  Sum_probs=125.2  Template_Neff=6.200
+
+Q sp|P10749|IL1B  121 RQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQLE  200 (269)
+Q Consensus       121 ~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~LqLE  200 (269)
+                      .+..+.|+|.+||+|||+++ .|.|.++++.+ ..++++.|..|+.. ..++.||+|||+++++||||.++|++|+|+||
+T Consensus         5 ~p~~~~i~D~~~kvlvl~~~-~Lva~~~~~~~-~~~~~~~i~~~~~~-~~~g~PV~L~i~~~~~~LsC~~~~~~p~L~le   81 (151)
+T 5BOW_A            5 MARYYIIKYADQKALYTRDG-QLLVGDPVADN-CCAEKICTLPNRGL-DRTKVPIFLGIQGGSRCLACVETEEGPSLQLE   81 (151)
+T ss_dssp             CCEEEEEECGGGCEEEEETT-EEEEECTGGGT-CCCCCEEEEECTTT-CTTSCEEEEEETTTTEEEEEECCTTCCEEEEE
+T ss_pred             CccEEEEEeCCCCEEEEECC-EEEEeCCCCCC-CCceeEEEEeeCCC-CCCCCeEEEEEECCeEEEEEeecCCccEEEEE
+Confidence            45678999999999999864 58888887544 35888888888764 36899999999999999999999999999999
+
+
+Q sp|P10749|IL1B  201 SVDPKQYPK-KKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMES  266 (269)
+Q Consensus       201 ev~~~~~~~-~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~  266 (269)
+                      ++++++|.. .+..+||+||++..|++++||||+|||||||||.++++||.|++..|. .+|+|+|+.
+T Consensus        82 e~~i~~i~~~~~~~~~f~Fy~~~~G~~~~FESa~~pGWFi~ts~~~~~pV~l~~~~~~~~~t~F~~~~  149 (151)
+T 5BOW_A           82 DVNIEELYKGGEEATRFTFFQSSSGSAFRLEAAAWPGWFLCGPAEPQQPVQLTKESEPSARTKFYFEQ  149 (151)
+T ss_dssp             SCCHHHHHTCCGGGGGGCEEEEEETTEEEEEETTSTTEEEECCSSTTCCCEEEECSSCCGGGCBEEEE
+T ss_pred             ecCHHHHhcCCccccceEEEEeccCCeEEEEEecCCCeEEEeCCCCCcCeEEccCCCCCceeEEEEEE
+Confidence            999988654 455689999999888889999999999999999999999999999887 899999975
+
+
+No 18
+>5UC6_A Interleukin-1 alpha/DNA Complex; SOMAmer, IMMUNE SYSTEM-DNA complex; HET: 85Y; 2.1A {Homo sapiens}
+Probab=100.00  E-value=5.2e-36  Score=257.81  Aligned_cols=138  Identities=24%  Similarity=0.333  Sum_probs=121.9  Template_Neff=6.500
+
+Q sp|P10749|IL1B  121 RQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQLE  200 (269)
+Q Consensus       121 ~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~LqLE  200 (269)
+                      .+..|+|+|.+||+|||+++.+|+|++||  +..++++|+|.+|++....+|.||+|||+|+++||||++ +|+|+|+||
+T Consensus        18 ~~~~~~i~D~~qk~lvl~~~~~L~A~~lq--~~~~~~~~~i~~y~~~~~~~g~PV~Lgi~~~~~~LsC~~-~~~p~Lqle   94 (159)
+T 5UC6_A           18 IKYEFILNDALNQSIIRANDQYLTAAALH--NLDEAVKFDMGAYKSSKDDAKITVILRISKTQLYVTAQD-EDQPVLLKE   94 (159)
+T ss_dssp             EEEEEEEEETTSEEEEECSSSCEEEEECS--SGGGSCCEEEEEEEESSCCSSCEEEEEETTSSEEEECCS-TTCBCEEEE
+T ss_pred             cEEEEEEEcCCCCEEEEcCCCEEEEeecC--CCCCCeEEEEEEeCCCccccCcEEEEEEeCCeEEEEEee-CCccEEEEE
+Confidence            35689999999999999866799999998  667899999999987654589999999999999999998 999999999
+
+
+Q sp|P10749|IL1B  201 SVDPKQ-YPKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESV  267 (269)
+Q Consensus       201 ev~~~~-~~~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~  267 (269)
+                      +++.++ |.+ + .+||+||++..|++++||||+||||||||+.+++    |+++.|. ++|+|+|+..
+T Consensus        95 e~~~~~~i~~-~-~~~f~Fy~~~~G~~~~FESa~~PGWFI~ts~~~~----l~~~~~~~~~t~F~~~~~  157 (159)
+T 5UC6_A           95 MPEIPKTITG-S-ETNLLFFWETHGTKNYFTSVAHPNLFIATKQDYW----VCLAGGPPSITDFQILEN  157 (159)
+T ss_dssp             CSSCCSEEEG-G-GGGGCEEEEEETTEEEEEESSSTTCEEEBCTTSC----CEEESSTTSBCCEEEECC
+T ss_pred             CCCCccccCC-C-CcceEEEEeeeCCeEEEEEccCCCeEEEEeCCcc----cccCCCCCceeEEEEEec
+Confidence            999654 544 4 7999999998888899999999999999998765    9998887 8999999763
+
+
+No 19
+>4IZE_A Interleukin-36 gamma; beta trefoil, innate immune signaling; 2.0A {Homo sapiens}
+Probab=100.00  E-value=1.3e-35  Score=253.73  Aligned_cols=141  Identities=22%  Similarity=0.371  Sum_probs=123.0  Template_Neff=6.300
+
+Q sp|P10749|IL1B  122 QLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEP---SNDKIPVALGLKGKNLYLSCVMKDGTPTLQ  198 (269)
+Q Consensus       122 ~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~---~~~~~PV~LgI~g~nLyLSC~~~~~~P~Lq  198 (269)
+                      +..++|+|.+||+|||++ ..|.|+++++  ...+++|.|.+|+...   ..++.||+|||+++++||||.+++++|+|+
+T Consensus         5 ~~~~~i~D~~~kvlvl~~-~~L~a~~~~~--~~~~~~~~i~~y~~~~~~~~~~g~pV~L~i~~~~~~L~C~~~~~~p~L~   81 (152)
+T 4IZE_A            5 PITGTINDLNQQVWTLQG-QNLVAVPRSD--SVTPVTVAVITCKYPEALEQGRGDPIYLGIQNPEMCLYCEKVGEQPTLQ   81 (152)
+T ss_dssp             CEEEEEEETTCEEEEEET-TEEEEEEGGG--CCCCCEEEEEECSCGGGSCSSSCEEEEEEEETTTEEEEEECSSSSCEEE
+T ss_pred             CeEEEEEcCCCCEEEEEC-CEEEEEeCcc--CCCCeEEEEEEeCChHHhhcCCCCeEEEEEeCCcEEEEeeeeCCeeEEE
+Confidence            457899999999999996 4799999865  4568889998888653   357999999999999999999999999999
+
+
+Q sp|P10749|IL1B  199 LESVDPKQ-YPKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMES  266 (269)
+Q Consensus       199 LEev~~~~-~~~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~  266 (269)
+                      ||++++++ |...++.+||+||++..|++++||||+||||||||+ ++++||+|++..|. ++|+|+|..
+T Consensus        82 lee~~~~~~i~~~~~~~~f~Fy~~~~G~~~~FESa~~pGWFi~t~-~~~~pV~l~~~~~~~~~t~F~~~~  150 (152)
+T 4IZE_A           82 LKEQKIMDLYGQPEPVKPFLFYRAKTGRTSTLESVAFPDWFIASS-KRDQPIILTSELGKSYNTAFELNI  150 (152)
+T ss_dssp             EEECCHHHHHHSSSCCGGGEEEEEEETTEEEEEESSSTTCEEEBC-STTCBCEEESCCSSSCBCCEEEEE
+T ss_pred             EEeechhHhcCCCCCCcceEEEEeccCCceEEEEecCCCcEEEec-CCCccEEeecCCCCceeeeEEEEE
+Confidence            99999876 444445699999999888889999999999999998 66899999999887 899999875
+
+
+No 20
+>2L5X_A Interleukin-1 alpha, Protein S100-A13; Protein-protein complex, key component in; NMR {Homo sapiens}
+Probab=100.00  E-value=3.8e-35  Score=250.57  Aligned_cols=138  Identities=24%  Similarity=0.329  Sum_probs=121.5  Template_Neff=6.500
+
+Q sp|P10749|IL1B  121 RQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQLE  200 (269)
+Q Consensus       121 ~~~~~~i~D~~qK~lvl~~~~~L~Av~Lqg~n~~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~LqLE  200 (269)
+                      .+..|+|+|.+||+|||+++.+|+|+++|  +...+++|+|.+|++....+|.||+|||+++++||||+++ |+|+|+||
+T Consensus        10 ~~~~~~i~D~~qk~Lvl~~~~~L~A~~~q--~~~~~~~~~i~~y~~~~~~~g~PV~L~i~~~~~~LsC~~~-~~p~L~le   86 (151)
+T 2L5X_A           10 IKYEFILNDALNQSIIRANDQYLTAAALH--NLDEAVKFDMGAYKSSKDDAKITVILRISKTQLYVTAQDE-DQPVLLKE   86 (151)
+T ss_dssp             CCCSBCEECTTCCBEEESCSSCEEECCCS--SSTTBCCEEEEEEECSCSSSSCEEEEEESSSCEEECCCSS-SCCCCEEE
+T ss_pred             EeEEEEEEcCCCCEEEEcCCCEEEEeccc--CCCCCeEEEEEEeCCCccccCcEEEEEEeCCeEEEEEeeC-CccEEEEE
+Confidence            34678999999999999866689999998  6778999999999876545899999999999999999987 99999999
+
+
+Q sp|P10749|IL1B  201 SVDPKQ-YPKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQ-DIIDFTMESV  267 (269)
+Q Consensus       201 ev~~~~-~~~~~~~~rFlFyk~~~~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~g~-~~~~F~~~~~  267 (269)
+                      ++++++ |.+ + .+||+||++..|++++||||+|||||||||.+++    |++..|. .+|+|+|+..
+T Consensus        87 e~~~~~~i~~-~-~~~fiFy~~~~g~~~~FESa~~pGWFi~Ts~~~~----l~~~~~~~~~t~F~~~~~  149 (151)
+T 2L5X_A           87 MPEIPKTITG-S-ETNLLFFWETHGTKNYFTSVAHPNLFIATKQDYW----VCLAGGPPSITDFQILEN  149 (151)
+T ss_dssp             CSSCCSEECT-T-CTTSEEEEEEETTEEEEEESSSTTCBCCBCSSSB----CCCBCCSSSBCCEEECCC
+T ss_pred             CCCCcccCCC-C-CcceEEEEeecCCeEEEEEccCCCeEEEEeCCcc----cccCCCCCceeEEEEEec
+Confidence            998664 644 4 7999999998888899999999999999998765    8888886 8999999864
+
+
+No 21
+>4XFS_B IL-18 SER Mut I; Interleukin-18, IL-18, cytokine, immune defense; HET: DMS, GOL; 1.91A {Homo sapiens}
+Probab=99.92  E-value=2.2e-30  Score=222.59  Aligned_cols=140  Identities=13%  Similarity=0.264  Sum_probs=116.8  Template_Neff=6.600
+
+Q sp|P10749|IL1B  121 RQLHYRLRDEQQKSLVLSD--PYELKALHLNGQNI-NQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTL  197 (269)
+Q Consensus       121 ~~~~~~i~D~~qK~lvl~~--~~~L~Av~Lqg~n~-~~~v~~~ms~~~~~~~~~~~PV~LgI~g~nLyLSC~~~~~~P~L  197 (269)
+                      .+..|+|+|.+||+|||++  ...|+|+++|+.+. .+++.|+|.+|.+. ..++.||+|||+++++||+|.+.  + +|
+T Consensus         6 ~~~~~~I~D~~qk~Lvl~~~~~l~~~~~~~q~~~~~~~~~~~~i~~Y~~~-~~~g~PV~L~i~~~~~~l~C~~~--~-~L   81 (157)
+T 4XFS_B            6 ESKLSVIRNLNDQVLFIDQGNRPLFEDMTDSDCRDNAPRTIFIISMYKDS-QPRGMAVTISVKCEKISTLSCEN--K-II   81 (157)
+T ss_dssp             EEEEEEEECTTCCEEEECTTSCEEEECCCHHHHHHTTTSSCEEEEEEEES-SCSSEEEEEEEESSSEEEEECGG--G-SC
+T ss_pred             cceeEEEEeCcCCEEEEeCCCceEEEeCcccccccCCCCeeEEEEEEcCC-CCCCceEEEEEECCCEEEEEeeC--C-EE
+Confidence            3467899999999999985  46788899998863 67899999999884 46899999999999999888863  3 99
+
+
+Q sp|P10749|IL1B  198 QLESVDPKQ-YPKKKMEKRFVFNKIEV-KS--KVEFESAEFPNWYISTSQAEHK-PVFLGNNSG-Q-DIIDFTMES  266 (269)
+Q Consensus       198 qLEev~~~~-~~~~~~~~rFlFyk~~~-~s--~~tFESa~~PGWfISTS~~~~~-PV~m~~~~g-~-~~~~F~~~~  266 (269)
+                      +||+++.++ |.  +...|||||++.. |.  +++||||+|||||||||.++++ |+.|++... . ..+.|+++.
+T Consensus        82 ~lee~~~~~~i~--~~~~~flFy~~~~~G~~~~~~FESa~~pGWFi~ts~~~~~~~l~L~~~~~~~d~~~~f~v~~  155 (157)
+T 4XFS_B           82 SFKEMNPPDNIK--DTKSDIIFFQRSVPGHDNKMQFESSSYEGYFLACEKERDLFKLILAAADAAGDRSIMFTVQN  155 (157)
+T ss_dssp             EEESSCCCSEEC--SSCCTTCEEEEEETTEEEEEEEEESSSTTEEEEEEEETTEEEEEEEECCCTTCGGGCBEEEE
+T ss_pred             EEEeCCCCcccc--CCCcceeEEeccCCCCCCeEEEEEeCCCCeEEEEEeeCCEEEEEEEecccCCCceEEEEEEc
+Confidence            999998765 43  2378999999887 44  7899999999999999998888 999998743 3 577888764
+
+
+No 22
+>2VXT_I MURINE IGG 125-2H, INTERLEUKIN-18; FAB, IL-18, SECRETED, CYTOKINE, AUTOIMMUNITY; 1.49A {MUS MUSCULUS}
+Probab=99.91  E-value=3.8e-29  Score=215.11  Aligned_cols=139  Identities=14%  Similarity=0.272  Sum_probs=113.2  Template_Neff=6.400
+
+Q sp|P10749|IL1B  121 RQLHYRLRDEQQKSLVLSD--PYELKALHLNGQNI-NQQVIFSMSFVQGEPSNDKIPVALGLKGK-NLYLSCVMKDGTPT  196 (269)
+Q Consensus       121 ~~~~~~i~D~~qK~lvl~~--~~~L~Av~Lqg~n~-~~~v~~~ms~~~~~~~~~~~PV~LgI~g~-nLyLSC~~~~~~P~  196 (269)
+                      .+..|+|+|.+||+|||++  .+.|+|+++||++. ..+++|+|.+|++.. .+|.||+|+|+++ ++||||.+    |+
+T Consensus         6 ~~~~~~i~d~~~k~Lvl~~~~~~~l~a~~~q~~~~~~~~~~~~i~~Y~~~~-~~g~pV~L~i~~~~~~~lsC~~----~~   80 (157)
+T 2VXT_I            6 ESKLSVIRNLNDQVLFIDQGNRPLFEDMTDSDARDNAPRTIFIISMYKDSQ-PRGMAVTISVKAEKISTLSAEN----KI   80 (157)
+T ss_dssp             EEEEEEEECTTSCEEEECTTSCEEEECCCHHHHHHTTTTTCEEEEEEEEET-TTEEEEEEEEESSSEEEEECGG----GC
+T ss_pred             cceeEEEEeCccCEEEEeCCCCcEEEcccccccccCCCCEEEEEEEeCCCC-CCCceEEEEEEcCCeEEEEecC----CE
+Confidence            3467899999999999985  56899999999984 889999999999854 6899999999998 89999995    49
+
+
+Q sp|P10749|IL1B  197 LQLESVDPKQ-YPKKKMEKRFVFNKIEV-KS--KVEFESAEFPNWYISTSQAEHK-PVFLGNNSG-Q-DIIDFTMES  266 (269)
+Q Consensus       197 LqLEev~~~~-~~~~~~~~rFlFyk~~~-~s--~~tFESa~~PGWfISTS~~~~~-PV~m~~~~g-~-~~~~F~~~~  266 (269)
+                      ||||+++.++ |..  ..+|||||++.. |.  +++||||+||||||||+.+++- -+.|.+... . ..+.|+++.
+T Consensus        81 L~lee~~~~~~I~~--~~~~flFy~~~~~g~~~~~~FESa~~pgWFIst~~~~~~~kl~Lk~~~~~~d~~~~f~v~~  155 (157)
+T 2VXT_I           81 ISFKEMNPPDNIKD--TKSDIIFFQRSVPGHDNKMQFESSSYEGYFLAAEKERDLFKLILKKEDELGDRSIMFTVQN  155 (157)
+T ss_dssp             CEEEECCCCSEESS--SCSTTCEEEEEETTEEEEEEEEESSSTTEEEEEEEETTEEEEEEEECCSTTBGGGCBEEEE
+T ss_pred             EEEEeCCCCcccCC--CCcceeEEecCCCCCCCeeEEEEccCCCeEEEEeecCCeEEEEEeeccccCCceEEEEEec
+Confidence            9999999875 532  479999999887 73  7999999999999999977532 244444322 2 566777654
+
+
+No 23
+>3KMV_E Alpha-L-arabinofuranosidase B; protein:carboydrate interactions, carbohydrate-binding module, beta-trefoil; HET: GOL, FMT; 1.8A {Clostridium thermocellum}
+Probab=58.55  E-value=7.7  Score=33.92  Aligned_cols=27  Identities=30%  Similarity=0.415  Sum_probs=19.8  Template_Neff=8.000
+
+Q sp|P10749|IL1B  225 SKVEFESAEFPNWYISTSQAEHKPVFLGNN  254 (269)
+Q Consensus       225 s~~tFESa~~PGWfISTS~~~~~PV~m~~~  254 (269)
+                      ...+|||+.+|||||--.   +..+.+...
+T Consensus       104 ~~vSfes~~~Pg~yLr~~---~~~l~l~~~  130 (157)
+T 3KMV_E          104 SYISFQSYNFPTRYIRHY---NYLLRLDEI  130 (157)
+T ss_dssp             TSEEEEESSSTTEEEEEE---TTEEEEEEC
+T ss_pred             ceEEEEECCCCCeEEEEE---CcEEEEecC
+Confidence            357999999999999984   234445443
+
+
+No 24
+>3KMV_F Alpha-L-arabinofuranosidase B; protein:carboydrate interactions, carbohydrate-binding module, beta-trefoil; HET: GOL, FMT; 1.8A {Clostridium thermocellum}
+Probab=58.55  E-value=7.7  Score=33.92  Aligned_cols=27  Identities=30%  Similarity=0.415  Sum_probs=19.8  Template_Neff=8.000
+
+Q sp|P10749|IL1B  225 SKVEFESAEFPNWYISTSQAEHKPVFLGNN  254 (269)
+Q Consensus       225 s~~tFESa~~PGWfISTS~~~~~PV~m~~~  254 (269)
+                      ...+|||+.+|||||--.   +..+.+...
+T Consensus       104 ~~vSfes~~~Pg~yLr~~---~~~l~l~~~  130 (157)
+T 3KMV_F          104 SYISFQSYNFPTRYIRHY---NYLLRLDEI  130 (157)
+T ss_dssp             TSEEEEESSSTTEEEEEE---TTEEEEEEC
+T ss_pred             ceEEEEECCCCCeEEEEE---CcEEEEecC
+Confidence            357999999999999984   234445443
+
+
+No 25
+>1IJT_A fibroblast growth factor 4; b-trefoil fold, HORMONE-GROWTH FACTOR COMPLEX; HET: SO4; 1.8A {Homo sapiens} SCOP: b.42.1.1
+Probab=54.59  E-value=10  Score=32.20  Aligned_cols=48  Identities=17%  Similarity=0.279  Sum_probs=31.0  Template_Neff=7.800
+
+Q sp|P10749|IL1B  215 RFVFNKIEV-KSKVEFESAEFPNWYISTSQAEHKPVFLGNN-SGQDIIDFT  263 (269)
+Q Consensus       215 rFlFyk~~~-~s~~tFESa~~PGWfISTS~~~~~PV~m~~~-~g~~~~~F~  263 (269)
+                      .-+|.-.-. ....+|+|+.+++|||+.... ++|..-.+. .+++.+.|.
+T Consensus        76 dC~F~E~~~en~y~~y~S~~~~~~ylg~~~~-G~~~~g~~t~~~~~~~~Fl  125 (128)
+T 1IJT_A           76 ECTFKEILLPNNYNAYESYKYPGMFIALGKN-GKTKKGNRVSPTMKVTHFL  125 (128)
+T ss_dssp             TSEEEEEECGGGCEEEEESSSTTCBCCBCTT-SSBCCGGGCCTTSGGGCEE
+T ss_pred             cceEEEEEccCCceeeeecCcCCcEEEECCC-CeeccCCCCCCCCceeeee
+Confidence            556654333 346689999999999999865 466555443 233556663
+
+
+No 26
+>2M49_C Fibroblast growth factor 2, Protein; S100B, FGF2, CYTOKINE-METAL BINDING PROTEIN; NMR {Homo sapiens}
+Probab=52.13  E-value=12  Score=31.77  Aligned_cols=49  Identities=16%  Similarity=0.299  Sum_probs=31.8  Template_Neff=7.700
+
+Q sp|P10749|IL1B  215 RFVFNKIEV-KSKVEFESAEFPNWYISTSQAEHKPVFLGNNS-GQDIIDFTM  264 (269)
+Q Consensus       215 rFlFyk~~~-~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~-g~~~~~F~~  264 (269)
+                      .-+|.-.-. ....+|+|+.+++|||+.... ++|....+.. ++..+.|..
+T Consensus        73 ~C~F~E~~~~n~y~~y~S~~~~~~yl~~~~~-G~~~~g~~t~~~~~~~~Fl~  123 (126)
+T 2M49_C           73 ECFFFERLESNNYNTYRSRKYTSWYVALKRT-GQYKLGSKTGPGQKAILFLP  123 (126)
+T ss_pred             CceEEEEEcccCcceeEecCCCCeEEEEcCC-CccccCCCCCCCCceeeeee
+Confidence            445543222 356789999999999999766 4666654443 346666654
+
+
+No 27
+>2FDB_M fibroblast growth factor 8 isoform; beta-trefoil fold  immunoglobulin fold; 2.28A {Homo sapiens} SCOP: b.42.1.1
+Probab=50.31  E-value=13  Score=33.38  Aligned_cols=48  Identities=19%  Similarity=0.436  Sum_probs=29.6  Template_Neff=6.800
+
+Q sp|P10749|IL1B  215 RFVFNKIEV-KSKVEFESAEFPNWYISTSQAEHKPVFLGNNS-GQDIIDFT  263 (269)
+Q Consensus       215 rFlFyk~~~-~s~~tFESa~~PGWfISTS~~~~~PV~m~~~~-g~~~~~F~  263 (269)
+                      .-+|.-.-. +..++|+|+.+++|||+.... ++|..-.+.. .+..+.|.
+T Consensus       104 ~C~F~E~~~en~Y~~y~S~~~~~~ylal~k~-Gk~r~g~~t~~~~~~~~FL  153 (164)
+T 2FDB_M          104 DCVFTEIVLENNYTALQNAKYEGWYMAFTRK-GRPRKGSKTRQHQREVHFM  153 (164)
+T ss_dssp             GGEEEEEECTTSCEEEEESSSTTCBCCBCTT-SCBCCGGGCCTTSGGGCEE
+T ss_pred             cceEEEEEcccCceeeEecccCCcEEEECCC-CeecCCCCCCCCCCcccee
+Confidence            456654332 456799999999999999755 3444433322 23455554
+
+
+No 28
+>4CJM_D FIBROBLAST GROWTH FACTOR 18; SIGNALING PROTEIN, SIGNALLING; HET: SO4; 2.7A {HOMO SAPIENS}
+Probab=49.90  E-value=13  Score=32.25  Aligned_cols=37  Identities=19%  Similarity=0.376  Sum_probs=24.5  Template_Neff=7.300
+
+Q sp|P10749|IL1B  215 RFVFNKIEV-KSKVEFESAEFPNWYISTSQAEHKPVFLG  252 (269)
+Q Consensus       215 rFlFyk~~~-~s~~tFESa~~PGWfISTS~~~~~PV~m~  252 (269)
+                      .-+|.-.-. ....+|+|+.+++|||+..... +|..-.
+T Consensus        77 ~C~F~E~~~~n~Y~~y~S~~~~~~ylal~~~G-~~~~g~  114 (141)
+T 4CJM_D           77 ECVFIEKVLENNYTALMSAKYSGWYVGFTKKG-RPRKGP  114 (141)
+T ss_dssp             GGCEEEEECTTSCEEEEESSSTTCBCCBCTTS-CBCCGG
+T ss_pred             cceeEEEEcccCceeeEecccCCcEEEEcCCC-ccCCCC
+Confidence            445543322 3456899999999999997653 554433
+
+
+No 29
+>1BLD_A BASIC FIBROBLAST GROWTH FACTOR; GROWTH FACTOR; NMR {Homo sapiens} SCOP: b.42.1.1
+Probab=41.76  E-value=22  Score=31.67  Aligned_cols=51  Identities=18%  Similarity=0.293  Sum_probs=31.6  Template_Neff=6.900
+
+Q sp|P10749|IL1B  215 RFVFNKIEV-KSKVEFESAEFPNWYISTSQAEHKPVFLGNN-SGQDIIDFTMES  266 (269)
+Q Consensus       215 rFlFyk~~~-~s~~tFESa~~PGWfISTS~~~~~PV~m~~~-~g~~~~~F~~~~  266 (269)
+                      .-+|.-.-. +....|+|+.+++|||+..... +|..-.+. .++..+.|-...
+T Consensus       100 dC~F~E~~~~n~y~~y~S~~~~~~ylg~~~~G-r~~~g~~t~~~~~~~hFl~~~  152 (155)
+T 1BLD_A          100 ECFFFERLESNNYNTYRSRKYTSWYVALKRTG-QYKLGSKTGPGQKAILFLPMS  152 (155)
+T ss_dssp             TTBEEEEECSSSCEEEEESTTTTCBCCBCSSS-CBCCTTTCCTTCGGGCEEEEE
+T ss_pred             CceEEEEEcccCcceEEecccCCeEEEEcCCC-ccccCCCCCCCCceeEeeEec
+Confidence            344543222 3456899999999999997653 55544443 334666775443
+
+
+No 30
+>4OEE_A Fibroblast growth factor 2; Heparin/Heparin Sulfate Binding, PROTEIN BINDING; HET: GNX, IDY; 1.5A {Homo sapiens}
+Probab=39.36  E-value=25  Score=31.28  Aligned_cols=72  Identities=17%  Similarity=0.255  Sum_probs=41.5  Template_Neff=6.900
+
+Q sp|P10749|IL1B  181 GKNLYLSCVMKDGTPTLQLESVDPKQYPKKKMEKRFVFNKIEV-KSKVEFESAEFPNWYISTSQAEHKPVFLGNN-SGQD  258 (269)
+Q Consensus       181 g~nLyLSC~~~~~~P~LqLEev~~~~~~~~~~~~rFlFyk~~~-~s~~tFESa~~PGWfISTS~~~~~PV~m~~~-~g~~  258 (269)
+                      ..+.|||=... |+..-...           ....-+|+-.-. +....|+|+.+++|||+..... +|..-.+. .+++
+T Consensus        78 ~s~~YLcmn~~-G~ly~~~~-----------~~~dC~F~E~~~en~y~~y~S~~~~~~yLg~~~~G-r~~~g~~t~~~~~  144 (155)
+T 4OEE_A           78 SANRYLAMKED-GRLLASKS-----------VTDECFFFERLESNNYNTYRSRKYTSWYVALKRTG-QYKLGSKTGPGQK  144 (155)
+T ss_dssp             TTTEEEEECTT-SCEEEESS-----------CCGGGCEEEEECTTSCEEEEESSSTTCBCCBCTTS-BBCCGGGCCTTCG
+T ss_pred             ccCeEEEEcCC-CCeeecCC-----------CCCCceEEEEEcccCcceEEeeccCCeEEEEcCCC-ccccCCCCCCCCc
+Confidence            45788876653 34221111           113455654333 3567899999999999997653 55543332 3346
+
+
+Q sp|P10749|IL1B  259 IIDFTME  265 (269)
+Q Consensus       259 ~~~F~~~  265 (269)
+                      .+.|--.
+T Consensus       145 ~~hFl~~  151 (155)
+T 4OEE_A          145 AILFLPM  151 (155)
+T ss_dssp             GGCEEEE
+T ss_pred             eeEeeEe
+Confidence            6666544
+
+
+No 31
+>5ZXE_A Consensus sequence based basic form; FGF, basic form, CELL CYCLE; HET: GOL; 1.3A {Homo sapiens}
+Probab=36.18  E-value=30  Score=29.42  Aligned_cols=52  Identities=17%  Similarity=0.315  Sum_probs=32.9  Template_Neff=7.800
+
+Q sp|P10749|IL1B  215 RFVFNKIEV-KSKVEFESAEF-PNWYISTSQAEHKPVFLGNN-SGQDIIDFTMESV  267 (269)
+Q Consensus       215 rFlFyk~~~-~s~~tFESa~~-PGWfISTS~~~~~PV~m~~~-~g~~~~~F~~~~~  267 (269)
+                      .-+|.-.-. +....|+|+.+ +||||+.... ++|..-.+. .++..+.|-..++
+T Consensus        74 ~C~F~E~~~~~~y~~y~S~~~~~~~ylg~~~~-G~~~~~~~~~~~~~~~~Fl~~~~  128 (130)
+T 5ZXE_A           74 ECKFKERLLENGYNTYSSAKYRRGWYVALNKN-GRPKKGNRTRRTQKATHFLPLPV  128 (130)
+T ss_dssp             GGCEEEEECTTSCEEEEESSSTTTCBCCBCTT-SCBCCGGGCCTTSGGGCEEEEET
+T ss_pred             CceEEEEEcccCceEEEeeccCCCeEEEECCC-CcccCCCCCCCCCCccceeeeeC
+Confidence            456654332 35678999999 8999999755 466544443 3335667755443
+
+
+No 32
+>4DS7_E Calmodulin, Spindle pole body component; PROTEIN BINDING, METAL BINDING, SPINDLE; HET: GOL; 2.15A {Kluyveromyces lactis}
+Probab=35.99  E-value=31  Score=26.16  Aligned_cols=23  Identities=17%  Similarity=0.319  Sum_probs=18.9  Template_Neff=4.100
+
+Q sp|P10749|IL1B   56 INKSFRQAVSLIVAVEKLWQLPV   78 (269)
+Q Consensus        56 ~~~smr~vv~lViA~erlK~~~~   78 (269)
+                      +..||+-||-+|+|.=|||+...
+T Consensus         8 ~kltFKtVAl~VLA~VRmk~~a~   30 (55)
+T 4DS7_E            8 RRLSFKTVALLVLACVRMKRIAF   30 (55)
+T ss_dssp             --CCHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCHHHHHHHHHHHHHHHHHHH
+Confidence            46899999999999999998543
+
+
+No 33
+>4DS7_H Calmodulin, Spindle pole body component; PROTEIN BINDING, METAL BINDING, SPINDLE; HET: GOL; 2.15A {Kluyveromyces lactis}
+Probab=35.99  E-value=31  Score=26.16  Aligned_cols=23  Identities=17%  Similarity=0.319  Sum_probs=19.5  Template_Neff=4.100
+
+Q sp|P10749|IL1B   56 INKSFRQAVSLIVAVEKLWQLPV   78 (269)
+Q Consensus        56 ~~~smr~vv~lViA~erlK~~~~   78 (269)
+                      +..||+-||-+|+|.=|||+...
+T Consensus         8 ~kltFKtVAl~VLA~VRmk~~a~   30 (55)
+T 4DS7_H            8 RRLSFKTVALLVLACVRMKRIAF   30 (55)
+T ss_dssp             -CCCHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCHHHHHHHHHHHHHHHHHHH
+Confidence            46899999999999999998543
+
+
+No 34
+>3KMV_E Alpha-L-arabinofuranosidase B; protein:carboydrate interactions, carbohydrate-binding module, beta-trefoil; HET: GOL, FMT; 1.8A {Clostridium thermocellum}
+Probab=32.82  E-value=37  Score=29.75  Aligned_cols=19  Identities=37%  Similarity=0.726  Sum_probs=15.6  Template_Neff=8.000
+
+Q sp|P10749|IL1B  224 KSKVEFESAEFPNWYISTS  242 (269)
+Q Consensus       224 ~s~~tFESa~~PGWfISTS  242 (269)
+                      +...+|||+.+|||||--.
+T Consensus         8 ~~~vsles~~~pg~ylr~~   26 (157)
+T 3KMV_E            8 ITKAKFQSYNYPNMYIRHA   26 (157)
+T ss_dssp             CEEEEEEESSSTTCEEEEE
+T ss_pred             CcceeeEeCCCCCeEEEEE
+Confidence            3467899999999998664
+
+
+No 35
+>3KMV_F Alpha-L-arabinofuranosidase B; protein:carboydrate interactions, carbohydrate-binding module, beta-trefoil; HET: GOL, FMT; 1.8A {Clostridium thermocellum}
+Probab=32.82  E-value=37  Score=29.75  Aligned_cols=19  Identities=37%  Similarity=0.726  Sum_probs=15.2  Template_Neff=8.000
+
+Q sp|P10749|IL1B  224 KSKVEFESAEFPNWYISTS  242 (269)
+Q Consensus       224 ~s~~tFESa~~PGWfISTS  242 (269)
+                      +...+|||+.+|||||--.
+T Consensus         8 ~~~vsles~~~pg~ylr~~   26 (157)
+T 3KMV_F            8 ITKAKFQSYNYPNMYIRHA   26 (157)
+T ss_dssp             -CEEEEEESSSTTEEEEEE
+T ss_pred             CcceeeEeCCCCCeEEEEE
+Confidence            3467899999999998664
+
+
+No 36
+>1BFG_A BASIC FIBROBLAST GROWTH FACTOR MUTANT; GROWTH FACTOR; 1.6A {Homo sapiens} SCOP: b.42.1.1
+Probab=32.67  E-value=38  Score=29.76  Aligned_cols=51  Identities=18%  Similarity=0.289  Sum_probs=31.0  Template_Neff=7.200
+
+Q sp|P10749|IL1B  215 RFVFNKIEV-KSKVEFESAEFPNWYISTSQAEHKPVFLGNN-SGQDIIDFTMES  266 (269)
+Q Consensus       215 rFlFyk~~~-~s~~tFESa~~PGWfISTS~~~~~PV~m~~~-~g~~~~~F~~~~  266 (269)
+                      .-+|.-.-. ...++|+|+.+++|||+.... ++|..-.+. .++..+.|--..
+T Consensus        91 ~C~F~E~~~~n~y~~y~S~~~~~~ylg~~~~-G~~~~g~~t~~~~~~~hFl~~~  143 (146)
+T 1BFG_A           91 ECFFFERLESNNYNTYRSRKYTSWYVALKRT-GQYKLGSKTGPGQKAILFLPMS  143 (146)
+T ss_dssp             GGCEEEE-ECTSCEEEEESSSTTCBCCBCTT-SSBCCGGGCCTTCGGGCEEE--
+T ss_pred             CceEEEEEcccCceEEEecccCCeEEEECCC-CcccCCCCCCCCCceeeeeeec
+Confidence            445544322 345689999999999999765 366554443 334666775443
+
+
+No 37
+>1EV2_A CRYSTAL STRUCTURE OF FGF2 IN; IMMUNOGLOBULIN (IG)LIKE DOMAINS BELONGING TO; HET: SO4; 2.2A {Homo sapiens} SCOP: b.42.1.1
+Probab=32.17  E-value=39  Score=29.01  Aligned_cols=74  Identities=19%  Similarity=0.287  Sum_probs=42.8  Template_Neff=7.500
+
+Q sp|P10749|IL1B  181 GKNLYLSCVMKDGTPTLQLESVDPKQYPKKKMEKRFVFNKIEV-KSKVEFESAEFPNWYISTSQAEHKPVFLGNN-SGQD  258 (269)
+Q Consensus       181 g~nLyLSC~~~~~~P~LqLEev~~~~~~~~~~~~rFlFyk~~~-~s~~tFESa~~PGWfISTS~~~~~PV~m~~~-~g~~  258 (269)
+                      ..++|||=.+. |+  |.-...         ....-+|.-.-. ...+.|+|+.+++|||+.... ++|..-.+. .++.
+T Consensus        55 ~s~~YLcmn~~-G~--l~~~~~---------~~~~C~F~E~~~~n~y~~y~S~~~~~~yl~~~~~-G~~~~g~~t~~~~~  121 (132)
+T 1EV2_A           55 SANRYLAMKED-GR--LLASKS---------VTDECFFFERLESNNYNTYRSRKYTSWYVALKRT-GQYKLGSKTGPGQK  121 (132)
+T ss_dssp             TTTEEEEECTT-SC--EEEESS---------CCTTSCEEEEECTTSCEEEEESSSTTCBCCBCTT-SBBCCGGGCCTTCS
+T ss_pred             ccCcEEEEcCC-CC--eeccCC---------CCCCceEEEEEcccCcceeEeeccCCeEEEEcCC-CccccCCCCCCCCc
+Confidence            35788876653 34  222211         112445544333 356789999999999999766 455544332 3346
+
+
+Q sp|P10749|IL1B  259 IIDFTMESV  267 (269)
+Q Consensus       259 ~~~F~~~~~  267 (269)
+                      .+.|--...
+T Consensus       122 ~~~Fl~~~~  130 (132)
+T 1EV2_A          122 AILFLPMSA  130 (132)
+T ss_dssp             TTCEEEEEC
+T ss_pred             eeEeeEecC
+Confidence            677765443
+
+
+No 38
+>6SXT_A Alpha-L-arabinofuranosidase B (E.C.3.2.1.55); Covalent complex, Arabinofuranosidase, GH54, Aspergillus; HET: ACT, SO4, EDO, NAG, ALA, PGE, LXE, PEG; 1.466A {Aspergillus kawachii (strain NBRC 4308)}
+Probab=30.61  E-value=43  Score=35.71  Aligned_cols=27  Identities=30%  Similarity=0.424  Sum_probs=19.8  Template_Neff=5.200
+
+Q sp|P10749|IL1B  225 SKVEFESAEFPNWYISTSQAEHKPVFLGNN  254 (269)
+Q Consensus       225 s~~tFESa~~PGWfISTS~~~~~PV~m~~~  254 (269)
+                      ...+|||+.+|||||--.   +--|.+...
+T Consensus       384 ~~VSFESvn~PG~YLRH~---n~~l~L~~~  410 (483)
+T 6SXT_A          384 QCFSFESVDTPGSYIRHY---NFELLLNAN  410 (483)
+T ss_dssp             TSEEEEESSSTTEEEEEE---TTEEEEEEC
+T ss_pred             CeEEEEeCCCCCcEEEEE---CCEEEEecC
+Confidence            478999999999999983   334444443
+
+
+No 39
+>3KMV_E Alpha-L-arabinofuranosidase B; protein:carboydrate interactions, carbohydrate-binding module, beta-trefoil; HET: GOL, FMT; 1.8A {Clostridium thermocellum}
+Probab=29.88  E-value=45  Score=29.25  Aligned_cols=16  Identities=25%  Similarity=0.723  Sum_probs=14.3  Template_Neff=8.000
+
+Q sp|P10749|IL1B  226 KVEFESAEFPNWYIST  241 (269)
+Q Consensus       226 ~~tFESa~~PGWfIST  241 (269)
+                      ..+|||+.+||+||--
+T Consensus        57 ~vS~~S~~~pg~yLr~   72 (157)
+T 3KMV_E           57 YVSIQSVNYPGYYLRH   72 (157)
+T ss_dssp             EEEEEESSSTTEEEEE
+T ss_pred             eEEEEEccCCCcEEEE
+Confidence            5799999999999965
+
+
+No 40
+>3KMV_F Alpha-L-arabinofuranosidase B; protein:carboydrate interactions, carbohydrate-binding module, beta-trefoil; HET: GOL, FMT; 1.8A {Clostridium thermocellum}
+Probab=29.88  E-value=45  Score=29.25  Aligned_cols=16  Identities=25%  Similarity=0.723  Sum_probs=14.3  Template_Neff=8.000
+
+Q sp|P10749|IL1B  226 KVEFESAEFPNWYIST  241 (269)
+Q Consensus       226 ~~tFESa~~PGWfIST  241 (269)
+                      ..+|||+.+||+||--
+T Consensus        57 ~vS~~S~~~pg~yLr~   72 (157)
+T 3KMV_F           57 YVSIQSVNYPGYYLRH   72 (157)
+T ss_dssp             EEEEEESSSTTEEEEE
+T ss_pred             eEEEEEccCCCcEEEE
+Confidence            5799999999999965
+
+
+No 41
+>2D43_A alpha-L-arabinofuranosidase B (E.C.3.2.1.55); arabinotriose complex, HYDROLASE, Structural Genomics; HET: NAG, AHR; 2.8A {Aspergillus kawachii} SCOP: b.42.8.1, b.29.1.21
+Probab=29.45  E-value=46  Score=35.48  Aligned_cols=27  Identities=30%  Similarity=0.424  Sum_probs=19.9  Template_Neff=5.100
+
+Q sp|P10749|IL1B  225 SKVEFESAEFPNWYISTSQAEHKPVFLGNN  254 (269)
+Q Consensus       225 s~~tFESa~~PGWfISTS~~~~~PV~m~~~  254 (269)
+                      ...+|||+.+|||||--.   +--|.+...
+T Consensus       383 ~~VSFES~n~PG~YLRH~---n~~l~L~~~  409 (482)
+T 2D43_A          383 QCFSFESVDTPGSYIRHY---NFELLLNAN  409 (482)
+T ss_dssp             TSEEEEESSSTTEEEEEE---TTEEEEEEC
+T ss_pred             CeEEEEeCCCCCcEEEEE---CCEEEEecC
+Confidence            468999999999999984   334444443
+
+
+No 42
+>1QQL_A FIBROBLAST GROWTH FACTOR 7/1 CHIMERA; BETA-TREFOIL, HORMONE-GROWTH FACTOR COMPLEX; 2.3A {Rattus norvegicus, Homo sapiens} SCOP: b.42.1.1
+Probab=28.25  E-value=50  Score=28.70  Aligned_cols=53  Identities=19%  Similarity=0.166  Sum_probs=34.7  Template_Neff=7.400
+
+Q sp|P10749|IL1B  215 RFVFNKIEV-KSKVEFESAEF--PNWYISTSQAEHKPVFLGNN-SGQDIIDFTMESVS  268 (269)
+Q Consensus       215 rFlFyk~~~-~s~~tFESa~~--PGWfISTS~~~~~PV~m~~~-~g~~~~~F~~~~~~  268 (269)
+                      .-+|.-.-. ...++|+|+.+  ++|||+.... ++|..-.+. .++..+.|.-...+
+T Consensus        82 ~C~F~E~~~en~y~~y~S~~~~~~~~yl~~~~~-G~~~~g~~t~~~~~~~~Fl~~~~~  138 (140)
+T 1QQL_A           82 ECLFLERLEENHYNTYISKKHAEKNWFVGLKKN-GSCKRGPRTHYGQKAILFLPLPVS  138 (140)
+T ss_dssp             GGEEEEEECSSSCEEEEESTTTTTTCBCCBCTT-SCBCCTTTCCTTCSTTCEECCBSC
+T ss_pred             cceEEEEEcccCceeeEEeecCCCCeEEEEcCC-CcccCCCCCCCCCCceEeeeecCC
+Confidence            456654333 34679999999  8999999866 466555543 34467777655543
+
+
+No 43
+>1RG8_A Heparin-binding growth factor 1; BETA-TREFOIL, HORMONE-GROWTH FACTOR COMPLEX; HET: FMT; 1.1A {Homo sapiens} SCOP: b.42.1.1
+Probab=27.31  E-value=53  Score=28.97  Aligned_cols=73  Identities=18%  Similarity=0.162  Sum_probs=42.4  Template_Neff=6.900
+
+Q sp|P10749|IL1B  181 GKNLYLSCVMKDGTPTLQLESVDPKQYPKKKMEKRFVFNKIEV-KSKVEFESAEF--PNWYISTSQAEHKPVFLGNN-SG  256 (269)
+Q Consensus       181 g~nLyLSC~~~~~~P~LqLEev~~~~~~~~~~~~rFlFyk~~~-~s~~tFESa~~--PGWfISTS~~~~~PV~m~~~-~g  256 (269)
+                      .+++|||=.+ .|+  |.-...         ....-+|.-.-. ....+|+|+.+  |+|||+.... ++|..-.+. .+
+T Consensus        66 ~s~~YLcmn~-~G~--Ly~~~~---------~~~~C~F~E~~~en~Y~~y~S~~~~~~~~ylal~k~-Gr~~~g~~t~~~  132 (146)
+T 1RG8_A           66 ETGQYLAMDT-DGL--LYGSQT---------PNEECLFLERLEENHYNTYISKKHAEKNWFVGLKKN-GSCKRGPRTHYG  132 (146)
+T ss_dssp             TTCCEEEECT-TSC--EEEESS---------CCGGGCEEEEEETTTEEEEEESTTGGGTCBCCBCTT-SCBCCGGGCCTT
+T ss_pred             ccCCEEEEcC-CCc--eecCCC---------CCccceEEEEEcccCceeeEEEecCCCCEEEEECCC-CcccCCCCCCCC
+Confidence            4578887654 334  222221         123556654333 34669999999  9999999765 366554443 23
+
+
+Q sp|P10749|IL1B  257 QDIIDFTMES  266 (269)
+Q Consensus       257 ~~~~~F~~~~  266 (269)
+                      +..+.|--.+
+T Consensus       133 ~~~~~FL~~~  142 (146)
+T 1RG8_A          133 QKAILFLPLP  142 (146)
+T ss_dssp             CSTTCEEEEE
+T ss_pred             CCceeeeecc
+Confidence            4566665443
+
+
+No 44
+>2D43_A alpha-L-arabinofuranosidase B (E.C.3.2.1.55); arabinotriose complex, HYDROLASE, Structural Genomics; HET: NAG, AHR; 2.8A {Aspergillus kawachii} SCOP: b.42.8.1, b.29.1.21
+Probab=27.13  E-value=54  Score=35.01  Aligned_cols=28  Identities=14%  Similarity=0.235  Sum_probs=20.8  Template_Neff=5.100
+
+Q sp|P10749|IL1B  216 FVFNKIEV--KSKVEFESAEFPNWYISTSQ  243 (269)
+Q Consensus       216 FlFyk~~~--~s~~tFESa~~PGWfISTS~  243 (269)
+                      -.|.....  +...+|||..|||+||--..
+T Consensus       419 ATF~~~~Gl~g~~vSFeS~n~Pg~YLRh~~  448 (482)
+T 2D43_A          419 ATFCPQAALNGEGTSLRSWSYPTRYFRHYE  448 (482)
+T ss_dssp             HCEEEEECTTSSSEEEEESSSTTEEEEEET
+T ss_pred             cEEEeecccCCCceEEEECCCCCcEEEEEC
+Confidence            46665544  34579999999999998754
+
+
+No 45
+>3AKH_A Putative secreted alpha L-arabinofuranosidase II; FIVE-BLADED BETA PROPELLER, BETA-TREFOIL, HYDROLASE; HET: GOL, AHR; 1.7A {Streptomyces avermitilis}
+Probab=26.15  E-value=58  Score=32.90  Aligned_cols=17  Identities=29%  Similarity=0.651  Sum_probs=15.3  Template_Neff=9.700
+
+Q sp|P10749|IL1B  226 KVEFESAEFPNWYISTS  242 (269)
+Q Consensus       226 ~~tFESa~~PGWfISTS  242 (269)
+                      ..+|||+.+||+||--.
+T Consensus       416 ~~s~~s~~~p~~~lr~~  432 (468)
+T 3AKH_A          416 GIAFESYNYPGRYLRHY  432 (468)
+T ss_dssp             CEEEEESSSTTEEEEEE
+T ss_pred             eEEEEECCCCCcEEEEE
+Confidence            47999999999999875
+
+
+No 46
+>3AKI_A Putative secreted alpha L-arabinofuranosidase II; FIVE-BLADED BETA PROPELLER, BETA-TREFOIL, HYDROLASE; HET: AH8; 2.0A {Streptomyces avermitilis}
+Probab=26.15  E-value=58  Score=32.90  Aligned_cols=17  Identities=29%  Similarity=0.651  Sum_probs=15.3  Template_Neff=9.700
+
+Q sp|P10749|IL1B  226 KVEFESAEFPNWYISTS  242 (269)
+Q Consensus       226 ~~tFESa~~PGWfISTS  242 (269)
+                      ..+|||+.+||+||--.
+T Consensus       416 ~~s~~s~~~p~~~lr~~  432 (468)
+T 3AKI_A          416 GIAFESYNYPGRYLRHY  432 (468)
+T ss_dssp             CEEEEESSSTTEEEEEE
+T ss_pred             eEEEEECCCCCcEEEEE
+Confidence            47999999999999875
+
+
+No 47
+>2UUS_A HEPARIN-BINDING GROWTH FACTOR 1; DIFFERENTIATION, HEPARIN-BINDING, SUCROSE OCTASULFATE, DEVELOPMENTAL; HET: SCR; 2.2A {RATTUS NORVEGICUS}
+Probab=25.88  E-value=59  Score=27.78  Aligned_cols=51  Identities=16%  Similarity=0.153  Sum_probs=33.1  Template_Neff=7.800
+
+Q sp|P10749|IL1B  215 RFVFNKIEV-KSKVEFESAEF--PNWYISTSQAEHKPVFLGNN-SGQDIIDFTMES  266 (269)
+Q Consensus       215 rFlFyk~~~-~s~~tFESa~~--PGWfISTS~~~~~PV~m~~~-~g~~~~~F~~~~  266 (269)
+                      .-+|.-.-. ....+|+|+.+  ++|||+.... ++|..-.+. .++..+.|.-.+
+T Consensus        76 ~C~F~E~~~~n~y~~y~S~~~~~~~~ylal~~~-G~~~~g~~t~~~~~~~~Fl~~~  130 (132)
+T 2UUS_A           76 ECLFLERLEENHYNTYTSKKHAEKNWFVGLKKN-GSCKRGPRTHYGQKAILFLPLP  130 (132)
+T ss_dssp             GGCEEEEECTTSCEEEEESTTGGGTCBCCBCTT-SSBCCGGGCCTTCGGGCEEEEE
+T ss_pred             cceEEEEEcccCcceeeEeecCCCCEEEEECCC-CeeccCCCCCCCCCeeeeeEec
+Confidence            455654333 34668999999  9999999866 466554443 344677776544
+
+
+No 48
+>6SXT_A Alpha-L-arabinofuranosidase B (E.C.3.2.1.55); Covalent complex, Arabinofuranosidase, GH54, Aspergillus; HET: ACT, SO4, EDO, NAG, ALA, PGE, LXE, PEG; 1.466A {Aspergillus kawachii (strain NBRC 4308)}
+Probab=24.49  E-value=65  Score=34.44  Aligned_cols=28  Identities=14%  Similarity=0.235  Sum_probs=20.9  Template_Neff=5.200
+
+Q sp|P10749|IL1B  216 FVFNKIEV--KSKVEFESAEFPNWYISTSQ  243 (269)
+Q Consensus       216 FlFyk~~~--~s~~tFESa~~PGWfISTS~  243 (269)
+                      -.|.....  +...+|||..|||+||--..
+T Consensus       420 ATF~~~~Gl~g~~vSfeS~n~Pg~YLRh~~  449 (483)
+T 6SXT_A          420 ATFCPQAALNGEGTSLRSWSYPTRYFRHYE  449 (483)
+T ss_dssp             TCEEEEECTTSSSEEEEESSSTTCEEEEET
+T ss_pred             cEEEeecccCCCceEEEECCCCCcEEEEEC
+Confidence            46665544  34579999999999998754
+
+
+No 49
+>2J3P_B HEPARIN-BINDING GROWTH FACTOR 1; GROWTH FACTOR, DEVELOPMENTAL PROTEIN, ACIDIC; HET: SO4; 1.4A {RATTUS NORVEGICUS}
+Probab=23.69  E-value=69  Score=27.50  Aligned_cols=52  Identities=17%  Similarity=0.172  Sum_probs=33.6  Template_Neff=7.700
+
+Q sp|P10749|IL1B  215 RFVFNKIEV-KSKVEFESAEF--PNWYISTSQAEHKPVFLGNN-SGQDIIDFTMESV  267 (269)
+Q Consensus       215 rFlFyk~~~-~s~~tFESa~~--PGWfISTS~~~~~PV~m~~~-~g~~~~~F~~~~~  267 (269)
+                      .-+|.-.-. ....+|+|+.+  ++|||+.... ++|..-.+. .+++.+.|.-.+.
+T Consensus        76 ~C~F~E~~~en~y~~y~S~~~~~~~~ylal~~~-G~~~~g~~t~~~~~~~~Fl~~~~  131 (134)
+T 2J3P_B           76 ECLFLERLEENHYNTYTSKKHAEKNWFVGLKKN-GSCKRGPRTHYGQKAILFLPLPV  131 (134)
+T ss_dssp             GGCEEEEECTTSCEEEEESTTGGGTCBCCBCTT-SCBCCGGGCCTTCGGGCEEEEEC
+T ss_pred             cceEEEEEcccCCceeeEeecCCCCEEEEECCC-CccccCCCCCCCCCceeeeeccC
+Confidence            456654333 34568999999  9999999866 466544443 3456777765443
+
+
+No 50
+>4XKI_A Fibroblast Growth Factor 1; fibroblast growth factor FGF-1 increased; HET: SO4, PO4, 2PE; 2.0A {Homo sapiens}
+Probab=20.23  E-value=90  Score=27.54  Aligned_cols=74  Identities=19%  Similarity=0.187  Sum_probs=43.5  Template_Neff=7.100
+
+Q sp|P10749|IL1B  181 GKNLYLSCVMKDGTPTLQLESVDPKQYPKKKMEKRFVFNKIEV-KSKVEFESAEF--PNWYISTSQAEHKPVFLGNN-SG  256 (269)
+Q Consensus       181 g~nLyLSC~~~~~~P~LqLEev~~~~~~~~~~~~rFlFyk~~~-~s~~tFESa~~--PGWfISTS~~~~~PV~m~~~-~g  256 (269)
+                      .+++|||=.+ .|+  |.-.+.         ....-+|.-.-. ....+|+|+.+  ++|||+.... ++|..-.+. .+
+T Consensus        67 ~s~~YLcmn~-~G~--l~g~~~---------~~~~C~F~E~~~en~y~~y~S~~~~~~~~yla~~~~-Gr~~~g~~t~~~  133 (147)
+T 4XKI_A           67 ETGQYLAMDT-DGL--LYGSQT---------PNEECLFLERLEENHYNTYISKKHAEKNWFVGLKKN-GRCKRGPRTHYG  133 (147)
+T ss_dssp             TTCCEEEECT-TSC--EEEESS---------CCGGGCEEEEEETTTEEEEEESTTGGGTCBCCBCTT-SCBCCGGGCCTT
+T ss_pred             ccCcEEEEcC-CCc--EecCCC---------CCccceEEEEEcccCceEeEEeecCCCCEEEEEcCC-CcccCCCCCCCC
+Confidence            4578887665 344  222211         123556654333 34669999999  9999999765 366655443 34
+
+
+Q sp|P10749|IL1B  257 QDIIDFTMESV  267 (269)
+Q Consensus       257 ~~~~~F~~~~~  267 (269)
+                      ++.+.|--..+
+T Consensus       134 ~~~~~Fl~~~~  144 (147)
+T 4XKI_A          134 QKAILFLPLPV  144 (147)
+T ss_dssp             CGGGCEEEEEC
+T ss_pred             CCeeeeeeecC
+Confidence            46667755443
+
+

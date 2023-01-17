@@ -1,0 +1,155 @@
+Query         bdld1_Plankto 
+Match_columns 123
+No_of_seqs    13 out of 14
+Neff          3.14693
+Searched_HMMs 80799
+Date          Tue Jan 17 13:31:07 2023
+Command       /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhsearch -i /dev/shm/tmp478hjmx7/query.a3m -o /dev/shm/tmp478hjmx7/output.hhr -maxseq 1000000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2L2L_B Transcriptional repress  20.0      92  0.0011   20.1   0.0   17   86-102     7-23  (36)
+  2 4TPS_A SirA, Domain I of DnaA;  19.9      92  0.0011   24.8   0.0   16   21-36    134-149 (154)
+  3 1RQ6_A 30S ribosomal protein S  16.1 1.3E+02  0.0016   20.8   0.0   29   88-116    25-56  (62)
+  4 4UAF_E Importin alpha 1 import  15.9 1.3E+02  0.0016   23.1   0.0   13  110-122    19-33  (87)
+  5 2GNO_A DNA polymerase III, gam  15.2 1.4E+02  0.0017   23.4   0.0   15  108-122    16-30  (305)
+  6 1E9K_A CAMP SPECIFIC PHOSPHODI  14.9 1.4E+02  0.0018   19.8   0.0   25   22-46      4-28  (38)
+  7 4UAD_E Importin alpha import a  13.3 1.7E+02  0.0021   22.0   0.0   13  110-122     9-23  (77)
+  8 4YNH_A C. elegans SAS-5 dimeri  13.1 1.8E+02  0.0022   21.0   0.0   35   27-61     15-49  (60)
+  9 1SBX_A Ski oncogene; winged he  12.8 1.8E+02  0.0022   22.6   0.0   13  109-121    23-35  (106)
+ 10 5JB3_S 30S ribosomal protein S  12.3 1.9E+02  0.0024   20.2   0.0   27   90-116    27-56  (67)
+
+No 1
+>2L2L_B Transcriptional repressor p66-alpha, Methyl-CpG-binding domain; DNA methylation, coiled-coil, NuRD, MBD2; NMR {Homo sapiens}
+Probab=19.99  E-value=92  Score=20.08  Aligned_cols=17  Identities=35%  Similarity=0.368  Sum_probs=13.8  Template_Neff=4.100
+
+Q bdld1_Plankto    86 LLRIDFDEQEEAVMEVL  102 (123)
+Q Consensus        86 Il~IDF~eQEd~v~~Ai  102 (123)
+                      |.+-|+..||+.|..|=
+T Consensus         7 Vt~~DI~~QE~rV~~aR   23 (36)
+T 2L2L_B            7 VTDEDIRKQEERVQQVR   23 (36)
+T ss_dssp             CCHHHHHHHHHHHHHHH
+T ss_pred             cCHHHHHHHHHHHHHHH
+Confidence            46789999999998763
+
+
+No 2
+>4TPS_A SirA, Domain I of DnaA; Replication, Sporulation, Inhibitory complex; 1.65A {Bacillus subtilis}
+Probab=19.93  E-value=92  Score=24.84  Aligned_cols=16  Identities=25%  Similarity=0.652  Sum_probs=12.9  Template_Neff=6.400
+
+Q bdld1_Plankto    21 LFCSEHRLYGWIFPIF   36 (123)
+Q Consensus        21 ll~~~h~~yGwif~~f   36 (123)
+                      .+...+.+|||+=|+-
+T Consensus       134 a~D~~n~~YGWL~Pik  149 (154)
+T 4TPS_A          134 AMDFNSKRYGWLNPVK  149 (154)
+T ss_pred             EEeCCCCceeecCCcc
+Confidence            4677899999998863
+
+
+No 3
+>1RQ6_A 30S ribosomal protein S17e; alpha protein, Structural Genomics, Protein; NMR {Methanothermobacter thermautotrophicus} SCOP: a.4.15.1
+Probab=16.05  E-value=1.3e+02  Score=20.76  Aligned_cols=29  Identities=28%  Similarity=0.391  Sum_probs=20.6  Template_Neff=5.900
+
+Q bdld1_Plankto    88 RIDFDEQEEAVMEVLD--SPS-YNKTAAFLVH  116 (123)
+Q Consensus        88 ~IDF~eQEd~v~~Ai~--~q~-~~rtAAFLVh  116 (123)
+                      .-||+.....|.+...  +++ ++++|.|+.|
+T Consensus        25 ~~dF~~NK~~v~~~~~i~SKklrN~IAGyvT~   56 (62)
+T 1RQ6_A           25 TDDFDTNKKLVEEFSTVSTKHLRNKIAGYITR   56 (62)
+T ss_dssp             CCCHHHHHHHHHTTCCCSSTTHHHHHHHHHHH
+T ss_pred             ccCHHHHHHHHHHHhhcCChhHhHHHHHHHHH
+Confidence            4688888777765444  443 6999999876
+
+
+No 4
+>4UAF_E Importin alpha 1 import receptor; importin karyopherin complex NLS, PROTEIN; HET: PO4; 1.698A {Mus musculus}
+Probab=15.94  E-value=1.3e+02  Score=23.08  Aligned_cols=13  Identities=31%  Similarity=0.894  Sum_probs=10.1  Template_Neff=1.600
+
+Q bdld1_Plankto   110 TAAFLVHG--EEKFG  122 (123)
+Q Consensus       110 tAAFLVhG--~ekfG  122 (123)
+                      .|.|||.|  +-+||
+T Consensus        19 L~GFLi~GK~D~~~g   33 (87)
+T 4UAF_E           19 LRGFLILGKEDRRYG   33 (87)
+T ss_dssp             HTTEEEEEECCGGGC
+T ss_pred             HheeEEecccCcccC
+Confidence            58899999  55566
+
+
+No 5
+>2GNO_A DNA polymerase III, gamma subunit-related; Structural genomics, Joint Center for; HET: ETX; 2.0A {Thermotoga maritima} SCOP: a.80.1.1, c.37.1.20
+Probab=15.16  E-value=1.4e+02  Score=23.35  Aligned_cols=15  Identities=20%  Similarity=0.326  Sum_probs=12.3  Template_Neff=10.800
+
+Q bdld1_Plankto   108 NKTAAFLVHGEEKFG  122 (123)
+Q Consensus       108 ~rtAAFLVhG~ekfG  122 (123)
+                      .....++++|++.+|
+T Consensus        16 ~~~~~~ll~G~~g~g   30 (305)
+T 2GNO_A           16 SEGISILINGEDLSY   30 (305)
+T ss_dssp             CSSEEEEEECSSSSH
+T ss_pred             cCCcEEEEECCCCCc
+Confidence            456789999999887
+
+
+No 6
+>1E9K_A CAMP SPECIFIC PHOSPHODIESTERASE PDE4D5 (E.C.3.1.4.17); HYDROLASE, CAMP-SPECIFIC PHOSPHODIESTERASE; NMR {N/A} SCOP: j.87.1.1
+Probab=14.92  E-value=1.4e+02  Score=19.79  Aligned_cols=25  Identities=20%  Similarity=0.276  Sum_probs=21.5  Template_Neff=1.500
+
+Q bdld1_Plankto    22 FCSEHRLYGWIFPIFLKQLRDRQHP   46 (123)
+Q Consensus        22 l~~~h~~yGwif~~fvkaLr~~~~~   46 (123)
+                      +++.|.+..|.=--+||.||++.-+
+T Consensus         4 vd~~~~~~~~LNEDLVK~LRENLLq   28 (38)
+T 1E9K_A            4 VDNPHCPNPWLNEDLVKSLRENLLQ   28 (38)
+T ss_dssp             SSCSSSSTHHHHHHHTTTTTTTSSS
+T ss_pred             CCCCCCCCcccCHHHHHHHHHHHhh
+Confidence            4577889999999999999998765
+
+
+No 7
+>4UAD_E Importin alpha import adaptor, Influenza; importin karyopherin complex NLS, PROTEIN; 2.42A {Homo sapiens}
+Probab=13.33  E-value=1.7e+02  Score=22.02  Aligned_cols=13  Identities=31%  Similarity=0.894  Sum_probs=9.9  Template_Neff=1.500
+
+Q bdld1_Plankto   110 TAAFLVHG--EEKFG  122 (123)
+Q Consensus       110 tAAFLVhG--~ekfG  122 (123)
+                      .+.|||.|  +-+||
+T Consensus         9 LrGFLi~GKed~ryG   23 (77)
+T 4UAD_E            9 LRGFLILGKEDRRYG   23 (77)
+T ss_pred             HhhhhhcccCCcccC
+Confidence            57899999  44566
+
+
+No 8
+>4YNH_A C. elegans SAS-5 dimerization domain; SAS-5, Centriole, Dimerization domain, structural; 1.0A {Caenorhabditis elegans}
+Probab=13.05  E-value=1.8e+02  Score=21.03  Aligned_cols=35  Identities=26%  Similarity=0.359  Sum_probs=30.9  Template_Neff=1.400
+
+Q bdld1_Plankto    27 RLYGWIFPIFLKQLRDRQHPDDMLWTQLDDLCTKV   61 (123)
+Q Consensus        27 ~~yGwif~~fvkaLr~~~~~~d~r~~~lddL~~Kv   61 (123)
+                      .+.|-|.|.-+-.|..+..++-.-+.++|+.++.-
+T Consensus        15 kreG~IpPeAltIlEqR~rsDPmFRQqiDnVLAdA   49 (60)
+T 4YNH_A           15 KRDGVIPPEALTIIEQRLRSDPMFRQQIDNVLADA   49 (60)
+T ss_dssp             HHHCCCCHHHHHHHHHHHHHCHHHHHHHHHHHHHH
+T ss_pred             HHhCCCChHHHHHHHHHHhcCHHHHHHHHHHHHHH
+Confidence            56799999999999999999999999999987654
+
+
+No 9
+>1SBX_A Ski oncogene; winged helix, forkhead, ONCOPROTEIN; 1.65A {Homo sapiens} SCOP: a.6.1.4
+Probab=12.78  E-value=1.8e+02  Score=22.57  Aligned_cols=13  Identities=31%  Similarity=0.718  Sum_probs=0.0  Template_Neff=4.900
+
+Q bdld1_Plankto   109 KTAAFLVHGEEKF  121 (123)
+Q Consensus       109 rtAAFLVhG~ekf  121 (123)
+                      +.|+|+|.|++++
+T Consensus        23 ~ia~f~vgGe~rl   35 (106)
+T 1SBX_A           23 TISCFVVGGEKRL   35 (106)
+T ss_dssp             EEEEEEETTEEEE
+T ss_pred             EEEEEEECCEEEE
+
+
+No 10
+>5JB3_S 30S ribosomal protein S11, 30S; TRANSLATION; HET: 5MU, GNP, PSU, OMC, H2U; 5.34A {Pyrococcus abyssi GE5}
+Probab=12.31  E-value=1.9e+02  Score=20.24  Aligned_cols=27  Identities=26%  Similarity=0.519  Sum_probs=0.0  Template_Neff=5.900
+
+Q bdld1_Plankto    90 DFDEQEEAVMEVLDSPS---YNKTAAFLVH  116 (123)
+Q Consensus        90 DF~eQEd~v~~Ai~~q~---~~rtAAFLVh  116 (123)
+                      ||+.....|.+...-+|   ++++|.|+.|
+T Consensus        27 dF~~NK~~v~~~~~i~SKklrN~IAGYvT~   56 (67)
+T 5JB3_S           27 DFEHNKKKVQELTNVTSKKIRNRIAGYVTK   56 (67)
+T ss_pred             CHHHhHHHHHHHhhCCChhHHhHHHHHHHH
+
+

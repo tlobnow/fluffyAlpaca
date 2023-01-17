@@ -1,0 +1,157 @@
+Query         bdld1_Nostoc 
+Match_columns 107
+No_of_seqs    18 out of 21
+Neff          2.70259
+Searched_HMMs 80799
+Date          Tue Jan 17 13:21:28 2023
+Command       /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhsearch -i /dev/shm/tmporw589mc/query.a3m -o /dev/shm/tmporw589mc/output.hhr -maxseq 1000000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LIC_A Vitellogenin; LIPID TRA  32.8      37 0.00046   21.6   0.0    8   12-19     25-32  (35)
+  2 6IWV_A Single-stranded DNA-bin  21.3      83   0.001   21.5   0.0   13    6-18     49-61  (68)
+  3 6S9R_A Sequence-specific singl  19.5      95  0.0012   22.5   0.0   20    6-25     59-78  (89)
+  4 1LR0_A TolA protein; Domain-Sw  15.2 1.4E+02  0.0017   21.0   0.0   39    4-43     29-67  (129)
+  5 6S3W_A TolBp, Cell envelope in  14.0 1.6E+02   0.002   20.2   0.0   40    3-43     29-68  (124)
+  6 6DAD_C Calmodulin-1, Voltage-d  13.8 1.6E+02   0.002   18.3   0.0   13    3-18     10-22  (37)
+  7 6U3B_B Calmodulin-1, Voltage-d  13.8 1.6E+02   0.002   18.3   0.0   13    3-18     10-22  (37)
+  8 3U1U_B RNA polymerase-associat  13.3 1.7E+02  0.0021   21.7   0.0   33   61-93     89-122 (137)
+  9 4OSN_A Envelope glycoprotein B  13.3 1.7E+02  0.0021   23.3   0.0    9   15-23    120-128 (129)
+ 10 2C8I_D ECHOVIRUS 11 COAT PROTE  13.2 1.7E+02  0.0021   19.4   0.0   11   15-25     43-53  (60)
+
+No 1
+>2LIC_A Vitellogenin; LIPID TRANSPORT; NMR {N/A}
+Probab=32.77  E-value=37  Score=21.62  Aligned_cols=8  Identities=63%  Similarity=1.394  Sum_probs=6.2  Template_Neff=1.000
+
+Q bdld1_Nostoc     12 LINDFWEP   19 (107)
+Q Consensus        12 lIqeFWqP   19 (107)
+                      =-++||||
+T Consensus        25 eendfwqp   32 (35)
+T 2LIC_A           25 EENDFWQP   32 (35)
+T ss_dssp             CSCSSCCC
+T ss_pred             ccccccCC
+Confidence            34789998
+
+
+No 2
+>6IWV_A Single-stranded DNA-binding protein 2; a single strand DNA binding; 1.52A {Homo sapiens}
+Probab=21.28  E-value=83  Score=21.54  Aligned_cols=13  Identities=31%  Similarity=0.698  Sum_probs=11.8  Template_Neff=5.900
+
+Q bdld1_Nostoc      6 VGLLADLINDFWE   18 (107)
+Q Consensus         6 ~gFL~~lIqeFWq   18 (107)
+                      .|||-+|..-||.
+T Consensus        49 ~gfL~eWW~iFwd   61 (68)
+T 6IWV_A           49 PGFLHSWWCVFWD   61 (68)
+T ss_pred             CCHHHHHHHHHHH
+Confidence            5899999999996
+
+
+No 3
+>6S9R_A Sequence-specific single-stranded DNA-binding protein, isoform; Chip/LDB1, WNT signalling, WNT enhanceosome; 2.4A {Drosophila melanogaster}
+Probab=19.49  E-value=95  Score=22.51  Aligned_cols=20  Identities=20%  Similarity=0.375  Sum_probs=14.5  Template_Neff=5.500
+
+Q bdld1_Nostoc      6 VGLLADLINDFWEPMVDRVN   25 (107)
+Q Consensus         6 ~gFL~~lIqeFWqPiVek~n   25 (107)
+                      .|||-+|..-||.=.-.+.+
+T Consensus        59 ~gfL~EWW~iFwdlf~a~~~   78 (89)
+T 6S9R_A           59 PGFLHTWWCVFWDLYCAAPE   78 (89)
+T ss_dssp             SCHHHHHHHHHHHHHCCC--
+T ss_pred             CCHHHHHHHHHHHHHHhCcc
+Confidence            48999999999985544443
+
+
+No 4
+>1LR0_A TolA protein; Domain-Swapping, TolA, TonB, PROTEIN TRANSPORT; 1.914A {Pseudomonas aeruginosa} SCOP: d.212.1.1
+Probab=15.20  E-value=1.4e+02  Score=20.97  Aligned_cols=39  Identities=10%  Similarity=0.130  Sum_probs=26.0  Template_Neff=8.800
+
+Q bdld1_Nostoc      4 FFVGLLADLINDFWEPMVDRVNHKDTYLTMFLVESNHKEK   43 (107)
+Q Consensus         4 t~~gFL~~lIqeFWqPiVek~n~K~TyL~MFLVDn~g~~~   43 (107)
+                      .|.+-+...|+..|..-....+ ..+..+.|.||.+|++.
+T Consensus        29 ~~~~~i~~~i~~~~~~p~~~~~-~~~v~v~f~i~~dG~v~   67 (129)
+T 1LR0_A           29 SLDDLIVNLVSQQWRRPPSARN-GMSVEVLIEMLPDGTIT   67 (129)
+T ss_dssp             HHHHHHHHHHHHHCCCCTTCCT-TCCEEEEEEECTTSBEE
+T ss_pred             hHHHHHHHHHHhhcCCChhHcC-CcEEEEEEEECCCCCEE
+Confidence            4566666777777764333222 45778899999999854
+
+
+No 5
+>6S3W_A TolBp, Cell envelope integrity/translocation protein; TolA, TolB, Pal, bacterial outer; NMR {Pseudomonas aeruginosa}
+Probab=14.01  E-value=1.6e+02  Score=20.19  Aligned_cols=40  Identities=10%  Similarity=0.119  Sum_probs=26.2  Template_Neff=9.300
+
+Q bdld1_Nostoc      3 RFFVGLLADLINDFWEPMVDRVNHKDTYLTMFLVESNHKEK   43 (107)
+Q Consensus         3 Rt~~gFL~~lIqeFWqPiVek~n~K~TyL~MFLVDn~g~~~   43 (107)
+                      +.|.+-+...|...|..-....+ +....+-|.||.+|++.
+T Consensus        29 ~~~~~~~~~~i~~~~~~p~~~~~-~~~v~v~~~v~~dG~v~   68 (124)
+T 6S3W_A           29 GSLDDLIVNLVSQQWRRPPSARN-GMSVEVLIEMLPDGTIT   68 (124)
+T ss_dssp             CTHHHHHHHHHHHHCCCCTTCCT-TCCEEEEEEECTTCBEE
+T ss_pred             chHHHHHHHHHHhhccCChhhcC-CCEEEEEEEECCCCCEE
+Confidence            34566666677777765544222 44567889999999864
+
+
+No 6
+>6DAD_C Calmodulin-1, Voltage-dependent L-type calcium channel; calmodulin, mutant, complex, CALCIUM BINDING; 1.65A {Homo sapiens}
+Probab=13.78  E-value=1.6e+02  Score=18.28  Aligned_cols=13  Identities=23%  Similarity=0.930  Sum_probs=8.9  Template_Neff=5.100
+
+Q bdld1_Nostoc      3 RFFVGLLADLINDFWE   18 (107)
+Q Consensus         3 Rt~~gFL~~lIqeFWq   18 (107)
+                      ..|.+||   |+++|.
+T Consensus        10 KiYA~lL---I~~~~R   22 (37)
+T 6DAD_C           10 KFYATFL---IQEYFR   22 (37)
+T ss_pred             HHHHHHH---HHHHHH
+Confidence            3567776   888884
+
+
+No 7
+>6U3B_B Calmodulin-1, Voltage-dependent L-type calcium channel; Complex, MEMBRANE PROTEIN, CALCIUM-BINDING PROTEIN-MEMBRANE; 1.7A {Homo sapiens}
+Probab=13.78  E-value=1.6e+02  Score=18.28  Aligned_cols=13  Identities=23%  Similarity=0.930  Sum_probs=8.9  Template_Neff=5.100
+
+Q bdld1_Nostoc      3 RFFVGLLADLINDFWE   18 (107)
+Q Consensus         3 Rt~~gFL~~lIqeFWq   18 (107)
+                      ..|.+||   |+++|.
+T Consensus        10 KiYA~lL---I~~~~R   22 (37)
+T 6U3B_B           10 KFYATFL---IQEYFR   22 (37)
+T ss_dssp             HHHHHHH---HHHHHH
+T ss_pred             HHHHHHH---HHHHHH
+Confidence            3567776   888884
+
+
+No 8
+>3U1U_B RNA polymerase-associated protein RTF1 homolog; PLUS-3, transcription elongation, Structural Genomics; HET: SO4, UNX, MSE; 1.8A {Homo sapiens}
+Probab=13.34  E-value=1.7e+02  Score=21.74  Aligned_cols=33  Identities=18%  Similarity=0.314  Sum_probs=26.5  Template_Neff=7.400
+
+Q bdld1_Nostoc     61 YPIFPLYLPLLSKFSRDHLEKWLENGVED-EEIR   93 (107)
+Q Consensus        61 YPkiPL~Lpp~s~Fs~~~L~~WL~~~v~~-e~vp   93 (107)
+                      .-.+++..-++|+|+.+.++.|+.+.-++ ..+|
+T Consensus        89 ~r~~~~~~iSNs~~te~E~~~w~~~~~~~~~~~P  122 (137)
+T 3U1U_B           89 QRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLP  122 (137)
+T ss_dssp             EEEEEGGGBCSSCCCHHHHHHHHHHHHHTTCCCC
+T ss_pred             eEEEEeEEecCCCCCHHHHHHHHHHHHHCCCCCC
+Confidence            45678888999999999999999986665 3444
+
+
+No 9
+>4OSN_A Envelope glycoprotein B; PH domain, antigenic domain, fusion; 1.76A {Human cytomegalovirus}
+Probab=13.31  E-value=1.7e+02  Score=23.27  Aligned_cols=9  Identities=22%  Similarity=0.844  Sum_probs=7.2  Template_Neff=4.000
+
+Q bdld1_Nostoc     15 DFWEPMVDR   23 (107)
+Q Consensus        15 eFWqPiVek   23 (107)
+                      -|||||+.+
+T Consensus       120 v~wQPL~~k  128 (129)
+T 4OSN_A          120 VFWQGIKQK  128 (129)
+T ss_dssp             EEEEEEECC
+T ss_pred             EEEEeeccC
+Confidence            489999875
+
+
+No 10
+>2C8I_D ECHOVIRUS 11 COAT PROTEIN VP1; PICORNAVIRUS, DAF, VIRUS-RECEPTOR COMPLEX, ANTIGEN; 14.0A {HUMAN ECHOVIRUS 11}
+Probab=13.17  E-value=1.7e+02  Score=19.38  Aligned_cols=11  Identities=36%  Similarity=0.510  Sum_probs=8.8  Template_Neff=6.200
+
+Q bdld1_Nostoc     15 DFWEPMVDRVN   25 (107)
+Q Consensus        15 eFWqPiVek~n   25 (107)
+                      .||+|+.+...
+T Consensus        43 kft~Pv~d~l~   53 (60)
+T 2C8I_D           43 KFTEPVKDIMV   53 (60)
+T ss_pred             hccHhHHHHHH
+Confidence            79999987654
+
+

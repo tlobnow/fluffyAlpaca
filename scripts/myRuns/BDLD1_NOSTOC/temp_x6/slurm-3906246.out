@@ -1,0 +1,66 @@
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:09:28.988114 23358904072000 templates.py:857] Using precomputed obsolete pdbs /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb_mmcif/obsolete.dat.
+I0117 13:09:29.217022 23358904072000 tpu_client.py:54] Starting the local TPU driver.
+I0117 13:09:29.218937 23358904072000 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 13:09:29.618799 23358904072000 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 13:09:36.069716 23358904072000 run_alphafold.py:384] Have 5 models: ['model_1_pred_0', 'model_2_pred_0', 'model_3_pred_0', 'model_4_pred_0', 'model_5_pred_0']
+I0117 13:09:36.069928 23358904072000 run_alphafold.py:400] Using random seed 689056059957630089 for the data pipeline
+I0117 13:09:36.070116 23358904072000 run_alphafold.py:165] Predicting BDLD1_NOSTOC
+I0117 13:09:36.075615 23358904072000 jackhmmer.py:139] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/jackhmmer -o /dev/null -A /dev/shm/tmpxjsf3xcp/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 54 -N 1 /u/flobnow/fluffyAlpaca/fasta_files/BDLD1_NOSTOC.fasta /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/uniref90/uniref90.fasta"
+I0117 13:09:36.118927 23358904072000 utils.py:36] Started Jackhmmer (uniref90.fasta) query
+I0117 13:14:51.959346 23358904072000 utils.py:40] Finished Jackhmmer (uniref90.fasta) query in 315.840 seconds
+I0117 13:14:51.961573 23358904072000 jackhmmer.py:139] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/jackhmmer -o /dev/null -A /dev/shm/tmpojy9al7s/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 54 -N 1 /u/flobnow/fluffyAlpaca/fasta_files/BDLD1_NOSTOC.fasta /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/mgnify/mgy_clusters_2018_12.fa"
+I0117 13:14:52.005350 23358904072000 utils.py:36] Started Jackhmmer (mgy_clusters_2018_12.fa) query
+I0117 13:21:01.255933 23358904072000 utils.py:40] Finished Jackhmmer (mgy_clusters_2018_12.fa) query in 369.250 seconds
+I0117 13:21:01.258360 23358904072000 hhsearch.py:85] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhsearch -i /dev/shm/tmporw589mc/query.a3m -o /dev/shm/tmporw589mc/output.hhr -maxseq 1000000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb70/pdb70"
+I0117 13:21:01.303118 23358904072000 utils.py:36] Started HHsearch query
+I0117 13:21:28.925788 23358904072000 utils.py:40] Finished HHsearch query in 27.622 seconds
+I0117 13:21:28.929563 23358904072000 hhblits.py:134] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhblits -i /u/flobnow/fluffyAlpaca/fasta_files/BDLD1_NOSTOC.fasta -cpu 54 -oa3m /dev/shm/tmpnx9roy6z/output.a3m -o /dev/null -n 3 -e 0.001 -maxseq 1000000 -realign_max 100000 -maxfilt 100000 -min_prefilter_hits 1000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/bfd/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/uniclust30/uniclust30_2018_08/uniclust30_2018_08"
+I0117 13:21:28.974744 23358904072000 utils.py:36] Started HHblits query
+I0117 13:28:46.874738 23358904072000 utils.py:40] Finished HHblits query in 437.900 seconds
+I0117 13:28:47.042185 23358904072000 templates.py:878] Searching for template for: PQRFFVGLLADLINDFWEPMVDRVNHKDTYLTMFLVESNHKEKGLQELSNKLAPREDDSSYPIFPLYLPLLSKFSRDHLEKWLENGVEDEEIRHKLLVGTQQKNFVD
+I0117 13:28:47.332257 23358904072000 templates.py:268] Found an exact template match 3u1u_B.
+I0117 13:28:49.303171 23358904072000 templates.py:268] Found an exact template match 6s3w_A.
+I0117 13:28:49.375694 23358904072000 templates.py:268] Found an exact template match 1lr0_A.
+I0117 13:28:49.587166 23358904072000 templates.py:268] Found an exact template match 6s9r_A.
+I0117 13:28:49.692109 23358904072000 templates.py:268] Found an exact template match 6iwv_A.
+I0117 13:28:49.923710 23358904072000 templates.py:268] Found an exact template match 6dad_C.
+I0117 13:28:50.060051 23358904072000 templates.py:268] Found an exact template match 6u3b_B.
+I0117 13:28:50.153831 23358904072000 templates.py:268] Found an exact template match 2c8i_D.
+I0117 13:28:50.155581 23358904072000 templates.py:718] hit 4osn_A did not pass prefilter: Proportion of residues aligned to query too small. Align ratio: 0.08411214953271028.
+I0117 13:28:50.155660 23358904072000 templates.py:913] Skipped invalid hit 4OSN_A Envelope glycoprotein B; PH domain, antigenic domain, fusion; 1.76A {Human cytomegalovirus}, error: None, warning: None
+I0117 13:28:50.155725 23358904072000 templates.py:718] hit 2lic_A did not pass prefilter: Proportion of residues aligned to query too small. Align ratio: 0.07476635514018691.
+I0117 13:28:50.155766 23358904072000 templates.py:913] Skipped invalid hit 2LIC_A Vitellogenin; LIPID TRANSPORT; NMR {N/A}, error: None, warning: None
+I0117 13:28:50.167929 23358904072000 pipeline.py:234] Uniref90 MSA size: 22 sequences.
+I0117 13:28:50.168004 23358904072000 pipeline.py:235] BFD MSA size: 423 sequences.
+I0117 13:28:50.168042 23358904072000 pipeline.py:236] MGnify MSA size: 4 sequences.
+I0117 13:28:50.168079 23358904072000 pipeline.py:238] Final (deduplicated) MSA size: 445 sequences.
+I0117 13:28:50.168311 23358904072000 pipeline.py:241] Total number of templates (NB: this can include bad templates and is later filtered to top 4): 8.
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  AF2-MSA
+Node list: ravg1039
+Job start: Tue Jan 17 13:08:39 CET 2023
+Job end:   Tue Jan 17 13:29:24 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_NOSTOC
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD1_NOSTOC/script1_msa.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3906246          AF2-MSA      1           108                             00:20:45      0:0
+3906246.0        python3      1      1    108    54587.90M    54587.90M   00:20:35      0:0
+  
+Maximum memory per node: 57.239561 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 16.0 %
+  

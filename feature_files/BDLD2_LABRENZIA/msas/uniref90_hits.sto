@@ -1,0 +1,238 @@
+# STOCKHOLM 1.0
+
+#=GS UniRef90_UPI000837F926/50-186  DE [subseq from] serine protease n=2 Tax=Stappiaceae TaxID=2821832 RepID=UPI000837F926
+#=GS UniRef90_A0A4R3E0G8/50-182     DE [subseq from] V8-like Glu-specific endopeptidase n=1 Tax=Bosea sp. BK604 TaxID=2512180 RepID=A0A4R3E0G8_9HYPH
+#=GS UniRef90_UPI001475AED2/50-181  DE [subseq from] serine protease n=1 Tax=Neorhizobium huautlense TaxID=67774 RepID=UPI001475AED2
+#=GS UniRef90_UPI00069DCC95/57-187  DE [subseq from] serine protease n=1 Tax=Methylobacterium aquaticum TaxID=270351 RepID=UPI00069DCC95
+#=GS UniRef90_A0A521MBI9/64-193     DE [subseq from] Serine protease n=1 Tax=Reyranella sp. TaxID=1929291 RepID=A0A521MBI9_9HYPH
+#=GS UniRef90_A0A850IYA9/51-182     DE [subseq from] Serine protease n=1 Tax=Bradyrhizobium sp. 323S2 TaxID=1404649 RepID=A0A850IYA9_9BRAD
+#=GS UniRef90_A0A4R6Z071/52-183     DE [subseq from] Trypsin-like peptidase n=1 Tax=Tahibacter aquaticus TaxID=520092 RepID=A0A4R6Z071_9GAMM
+#=GS UniRef90_A0A547NVP2/56-186     DE [subseq from] Trypsin-like peptidase domain-containing protein n=2 Tax=Mesorhizobium TaxID=68287 RepID=A0A547NVP2_9HYPH
+#=GS UniRef90_A4WV92/50-182         DE [subseq from] Uncharacterized protein n=4 Tax=Rhodobacteraceae TaxID=31989 RepID=A4WV92_CERS5
+#=GS UniRef90_A0A6I2M453/58-183     DE [subseq from] Serine protease n=1 Tax=Paracoccus sp. S-4012 TaxID=2665648 RepID=A0A6I2M453_9RHOB
+#=GS UniRef90_A0A5C1WJR4/55-183     DE [subseq from] Trypsin-like peptidase domain-containing protein n=1 Tax=Labrys sp. KNU-23 TaxID=2789216 RepID=A0A5C1WJR4_9HYPH
+#=GS UniRef90_UPI000BBF15A8/54-182  DE [subseq from] serine protease n=1 Tax=Rhodobacter sp. CZR27 TaxID=2033869 RepID=UPI000BBF15A8
+#=GS UniRef90_A0A2S9QGH9/55-182     DE [subseq from] Serine protease n=3 Tax=Labrys TaxID=204476 RepID=A0A2S9QGH9_9HYPH
+#=GS UniRef90_A0A838B0C8/53-181     DE [subseq from] Trypsin-like peptidase domain-containing protein n=1 Tax=Mesorhizobium neociceri TaxID=1307853 RepID=A0A838B0C8_9HYPH
+#=GS UniRef90_B8ICT9/51-181         DE [subseq from] Uncharacterized protein n=1 Tax=Methylobacterium nodulans (strain LMG 21967 / CNCM I-2342 / ORS 2060) TaxID=460265 RepID=B8ICT9_METNO
+#=GS UniRef90_A0A369TV97/52-181     DE [subseq from] Serine protease n=1 Tax=Paracoccus versutus TaxID=34007 RepID=A0A369TV97_PARVE
+#=GS UniRef90_A0A1H2XWF8/50-180     DE [subseq from] Trypsin-like peptidase domain-containing protein n=5 Tax=Paracoccus sanguinis TaxID=1545044 RepID=A0A1H2XWF8_9RHOB
+#=GS UniRef90_A0A2N8K2E3/50-183     DE [subseq from] Uncharacterized protein n=1 Tax=Sinorhizobium sp. M4_45 TaxID=2037901 RepID=A0A2N8K2E3_9HYPH
+#=GS UniRef90_A0A1I1R0S1/63-187     DE [subseq from] Serine protease n=1 Tax=Bosea sp. CRIB-10 TaxID=378404 RepID=A0A1I1R0S1_9HYPH
+#=GS UniRef90_UPI0018C20878/55-177  DE [subseq from] serine protease n=1 Tax=Methylocystis sp. H62 TaxID=2785789 RepID=UPI0018C20878
+#=GS UniRef90_A0A1A6FIQ0/90-170     DE [subseq from] EAD1 domain-containing protein n=2 Tax=Methylosinus TaxID=425 RepID=A0A1A6FIQ0_9HYPH
+#=GS UniRef90_UPI001C0BB427/90-171  DE [subseq from] trypsin-like peptidase domain-containing protein n=1 Tax=Methylosinus sp. KRF6 TaxID=2846853 RepID=UPI001C0BB427
+#=GS UniRef90_A0A142XDT5/59-187     DE [subseq from] EAD1 domain-containing protein n=1 Tax=Gemmata sp. SH-PL17 TaxID=1630693 RepID=A0A142XDT5_9BACT
+#=GS UniRef90_M4ZAL9/91-172         DE [subseq from] EAD1 domain-containing protein n=1 Tax=Bradyrhizobium oligotrophicum S58 TaxID=1245469 RepID=M4ZAL9_9BRAD
+#=GS UniRef90_UPI001C0C30EE/88-173  DE [subseq from] trypsin-like peptidase domain-containing protein n=1 Tax=Methylosinus sp. KRF6 TaxID=2846853 RepID=UPI001C0C30EE
+#=GS UniRef90_UPI0013EA7A4D/111-192 DE [subseq from] tetratricopeptide repeat protein n=1 Tax=Aquisphaera sp. JC669 TaxID=2712864 RepID=UPI0013EA7A4D
+#=GS UniRef90_A0A7W8DX61/90-170     DE [subseq from] EAD1 domain-containing protein n=2 Tax=Rhodopseudomonas rhenobacensis TaxID=87461 RepID=A0A7W8DX61_9BRAD
+#=GS UniRef90_A0A848M0K4/99-158     DE [subseq from] Trypsin-like peptidase domain-containing protein n=1 Tax=Pyxidicoccus fallax TaxID=394095 RepID=A0A848M0K4_9DELT
+#=GS UniRef90_A0A838EFN9/90-168     DE [subseq from] EAD1 domain-containing protein (Fragment) n=1 Tax=Ktedonobacteraceae bacterium TaxID=2740538 RepID=A0A838EFN9_9CHLR
+#=GS UniRef90_A0A2T4YYC3/55-115     DE [subseq from] Trypsin-like peptidase n=2 Tax=Phreatobacter oligotrophus TaxID=1122261 RepID=A0A2T4YYC3_9HYPH
+#=GS UniRef90_UPI001CCBA177/115-180 DE [subseq from] serine protease n=1 Tax=Mesorhizobium sp. CO1-1-2 TaxID=2876635 RepID=UPI001CCBA177
+#=GS UniRef90_A0A891FF43/80-156     DE [subseq from] Trypsin-like peptidase domain-containing protein n=1 Tax=Archangium violaceum TaxID=83451 RepID=A0A891FF43_9DELT
+#=GS UniRef90_UPI00097BC4F8/106-165 DE [subseq from] serine protease n=1 Tax=Variovorax sp. KK3 TaxID=1855728 RepID=UPI00097BC4F8
+#=GS UniRef90_A0A244E899/115-170    DE [subseq from] EAD1 domain-containing protein n=2 Tax=Variovorax sp. JS1663 TaxID=1851577 RepID=A0A244E899_9BURK
+#=GS UniRef90_A0A1L6L3T3/154-217    DE [subseq from] Glutamate synthase [NADPH] large chain n=2 Tax=Minicystis rosea TaxID=888845 RepID=A0A1L6L3T3_9DELT
+#=GS UniRef90_UPI001CBF4A28/96-158  DE [subseq from] serine protease n=1 Tax=Myxococcus sp. RHSTA-1-4 TaxID=2874601 RepID=UPI001CBF4A28
+#=GS UniRef90_A0A7Y5KXE9/110-183    DE [subseq from] Trypsin-like peptidase domain-containing protein n=1 Tax=Polyangiaceae bacterium TaxID=2268199 RepID=A0A7Y5KXE9_9DELT
+#=GS UniRef90_A0A7C3GWB9/28-87      DE [subseq from] Serine protease n=1 Tax=Anaerolineae bacterium TaxID=2052143 RepID=A0A7C3GWB9_9CHLR
+#=GS UniRef90_A0A3A8N3J5/96-158     DE [subseq from] Serine protease n=2 Tax=Corallococcus TaxID=83461 RepID=A0A3A8N3J5_9DELT
+#=GS UniRef90_A0A1H3R3T7/116-170    DE [subseq from] V8-like Glu-specific endopeptidase n=1 Tax=Geodermatophilus africanus TaxID=1137993 RepID=A0A1H3R3T7_9ACTN
+#=GS UniRef90_Q1DE46/95-158         DE [subseq from] Serine protease n=17 Tax=Proteobacteria TaxID=1224 RepID=Q1DE46_MYXXD
+#=GS UniRef90_UPI0003CF39DC/117-165 DE [subseq from] serine protease n=1 Tax=unclassified Mesorhizobium TaxID=325217 RepID=UPI0003CF39DC
+#=GS UniRef90_A0A3A8JQZ2/96-158     DE [subseq from] Serine protease n=6 Tax=Myxococcaceae TaxID=31 RepID=A0A3A8JQZ2_9DELT
+#=GS UniRef90_A0A0G2ZJG4/90-156     DE [subseq from] Trypsin-like peptidase n=1 Tax=Archangium gephyra TaxID=48 RepID=A0A0G2ZJG4_9DELT
+#=GS UniRef90_A0A511SUY0/94-158     DE [subseq from] EAD1 domain-containing protein n=4 Tax=Myxococcus TaxID=32 RepID=A0A511SUY0_MYXFU
+#=GS UniRef90_UPI001560AA8E/24-84   DE [subseq from] serine protease n=1 Tax=Corallococcus exiguus TaxID=83462 RepID=UPI001560AA8E
+#=GS UniRef90_A0A3A8R139/213-269    DE [subseq from] Serine protease n=3 Tax=Corallococcus TaxID=83461 RepID=A0A3A8R139_9DELT
+#=GS UniRef90_A0A1E2WXA2/106-166    DE [subseq from] EAD1 domain-containing protein n=1 Tax=Nostoc sp. KVJ20 TaxID=457944 RepID=A0A1E2WXA2_9NOSO
+#=GS UniRef90_A0A3N0Z5Z8/343-381    DE [subseq from] Protein FAM111A n=1 Tax=Anabarilius grahami TaxID=495550 RepID=A0A3N0Z5Z8_ANAGA
+#=GS UniRef90_A0A3N0Z5Z8/467-505    DE [subseq from] Protein FAM111A n=1 Tax=Anabarilius grahami TaxID=495550 RepID=A0A3N0Z5Z8_ANAGA
+#=GS UniRef90_H8MHC1/98-157         DE [subseq from] EAD1 domain-containing protein n=23 Tax=Corallococcus TaxID=83461 RepID=H8MHC1_CORCM
+#=GS UniRef90_A0A2P8KJ25/115-164    DE [subseq from] Serine protease n=1 Tax=Variovorax sp. WS11 TaxID=1105204 RepID=A0A2P8KJ25_9BURK
+#=GS UniRef90_A0A6P1L461/110-166    DE [subseq from] Serine protease n=1 Tax=Nostoc sp. ATCC 53789 TaxID=76335 RepID=A0A6P1L461_9NOSO
+#=GS UniRef90_A0A3L7XQK7/607-667    DE [subseq from] Response regulatory domain-containing protein n=1 Tax=Chloroflexi bacterium TaxID=2026724 RepID=A0A3L7XQK7_9CHLR
+#=GS UniRef90_A0A0N1BQC2/114-203    DE [subseq from] EAD1 domain-containing protein n=2 Tax=unclassified Novosphingobium TaxID=2644732 RepID=A0A0N1BQC2_9SPHN
+#=GS UniRef90_E8N2L2/90-166         DE [subseq from] EAD1 domain-containing protein n=1 Tax=Anaerolinea thermophila (strain DSM 14523 / JCM 11388 / NBRC 100420 / UNI-1) TaxID=926569 RepID=E8N2L2_ANATU
+#=GS UniRef90_A0A150TXJ8/125-173    DE [subseq from] EAD1 domain-containing protein n=1 Tax=Sorangium cellulosum TaxID=56 RepID=A0A150TXJ8_SORCE
+#=GS UniRef90_B4VV96/96-158         DE [subseq from] EAD1 domain-containing protein n=1 Tax=Coleofasciculus chthonoplastes PCC 7420 TaxID=118168 RepID=B4VV96_9CYAN
+#=GS UniRef90_A0A1I5TR43/73-131     DE [subseq from] Trypsin-like peptidase domain-containing protein n=2 Tax=Geodermatophilus dictyosporus TaxID=1523247 RepID=A0A1I5TR43_9ACTN
+#=GS UniRef90_UPI0013DB4810/115-158 DE [subseq from] serine protease n=2 Tax=Pyxidicoccus TaxID=224458 RepID=UPI0013DB4810
+#=GS UniRef90_UPI0013DAC1E0/44-89   DE [subseq from] serine protease n=1 Tax=Pyxidicoccus trucidator TaxID=2709662 RepID=UPI0013DAC1E0
+#=GS UniRef90_A0A084SN35/87-156     DE [subseq from] EAD1 domain-containing protein n=1 Tax=Archangium violaceum Cb vi76 TaxID=1406225 RepID=A0A084SN35_9DELT
+#=GS UniRef90_A0A7W8DZN6/107-170    DE [subseq from] Serine protease n=1 Tax=Rhodopseudomonas rhenobacensis TaxID=87461 RepID=A0A7W8DZN6_9BRAD
+#=GS UniRef90_A0A1W0A9H8/852-889    DE [subseq from] Serine protease n=1 Tax=Thraustotheca clavata TaxID=74557 RepID=A0A1W0A9H8_9STRA
+#=GS UniRef90_A0A3A5GAF3/112-157    DE [subseq from] Serine protease n=2 Tax=Myxococcaceae TaxID=31 RepID=A0A3A5GAF3_9DELT
+#=GS UniRef90_UPI0016830CE2/110-166 DE [subseq from] serine protease n=1 Tax=Nostoc punctiforme TaxID=272131 RepID=UPI0016830CE2
+#=GS UniRef90_A0A8D5Z2E6/62-165     DE [subseq from] Uncharacterized protein n=2 Tax=Actinoplanes sp. L3-i22 TaxID=2836373 RepID=A0A8D5Z2E6_9ACTN
+#=GS UniRef90_L7U063/98-158         DE [subseq from] EAD1 domain-containing protein n=5 Tax=Myxococcus TaxID=32 RepID=L7U063_MYXSD
+#=GS UniRef90_UPI001685BC89/102-163 DE [subseq from] serine protease n=1 Tax=Nostocales TaxID=1161 RepID=UPI001685BC89
+#=GS UniRef90_UPI0016871AFC/90-164  DE [subseq from] serine protease n=1 Tax=Nostoc punctiforme TaxID=272131 RepID=UPI0016871AFC
+#=GS UniRef90_A0A847FSF2/101-157    DE [subseq from] Trypsin-like peptidase domain-containing protein n=1 Tax=Anaerolineaceae bacterium TaxID=2024896 RepID=A0A847FSF2_9CHLR
+#=GS UniRef90_UPI0015DF1EAE/148-191 DE [subseq from] serine protease n=1 Tax=Nocardioides ungokensis TaxID=1643322 RepID=UPI0015DF1EAE
+#=GS UniRef90_UPI0016889431/97-163  DE [subseq from] serine protease n=1 Tax=Nostoc punctiforme TaxID=272131 RepID=UPI0016889431
+#=GS UniRef90_A0A2H2XY97/85-164     DE [subseq from] EAD1 domain-containing protein n=2 Tax=unclassified Calothrix TaxID=2619626 RepID=A0A2H2XY97_9CYAN
+#=GS UniRef90_A0A4Q1UBD8/168-223    DE [subseq from] Uncharacterized protein n=2 Tax=Rhizobium leguminosarum TaxID=384 RepID=A0A4Q1UBD8_RHILE
+#=GS UniRef90_A0A5B9W6N1/95-163     DE [subseq from] EAD1 domain-containing protein n=1 Tax=Aquisphaera giovannonii TaxID=406548 RepID=A0A5B9W6N1_9BACT
+#=GS UniRef90_A0A7X7FQ85/50-110     DE [subseq from] Trypsin-like peptidase domain-containing protein n=1 Tax=Planctomycetes bacterium TaxID=2026780 RepID=A0A7X7FQ85_9BACT
+#=GS UniRef90_UPI001261397A/97-155  DE [subseq from] serine protease n=1 Tax=Tautonia marina TaxID=2653855 RepID=UPI001261397A
+#=GS UniRef90_K9RDA9/94-166         DE [subseq from] EAD1 domain-containing protein n=1 Tax=Rivularia sp. PCC 7116 TaxID=373994 RepID=K9RDA9_9CYAN
+#=GS UniRef90_A0A1H1IJH1/15-48      DE [subseq from] Trypsin-like peptidase domain-containing protein n=1 Tax=Rhizobiales bacterium GAS113 TaxID=1884352 RepID=A0A1H1IJH1_9HYPH
+#=GS UniRef90_A0A150PEI1/72-157     DE [subseq from] Uncharacterized protein n=1 Tax=Sorangium cellulosum TaxID=56 RepID=A0A150PEI1_SORCE
+#=GS UniRef90_A0A5C7SLV2/112-176    DE [subseq from] Serine protease n=1 Tax=Thauera aminoaromatica TaxID=164330 RepID=A0A5C7SLV2_9RHOO
+#=GS UniRef90_A0A238WEH9/82-144     DE [subseq from] V8-like Glu-specific endopeptidase n=1 Tax=Paracoccus sediminis TaxID=1214787 RepID=A0A238WEH9_9RHOB
+#=GS UniRef90_A9ERR5/93-172         DE [subseq from] Serine protease n=1 Tax=Sorangium cellulosum (strain So ce56) TaxID=448385 RepID=A9ERR5_SORC5
+#=GS UniRef90_A0A0R3DGV2/94-175     DE [subseq from] Uncharacterized protein n=1 Tax=Bradyrhizobium pachyrhizi TaxID=280333 RepID=A0A0R3DGV2_9BRAD
+#=GS UniRef90_A0A0G3A2H8/73-162     DE [subseq from] Trypsin-like peptidase n=1 Tax=Archangium gephyra TaxID=48 RepID=A0A0G3A2H8_9DELT
+#=GS UniRef90_A0A7Y6XHW5/97-158     DE [subseq from] Trypsin-like peptidase domain-containing protein n=2 Tax=Myxococcus TaxID=32 RepID=A0A7Y6XHW5_9DELT
+#=GS UniRef90_A0A2E0USF1/107-162    DE [subseq from] Serine protease n=1 Tax=Anaerolineaceae bacterium TaxID=2024896 RepID=A0A2E0USF1_9CHLR
+#=GS UniRef90_A0A1H5BBQ4/15-48      DE [subseq from] Trypsin-like peptidase domain-containing protein n=2 Tax=unclassified Hyphomicrobiales TaxID=41292 RepID=A0A1H5BBQ4_9HYPH
+#=GS UniRef90_A0A3D1JF27/117-175    DE [subseq from] Serine protease n=2 Tax=Anaerolinea thermolimosa TaxID=229919 RepID=A0A3D1JF27_9CHLR
+#=GS UniRef90_D6TH10/103-164        DE [subseq from] EAD1 domain-containing protein n=1 Tax=Ktedonobacter racemifer DSM 44963 TaxID=485913 RepID=D6TH10_9CHLR
+#=GS UniRef90_A0A3S4GPC3/107-167    DE [subseq from] Glutamyl endopeptidase n=1 Tax=Paracoccus haematequi TaxID=2491866 RepID=A0A3S4GPC3_9RHOB
+#=GS UniRef90_UPI001C4A8EA9/385-425 DE [subseq from] LOW QUALITY PROTEIN: uncharacterized protein LOC121952752 n=1 Tax=Plectropomus leopardus TaxID=160734 RepID=UPI001C4A8EA9
+#=GS UniRef90_UPI001C4A8EA9/715-754 DE [subseq from] LOW QUALITY PROTEIN: uncharacterized protein LOC121952752 n=1 Tax=Plectropomus leopardus TaxID=160734 RepID=UPI001C4A8EA9
+#=GS UniRef90_A0A7K3UAM1/165-227    DE [subseq from] Trypsin-like serine protease n=1 Tax=Rhizobium phaseoli TaxID=396 RepID=A0A7K3UAM1_9HYPH
+#=GS UniRef90_A0A143PYE1/129-177    DE [subseq from] Serine protease n=1 Tax=Luteitalea pratensis TaxID=1855912 RepID=A0A143PYE1_9BACT
+#=GS UniRef90_V4PF73/102-184        DE [subseq from] EAD1 domain-containing protein n=1 Tax=Asticcacaulis benevestitus DSM 16100 = ATCC BAA-896 TaxID=1121022 RepID=V4PF73_9CAUL
+#=GS UniRef90_A0A6M0AT91/100-164    DE [subseq from] Serine protease n=2 Tax=unclassified Moorea TaxID=2683338 RepID=A0A6M0AT91_9CYAN
+#=GS UniRef90_A0A2V7VS32/151-212    DE [subseq from] Serine protease n=1 Tax=Acidobacteria bacterium TaxID=1978231 RepID=A0A2V7VS32_9BACT
+#=GS UniRef90_UPI0016848BB7/101-164 DE [subseq from] serine protease n=1 Tax=Iningainema tapete TaxID=2806730 RepID=UPI0016848BB7
+#=GS UniRef90_A0A6N6W607/152-197    DE [subseq from] Serine protease n=2 Tax=Paraburkholderia madseniana TaxID=2599607 RepID=A0A6N6W607_9BURK
+#=GS UniRef90_UPI00041487DF/108-158 DE [subseq from] serine protease n=1 Tax=Hamadaea tsunoensis TaxID=53368 RepID=UPI00041487DF
+#=GS UniRef90_A0A177QLH2/99-156     DE [subseq from] EAD1 domain-containing protein n=1 Tax=Planctomycetaceae bacterium SCGC AG-212-F19 TaxID=1799658 RepID=A0A177QLH2_9PLAN
+#=GS UniRef90_UPI0018640AEF/92-133  DE [subseq from] uncharacterized protein LOC118801611 isoform X1 n=2 Tax=Colossoma macropomum TaxID=42526 RepID=UPI0018640AEF
+#=GS UniRef90_UPI000B53DA40/221-268 DE [subseq from] serine protease n=1 Tax=Haliangium sp. UPWRP_2 TaxID=1931276 RepID=UPI000B53DA40
+#=GS UniRef90_A0A438KY43/87-154     DE [subseq from] Trypsin-like peptidase n=1 Tax=Pseudomonas asplenii TaxID=53407 RepID=A0A438KY43_9PSED
+#=GS UniRef90_UPI00155DFAB3/12-48   DE [subseq from] serine protease n=1 Tax=Bradyrhizobium sp. WBAH10 TaxID=1390116 RepID=UPI00155DFAB3
+#=GS UniRef90_A0A547N8E5/168-217    DE [subseq from] Serine protease n=1 Tax=Mesorhizobium sp. WSM4303 TaxID=2589887 RepID=A0A547N8E5_9HYPH
+#=GS UniRef90_A0A3P8P1Z8/43-84      DE [subseq from] Uncharacterized protein n=1 Tax=Astatotilapia calliptera TaxID=8154 RepID=A0A3P8P1Z8_ASTCA
+#=GS UniRef90_A0A3P8P1Z8/160-199    DE [subseq from] Uncharacterized protein n=1 Tax=Astatotilapia calliptera TaxID=8154 RepID=A0A3P8P1Z8_ASTCA
+#=GS UniRef90_A0A2E3QVV1/47-117     DE [subseq from] Uncharacterized protein n=2 Tax=Bacteroidetes/Chlorobi group TaxID=68336 RepID=A0A2E3QVV1_9BACT
+#=GS UniRef90_UPI001CBE3AD4/98-154  DE [subseq from] serine protease n=1 Tax=Corallococcus sp. AS-1-12 TaxID=2874598 RepID=UPI001CBE3AD4
+#=GS UniRef90_A0A1H1XWH2/73-137     DE [subseq from] Trypsin-like peptidase domain-containing protein n=1 Tax=Actinoplanes derwentensis TaxID=113562 RepID=A0A1H1XWH2_9ACTN
+#=GS UniRef90_UPI001932756A/112-177 DE [subseq from] serine protease n=1 Tax=Steroidobacter sp. S1-65 TaxID=2805490 RepID=UPI001932756A
+#=GS UniRef90_UPI00104083D9/105-166 DE [subseq from] serine protease n=2 Tax=Rhizobium leguminosarum TaxID=384 RepID=UPI00104083D9
+#=GS UniRef90_A0A8E8C052/86-153     DE [subseq from] Serine protease n=1 Tax=Cellulomonas sp. zg-ZUI157 TaxID=2819979 RepID=A0A8E8C052_9CELL
+
+bdld2_Labrenzia                        TIQDFLKETELEGITREFLAEVYRKRPNRNDVRI----EIALLFPEI---VDLASRAPPE-F--AM----QKSGVAEAS--VSSG-S-Y---APG--LQRVIKPHLHHQ-NIGTWAKNLLRVQRQVCRL----E-----I----G----G-----A---A-A----GTGFLVGPDC-VLTNWHVVEHAGTVQ
+UniRef90_UPI000837F926/50-186          TIQDFLKETELEGITREFLAEVYRKRPNRNDVRI----EIALLFPEI---VDLASRAPPE-F--AM----QKSGVAEAS--VSSG-S-Y---APG--LQRVIKPHLHHQ-NIGTWAKNLLRVQRQVCRL----E-----I----G----G-----A---A-A----GTGFLVGPDC-VLTNWHVVEHAGTVQ
+UniRef90_A0A4R3E0G8/50-182             TIRELLRALEQEGATSQFLAEVYRERPKRGDVRL----QIALLYPEI---IGLAGQSPPV-F--DL----QESGAPGPA--VAEG-A-F---APG--LQRNIKPHLQQL-NIGTWAFDLMRTQRQVCRI----E-----I----E----D-----G---A-A----GSGFLIGPEA-VLTNWHVVEKA----
+UniRef90_UPI001475AED2/50-181          TIRELIEAMEKEGVTPQFLAEVYRKRPRRNDVRQ----GIALLYPEI---IGLAAQMPAD-F--DL----QIQGVTKEQ---TQG-R-F---APG--LQRNIKDHLVML-SIGGWAQRLSEIQRQVCVV----E-----I----A----G-----R---A-A----GTGFLVGPNA-VLTNWHVVEHG----
+UniRef90_UPI00069DCC95/57-187          TIVDLLVALEREGLTFLFLAGVYRERPDRHDVRA----EIARVYPGV---AAMADQAGPA-L--SL----QLAGGAVPS--SPAS-T-L---IPG--LQRNIRPNLAKL-DARLWVERLLALEGQVCRV----D-----I----D----G-----N---A-A----GTGFLVGPDV-VLTNWHVVA------
+UniRef90_A0A521MBI9/64-193             -VQKLLKKFDNEGIAERFLTVVYREKPFRNDVRS----AIAGLYPGV---AGQAQQAPVD-F--RL----QIGGVDQ-G--IELG-A-----APG--LQKNIRPALKSP-DVSVWMDKLETVRRQVCRV----E-----I----P----G-----Q---A-L----GTGFLVGPAA-VLTNWHVVEDA----
+UniRef90_A0A850IYA9/51-182             TISSLLNALEELGTTGAFLAYVYANRPGRPDVRA----KIVKQFPEA---VAVLDQRI-A-L--SA----QAAGIPQPE--ASTN-A-I---VPG--LQRNVRPYLTKI-DVRVWQDRLIKIERQVCRI----E-----M----D----G-----K---A-L----GTGFLVGPDT-VLTNWHVFEIA----
+UniRef90_A0A4R6Z071/52-183             -IADLLVALEQQGSTELFLAKVYAERPLREDVRG----TIAALMPEA---PQLAQKSKLV-V--AY----QVAGQVQAE--APAY-A-Q---ASG--LQRLVRKGLPAV-DIGVWLAKADTVKRQVCKI----Q-----Y----R----G-----A---A-A----GTGFLVGPAA-VLTNWHVVQAA----
+UniRef90_A0A547NVP2/56-186             TIRELLIQLDKDGSLARFLADILQRKPDRKDLVA----IFAGLVPAA---VKLDPGAGPA-L--SL----QRAGVDDES--ATAI-A-A---APG--LQRNVRPHLNMI-EVREWLDGLTNAERRVCRI----E-----I----G----K-----N---G-A----GTGFLVGPST-VMTNWHVVR------
+UniRef90_A4WV92/50-182                 TLFDLLQELERQGLAARVLAEMRERRPRSAELRA----ALATACPEA---LDAQPHGGIG-L--SP----QVAGVPLAG--LPDD-A-F---APG--LQKNVRPHLARL-DLAIWIDRLAAIRRQVCRI----E-----I----A----R-----R---A-A----GTGFLVGPAA-VLTNWHVVAKA----
+UniRef90_A0A6I2M453/58-183             ---------SASNIEAKLLSEMLARRPNDPEFRD----LVARASPEA---AASPPQAEMP-L--SL----QVAGAAVAD--APPN-G-F---APG--LQRNVRPNLQKL-DLMVWVDKLLRIRNRVCRI----E-----I----G----T-----R---A-A----GTGFLVGPQA-VLTNWHVVEKAAT--
+UniRef90_A0A5C1WJR4/55-183             ----LVIRLEQEGQTGNFLKTVYVNRPLRDDVRQ----LIARLAPEA---AAEILSNPYD-L--VM----LDKDNRGTQ--PSDA-T-L---GPG--LQRNIKPHLRML-DPALWIAGMTQTLRRVCRI----E-----I----A----G-----S---P-A----GTGFLVGPQA-VLTNWHVVEAA----
+UniRef90_UPI000BBF15A8/54-182          ----LLTELDRQGLASRVLAEMRARRPRSEELRA----LLAVACPEA---LVPLPHGEIG-L--AP----QVGGVPMPG--LPDD-A-F---APG--LQKNVRPHLAKL-DLAIWIDRLAAIRRRVCRI----E-----I----E----R-----R---A-A----GTAFLVGPSA-VLTNWHVVEKA----
+UniRef90_A0A2S9QGH9/55-182             ----LVIRLEQEGQTGNFLKAIYVDRPRRDDIRQ----LIARLAPEA---AAETLTNPYD-L--VV----LDKDNRGTQ--PSAA-T-L---GPG--LQRNIKPHLRML-DPALWIAGMNDTLRRVCRI----E-----I----D----G-----S---P-A----GTGFLVGPRA-VLTNWHVVEA-----
+UniRef90_A0A838B0C8/53-181             --IELLNALEELGTTKLFLRYVYVHRPGRDDVRQ----AIAKQCPAA---LAVPDHTI-A-I--SA----QTAGQLLPK--TPAE-A-M---APG--LQRNVRPYLAKL-DVRVWVERLLEIERRVCRI----E-----Y----A----G-----T---A-A----GSGVLVGPDA-VLTNWHVYEA-----
+UniRef90_B8ICT9/51-181                 TIEKLIEALERDAVTERLAAVVYREKPFQTELRG----FLLQLYPQI---APAAQAPTPS-F--VV----QDAGLRRPD--LADG-------GPG--LQRVVKPALKQI-DLRLWLDRADAISRQVCRI----E-----A----D----N-----A---P-L----GTGFLVGSGL-VLTNWHVIDEA----
+UniRef90_A0A369TV97/52-181             -INDLIRALEIDRTTPRLAAVLYQRKQFNAELRQ----TLLELFPGI---DKVSPDAGPA-F--AV----QSGGVAVAD--PAP--A-T---VPG--LQRVIRPKLSNI-DIGEWLEKLKALTRQICRI----E-----L----D----R-----E---G-V----GTGFLVSDGR-VLTNWHVVEQ-----
+UniRef90_A0A1H2XWF8/50-180             -IEQLLAALERDGTTEWLARVVYREKPQRGDVRA----ALRAAFPDL---TRADTTATAS-F--DV----QSAGAPHPE--VP-G-N-G---GPA--LRRLVRPNLAQI-DLKAWVQRLERVMAQVGRI----E-----S----N----G-----R---P-F----GTGFLVGDGL-VLTNWHVVDFA----
+UniRef90_A0A2N8K2E3/50-183             TIKKLLDKLEHNGTTDFFLAEVWSRKPMRGGLRD----LILNTVPTVSSRINLVGRQ-ID-L--SA----QSAGQEQQD--APPN-A-L---APG--FEKNLRPLLPQL-DVHLWVEKLLRIERQICRI----E-----R----D----G-----V---A-L----GTGFLVGEDL-VLTNWHVVHN-----
+UniRef90_A0A1I1R0S1/63-187             -----IERLEADRTTDRFLAWVYAEKKHNTSLRQ----YILSLAPKA---DRLLTGG--G-L--HV----QRGGEALRD--APDN-P-F---APG--LQTYVRPRG-MV-DLGLWIRRLLAIERQVCVI----E-----Y----G----G-----E---A-R----GTGFLVGPHV-VLTNWHVIEAA----
+UniRef90_UPI0018C20878/55-177          -----LNQLNQDRVTDQLLKAVYRESVFNEELRN----TIRAVLPGI----DGSTQIRPL-Y--AL----QKGG-EDLG--VNEG--------PG--LQKVVKPSLVAV-DAGTWYAKLGAILRQVCAV----T-----A----N----G-----A---P-I----GTGFLVGEQA-VLTNWHVAEQA----
+UniRef90_A0A1A6FIQ0/90-170             ---------------------------------------------------------SPQ-L--AY----QRAGVAVAD--SPEW-T-T---SSS--LEALVSPRLHFI-DMGIWHENMARIERQVCRI----E-----L----D----G-----E---P-T----GTGFLVGPEL-VLTNYHVLE------
+UniRef90_UPI001C0BB427/90-171          ---------------------------------------------------------APA-V--LV----QEAGASVAG--APRH-A-T---ASG--LEAIVSPRLRAV-DMGVWRDRLARVEGQVCRI----E-----F----D----G-----N---A-R----GTGFLVGPDL-ILTNYHVLEE-----
+UniRef90_A0A142XDT5/59-187             ----------REGWVPRLIAAAAKRRPGRPDVQELAKQYAATLVAQI---KDPQLAGNPQ-LRQAY----RDLNPDKAW--FPAE-Q-E---LKG--FEKTIDPENPYL-NMAEWVARLARIEGRVCRV----E-----I----G----G-----A---P-R----GTGFLVGPDA-VLTNHHVVASA----
+UniRef90_M4ZAL9/91-172                 ----------------------------------------------------------PT-M--SV----QSAGKSVTG--APER-V-T---ASG--LEAIVRPRLTIF-DMGVWRECMAQIEGQVCRI----E-----F----D----G-----N---A-M----GTGFLIGPDL-VLTNYHVLESA----
+UniRef90_UPI001C0C30EE/88-173          ------------------------------------------------------GMAPP--M--TL----QESGIAIPD--GPRH-V-T---ANG--LEAIMSPRLRSV-DIDIWREKIAKIEAQVCRV----E-----L----D----G-----N---P-V----DTGFLVGPAL-VLTNYHVLEAAI---
+UniRef90_UPI0013EA7A4D/111-192         --------------------------------------------------------GEPA-I--DV----QRSGASEGV--VPA----R---APG--LERTIRADLGFF-DAAIWSRNLQTAQGQVCRV----E-----L----N----G-----PT-PT-M----GTGFLVGPDL-LLTCYHVLE------
+UniRef90_A0A7W8DX61/90-170             ----------------------------------------------------------PA-A--SV----QEGGQTVSN--GSLR-A-T---SLA--FESNVRPRLKSV-DIAVWRERMARVEGQVCRI----E-----F----N----N-----Q---A-M----GTGFLIGPDV-LLTNYHVMER-----
+UniRef90_A0A848M0K4/99-158             ----------------------------------------------------------------------------------------------R--LERIFGPGRTDT-GLAAWRRRLMSIERQVCRV----E-----P---QV----G-----A---A-L----GTGFLVSPDV-VLTNFHVIEN-----
+UniRef90_A0A838EFN9/90-168             ----------------------------------------------------------------------QQFGLAPKL--PSES-E-I---KST--LERMVRPNNKSV-DAAVWAEKLLQIVGQICRI----E-----VR--DG----G----ET---S-F----GTGFLLGPDV-IMTNYHVVEG-----
+UniRef90_A0A2T4YYC3/55-115             ----------------------------------------------------------------------------------------------E--LQKITNPSIPMI-NGRVWAKRLYDNLCRVCQI----E-----V----D----Q-----V---A-R----GTGFLVGPNA-VLTNWHVVENAA---
+UniRef90_UPI001CCBA177/115-180         ------------------------------------------------------------------------------T--TTAG-P-A---GAA--LEAVVEPRLKIL-NMELWRTGEAQAQARVCRV----D-----I----G----P-----T---P-K----GTGFLVGPDL-VLTNYHVL-------
+UniRef90_A0A891FF43/80-156             -----------------------------------------------------------------------EAFVQEYS--ASIQ-R-E---APGPTLEKLLVDTRSRL-DPMRWRERLEAIERQVCRV----E-----L----A----G-----R---A-V----GTGFLVAPDL-VLTNHHVVHE-----
+UniRef90_UPI00097BC4F8/106-165         ----------------------------------------------------------------------------------------------G--FQARIIQASGLE-STGRWRQEMVRCERRVCQI----R-----C----G----G-----Q---A-I----GTGFLVGPRL-VMSNWHVFESA----
+UniRef90_A0A244E899/115-170            ---------------------------------------------------------------------------------------------------RVIQA-SGLE-SAGRWRQQMIRCERRVCQI----R-----S----G----G-----E---P-I----GTGFLVGPRL-VMSNWHVFESA----
+UniRef90_A0A1L6L3T3/154-217            ------------------------------------------------------------------------------------L-P-G---GAE--LERFIQQSNSYL-DLNLWRTRLGEIEGQVCRV----E-----I----G----R-----S---S-F----GTGFLVGPDL-VITNHHVLEA-----
+UniRef90_UPI001CBF4A28/96-158          ----------------------------------------------------------------------------------------P---RVS--LERIFGPGWAGG-GLDVWRRRLTSIGRQVCRV----E-----P---QV----G-----A---A-L----GTGFLVSPNV-VLTNFHVIEN-----
+UniRef90_A0A7Y5KXE9/110-183            --------------------------------------------------------------------------VEDVD--LSHE-N-A---EPK--LERLVNLRLGIQ-SIGLLLEQWTRMSQQVCKV----E-----V----SL-PTG-----T---A-S----GTGFLVGPNA-VLTNFHVVE------
+UniRef90_A0A7C3GWB9/28-87              ---------------------------------------------------------------------------------------------QE--LEKIIQASQGFL-DVNVWRDKLSELETQVCRI----E-----I----G----G-----N---P-Q----GTGFLVGSNT-VMTNYHVIEK-----
+UniRef90_A0A3A8N3J5/96-158             --------------------------------------------------------------------------------------------GSA--LARIIQASKQAL-TPELWRDRLATLSRRVCRV----E-----L---EG----G-----R---A-L----GTGFLVAPDV-VLTNSHVIEHR----
+UniRef90_A0A1H3R3T7/116-170            -----------------------------------------------------------------------------------------------------IKDAQSTF-DIGTWRRRLGEIEGRVCRV----E-----F----P----E----LV---A-K----GTGFLVGPSV-VLTNYHVIEK-----
+UniRef90_Q1DE46/95-158                 --------------------------------------------------------------------------------------I-P---RVG--LERIFGSGRADA-EREHWRKRLTSIERQVCRV----E-----P---EV----G-----A---A-L----GTGFLVSPSV-VLTNFHVIEN-----
+UniRef90_UPI0003CF39DC/117-165         ---------------------------------------------------------------------------------------------------------LKLI-DIATMVRGLLEATRRVCMV----E-----I----D----G-----V---G-N----GTGFLVGPQT-VLTNWHVVH------
+UniRef90_A0A3A8JQZ2/96-158             --------------------------------------------------------------------------------------------GSA--LARIVQAAKQPM-TPEAWRDRLALLSRRVCRV----E-----L---DG----G-----R---A-L----GTGFLVAPDV-VLTNSHVIEHR----
+UniRef90_A0A0G2ZJG4/90-156             ---------------------------------------------------------------------------------VQRE-A-P---GPE--LEKLIVDTSSFL-DPVRWRERLEAIERQVCQL----E-----I----G----------A---D-R----GTGFLVAPDV-VLTNHHVVRKA----
+UniRef90_A0A511SUY0/94-158             ------------------------------------------------------------------------------------S-V-P---RRS--LERIVGPAREQG-AADGWRKRLSAIERRVCRV----E----PV----V----G-----A---S-L----GTGFLVSRDV-VLTNFHVIEN-----
+UniRef90_UPI001560AA8E/24-84           ---------------------------------------------------------------------------------------------SA--LARIVQQSRLAL-TPQAWRDRLTTLSRRVCRV----E-----L---EG----G-----R---A-L----GTGFLVAPDI-VLTNSHVIEH-----
+UniRef90_A0A3A8R139/213-269            --------------------------------------------------------------------------------------------------EKVITRQNPFL-DPVAWRQRLVSLERRICRI----D-----V----S----G-----Q---P-V----GTGFLIGPDL-VMTNHHVIEQ-----
+UniRef90_A0A1E2WXA2/106-166            ---------------------------------------------------------------------------------------------DS--LEKIIKKTNSFL-DFGIWVEKISQILPQVCRI----E-----F---PG----G-----T---A-Q----GTGFLIAPNV-VITNFHVMED-----
+UniRef90_A0A3N0Z5Z8/343-381            -------------------------------------------------------------------------------------------------------------------IKQLMKLSHSVCQI----R-----V----E----G-----F---A-R----GTGFLLFGQF-ILTNAHVV-------
+UniRef90_A0A3N0Z5Z8/467-505            -------------------------------------------------------------------------------------------------------------------IKQLMRLSDSVCQI----R-----V----E----G-----F---A-R----GTGFLLFGQF-ILTNAHVV-------
+UniRef90_H8MHC1/98-157                 ----------------------------------------------------------------------------------------------A--LARIVQQSRLAL-TPQVWRDRLTTLSRRVCRV----E-----L---EG----G-----R---A-L----GTGFLVAPDI-VLTNSHVIEH-----
+UniRef90_A0A2P8KJ25/115-164            ---------------------------------------------------------------------------------------------------------SGLE-STGRWRQQMIQRERRVCQI----R-----A----G----G-----N---A-V----GTGFLVAPRL-VMSNWHVFES-----
+UniRef90_A0A6P1L461/110-166            --------------------------------------------------------------------------------------------------EKIIRETHSFL-DVDTWLEKLSQIQAQVCRI----E-----F---PK----G-----T---A-Q----GTGFLIAPNV-VITNYHVME------
+UniRef90_A0A3L7XQK7/607-667            ----------------------------------------------------------------------------------------------A--LEKIIRPNNRFQ-DIESWTARCTELAARICRV----E-----I----PT-SQG-----T---I-L----GTGFLVGPDL-VMTNFHVIE------
+UniRef90_A0A0N1BQC2/114-203            ---------------------------------------------------RYAPPAPPP-Q--IF----KGAGIAPAAGTEATG-L-S---RSA--LQRLVNASSKPV-NLGDFFRGIDRVRHALCRI----C----------T----P-----A---V-A----GTGFLIGRRT-VLTNFHVVEKA----
+UniRef90_E8N2L2/90-166                 ----------------------------------------------------------PT-V--TI----QHSDKAPRP--ASS---------QR--LEKILRNNLPFL-DPARWREQMVRIEQQVCRI----E-----M----N----L-----N---P-R----GTGFLIAPDW-VMTAYHVVQE-----
+UniRef90_A0A150TXJ8/125-173            -------------------------------------------------------------------------------------------------------PFIDTT-RLATW---MLRTERQVCLI----R-----C----G----G-----S---S-S----GTGFLVAPDL-VLTCYHVVEK-----
+UniRef90_B4VV96/96-158                 --------------------------------------------------------------------------------------------RPE--LEKIIRATNSFL-DINAWRERLGKIEAQVCRI----E-----I----AS-NLG-----T---I-F----GTGFLLGPSV-VMTNYHVVE------
+UniRef90_A0A1I5TR43/73-131             ----------------------------------------------------------------------------------------------S--LESLIDPELEFL-DVDAWLTTAQEMTGRVCRV----E----RT----S----G-----G---A-L----GTGFLISPSC-VLTNYHVVE------
+UniRef90_UPI0013DB4810/115-158         -----------------------------------------------------------------------------------------------------------------AWRRRLAAIERRVCRV----E-----P---QV----G-----A---A-L----GTGFLVSPNV-VLTNFHVIEN-----
+UniRef90_UPI0013DAC1E0/44-89           ---------------------------------------------------------------------------------------------------------------PEAWRRRLASIERQVCRV----E-----P---QV----G-----A---A-L----GTGFLVSPNV-VLTNFHVIEN-----
+UniRef90_A0A084SN35/87-156             ----------------------------------------------------------------------------QAS--VQRS-V-P---GPM--LERIVSRAKGFL-NPAIWRNKLEEVEARVCRI----E----RA----S----G-----D---A-I----GTGFLISRDV-VLTNYHVIA------
+UniRef90_A0A7W8DZN6/107-170            ----------------------------------------------------------------------------------------A---AME--LEKIVRPGVPFQ-DPAALRSRLGRIELQVCSI----E-----I----D----G-----I---G-F----GSGVLVGPDY-ILTNQHVIANAS---
+UniRef90_A0A1W0A9H8/852-889            ------------------------------------------------------------------------------------------------------------------------QASKSVARL----L-----I----G----G-----R---F-L----CTGWLVGSEGHLMTNWHCIKAA----
+UniRef90_A0A3A5GAF3/112-157            ---------------------------------------------------------------------------------------------------------------LASWRERLAVLSRRVCRV----E-----L---EG----G-----R---A-L----GTGFLVAPDV-VLTNSHVVEN-----
+UniRef90_UPI0016830CE2/110-166         ---------------------------------------------------------------------------------------------------KIIRETNSFL-DVGKWVEKLSEIQAQVCRI----E-----F---PT----G-----K---A-Q----GTGFLIAPNV-IITNFHVMED-----
+UniRef90_A0A8D5Z2E6/62-165             --------------------------------------DAKLWWPSL---VVEARRAVPDDV--ALLTFAARHGLASTI--VADG-Q-EIEDAGH--VEATVKRGGETY-DAVEWLACFQRVGGQVCRI----D-----V----G----G-----R-----S----GTGFLVGPET-VLTNHHVVS------
+UniRef90_L7U063/98-158                 ---------------------------------------------------------------------------------------------RS--LERIVGSAWDRG-GADGWRRRLAAIERRVCRV----E----PV----V----G-----A---S-L----GTGFLVSRDV-VLTNFHVIEN-----
+UniRef90_UPI001685BC89/102-163         ----------------------------------------------------------------------------------------------S--LEKIIKKTNSFL-NVNTWRESLGKLESQVCRI----E-----ITKKNN----A-----R---S-F----GTGFLIAPNV-VITNYHVIE------
+UniRef90_UPI0016871AFC/90-164          ---------------------------------------------------------------------------ATSM--PSEL-T-A---RGS--LERIIKKTNSFI-NVNTWRETLGKLESQVCRI----E-----T----SKKNNN-----R---S-F----GTGFLIAPNV-VITNYHVIEP-----
+UniRef90_A0A847FSF2/101-157            -------------------------------------------------------------------------------------------------LEKTIRATNSFL-DVAKWREKLGAIEGRVCRV----E-----I----G----G-----Y---P-Q----GTAFLLGPSV-ALTNYHVVE------
+UniRef90_UPI0015DF1EAE/148-191         ------------------------------------------------------------------------------------------------------------------FRSRLAASEVRVCQV----V-----V----G----G-----E---A-A----GSGFLVGPQH-ILTNWHVAQSLG---
+UniRef90_UPI0016889431/97-163          ------------------------------------------------------------------------------------L-T-V---RGS--LEKIIKKTNSFL-NVNTWRESLGKLESQVCRI----E-----ITKKNN----T-----R---S-F----GTGFLIAPNV-VITNYHVIE------
+UniRef90_A0A2H2XY97/85-164             ----------------------------------------------------------------------QEFNLAVSM--PSEL-S-A---RGA--LERLIKKTNSFL-DINTWREKLGKIETQVCRV----E-----VIKTNN----T-----K---E-F----GTGFLIAPNV-VMTNYHVIEA-----
+UniRef90_A0A4Q1UBD8/168-223            ----------------------------------------------------------------------------------------------E--LQKLFRPDPLDW-DIGFLTRA-ITAASGVCRI----E-----I----N----G-----A---P-G----GTGFLISPDL-VVTNYHVL-------
+UniRef90_A0A5B9W6N1/95-163             --------------------------------------------------------------------------------------------AEG-REERIVREDVPFE-NAGDWAARYNRCRAAVCRI----EPQPLAE----G----N-----A---G-Y----ASGFLVAPDV-LLTNFHAIDHAG---
+UniRef90_A0A7X7FQ85/50-110             ----------------------------------------------------------------------------------------------G--LESIIDKTKALL-DIDVFLSKAGRIMGQVCRV----D-----L----D----G-----G---G-R----GTGFLVGPNT-VITNYHVIEAVA---
+UniRef90_UPI001261397A/97-155          -------------------------------------------------------------------------------------------------REKLVQAHLTFQ-HFGPWLSSLSSMARAVGRL----E-----V----A----N-----A---SDA----ATGLLVGSDL-LLTNFHVIED-----
+UniRef90_K9RDA9/94-166                 ---------------------------------------------------------------------------------LPSGLS-K---VGG--LERIVKKTNSFL-DVNSWREKLGTIEAQVCRI----E-----I----T----KKNNFPS---S-F----GTGFLIAPNV-VITNYHVIEP-----
+UniRef90_A0A1H1IJH1/15-48              --------------------------------------------------------------------------------------------------------------------------IDSVCRI----E-----I----N----G-----K---P-T----GTGFLVGPDS-VLTNFHVVEK-----
+UniRef90_A0A150PEI1/72-157             -----------------------------------------------------------R-F--AR----LNRGGIKRD--IDGS-T-Y--TLPG--RDRDYRPPLGARLPADAWNAQRTRMERRVCRIVRRDP-----D----G----H-----T---A-L----GTGFLIGPSL-VMTNWHVLAY-----
+UniRef90_A0A5C7SLV2/112-176            ----------------------------------------------------------------------------------------A---SGG--LERLVRKDGAFS-DWGLWVARMTEIGRRICRI----E-----Y----PV-DLK-----M---G-G----GTGFLVAPDL-VLTNYHVIEK-----
+UniRef90_A0A238WEH9/82-144             --------------------------------------------------------------------------------------------DQA--LQRLVRLNNDFI-NIAQFRERLSALEGQTCRI----E-----V----D----G-----SPPVA-W----GTGFLVGPDL-VMTNHHVVQ------
+UniRef90_A9ERR5/93-172                 ----------------------------------------------------------PK-V--TV----DSAGGPGD----GAN-Q-A---APGLWLQSLVDPAEGFL-NLAEVIEVFSQRLRQVCVV----E-----I----N----G-----Q---P-K----GTGFLVGPDR-VLTNHHVVS------
+UniRef90_A0A0R3DGV2/94-175             -------------------------------------------------------RAPAS-K--AI----IPALAARHP--ESQA-T-I---IAT--YQKVM-TDLNFQ-KPDEVTSGLMRATRNTCKI----R-----V----G----D-----D---E-A----GTGFLIGPRL-VLTCWHVVA------
+UniRef90_A0A0G3A2H8/73-162             ------------------------------------------------------LKRNPG-N--AK----LKQFAYEVF--LTSD-AVP---ATS--LEALVMPAVPFQ-DVVGWRERMARSERCVCRV----E-----I----P----GKDNGWK---G-V----GTAFLVGPEV-VLTNKHVAN------
+UniRef90_A0A7Y6XHW5/97-158             --------------------------------------------------------------------------------------------RRS--LERIVGSWAEDG-GADGWRRRLAAIERRVCRV----E----PV----L----G-----A---S-L----GTGFLVSRNV-VLTNFHVIEN-----
+UniRef90_A0A2E0USF1/107-162            ----------------------------------------------------------------------------------------------------IISKTNALL-DIETFRSRIGEIEGQVCRI----D-----L----N----K-----T---G-M----GTGFLVGPSA-VITNYHVIEKA----
+UniRef90_A0A1H5BBQ4/15-48              --------------------------------------------------------------------------------------------------------------------------IDSVCRI----E-----I----N----G-----K---P-T----GTGFLVGPDS-VLTNFHVVEK-----
+UniRef90_A0A3D1JF27/117-175            ----------------------------------------------------------------------------------------------S--LEKIISGTNSLL-DIAEWRSRLSEIEFQVCRL----E-----I----S----S-----Q---P-V----GTGFLIGADL-LMTCYHVVES-----
+UniRef90_D6TH10/103-164                ----------------------------------------------------------------------------------------------A--LERTIRETNSDL-DVSSWRRKLSQLENQICRV----E-----VCTRQG----D-----T---I-F----GTGFLVRPDL-VMTNYHVLK------
+UniRef90_A0A3S4GPC3/107-167            ----------------------------------------------------------------------------------------------R--LERVVRDNSDFS-DIATFLARLSALEGQTCRI----E-----L----A----G-----SPPRA-L----GTGFLVGADL-VMTNQHVLD------
+UniRef90_UPI001C4A8EA9/385-425         -------------------------------------------------------------------------------------------------------------------MKKLMALSDSVCQV----R-----V----N----D-----T---P-A----GSGFLLFGRC-VLTNAHVVQN-----
+UniRef90_UPI001C4A8EA9/715-754         --------------------------------------------------------------------------------------------------------------------NKLMALSDSVCQV----R-----V----N----D-----K---P-A----GSGFLLFGRY-VLTNAHVVQN-----
+UniRef90_A0A7K3UAM1/165-227            ----------------------------------------------------------------------------------SGS-N-D---ALQ--LQKLFHPDPLDW-DVGFLTR-AITASSGVCRI----E-----I----N----G-----A---P-G----GTGFLISPDL-VVTNYHVL-------
+UniRef90_A0A143PYE1/129-177            -----------------------------------------------------------------------------------------------------------FS-DIAQWRARLGQAERAVCRI----E-----A----P----A----WR---A-L----GTGFLVGPDL-VMTNRHVVEA-----
+UniRef90_V4PF73/102-184                --------------------------------------------------------TPPE-A--AL----AKYAPPPLA--APPP-Q-V---RPT--LEKLVAKRSRLI-NLQAFQQRLAGLSGALCRI----Q-----A----A----G-----I-----K----GTGFLIGRHT-VLTNYHVVKAA----
+UniRef90_A0A6M0AT91/100-164            --------------------------------------------------------------------------------------------RGG--LEKLIKKTNSFL-DVNRWRERLGQIEGQVCRV----E-----VTNNDN----S-----R---E-F----GTGFLIAPNV-VITNYHVVES-----
+UniRef90_A0A2V7VS32/151-212            ---------------------------------------------------------------------------------------------AA--LERLVVKTSSFL-NIMQWREKLAAIERQVARI----S-----Y----DI-AEG-----I---V-F----GTGFLVGPSA-LLTNYHVIQ------
+UniRef90_UPI0016848BB7/101-164         ---------------------------------------------------------------------------------------------GA--LEKIIKKTNSFL-DVNTWREKLGTIEAQVCRI----E-----I----T----DNN-NVK---S-F----GTGFIIAPNV-VMTNYHVIEP-----
+UniRef90_A0A6N6W607/152-197            --------------------------------------------------------------------------------------------------------------DVLVWRTRLGEIEGRVCRV----E-----C---PP----G-----K---A-R----GTGFLVGPDV-VITNYHVVK------
+UniRef90_UPI00041487DF/108-158         ----------------------------------------------------------------------------------------------------------ETV-DFGDWYANLSRVAARVARI----E-----VP-GTN----G-----T---M-A----GTAFLVGPDL-LLTNQHVVQ------
+UniRef90_A0A177QLH2/99-156             ---------------------------------------------------------------------------------------------AE--LERKVRDDLSYL-DITKWRARLGEIESQVCLV----E-----T----P----------P---A-M----GTGFLLGPDV-VITNYHLMK------
+UniRef90_UPI0018640AEF/92-133          -------------------------------------------------------------------------------------------------------------------VKLLTKVSDSVCLI----C-----V----E----G-----A---A-R----GTGFLLFDRF-ILTNGHVIEHK----
+UniRef90_UPI000B53DA40/221-268         ---------------------------------------------------------------------------------------------------------------VPAWMRRMESIVSQVCRI----E-----VPEALS----G-----G---S-V----GTGFLVGPDL-VLTNYHVVA------
+UniRef90_A0A438KY43/87-154             -----------------------------------------------------------------------------------SA-G-L---KTT--LHKVIEPELGFL-DANAMTRAGLEAMRRVCRV----V-----V----E----G-----S---S-GTISFGTGFLVGPQA-ILTAWHVIE------
+UniRef90_UPI00155DFAB3/12-48           -----------------------------------------------------------------------------------------------------------------------GRVLSSVCSI----Q-----T----G----G-----N---P-L----GTGFLVGPDT-VLTNYHVVER-----
+UniRef90_A0A547N8E5/168-217            -----------------------------------------------------------------------------------------------------------FS-DVRLWAQSLALISEATCRV----E-----S---PS----G-----T---A-R----GTGILIEPDL-VLTNFHVVEEL----
+UniRef90_A0A3P8P1Z8/43-84              ----------------------------------------------------------------------------------------------------------------GIHNNKLLELSKSVCQV----R-----T----R----D---------K-F----GSGFLLFKNF-ILTNFHVIE------
+UniRef90_A0A3P8P1Z8/160-199            ---------------------------------------------------------------------------------------------------------------------TFLLLSKSVCLV----I-----I----G----G-----K---P-R----GSGFLLYDNF-VLTNAHVIKSA----
+UniRef90_A0A2E3QVV1/47-117             ------------------------------------------------------------------------------P--AATE-T-P---ATA--LQRIVDSTNSLI-DVTVWRQKLSAIEGRVCRV----E-----VPFADG----R-----R---V-R----GTAFLVGPDL-ALTNYHVMR------
+UniRef90_UPI001CBE3AD4/98-154          -------------------------------------------------------------------------------------------------LQALTQLNLPMA-QWIPFATSMLLRGRQICRV----E-----V----G----G-----V---A-L----GTGVLVGEDR-VLTAFHVVR------
+UniRef90_A0A1H1XWH2/73-137             ---------------------------------------------------------------------------------------------ST--LERTVRAHAPEL-DPARWRQRLARQESRTCRI----D-----M----G----T-----S---A-GYVPFGTGFLIGPDL-CLTAGHVVEEA----
+UniRef90_UPI001932756A/112-177         ----------------------------------------------------------------------------------------A---SGG--LERLVRVDGGFA-DWGLWIEKMTDIGRRICRI----Q-----Y----P----DN--LKM---A-G----GTGFLVARDL-VLTNYHVIERH----
+UniRef90_UPI00104083D9/105-166         ----------------------------------------------------------------------------------------P---SMG--LEKIVQGG-GFD-DIRIWAQSLALISAATCRI----E-----F---PA----G-----Q---P-I----GTGVLVAPDA-VMTNYHVVKN-----
+UniRef90_A0A8E8C052/86-153             ---------------------------------------------------------------------------------LGLA-S-A---TPD--LETRVRQDAPFV-DVTAWRETLGRREAQVCRV----E-----V----D----AG--VHS---G-V----GTGFLVGPNL-CLTNHHVV-------
+#=GC RF                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....xxxxxxxxx...xxxxxxxxxx.x..xx....xxxxxxxxx..xxxx.x.x...xxx..xxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxx....x.....x....x....x.....x...x.x....xxxxxxxxxx.xxxxxxxxxxxxxxx
+//

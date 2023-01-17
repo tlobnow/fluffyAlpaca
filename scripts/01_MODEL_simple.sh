@@ -26,6 +26,14 @@ if [ -f $LOC_FEATURES/features.pkl ]
                 echo "(3) RELAXATION OF ${FILE} FINISHED SUCCESSFULLY."
                 echo "(4) R PREPARATION OF ${FILE} FINISHED SUCCESSFULLY."
                 echo "(5) PIPELINE FINISHED SUCCESSFULLY. FILES:"
+		cd $LOC_OUT
+		mkdir -p $LOC_OUT/JSON
+		mkdir -p $LOC_OUT/UNRLXD
+		for i in {1..5}; do
+		  [ -f ${FILE}_model_${i}_x${N}.pdb ] && mv ${FILE}_model_${i}_x${N}.pdb $LOC_OUT/UNRLXD/${FILE}_model_${i}_x${N}.pdb
+		  [ -f model_${i}_*_*_*_*_*.pkl ] && rm model_${i}_*_*_*_*_*.pkl
+		  [ -f ${FILE}_ranking_model_${i}.json ] && mv ${FILE}_ranking_model_${i}.json $LOC_OUT/JSON/${FILE}_ranking_model_${i}.json
+		done
                 ls $LOC_OUT
                 echo "---------------------------------------------------"
 

@@ -1,0 +1,46 @@
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0117 13:09:21.988139 23162686019392 templates.py:857] Using precomputed obsolete pdbs /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb_mmcif/obsolete.dat.
+I0117 13:09:22.171440 23162686019392 tpu_client.py:54] Starting the local TPU driver.
+I0117 13:09:22.171759 23162686019392 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0117 13:09:22.498047 23162686019392 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0117 13:09:28.961866 23162686019392 run_alphafold.py:384] Have 5 models: ['model_1_pred_0', 'model_2_pred_0', 'model_3_pred_0', 'model_4_pred_0', 'model_5_pred_0']
+I0117 13:09:28.962188 23162686019392 run_alphafold.py:400] Using random seed 1629776610528019138 for the data pipeline
+I0117 13:09:28.962657 23162686019392 run_alphafold.py:165] Predicting BDLD2_LABRENZIA
+I0117 13:09:28.968006 23162686019392 jackhmmer.py:139] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/jackhmmer -o /dev/null -A /dev/shm/tmpwf_1cmjk/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 54 -N 1 /u/flobnow/fluffyAlpaca/fasta_files/BDLD2_LABRENZIA.fasta /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/uniref90/uniref90.fasta"
+I0117 13:09:29.082728 23162686019392 utils.py:36] Started Jackhmmer (uniref90.fasta) query
+I0117 13:14:42.455148 23162686019392 utils.py:40] Finished Jackhmmer (uniref90.fasta) query in 313.372 seconds
+I0117 13:14:42.461769 23162686019392 jackhmmer.py:139] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/jackhmmer -o /dev/null -A /dev/shm/tmpnsca3rfg/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 54 -N 1 /u/flobnow/fluffyAlpaca/fasta_files/BDLD2_LABRENZIA.fasta /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/mgnify/mgy_clusters_2018_12.fa"
+I0117 13:14:42.506492 23162686019392 utils.py:36] Started Jackhmmer (mgy_clusters_2018_12.fa) query
+I0117 13:20:49.305973 23162686019392 utils.py:40] Finished Jackhmmer (mgy_clusters_2018_12.fa) query in 366.799 seconds
+I0117 13:20:49.312357 23162686019392 hhsearch.py:85] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhsearch -i /dev/shm/tmpd4ciseni/query.a3m -o /dev/shm/tmpd4ciseni/output.hhr -maxseq 1000000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb70/pdb70"
+I0117 13:20:49.408643 23162686019392 utils.py:36] Started HHsearch query
+I0117 13:21:19.753076 23162686019392 utils.py:40] Finished HHsearch query in 30.344 seconds
+I0117 13:21:19.776159 23162686019392 hhblits.py:134] Launching subprocess "/mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhblits -i /u/flobnow/fluffyAlpaca/fasta_files/BDLD2_LABRENZIA.fasta -cpu 54 -oa3m /dev/shm/tmpva_nexqp/output.a3m -o /dev/null -n 3 -e 0.001 -maxseq 1000000 -realign_max 100000 -maxfilt 100000 -min_prefilter_hits 1000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/bfd/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/uniclust30/uniclust30_2018_08/uniclust30_2018_08"
+I0117 13:21:19.884832 23162686019392 utils.py:36] Started HHblits query
+I0117 13:29:35.204236 23162686019392 utils.py:40] Finished HHblits query in 495.319 seconds
+I0117 13:29:35.238894 23162686019392 templates.py:878] Searching for template for: TIQDFLKETELEGITREFLAEVYRKRPNRNDVRIEIALLFPEIVDLASRAPPEFAMQKSGVAEASVSSGSYAPGLQRVIKPHLHHQNIGTWAKNLLRVQRQVCRLEIGGAAAGTGFLVGPDCVLTNWHVVEHAGTVQ
+I0117 13:29:35.466326 23162686019392 templates.py:268] Found an exact template match 5y2d_A.
+I0117 13:29:36.008096 23162686019392 templates.py:268] Found an exact template match 4ic5_A.
+I0117 13:29:36.248540 23162686019392 templates.py:268] Found an exact template match 1te0_A.
+I0117 13:29:36.611813 23162686019392 templates.py:268] Found an exact template match 5y28_B.
+I0117 13:29:36.948692 23162686019392 templates.py:268] Found an exact template match 3tjn_B.
+I0117 13:29:37.168988 23162686019392 templates.py:268] Found an exact template match 2r3u_A.
+I0117 13:29:37.293473 23162686019392 templates.py:268] Found an exact template match 6ieo_A.
+I0117 13:29:37.474304 23162686019392 templates.py:268] Found an exact template match 5jd8_A.
+I0117 13:29:37.691261 23162686019392 templates.py:268] Found an exact template match 1lvm_A.
+I0117 13:29:37.701643 23162686019392 templates.py:268] Found an exact template match 1lvm_B.
+I0117 13:29:38.396167 23162686019392 templates.py:268] Found an exact template match 4ic6_A.
+I0117 13:29:38.411158 23162686019392 templates.py:268] Found an exact template match 5y28_C.
+I0117 13:29:38.918776 23162686019392 templates.py:268] Found an exact template match 3lgi_B.
+I0117 13:29:39.486207 23162686019392 templates.py:268] Found an exact template match 4ri0_A.
+I0117 13:29:39.500259 23162686019392 templates.py:268] Found an exact template match 4ri0_B.
+I0117 13:29:40.597955 23162686019392 templates.py:268] Found an exact template match 4ynn_F.
+I0117 13:29:40.702792 23162686019392 templates.py:268] Found an exact template match 3nzi_A.
+I0117 13:29:40.799032 23162686019392 templates.py:268] Found an exact template match 6ku8_A.
+I0117 13:29:40.807235 23162686019392 templates.py:268] Found an exact template match 4ic6_B.
+I0117 13:29:41.299574 23162686019392 templates.py:268] Found an exact template match 2z9i_B.
+I0117 13:29:41.373807 23162686019392 pipeline.py:234] Uniref90 MSA size: 117 sequences.
+I0117 13:29:41.373921 23162686019392 pipeline.py:235] BFD MSA size: 1731 sequences.
+I0117 13:29:41.373970 23162686019392 pipeline.py:236] MGnify MSA size: 67 sequences.
+I0117 13:29:41.374007 23162686019392 pipeline.py:238] Final (deduplicated) MSA size: 1908 sequences.
+I0117 13:29:41.374237 23162686019392 pipeline.py:241] Total number of templates (NB: this can include bad templates and is later filtered to top 4): 20.

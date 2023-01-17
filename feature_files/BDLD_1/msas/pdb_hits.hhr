@@ -1,0 +1,2107 @@
+Query         tr|D5C179|D5C179_NITHN TIR protein OS=Nitrosococcus halophilus (strain Nc4) OX=472759 GN=Nhal_1493 PE=4 SV=1
+Match_columns 73
+No_of_seqs    80 out of 81
+Neff          3.67445
+Searched_HMMs 80799
+Date          Fri Jan  6 17:01:09 2023
+Command       /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/bin/hhsearch -i /dev/shm/tmpgzwv80lh/query.a3m -o /dev/shm/tmpgzwv80lh/output.hhr -maxseq 1000000 -d /raven/ri/public_sequence_data/alphafold2/git-v2.2.0/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4F42_A Tumor necrosis factor r  97.1 4.4E-06 5.4E-11   51.5   0.0   70    2-71     12-85  (94)
+  2 1NGR_A P75 LOW AFFINITY NEUROT  97.0 7.4E-06 9.1E-11   48.2   0.0   70    2-71     11-84  (85)
+  3 2DBF_A Nuclear factor NF-kappa  96.9 1.5E-05 1.9E-10   50.0   0.0   70    2-72     16-92  (100)
+  4 2N80_A Tumor necrosis factor r  96.9 1.6E-05   2E-10   48.2   0.0   71    2-72     10-87  (94)
+  5 2YQF_A Ankyrin-1; death domain  96.8 2.3E-05 2.9E-10   49.2   0.0   68    4-71     22-99  (111)
+  6 2YVI_A Ankyrin-1; homo sapiens  96.8 2.3E-05 2.9E-10   49.2   0.0   68    4-71     22-99  (111)
+  7 3MOP_B Myeloid differentiation  96.7 2.6E-05 3.2E-10   49.9   0.0   71    2-72     11-90  (110)
+  8 1D2Z_C DEATH DOMAIN OF PELLE/T  96.7 2.8E-05 3.4E-10   48.9   0.0   71    2-72     20-99  (108)
+  9 2IB1_A Death domain containing  96.7 3.2E-05   4E-10   46.0   0.0   71    2-72      4-84  (91)
+ 10 2OF5_I Death domain-containing  96.6 3.9E-05 4.8E-10   49.8   0.0   67    5-71     18-95  (118)
+ 11 1WXP_A THO complex subunit 1;   96.6 4.7E-05 5.8E-10   47.5   0.0   68    4-71     22-98  (110)
+ 12 6HJ7_A Death domain-containing  96.5 6.3E-05 7.8E-10   46.0   0.0   70    2-71     15-94  (102)
+ 13 4O6X_A Ankyrin-3; alpha helix   96.5 6.4E-05 7.9E-10   49.6   0.0   67    4-70      9-85  (121)
+ 14 3EZQ_D Tumor necrosis factor r  96.5   7E-05 8.6E-10   49.1   0.0   68    4-71     10-87  (122)
+ 15 3OQ9_E Tumor necrosis factor r  96.4   9E-05 1.1E-09   43.9   0.0   69    3-71      3-82  (86)
+ 16 3G5B_A Netrin receptor UNC5B;   96.4 9.3E-05 1.1E-09   56.7   0.0   69    2-71    322-401 (405)
+ 17 6ACI_H Gasdermin-A3; toxin, gl  96.4 9.9E-05 1.2E-09   43.7   0.0   68    4-71     10-87  (92)
+ 18 1WMG_A netrin receptor Unc5h2;  96.3 0.00012 1.5E-09   46.2   0.0   69    2-71     16-95  (103)
+ 19 1WMG_F netrin receptor Unc5h2;  96.3 0.00012 1.5E-09   46.2   0.0   69    2-71     16-95  (103)
+ 20 3OQ9_I Tumor necrosis factor r  96.3 0.00014 1.7E-09   44.4   0.0   68    4-71     10-87  (100)
+ 21 2D96_A Nuclear factor NF-kappa  96.2 0.00017 2.2E-09   46.2   0.0   70    2-72     16-92  (109)
+ 22 6AC5_A Gasdermin-A3; apoptosis  96.2  0.0002 2.5E-09   45.5   0.0   68    4-71     28-107 (111)
+ 23 6I3N_C Myeloid differentiation  96.2 0.00022 2.7E-09   50.1   0.0   70    2-71     32-110 (162)
+ 24 6I3N_M Myeloid differentiation  96.2 0.00022 2.7E-09   50.1   0.0   70    2-71     32-110 (162)
+ 25 1ICH_A TUMOR NECROSIS FACTOR R  96.2 0.00022 2.7E-09   45.4   0.0   69    3-71     16-96  (112)
+ 26 1E3Y_A FADD PROTEIN; APOPTOSIS  96.1 0.00026 3.3E-09   43.7   0.0   67    5-71     15-91  (104)
+ 27 4D8O_A Ankyrin-2; ZU5, UPA, de  96.0 0.00038 4.7E-09   55.4   0.0   66    6-71    504-579 (581)
+ 28 6AC0_A Gasdermin-A3; apoptosis  95.9 0.00042 5.2E-09   45.3   0.0   68    4-71     26-109 (118)
+ 29 2OF5_F Death domain-containing  95.9 0.00051 6.3E-09   44.6   0.0   65    4-68     28-102 (114)
+ 30 3MOP_M Myeloid differentiation  95.7 0.00071 8.7E-09   43.2   0.0   70    2-71     11-91  (111)
+ 31 1FAD_A FADD PROTEIN; APOPTOSIS  95.7 0.00075 9.2E-09   41.3   0.0   67    5-71     19-95  (99)
+ 32 2G7R_B Mucosa-associated lymph  95.7 0.00082   1E-08   43.6   0.0   71    2-72     28-116 (117)
+ 33 3MOP_J Myeloid differentiation  95.6 0.00099 1.2E-08   43.0   0.0   70    2-71     17-101 (113)
+ 34 2O71_A Death domain-containing  95.6  0.0011 1.3E-08   43.1   0.0   67    4-70     28-104 (115)
+ 35 5UKE_A Interleukin-1 receptor-  95.5  0.0012 1.5E-08   43.3   0.0   71    2-72     29-110 (124)
+ 36 3EZQ_O Tumor necrosis factor r  95.5  0.0013 1.6E-08   42.2   0.0   67    4-70     12-89  (115)
+ 37 2A9I_A Interleukin-1 receptor-  95.2   0.002 2.5E-08   41.4   0.0   70    2-71     18-102 (113)
+ 38 1WH4_A Interleukin-1 receptor-  95.0  0.0028 3.5E-08   42.2   0.0   70    2-71     25-109 (127)
+ 39 5YGS_D Human TNRSF25 death dom  94.2  0.0091 1.1E-07   44.2   0.0   68    4-71    376-451 (463)
+ 40 2GF5_A FADD protein; Death dom  93.8   0.014 1.8E-07   40.2   0.0   66    5-70    103-178 (191)
+ 41 6GK2_F B-cell lymphoma/leukemi  93.7   0.016 1.9E-07   35.5   0.0   66    2-67      8-91  (92)
+ 42 3CL3_A ORF K13, NF-kappa-B ess  88.2    0.24   3E-06   35.5   0.0   35   38-72    135-175 (183)
+ 43 1A1Z_A FADD PROTEIN; APOPTOSIS  85.4    0.47 5.8E-06   31.1   0.0   25   48-72     58-82  (91)
+ 44 1D2Z_D DEATH DOMAIN OF PELLE/T  84.1     0.6 7.4E-06   34.0   0.0   70    2-71     18-128 (153)
+ 45 6P6B_A Astrocytic phosphoprote  79.7     1.2 1.5E-05   28.3   0.0   25   48-72     58-82  (90)
+ 46 1N3K_A ASTROCYTIC phosphoprote  76.2     1.8 2.2E-05   30.2   0.0   25   48-72     58-82  (130)
+ 47 4IZ7_B Mitogen-activated prote  74.8     2.1 2.6E-05   27.9   0.0   25   48-72     59-83  (97)
+ 48 2GF5_A FADD protein; Death dom  73.4     2.4   3E-05   29.4   0.0   24   48-71     58-81  (191)
+ 49 4IZ5_G Mitogen-activated prote  69.9     3.3 4.1E-05   29.1   0.0   25   48-72     61-85  (133)
+ 50 6KZJ_A Ankyrin-2, Nuclear dist  67.8       4 4.9E-05   27.4   0.0   22   12-33      4-25  (76)
+ 51 5LDE_B Immunoglobulin G-bindin  62.8     5.8 7.1E-05   31.3   0.0   25   48-72    215-239 (265)
+ 52 5JQE_A Sugar ABC transporter s  62.6     5.8 7.2E-05   31.5   0.0   24   48-72    534-557 (565)
+ 53 5LDE_A Immunoglobulin G-bindin  61.4     6.4 7.9E-05   31.1   0.0   25   48-72    215-239 (265)
+ 54 2BBR_A Viral CASP8 and FADD-li  58.4     7.8 9.6E-05   28.8   0.0   25   48-72    152-176 (195)
+ 55 3OMT_B uncharacterized protein  56.9     8.6 0.00011   20.5   0.0   20   13-32     23-42  (73)
+ 56 5L08_E Caspase-8 (E.C.3.4.22.6  53.6      11 0.00013   27.2   0.0   23   48-70     57-79  (184)
+ 57 3CL3_A ORF K13, NF-kappa-B ess  51.1      12 0.00015   27.0   0.0   19   51-69     59-77  (183)
+ 58 5J2Y_A Regulatory protein/DNA   50.2      13 0.00016   22.7   0.0   22   13-34     26-47  (80)
+ 59 5J2Y_B Regulatory protein/DNA   50.2      13 0.00016   22.7   0.0   22   13-34     26-47  (80)
+ 60 2XI8_B PUTATIVE TRANSCRIPTION   50.0      13 0.00016   19.0   0.0   18   14-31     17-34  (66)
+ 61 3OMT_A uncharacterized protein  49.9      13 0.00017   19.7   0.0   16   13-28     23-38  (73)
+ 62 5L08_E Caspase-8 (E.C.3.4.22.6  48.7      14 0.00018   26.6   0.0   24   48-72    155-178 (184)
+ 63 3JXC_L Repressor protein C2/DN  48.1      15 0.00018   18.9   0.0   12   14-25     20-31  (67)
+ 64 4ZBW_A Death effector domain;   48.0      15 0.00018   26.7   0.0   21   49-69     60-80  (190)
+ 65 2HIN_A Repressor protein; TRAN  48.0      15 0.00018   21.1   0.0   20   13-32     12-31  (71)
+ 66 2HIN_B Repressor protein; TRAN  48.0      15 0.00018   21.1   0.0   20   13-32     12-31  (71)
+ 67 3JXB_C Repressor protein C2/DN  46.5      16  0.0002   18.8   0.0   16   14-29     20-35  (67)
+ 68 5JHF_A KLTH0D11660p, KLTH0C079  45.2      18 0.00022   24.6   0.0   14   12-25     50-63  (87)
+ 69 5JHF_D KLTH0D11660p, KLTH0C079  45.2      18 0.00022   24.6   0.0   14   12-25     50-63  (87)
+ 70 1ADR_A P22 C2 REPRESSOR (AMINO  44.9      18 0.00022   19.7   0.0   20   13-32     20-39  (76)
+ 71 6AGW_A Caspase-8 pro-domain (E  44.9      18 0.00022   26.5   0.0   21   49-69     58-78  (185)
+ 72 5TN0_A HTH-type transcriptiona  44.8      18 0.00022   18.5   0.0   13   13-25     16-28  (69)
+ 73 1Y7Y_A C.AhdI; HELIX-TURN-HELI  44.1      19 0.00023   19.2   0.0   13   13-25     28-40  (74)
+ 74 4I6R_B Regulatory protein; Res  42.5      21 0.00026   20.3   0.0   23   12-34     25-47  (82)
+ 75 2WIU_B PROTEIN HIPA (E.C.2.7.1  42.4      21 0.00026   20.4   0.0   21   13-33     27-47  (88)
+ 76 2R1J_R Repressor protein C2/DN  41.5      22 0.00027   18.3   0.0   10   16-25     23-32  (68)
+ 77 4I6U_A Regulatory protein; Res  41.3      22 0.00028   20.2   0.0   22   12-33     25-46  (82)
+ 78 4ZBW_A Death effector domain;   40.8      23 0.00028   25.7   0.0   24   48-72    157-180 (190)
+ 79 2K9Q_B uncharacterized protein  40.7      23 0.00029   20.3   0.0   23   12-34     16-38  (77)
+ 80 2BBZ_D Viral CASP8 and FADD-li  40.6      23 0.00029   27.9   0.0   25   48-72    152-176 (249)
+ 81 3D3D_B BACTERIOPHAGE LAMBDA LY  40.5      23 0.00029   25.6   0.0   13   12-24     72-84  (154)
+ 82 2B5A_C C.BclI; HELIX-TURN-HELI  38.5      26 0.00032   18.8   0.0   19   14-32     26-44  (77)
+ 83 3KZ3_B Repressor protein CI; F  37.8      27 0.00034   19.8   0.0   22   13-34     27-48  (80)
+ 84 6AGW_A Caspase-8 pro-domain (E  36.3      30 0.00037   25.4   0.0   24   48-72    155-178 (185)
+ 85 1X57_A Endothelial differentia  34.5      34 0.00041   19.5   0.0   18   14-31     29-46  (91)
+ 86 5LDE_B Immunoglobulin G-bindin  34.2      34 0.00042   27.2   0.0   19   51-69    123-141 (265)
+ 87 1R63_A REPRESSOR PROTEIN FROM   33.0      37 0.00045   17.3   0.0   12   14-25     17-28  (63)
+ 88 2EF8_A Putative transcription   32.5      38 0.00047   19.6   0.0   12   14-25     26-37  (84)
+ 89 3B7H_A Prophage Lp1 protein 11  32.4      38 0.00047   18.7   0.0   19   15-33     24-42  (78)
+ 90 5LDE_A Immunoglobulin G-bindin  32.4      38 0.00048   26.9   0.0   19   51-69    123-141 (265)
+ 91 2MQK_A ATP-dependent target DN  31.8      40 0.00049   17.4   0.0    9   16-24     25-33  (65)
+ 92 6RNZ_B HTH-type transcriptiona  31.3      41 0.00051   17.1   0.0   11   15-25     19-29  (66)
+ 93 2XIU_A CYLR2; DNA BINDING PROT  30.6      43 0.00053   16.8   0.0   11   15-25     18-28  (66)
+ 94 6B8H_d ATP synthase subunit 9,  29.0      48 0.00059   24.1   0.0   14   12-25     10-23  (173)
+ 95 6CP6_7 ATP synthase subunit 9,  29.0      48 0.00059   24.1   0.0   14   12-25     10-23  (173)
+ 96 4YBA_B C.kpn2I controller prot  28.4      49 0.00061   19.2   0.0   15   15-29     26-40  (99)
+ 97 3F6W_C XRE-family like protein  28.1      50 0.00062   18.5   0.0   21   13-33     29-49  (83)
+ 98 6JQ1_B Transcriptional regulat  28.0      51 0.00063   20.5   0.0   20   13-32     20-39  (132)
+ 99 3OP9_A Pli0006 protein; Struct  27.7      52 0.00064   19.4   0.0   16   13-28     24-39  (114)
+100 4Z5H_A E.coli transcription re  27.5      53 0.00065   17.4   0.0   16   14-29     26-41  (72)
+101 1RZS_A Regulatory protein cro;  27.3      54 0.00066   16.5   0.0   10   15-24     14-23  (61)
+102 1R69_A 434 REPRESSOR (AMINO-TE  26.5      56  0.0007   17.0   0.0   13   13-25     16-28  (69)
+103 4YG7_C HipB, HipA/DNA Complex;  26.5      57  0.0007   17.5   0.0   20   13-32     24-43  (71)
+104 4Z59_A E.coli transcription re  26.5      57  0.0007   17.5   0.0   20   13-32     24-43  (71)
+105 5D4Z_M Repressor; Repressor, D  26.4      57  0.0007   20.1   0.0   20   14-33     22-41  (107)
+106 1CJG_A LAC REPRESSOR HP62/DNA   26.2      57 0.00071   17.2   0.0   16   16-31      8-23  (62)
+107 2BBR_A Viral CASP8 and FADD-li  25.7      60 0.00074   24.3   0.0   19   51-69     58-76  (195)
+108 2EBY_A Putative HTH-type trans  24.8      64 0.00079   19.3   0.0   19   14-32     27-45  (113)
+109 3BD1_A Cro protein; transcript  24.8      64 0.00079   18.2   0.0   19   13-31     13-31  (79)
+110 6FKG_C Uncharacterized protein  24.4      66 0.00081   19.4   0.0   16   14-29     23-38  (115)
+111 2JML_A DNA BINDING DOMAIN/TRAN  24.1      67 0.00083   17.7   0.0   16   15-30      9-24  (81)
+112 1WI9_A Protein C20orf116 homol  23.2      71 0.00088   18.9   0.0   12   13-24     23-34  (72)
+113 2OX6_C Hypothetical protein; S  23.0      72 0.00089   21.9   0.0   21   14-34     23-43  (166)
+114 1LCC_A LAC REPRESSOR HEADPIECE  23.0      73  0.0009   14.8   0.0   10   16-25      8-17  (51)
+115 5SXY_A Bifunctional coenzyme P  22.8      73 0.00091   19.1   0.0   10   48-57     55-64  (94)
+116 3TRB_B Virulence-associated pr  22.5      75 0.00093   19.0   0.0   19   13-31     29-47  (104)
+117 2ICT_A Putative HTH-type trans  22.2      77 0.00095   18.6   0.0   20   13-32     23-42  (94)
+118 2LCV_A HTH-type transcriptiona  22.2      77 0.00095   16.1   0.0   10   16-25     14-23  (67)
+119 2OX6_A Hypothetical protein; S  22.2      77 0.00095   21.8   0.0   21   14-34     23-43  (166)
+120 5TIZ_A Sulfotransferase; SULFO  21.3      82   0.001   23.0   0.0   13   13-25    202-214 (263)
+121 3BS3_A Putative DNA-binding pr  21.2      83   0.001   16.7   0.0   10   15-24     27-36  (76)
+122 1EJW_B CRYSTAL STRUCTURE OF WI  21.2      83   0.001   22.3   0.0   19   16-34     56-74  (101)
+123 4EP8_B Urease subunit alpha (E  21.2      83   0.001   22.3   0.0   19   16-34     56-74  (101)
+124 4EPD_B Urease subunit alpha (E  21.2      83   0.001   22.3   0.0   19   16-34     56-74  (101)
+125 1AM7_B LYSOZYME; GLYCOSIDASE,   21.2      83   0.001   23.1   0.0   13   12-24     72-84  (158)
+126 5I41_B Chromosome-anchoring pr  20.9      85  0.0011   15.9   0.0    6   19-24     11-16  (69)
+127 5I44_A Chromosome-anchoring pr  20.9      85  0.0011   15.9   0.0    6   19-24     11-16  (69)
+128 4J2N_B Gp37; Winged-Helix, Dom  20.8      86  0.0011   15.5   0.0   10   16-25     11-20  (58)
+129 4J2N_C Gp37; Winged-Helix, Dom  20.8      86  0.0011   15.5   0.0   10   16-25     11-20  (58)
+130 2L49_A C protein; P2 bacteriop  20.7      87  0.0011   18.1   0.0   20   13-32     19-38  (99)
+131 2XCJ_B C PROTEIN; DIRECT REPEA  20.7      87  0.0011   18.1   0.0   20   13-32     19-38  (99)
+132 1NR3_A DNA-BINDING PROTEIN TFX  20.7      87  0.0011   19.7   0.0    7   17-23     11-17  (122)
+
+No 1
+>4F42_A Tumor necrosis factor receptor superfamily; death domain, signalling transduction, SIGNALING; HET: MNB; 2.38A {Rattus norvegicus}
+Probab=97.12  E-value=4.4e-06  Score=51.52  Aligned_cols=70  Identities=26%  Similarity=0.351  Sum_probs=64.6  Template_Neff=9.000
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG-DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLEN-RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         2 vKl~fcrRLg-~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe~-R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ++++|+.+|| ++|+.+|..+|++...+..|+...+|+ . |..|..+ ++|++.|+.+|+.+++.++++.+.+
+T Consensus        12 ~~~~L~~~L~~~~W~~la~~lg~~~~~i~~~~~~~sp~~~lL~~w~~~~~~tv~~L~~~L~~~~~~d~~~~l~~   85 (94)
+T 4F42_A           12 KREEVEKLLNGDTWRHLAGELGYQPEHIDSFTHEACPVRALLASWGAQDSATLDALLAALRRIQRADIVESLCS   85 (94)
+T ss_dssp             HHHHHHHHTTTTHHHHHHHHHTCCHHHHHHGGGSSSHHHHHHHHHTTSTTCBHHHHHHHHHHTTCHHHHHHHHC
+T ss_pred             HHHHHHHHCCHHHHHHHHHHhCCCHHHHHHHhhCCCHHHHHHHHHHhCCCCcHHHHHHHHHHCChHHHHHHHHh
+Confidence            5678999999 899999999999976899999889999 9 9999998 8999999999999999999998864
+
+
+No 2
+>1NGR_A P75 LOW AFFINITY NEUROTROPHIN RECEPTOR; RECEPTOR, P75, INTRACELLULAR DOMAIN, NEUROTROPHIN; NMR {Rattus norvegicus} SCOP: a.77.1.2
+Probab=97.02  E-value=7.4e-06  Score=48.18  Aligned_cols=70  Identities=26%  Similarity=0.351  Sum_probs=63.9  Template_Neff=10.000
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG-DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLEN-RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         2 vKl~fcrRLg-~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe~-R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ++++|+..|| ++|+.+|+.+|++...+..++...+|+ . |..|..+ ++|++.|+++|+++++.++++.++.
+T Consensus        11 ~~~~l~~~L~~~~W~~la~~l~~~~~~i~~~~~~~~~~~~lL~~w~~~~~~tv~~L~~~L~~~~~~~~~~~i~~   84 (85)
+T 1NGR_A           11 KREEVEKLLNGDTWRHLAGELGYQPEHIDSFTHEACPVRALLASWGAQDSATLDALLAALRRIQRADIVESLCS   84 (85)
+T ss_dssp             TTHHHHHHSCTTHHHHHHHHTTCCHHHHHHHHHSSCHHHHHHHHGGGSTTCBHHHHHHHHHHTTCHHHHHHHHC
+T ss_pred             HHHHHHHHCCcchHHHHHHHcCCCHHHHHHHHhCCCHHHHHHHHHHhCCCCcHHHHHHHHHHCCcHHHHHHhcC
+Confidence            5678999999 999999999999977899998888999 9 9999998 7899999999999999999988763
+
+
+No 3
+>2DBF_A Nuclear factor NF-kappa-B p105 subunit; apoptosis, Structural Genomics, NPPSFA, National; NMR {Homo sapiens}
+Probab=96.86  E-value=1.5e-05  Score=50.04  Aligned_cols=70  Identities=20%  Similarity=0.284  Sum_probs=63.6  Template_Neff=8.700
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG-----DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLENRSRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus         2 vKl~fcrRLg-----~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe~R~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ++++||.+||     ++|+.||..++++. .+..++...+|+ . |..|..+++||+.|+++|+.+++.++++.+.++
+T Consensus        16 ~~~~L~~~Ld~~~~~~~Wr~LA~~l~~~~-~i~~~~~~~sPt~~lL~~w~~~~~tv~~L~~~L~~~~r~d~~~~l~~~   92 (100)
+T 2DBF_A           16 VKLQLYKLLEIPDPDKNWATLAQKLGLGI-LNNAFRLSPAPSKTLMDNYEVSGGTVRELVEALRQMGYTEAIEVIQAA   92 (100)
+T ss_dssp             HHHHHHHHHTSCCTTSSHHHHHHHHTCGG-GHHHHHHSSCHHHHHHHHHHHTCCCHHHHHHHHHHHTCSHHHHHHHHH
+T ss_pred             HHHHHHHHhCCCCCCCcHHHHHHHcCCcH-HHHHHhhCCCHHHHHHHHHHHcCCCHHHHHHHHHHCChHHHHHHHHHH
+Confidence            5678999997     89999999999986 788888889999 9 999998899999999999999999999998754
+
+
+No 4
+>2N80_A Tumor necrosis factor receptor superfamily; RhoGDI, p75NTR, death domain, SIGNALING; NMR {Homo sapiens}
+Probab=96.86  E-value=1.6e-05  Score=48.17  Aligned_cols=71  Identities=27%  Similarity=0.348  Sum_probs=63.9  Template_Neff=9.600
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG----DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLEN-RSRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus         2 vKl~fcrRLg----~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe~-R~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ++++|+..||    ++|+.+|..+|++...+..++...+|+ . |..|..+ ++|++.|+.+|+++++.++++.+++.
+T Consensus        10 ~~~~l~~~l~~~~~~~W~~la~~l~~~~~~i~~~~~~~~~~~~lL~~w~~~~~~tv~~L~~~L~~~~~~d~~~~l~~~   87 (94)
+T 2N80_A           10 KREEVEKLLNGSAGDTWRHLAGELGYQPEHIDSFTHEACPVRALLASWATQDSATLDALLAALRRIQRADLVESLCSE   87 (94)
+T ss_dssp             HHHHHHHHHTTSCTTHHHHHHHHHTCCHHHHHHHHTSSSHHHHHHHHHTTSTTCBHHHHHHHHHHTTCHHHHHHHTTT
+T ss_pred             HHHHHHHHhcCCCCChHHHHHHHhCCCHHHHHHHhhcCcHHHHHHHHHHhCCCCcHHHHHHHHHHCCCHHHHHHhcch
+Confidence            4678899998    799999999999876889898888999 9 9999998 78999999999999999999988753
+
+
+No 5
+>2YQF_A Ankyrin-1; death domain, Structural Genomics, NPPSFA; NMR {Homo sapiens}
+Probab=96.77  E-value=2.3e-05  Score=49.20  Aligned_cols=68  Identities=29%  Similarity=0.523  Sum_probs=56.5  Template_Neff=9.300
+
+Q tr|D5C179|D5C1    4 IAFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         4 l~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ..++..++++|+.||..||++...+..++..     .++. . |..|..+   .+|+..|+.+|..+++.++++.++.
+T Consensus        22 ~~ia~~l~~~W~~la~~Lg~~~~~i~~i~~~~~~~~~~~~~~~L~~W~~~~~~~at~~~L~~aL~~~~~~d~~e~l~~   99 (111)
+T 2YQF_A           22 AVISEHLGLSWAELARELQFSVEDINRIRVENPNSLLEQSVALLNLWVIREGQNANMENLYTALQSIDRGEIVNMLEG   99 (111)
+T ss_dssp             HHHHHHHTTTHHHHHHHTTCCHHHHHHHHHHSCSCHHHHHHHHHHHHHHHHTTSCCHHHHHHHHHHTTCCHHHHHHSC
+T ss_pred             HHHHHHHCccHHHHHHHCCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHhcCCCCHHHHHHHHHHCCCHHHHHHHHh
+Confidence            3466667799999999999987778877653     4566 7 9999987   4789999999999999999988764
+
+
+No 6
+>2YVI_A Ankyrin-1; homo sapiens, death domain, monomer; 1.92A {Homo sapiens}
+Probab=96.77  E-value=2.3e-05  Score=49.20  Aligned_cols=68  Identities=29%  Similarity=0.523  Sum_probs=56.0  Template_Neff=9.300
+
+Q tr|D5C179|D5C1    4 IAFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         4 l~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ..++..++++|+.||..||++...+..++..     .++. . |..|..+   .+|+..|+.+|..+++.++++.++.
+T Consensus        22 ~~ia~~l~~~W~~la~~Lg~~~~~i~~i~~~~~~~~~~~~~~~L~~W~~~~~~~at~~~L~~aL~~~~~~d~~e~l~~   99 (111)
+T 2YVI_A           22 AVISEHLGLSWAELARELQFSVEDINRIRVENPNSLLEQSVALLNLWVIREGQNANMENLYTALQSIDRGEIVNMLEG   99 (111)
+T ss_dssp             HHHHHHHGGGHHHHHHHTTCCHHHHHHHHHHSTTCHHHHHHHHHHHHHHHHGGGCCHHHHHHHHHHTTCHHHHHHHC-
+T ss_pred             HHHHHHHCccHHHHHHHCCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHhcCCCCHHHHHHHHHHCCCHHHHHHHHh
+Confidence            3466667799999999999987778877653     4566 7 9999987   4789999999999999999988764
+
+
+No 7
+>3MOP_B Myeloid differentiation primary response protein; Death domain complex, helical symmetry; 3.4A {Homo sapiens}
+Probab=96.74  E-value=2.6e-05  Score=49.87  Aligned_cols=71  Identities=17%  Similarity=0.277  Sum_probs=64.0  Template_Neff=8.600
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG------DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLEN-RSRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus         2 vKl~fcrRLg------~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe~-R~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ++++|+..||      ++|+.||..+|++...+..++...+|+ . |..|..+ ++|++.|+.+|+.+++.++++.+.+.
+T Consensus        11 ~~~~L~~~Ld~~~~~~~~W~~La~~lg~~~~~i~~~~~~~spt~~lL~~w~~~~~~tv~~L~~~L~~~~r~d~~~~l~~~   90 (110)
+T 3MOP_B           11 VRRRLSLFLNVRTQVAADWTALAEEMDFEYLEIRQLETQADPTGRLLDAWQGRPGASVGRLLELLTKLGRDDVLLELGPS   90 (110)
+T ss_dssp             HHHHHHHHHTSCCSSSCCHHHHHTTTTCCHHHHHHHTSSSCHHHHHHHHHHSSSSCSHHHHHHHHHHHTCHHHHTTSHHH
+T ss_pred             HHHHHHHHhCCCCcCcccHHHHHHHCCCCHHHHHHHHhCCCHHHHHHHHHHhCCCCcHHHHHHHHHHCCcHHHHHHHHHh
+Confidence            5678899997      699999999999977899999889999 9 9999998 89999999999999999999988753
+
+
+No 8
+>1D2Z_C DEATH DOMAIN OF PELLE/TUBE COMPLEX; SIX-HELIX BUNDLE, LINEAR ARRAY OF; HET: EPE; 2.0A {Drosophila melanogaster} SCOP: a.77.1.2
+Probab=96.73  E-value=2.8e-05  Score=48.91  Aligned_cols=71  Identities=18%  Similarity=0.460  Sum_probs=62.3  Template_Neff=9.100
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG--DDWKRLADCLEIRVSDQARFER----GDEGR-G-IWVWLEN-RSRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus         2 vKl~fcrRLg--~dW~dLAd~l~Ip~~er~rF~~----G~E~~-~-iWeWLe~-R~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ++++||.+||  ++|+.||..+|++...|..++.    ..+|+ . |..|..+ ++||+.|+.+|.++++.++++.+.++
+T Consensus        20 ~~~~L~~~Ld~~~~Wk~La~~l~~~~~~i~~~~~~~~~~~spt~~lL~~w~~~~~~tv~~L~~~L~~~~~~d~~~~l~~~   99 (108)
+T 1D2Z_C           20 VRAQLCAHLDALDVWQQLATAVKLYPDQVEQISSQKQRGRSASNEFLNIWGGQYNHTVQTLFALFKKLKLHNAMRLIKDY   99 (108)
+T ss_dssp             HHHHHHHHHHHHTCHHHHHHHTTCCHHHHHHHHHHHHTTSCHHHHHHCCCCCCTCCBHHHHHHHHHHTTCHHHHHHTGGG
+T ss_pred             HHHHHHHHcCCccHHHHHHHHCCCCHHHHHHHHhccccCCCHHHHHHHHHHhhCCCcHHHHHHHHHHCCcHHHHHHHHHh
+Confidence            5678999998  8999999999998767777776    57999 9 9999954 78999999999999999999988753
+
+
+No 9
+>2IB1_A Death domain containing membrane protein; p45, death domain, apoptosis, p75; NMR {Mus musculus}
+Probab=96.69  E-value=3.2e-05  Score=45.97  Aligned_cols=71  Identities=20%  Similarity=0.274  Sum_probs=63.2  Template_Neff=10.000
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG-----DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         2 vKl~fcrRLg-----~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ++++|+.+|+     ++|+.+|..+|++...+..++...+|+ . |..|..+   ++|++.|+.+|+++++.++++.+.+
+T Consensus         4 ~~~~l~~~L~~~~~g~~W~~la~~l~~~~~~i~~~~~~~~~~~~lL~~w~~~~~~~~t~~~L~~~L~~~~~~~~~~~l~~   83 (91)
+T 2IB1_A            4 QQEEVQRLLMMGEPAKGWQELAGHLGYQAEAVETMACDQMPAYTLLRNWAAQEGNRATLRVLEDALAAIGREDVVQVLSS   83 (91)
+T ss_pred             HHHHHHHHHhCCCCCcCHHHHHHHhCCCHHHHHHHHcCCCHHHHHHHHHHHHcCCCChHHHHHHHHHHCCcHHHHHHhcC
+Confidence            5678888887     799999999999976888898888999 9 9999988   6799999999999999999988865
+
+
+Q tr|D5C179|D5C1   72 F   72 (73)
+Q Consensus        72 ~   72 (73)
+                      .
+T Consensus        84 ~   84 (91)
+T 2IB1_A           84 P   84 (91)
+T ss_pred             c
+Confidence            3
+
+
+No 10
+>2OF5_I Death domain-containing protein CRADD, Leucine-rich; Death domain complex, APOPTOSIS; 3.2A {Homo sapiens}
+Probab=96.64  E-value=3.9e-05  Score=49.75  Aligned_cols=67  Identities=27%  Similarity=0.445  Sum_probs=55.1  Template_Neff=8.500
+
+Q tr|D5C179|D5C1    5 AFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN----RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         5 ~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~----R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      .|+..++++|+.||..||++...|..++..     ..++ . |..|..+    ++|+..|+.+|.++++.++++.+..
+T Consensus        18 ~ia~~lg~~W~~la~~Lgl~~~~I~~i~~~~~~~~~e~~~~~L~~W~~~~~~~~at~~~L~~aL~~~~~~dia~~l~~   95 (118)
+T 2OF5_I           18 SVAGRLGLDWPAVALHLGVSYREVQRIRHEFRDDLDEQIRHMLFSWAERQAGQPGAVGLLVQALEQSDRQDVAEEVRA   95 (118)
+T ss_dssp             HHHTTCCSCHHHHHHHTTCCHHHHHHHHHTTTTCHHHHHHHHHHHHHHHTSSCSSHHHHHHHHHHHTTCHHHHHHHHH
+T ss_pred             HHHHhhccCHHHHHHHhCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHcCCCCCcHHHHHHHHHHCCCHHHHHHHHH
+Confidence            455666699999999999998788877764     3566 7 9999987    3589999999999999999887764
+
+
+No 11
+>1WXP_A THO complex subunit 1; death domain, structural genomics, nuclear; NMR {Homo sapiens}
+Probab=96.60  E-value=4.7e-05  Score=47.46  Aligned_cols=68  Identities=29%  Similarity=0.469  Sum_probs=56.2  Template_Neff=9.500
+
+Q tr|D5C179|D5C1    4 IAFCDRLGDDWKRLADCLEIRVSDQARFERG----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         4 l~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ..|+..+..+|+.||..|+++...|..++..    .+++ . |..|..+   .+|+..|+.+|..+++.++++.+..
+T Consensus        22 ~~ia~~l~~~W~~la~~L~~~~~~i~~i~~~~~~~~~~~~~~L~~W~~~~~~~at~~~L~~aL~~~~~~~~~~~i~~   98 (110)
+T 1WXP_A           22 EVFANKLGEQWKILAPYLEMKDSEIRQIECDSEDMKMRAKQLLVAWQDQEGVHATPENLINALNKSGLSDLAESLTN   98 (110)
+T ss_dssp             HHHHHHHTTTHHHHTTTTTCCHHHHHHHHHHCSSHHHHHHHHHHHHHHHHGGGCCHHHHHHHHHHTTCHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHHHHHCCCCHHHHHHHHHCCCCHHHHHHHHHHHHHHHhCCCCCHHHHHHHHHHCCCHHHHHHHhc
+Confidence            3455666699999999999987788877764    4677 7 9999987   3789999999999999999888764
+
+
+No 12
+>6HJ7_A Death domain-containing membrane protein NRADD; NRAAD, p45, p75 neurotrophin receptor; NMR {Mus musculus}
+Probab=96.52  E-value=6.3e-05  Score=46.03  Aligned_cols=70  Identities=20%  Similarity=0.296  Sum_probs=61.9  Template_Neff=9.700
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG-----DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         2 vKl~fcrRLg-----~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ++++|+.+|+     ++|+.+|..++++...+..++...+|+ . |..|..+   ++|+..|+.+|+++++.++++.+++
+T Consensus        15 ~~~~L~~~l~~~~~g~~W~~la~~l~~~~~~i~~~~~~~~~~~~lL~~w~~~~~~~~t~~~L~~aL~~~~~~~~~~~l~~   94 (102)
+T 6HJ7_A           15 QQEEVQRLLMMGEPAKGWQELAGHLGYQAEAVETMACDQMPAYTLLRNWAAQEGNRATLRVLEDALAAIGREDVVQVLSS   94 (102)
+T ss_pred             HHHHHHHHhcCCCCCCcHHHHHHHhCCCHHHHHHHHhCCcHHHHHHHHHHHhhCCCChHHHHHHHHHHCCCHHHHHHhcC
+Confidence            4567888887     399999999999976888888888999 9 9999988   5789999999999999999988765
+
+
+No 13
+>4O6X_A Ankyrin-3; alpha helix bundle, PROTEIN BINDING; 2.103A {Homo sapiens}
+Probab=96.52  E-value=6.4e-05  Score=49.58  Aligned_cols=67  Identities=24%  Similarity=0.387  Sum_probs=55.8  Template_Neff=8.000
+
+Q tr|D5C179|D5C1    4 IAFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLE   70 (73)
+Q Consensus         4 l~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~   70 (73)
+                      ..++..++++|+.||..||++...+..++..     .+++ . |..|..+   .+|+..|+.||..+++.++++.++
+T Consensus         9 ~~ia~~lg~dWk~La~~Lgls~~~I~~i~~~~~~~~~e~~~~mL~~W~~~~g~~at~~~L~~AL~~~~r~diae~l~   85 (121)
+T 4O6X_A            9 AIVADHLGLSWTELARELNFSVDEINQIRVENPNSLISQSFMLLKKWVTRDGKNATTDALTSVLTKINRIDIVTLLE   85 (121)
+T ss_dssp             HHHHHHHGGGHHHHHHHTTCCHHHHHHHHHHSTTCHHHHHHHHHHHHHHHHGGGCBHHHHHHHHHHTTCHHHHHHHH
+T ss_pred             HHHHHHcCCCHHHHHHHCCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHcCCCCCHHHHHHHHHHCCCHHHHHHhh
+Confidence            3466667799999999999987788877653     4567 7 9999987   478999999999999999988875
+
+
+No 14
+>3EZQ_D Tumor necrosis factor receptor superfamily; Apoptosis, DISC, FAS, FADD, Membrane; HET: SO4; 2.73A {Homo sapiens}
+Probab=96.49  E-value=7e-05  Score=49.10  Aligned_cols=68  Identities=26%  Similarity=0.542  Sum_probs=55.8  Template_Neff=8.300
+
+Q tr|D5C179|D5C1    4 IAFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         4 l~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ..++..++++|+.||..||++...|..++..     .+++ . |..|..+   .+|+..|+.+|.++++.++++.|..
+T Consensus        10 ~~ia~~lg~~Wk~la~~Lgl~~~~I~~i~~~~~~~~~~~~~~mL~~W~~~~~~~at~~~L~~aL~~~~~~~iae~i~~   87 (122)
+T 3EZQ_D           10 NVICDNVGKDWRRLARQLKVSDTKIDSIEDRYPRNLTERVRESLRIWKNTEKENATVAHLVGALRSCQMNLVADLVQE   87 (122)
+T ss_dssp             HHHHTTCCTTHHHHHHHTTCCHHHHHHHHHHCSSCHHHHHHHHHHHHHHHCTTTCCHHHHHHHHHHTTCHHHHHHHHH
+T ss_pred             HHHHHHhChhHHHHHHHcCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHhcCCCCCHHHHHHHHHHCCcHHHHHHHHH
+Confidence            3456666699999999999987788877763     4566 7 9999987   4789999999999999999888763
+
+
+No 15
+>3OQ9_E Tumor necrosis factor receptor superfamily; APOPTOSIS, DISC, FAS, FADD; 6.8A {Mus musculus}
+Probab=96.42  E-value=9e-05  Score=43.95  Aligned_cols=69  Identities=10%  Similarity=0.212  Sum_probs=56.7  Template_Neff=9.800
+
+Q tr|D5C179|D5C1    3 KIAFCDRLG-DDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         3 Kl~fcrRLg-~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ...++..++ .+|+.|+..+|++...+..++..     .++. . |..|..+   .+++..|+.+|.++++.++++.+..
+T Consensus         3 l~~ia~~~~~~~w~~l~~~Lg~~~~~i~~i~~~~~~~~~~~~~~~L~~W~~~~~~~a~~~~L~~aL~~~~~~~~a~~i~~   82 (86)
+T 3OQ9_E            3 IPRIAEDMTIQEAKKFARENNIKEGKIDEIMHDSIQDTAEQKVQLLLCWYQSHGKSDAYQDLIKGLKKAECRRTLDKFQD   82 (86)
+T ss_dssp             HHHHHHHSCHHHHHHHHHTTTSCHHHHHHHHHTCTTCCTTHHHHHHHHHHHHSCSSSHHHHHHHHHHHTTCSSHHHHHHH
+T ss_pred             HHHHHHhCCHHHHHHHHHHCCCCHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhCCCchHHHHHHHHHHcCchHHHHHHHH
+Confidence            345777787 89999999999987788877764     3466 7 9999987   3689999999999999999887754
+
+
+No 16
+>3G5B_A Netrin receptor UNC5B; ZU5, Death domain, UPA, Apoptosis; HET: PO4; 2.0A {Rattus norvegicus}
+Probab=96.42  E-value=9.3e-05  Score=56.74  Aligned_cols=69  Identities=22%  Similarity=0.436  Sum_probs=62.2  Template_Neff=8.600
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG------DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLENR---SRLSQLPAALREIKRGELAELLE   70 (73)
+Q Consensus         2 vKl~fcrRLg------~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe~R---~RL~eLp~AL~~IgR~DLa~lL~   70 (73)
+                      ++++||.+||      ++|+.||..||++. .+..|+...+|+ . |..|..++   +++..|+.+|++|++.|+++.++
+T Consensus       322 ~~~~L~~~Ld~~~~~g~dWr~LA~~Lg~~~-~i~~~~~~~spt~~lL~~w~~~~~~~~t~~~L~~aL~~i~r~d~~~~l~  400 (405)
+T 3G5B_A          322 IRQKICNSLDAPNSRGNDWRLLAQKLSMDR-YLNYFATKASPTGVILDLWEARQQDDGDLNSLASALEEMGKSEMLVAMT  400 (405)
+T ss_dssp             HHHHHHHHHSSCCTTSTTHHHHHHHTTCCT-TTHHHHTSSCHHHHHHHHHHHHHTTTCCHHHHHHHHHHTTCCHHHHHHH
+T ss_pred             HHHHHHHhcCCCCcCCCCHHHHHHHcCcHH-HHHHHhhCCCHHHHHHHHHHHccCCCCCHHHHHHHHHHcChHHHHHHHh
+Confidence            4678999997      79999999999997 899998889999 9 99999873   79999999999999999999876
+
+
+Q tr|D5C179|D5C1   71 N   71 (73)
+Q Consensus        71 ~   71 (73)
+                      .
+T Consensus       401 ~  401 (405)
+T 3G5B_A          401 T  401 (405)
+T ss_dssp             C
+T ss_pred             h
+Confidence            4
+
+
+No 17
+>6ACI_H Gasdermin-A3; toxin, glycosyltransferase; HET: UDP; 1.87A {Escherichia coli O127:H6}
+Probab=96.40  E-value=9.9e-05  Score=43.68  Aligned_cols=68  Identities=26%  Similarity=0.542  Sum_probs=55.0  Template_Neff=10.200
+
+Q tr|D5C179|D5C1    4 IAFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         4 l~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ..|+..++++|+.|+..++++...+..+...     .+++ . |..|..+   .+++..|+.+|.++++.++++.+..
+T Consensus        10 ~~ia~~l~~~w~~l~~~L~~~~~~i~~i~~~~~~~~~~~~~~~L~~W~~~~~~~~~~~~L~~aL~~~~~~~~~~~i~~   87 (92)
+T 6ACI_H           10 NVICDNVGKDWRRLARQLKVSDTKIDSIEDRYPRNLTERVRESLRIWKNTEKENATVAHLVGALRSCQMNLVADLVQE   87 (92)
+T ss_pred             HHHHHHHchHHHHHHHHhCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHCCCCcHHHHHHHHHHCCCHHHHHHHHH
+Confidence            3455666699999999999987677777763     4567 7 9999877   3689999999999999999887754
+
+
+No 18
+>1WMG_A netrin receptor Unc5h2; six helix bundle, death domain; HET: SO4, SO3; 2.1A {Mus musculus} SCOP: a.77.1.2
+Probab=96.35  E-value=0.00012  Score=46.15  Aligned_cols=69  Identities=22%  Similarity=0.429  Sum_probs=61.5  Template_Neff=8.800
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG------DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLE---NRSRLSQLPAALREIKRGELAELLE   70 (73)
+Q Consensus         2 vKl~fcrRLg------~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe---~R~RL~eLp~AL~~IgR~DLa~lL~   70 (73)
+                      ++++||.+||      ++|+.||..++++. .+..++...+|+ . |..|..   .++|++.|+.+|+++++.+++..+.
+T Consensus        16 ~~~~L~~~Ld~~~~~~~~W~~LA~~l~~~~-~i~~~~~~~sP~~~lL~~w~~~~~~~~tv~~L~~~L~~~~~~d~~~~l~   94 (103)
+T 1WMG_A           16 IRQKICSSLDAPNSRGNDWRLLAQKLSMDR-YLNYFATKASPTGVILDLWEARQQDDGDLNSLASALEEMGKSEMLVAMA   94 (103)
+T ss_dssp             HHHHHHHHHHCGGGTTSSHHHHHHHTTCGG-GHHHHHTSSCHHHHHHHHHHHHCCSTTTHHHHHHHHHHTTCHHHHHHHH
+T ss_pred             HHHHHHHHhCCCCcCCCCHHHHHHHcCChH-HHHHHhhCCCHHHHHHHHHHHHhCCCCCHHHHHHHHHHCChhHHHHHHh
+Confidence            4678899997      79999999999997 688888888999 9 999998   4789999999999999999998876
+
+
+Q tr|D5C179|D5C1   71 N   71 (73)
+Q Consensus        71 ~   71 (73)
+                      .
+T Consensus        95 ~   95 (103)
+T 1WMG_A           95 T   95 (103)
+T ss_dssp             H
+T ss_pred             h
+Confidence            4
+
+
+No 19
+>1WMG_F netrin receptor Unc5h2; six helix bundle, death domain; HET: SO4, SO3, MSE; 2.1A {Mus musculus} SCOP: a.77.1.2
+Probab=96.35  E-value=0.00012  Score=46.15  Aligned_cols=69  Identities=22%  Similarity=0.429  Sum_probs=61.5  Template_Neff=8.800
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG------DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLE---NRSRLSQLPAALREIKRGELAELLE   70 (73)
+Q Consensus         2 vKl~fcrRLg------~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe---~R~RL~eLp~AL~~IgR~DLa~lL~   70 (73)
+                      ++++||.+||      ++|+.||..++++. .+..++...+|+ . |..|..   .++|++.|+.+|+++++.+++..+.
+T Consensus        16 ~~~~L~~~Ld~~~~~~~~W~~LA~~l~~~~-~i~~~~~~~sP~~~lL~~w~~~~~~~~tv~~L~~~L~~~~~~d~~~~l~   94 (103)
+T 1WMG_F           16 IRQKICSSLDAPNSRGNDWRLLAQKLSMDR-YLNYFATKASPTGVILDLWEARQQDDGDLNSLASALEEMGKSEMLVAMA   94 (103)
+T ss_dssp             HHHHHHHHHSSCCTTSTTHHHHHHHTTCGG-GHHHHTTSSCHHHHHHHHHHHHSCTTCCSHHHHHHHHHTTCTTHHHHTT
+T ss_pred             HHHHHHHHhCCCCcCCCCHHHHHHHcCChH-HHHHHhhCCCHHHHHHHHHHHHhCCCCCHHHHHHHHHHCChhHHHHHHh
+Confidence            4678899997      79999999999997 688888888999 9 999998   4789999999999999999998876
+
+
+Q tr|D5C179|D5C1   71 N   71 (73)
+Q Consensus        71 ~   71 (73)
+                      .
+T Consensus        95 ~   95 (103)
+T 1WMG_F           95 T   95 (103)
+T ss_dssp             C
+T ss_pred             h
+Confidence            4
+
+
+No 20
+>3OQ9_I Tumor necrosis factor receptor superfamily; APOPTOSIS, DISC, FAS, FADD; 6.8A {Mus musculus}
+Probab=96.30  E-value=0.00014  Score=44.38  Aligned_cols=68  Identities=26%  Similarity=0.542  Sum_probs=55.7  Template_Neff=9.700
+
+Q tr|D5C179|D5C1    4 IAFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         4 l~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ..++..++++|+.||..+|++...+..++..     .+++ . |..|..+   .+++..|+.+|.++++.++++.++.
+T Consensus        10 ~~ia~~l~~~W~~la~~Lg~~~~~i~~i~~~~~~~~~~~~~~~L~~W~~~~~~~~~~~~L~~aL~~~~~~~~~~~i~~   87 (100)
+T 3OQ9_I           10 NVICDNVGKDWRRLARQLKVSDTKIDSIEDRYPRNLTERVRESLRIWKNTEKENATVAHLVGALRSCQMNLVADLVQE   87 (100)
+T ss_dssp             HHHHTTCCTTHHHHHHHTTCCHHHHHHHHHHCSSCHHHHHHHHHHHHHHHCTTTCCHHHHHHHHHHTTCHHHHHHHHH
+T ss_pred             HHHHHHhcchHHHHHHHCCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHcCCCCCHHHHHHHHHHCCcHHHHHHHHH
+Confidence            4456666699999999999987678877763     4577 7 9999977   3689999999999999999888764
+
+
+No 21
+>2D96_A Nuclear factor NF-kappa-B p100 subunit; six helix bundle, processing, proteasome; NMR {Homo sapiens}
+Probab=96.23  E-value=0.00017  Score=46.18  Aligned_cols=70  Identities=19%  Similarity=0.207  Sum_probs=63.0  Template_Neff=8.500
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG-----DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLENRSRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus         2 vKl~fcrRLg-----~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe~R~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ++++||.+||     ++|+.||..++++. .+..++...+|+ . |..|..+++|++.|+.+|+.+++.+++..+.++
+T Consensus        16 ~~~~L~~~Ld~~~~~~~Wr~LA~~l~~~~-~i~~~~~~~sPt~~LL~~w~~~~~tv~~L~~~L~~~~r~d~~~~l~~~   92 (109)
+T 2D96_A           16 ALQNLEQLLDGPEAQGSWAELAERLGLRS-LVDTYRQTTSPSGSLLRSYELAGGDLAGLLEALSDMGLEEGVRLLRGP   92 (109)
+T ss_dssp             HHHHHHHHHSSSSCSSCHHHHHHHHTCHH-HHHHHHTSSCHHHHHHHHHHHTTCCHHHHHHHHHHHTCHHHHHHHHCC
+T ss_pred             HHHHHHHHhCCcccCCcHHHHHHHcCChH-HHHHHhhCCCHHHHHHHHHHHcCCCHHHHHHHHHHCChHHHHHHHcCC
+Confidence            5678999998     79999999999986 788888889999 9 999997789999999999999999999988753
+
+
+No 22
+>6AC5_A Gasdermin-A3; apoptosis, SIGNALING PROTEIN; HET: NAG, SO4; 1.451A {Homo sapiens}
+Probab=96.19  E-value=0.0002  Score=45.53  Aligned_cols=68  Identities=22%  Similarity=0.322  Sum_probs=54.9  Template_Neff=8.900
+
+Q tr|D5C179|D5C1    4 IAFCDRLGDDWKRLADCLEIRVSDQARFERG------DEGR-G-IWVWLEN-R---SRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         4 l~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G------~E~~-~-iWeWLe~-R---~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ..++..++++|+.||..+|++...+..+...      .+++ . |..|..+ +   +++..|..+|..+++.++++.+..
+T Consensus        28 ~~ia~~lg~~W~~la~~Lg~~~~~i~~i~~~~~~~~~~~~~~~~L~~W~~~~~~~~at~~~L~~aL~~~~~~~ia~~l~~  107 (111)
+T 6AC5_A           28 DPIRENLGKHWKNCARKLGFTQSQIDEIDHDYERDGLKEKVYQMLQKWVMREGIKGATVGKLAQALHQCSRIDLLSSLIY  107 (111)
+T ss_pred             HHHHHHHhHHHHHHHHHhCCCHHHHHHHHHhCCCCCHHHHHHHHHHHHHHHcCCCCCcHHHHHHHHHHCCCHHHHHHHHH
+Confidence            3456666699999999999987777777653      3566 7 9999876 2   688999999999999999988764
+
+
+No 23
+>6I3N_C Myeloid differentiation primary response protein; helix, filament, TLR, SIGNALING PROTEIN; 3.1A {Homo sapiens}
+Probab=96.16  E-value=0.00022  Score=50.07  Aligned_cols=70  Identities=17%  Similarity=0.294  Sum_probs=63.5  Template_Neff=7.200
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG------DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLEN-RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         2 vKl~fcrRLg------~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe~-R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ++++|+.+||      ++|+.||..+|++...+..|+...+|+ . |..|..+ ++|++.|+.+|+.+++.++++.+.+
+T Consensus        32 ~r~~L~~~Ld~~~~~~~dWr~LA~~lg~~~~~I~~~~~~~sPT~~LL~~W~~r~~~tv~~Li~~L~~l~R~Dvl~~l~~  110 (162)
+T 6I3N_C           32 VRRRLSLFLNVRTQVAADWTALAEEMDFEYLEIRQLETQADPTGRLLDAWQGRPGASVGRLLELLTKLGRDDVLLELGP  110 (162)
+T ss_dssp             HHHHHHHHHTSCCSSSCCHHHHHHHTTCCHHHHHHHTTSSCHHHHHHHHTSSSTTCCHHHHHHHHHHTTCCHHHHHSHH
+T ss_pred             HHHHHHHHhCCCCccccCHHHHHHHcCCCHHHHHHHHhCCCHHHHHHHHHhcCCCCcHHHHHHHHHHcCcHHHHHHHHH
+Confidence            5678999998      599999999999976799999989999 9 9999987 7899999999999999999888764
+
+
+No 24
+>6I3N_M Myeloid differentiation primary response protein; helix, filament, TLR, SIGNALING PROTEIN; 3.1A {Homo sapiens}
+Probab=96.16  E-value=0.00022  Score=50.07  Aligned_cols=70  Identities=17%  Similarity=0.294  Sum_probs=63.5  Template_Neff=7.200
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG------DDWKRLADCLEIRVSDQARFERGDEGR-G-IWVWLEN-RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         2 vKl~fcrRLg------~dW~dLAd~l~Ip~~er~rF~~G~E~~-~-iWeWLe~-R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ++++|+.+||      ++|+.||..+|++...+..|+...+|+ . |..|..+ ++|++.|+.+|+.+++.++++.+.+
+T Consensus        32 ~r~~L~~~Ld~~~~~~~dWr~LA~~lg~~~~~I~~~~~~~sPT~~LL~~W~~r~~~tv~~Li~~L~~l~R~Dvl~~l~~  110 (162)
+T 6I3N_M           32 VRRRLSLFLNVRTQVAADWTALAEEMDFEYLEIRQLETQADPTGRLLDAWQGRPGASVGRLLELLTKLGRDDVLLELGP  110 (162)
+T ss_dssp             HHHHHHHHHTSCCSSSCCHHHHHHHTTCCHHHHHHHTTSSCHHHHHHHHTSSSTTCCHHHHHHHHHHTTCCHHHHHSHH
+T ss_pred             HHHHHHHHhCCCCccccCHHHHHHHcCCCHHHHHHHHhCCCHHHHHHHHHhcCCCCcHHHHHHHHHHcCcHHHHHHHHH
+Confidence            5678999998      599999999999976799999989999 9 9999987 7899999999999999999888764
+
+
+No 25
+>1ICH_A TUMOR NECROSIS FACTOR RECEPTOR-1; death domain, APOPTOSIS; NMR {Homo sapiens} SCOP: a.77.1.2
+Probab=96.16  E-value=0.00022  Score=45.40  Aligned_cols=69  Identities=22%  Similarity=0.320  Sum_probs=56.4  Template_Neff=8.900
+
+Q tr|D5C179|D5C1    3 KIAFCDRL-GDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---R-SRLSQLPAALREIKRGELAELLE   70 (73)
+Q Consensus         3 Kl~fcrRL-g~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R-~RL~eLp~AL~~IgR~DLa~lL~   70 (73)
+                      ...++..+ +++|+.||..||++...|..++..     .+++ . |..|..+   . +++..|+.+|..+++.++++.+.
+T Consensus        16 l~~ia~~l~~~~W~~la~~Lgl~~~~I~~i~~~~~~~~~~~~~~~L~~W~~~~~~~~at~~~L~~aL~~~~~~~ia~~i~   95 (112)
+T 1ICH_A           16 LYAVVENVPPLRWKEFVKRLGLSDHEIDRLELQNGRCLREAQYSMLATWRRRTPRREATLELLGRVLRDMDLLGCLEDIE   95 (112)
+T ss_dssp             HHHHHHHSCSTTHHHHHHHHTCCHHHHHHHHHHCCSCHHHHHHHHHHHHHHHSCCSSCHHHHHHHHHHHTTCHHHHHHHH
+T ss_pred             HHHHHHhCChHhHHHHHHHcCCCHHHHHHHHHHcCCCHHHHHHHHHHHHHHHCCCCCCcHHHHHHHHHHCCcHHHHHHHH
+Confidence            34567777 599999999999987778877763     4566 7 9999987   2 58999999999999999988775
+
+
+Q tr|D5C179|D5C1   71 N   71 (73)
+Q Consensus        71 ~   71 (73)
+                      .
+T Consensus        96 ~   96 (112)
+T 1ICH_A           96 E   96 (112)
+T ss_dssp             H
+T ss_pred             H
+Confidence            3
+
+
+No 26
+>1E3Y_A FADD PROTEIN; APOPTOSIS, DEATH DOMAIN, ADAPTER MOLECULE; NMR {HOMO SAPIENS} SCOP: a.77.1.2
+Probab=96.10  E-value=0.00026  Score=43.72  Aligned_cols=67  Identities=27%  Similarity=0.563  Sum_probs=54.1  Template_Neff=9.500
+
+Q tr|D5C179|D5C1    5 AFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         5 ~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      .++..+..+|+.|+..+|++...+..++..     .+++ . |..|..+   .+++..|+.+|..+++.++++.++.
+T Consensus        15 ~ia~~l~~~W~~la~~L~l~~~~i~~i~~~~~~~~~~~~~~~L~~W~~~~~~~~~~~~L~~aL~~~~~~~~~~~i~~   91 (104)
+T 1E3Y_A           15 VICDNVGKDWRRLARQLKVSDTKIDSIEDRYPRNLTERVRESLRIWKNTEKENATVAHLVGALRSCQMNLVADLVQE   91 (104)
+T ss_dssp             HHHHSTTSSHHHHHHHHHCCHHHHHHHHHHCTTCHHHHHHHHHHHHHHHHTTTCSHHHHHHHHHHTTCHHHHHHHHH
+T ss_pred             HHHHHhChhHHHHHHHCCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHcCCCCCHHHHHHHHHHCChHHHHHHHHH
+Confidence            445555589999999999987678777663     4566 7 9999987   3689999999999999999887753
+
+
+No 27
+>4D8O_A Ankyrin-2; ZU5, UPA, death domain, supramodule; 2.203A {Homo sapiens}
+Probab=95.97  E-value=0.00038  Score=55.40  Aligned_cols=66  Identities=24%  Similarity=0.448  Sum_probs=52.7  Template_Neff=8.900
+
+Q tr|D5C179|D5C1    6 FCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         6 fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ++..++++|+.||+.||++...+..++..     .+++ . |..|..+   .+++..|..+|+++++.++++.++.
+T Consensus       504 ia~~lg~dW~~La~~Lgl~~~~I~~i~~~~~~~~~~~~~~mL~~W~~~~~~~~~~~~L~~aL~~~~r~d~a~~l~~  579 (581)
+T 4D8O_A          504 IADHLGFSWTELARELDFTEEQIHQIRIENPNSLQDQSHALLKYWLERDGKHATDTNLVECLTKINRMDIVHLMET  579 (581)
+T ss_dssp             HHHHHTTHHHHHHHHTTCCHHHHHHHHHHSTTCHHHHHHHHHHHHHHHHGGGCCHHHHHHHHHHTTCHHHHC----
+T ss_pred             HHHHhcccHHHHHHHCCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHhCCCCCHHHHHHHHHHCCchHHHHHHhc
+Confidence            44444589999999999997788888754     6788 8 9999988   4689999999999999999998865
+
+
+No 28
+>6AC0_A Gasdermin-A3; apoptosis, SIGNALING PROTEIN; HET: NAG; 1.449A {Homo sapiens}
+Probab=95.93  E-value=0.00042  Score=45.34  Aligned_cols=68  Identities=24%  Similarity=0.349  Sum_probs=55.1  Template_Neff=8.200
+
+Q tr|D5C179|D5C1    4 IAFCDRLGDDWKRLADCLE-----IRVSDQARFERG------DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAE   67 (73)
+Q Consensus         4 l~fcrRLg~dW~dLAd~l~-----Ip~~er~rF~~G------~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~   67 (73)
+                      ..++..++.+|+.||+.||     ++...|..++..      .++. . |..|..+   .+|+..|+.||..+++.++++
+T Consensus        26 ~~ia~~ig~~Wk~la~~L~~~~~~l~~~~I~~i~~~~~~~~~~e~~~~mL~~W~~~~g~~at~~~L~~AL~~~~~~~iae  105 (118)
+T 6AC0_A           26 QTFARSVGLKWRKVGRSLQRGCRALRDPALDSLAYEYEREGLYEQAFQLLRRFVQAEGRRATLQRLVEALEENELTSLAE  105 (118)
+T ss_pred             HHHHHHHchHHHHHHHHhCCCcCCCCHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHhCCCCCHHHHHHHHHHcCCHHHHH
+Confidence            3456666699999999999     987778877653      3456 6 9999987   478999999999999999988
+
+
+Q tr|D5C179|D5C1   68 LLEN   71 (73)
+Q Consensus        68 lL~~   71 (73)
+                      .+..
+T Consensus       106 ~i~~  109 (118)
+T 6AC0_A          106 DLLG  109 (118)
+T ss_pred             HHHH
+Confidence            7764
+
+
+No 29
+>2OF5_F Death domain-containing protein CRADD, Leucine-rich; Death domain complex, APOPTOSIS; 3.2A {Homo sapiens}
+Probab=95.86  E-value=0.00051  Score=44.60  Aligned_cols=65  Identities=18%  Similarity=0.347  Sum_probs=53.2  Template_Neff=8.300
+
+Q tr|D5C179|D5C1    4 IAFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAEL   68 (73)
+Q Consensus         4 l~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~l   68 (73)
+                      ..++..++++|+.||..||++...+..++..     .++. . |..|..+   .+|+..|+.+|.++++.+++..
+T Consensus        28 ~~ia~~lg~~W~~la~~Lgl~~~~I~~i~~~~~~~~~e~~~~~L~~W~~~~g~~at~~~L~~AL~~~~~~d~~~~  102 (114)
+T 2OF5_F           28 NQLAQRLGPEWEPMVLSLGLSQTDIYRCKANHPHNVQSQVVEAFIRWRQRFGKQATFQSLHNGLRAVEVDPSLLL  102 (114)
+T ss_dssp             TTTTTSCCTTHHHHHHTTTCCSTTHHHHTTSCSSCHHHHHHHHHHHHHHHHGGGCCTTHHHHTTGGGTCCTTTTT
+T ss_pred             HHHHHHHChhHHHHHHHcCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHCCCCHHHHH
+Confidence            3466666799999999999987788877763     4466 7 9999977   4689999999999999998754
+
+
+No 30
+>3MOP_M Myeloid differentiation primary response protein; Death domain complex, helical symmetry; 3.4A {Homo sapiens}
+Probab=95.73  E-value=0.00071  Score=43.17  Aligned_cols=70  Identities=19%  Similarity=0.390  Sum_probs=61.9  Template_Neff=8.800
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG--D--DWKRLADCLEIRVSDQARFE-----RGDEGR-G-IWVWLENRSRLSQLPAALREIKRGELAELLE   70 (73)
+Q Consensus         2 vKl~fcrRLg--~--dW~dLAd~l~Ip~~er~rF~-----~G~E~~-~-iWeWLe~R~RL~eLp~AL~~IgR~DLa~lL~   70 (73)
+                      ++++|+.+||  +  +|+.||..+|++...|..++     ...+|+ . |..|..+++|++.|+.+|+++++.++++.+.
+T Consensus        11 ~~~~L~~~Ld~~~~~~W~~La~~l~~~~~~i~~~~~~~~~~~~spt~~LL~~w~~~~~tv~~L~~~L~~~~~~~~~~~l~   90 (111)
+T 3MOP_M           11 VLDDLCRNMDALSEWDWMEFASYVITDLTQLRKIKSMEWVQGVSITRELLWWWGMRQATVQQLVDLLCRLELYRAAQIIL   90 (111)
+T ss_dssp             HHHHHTTTTTTSCHHHHHHHHTTTTCCHHHHHHHHHGGGSTTCCHHHHHHHHHHTTTCBSHHHHHTTTTTSCHHHHTTTT
+T ss_pred             HHHHHHHhhCCCChhhHHHHHHHcCCCHHHHHHHHhhccccCCCHHHHHHHHHHhcCCcHHHHHHHHHHCChHHHHHHHH
+Confidence            4678999998  5  99999999999876777776     457999 9 9999988899999999999999999999887
+
+
+Q tr|D5C179|D5C1   71 N   71 (73)
+Q Consensus        71 ~   71 (73)
+                      +
+T Consensus        91 ~   91 (111)
+T 3MOP_M           91 N   91 (111)
+T ss_dssp             S
+T ss_pred             c
+Confidence            5
+
+
+No 31
+>1FAD_A FADD PROTEIN; APOPTOSIS, FADD, DEATH DOMAIN; NMR {Mus musculus} SCOP: a.77.1.2
+Probab=95.71  E-value=0.00075  Score=41.26  Aligned_cols=67  Identities=31%  Similarity=0.543  Sum_probs=53.3  Template_Neff=9.600
+
+Q tr|D5C179|D5C1    5 AFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         5 ~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      .++..++.+|+.|+..++++...+..+...     ..+. . |..|..+   .+|+..|+.+|.++++.++++.+..
+T Consensus        19 ~ia~~l~~~W~~la~~L~~~~~~i~~i~~~~~~~~~~~~~~~L~~W~~~~~~~~~~~~L~~aL~~~~~~~~~~~i~~   95 (99)
+T 1FAD_A           19 IVCDNVGRDWKRLARELKVSEAKMDGIEEKYPRSLSERVRESLKVWKNAEKKNASVAGLVKALRTCRLNLVADLVEE   95 (99)
+T ss_dssp             HHHHHHHHHHHHHHHHTTCCHHHHHHHHHHCSSCHHHHHHHHHHHHHHHHGGGGSHHHHHHHHHHHTCHHHHHHHHH
+T ss_pred             HHHHHhCchHHHHHHHCCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHcCCCCCHHHHHHHHHHCCchHHHHHHHH
+Confidence            344555589999999999987777777653     3455 6 9999876   4689999999999999999887754
+
+
+No 32
+>2G7R_B Mucosa-associated lymphoid tissue lymphoma translocation; DEATH DOMAIN, CHROMOSOMAL TRANSLOCATION, HYDROLASE; 2.7A {Homo sapiens}
+Probab=95.67  E-value=0.00082  Score=43.60  Aligned_cols=71  Identities=17%  Similarity=0.251  Sum_probs=57.1  Template_Neff=8.500
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG--D---DWKRLADCL------EIRVSDQARFER-----GDEGR-G-IWVWLENRSRLSQLPAALREIKRG   63 (73)
+Q Consensus         2 vKl~fcrRLg--~---dW~dLAd~l------~Ip~~er~rF~~-----G~E~~-~-iWeWLe~R~RL~eLp~AL~~IgR~   63 (73)
+                      ++++||.+||  +   +|+.||..+      +++...+..|+.     ..+|+ . |..|..+++|++.|+.+|+++++.
+T Consensus        28 ~~~~L~~~Ld~~~~~~~Wr~LA~~l~~~~~l~~~~~~i~~~~~~~~~~~~sPt~~LL~~w~~~~~tv~~L~~~L~~~~r~  107 (117)
+T 2G7R_B           28 LLRRLSELLDQAPEGRGWRRLAELAGSRGRLRLSCLDLEQCSLKVLEPEGSPSLCLLKLMGEKGCTVTELSDFLQAMEHT  107 (117)
+T ss_dssp             HHHHHHHHHTCC----CHHHHHHHCC------CCHHHHHHHHGGGGSTTCCHHHHHHHHHHHTTCCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHhCCCCCCCCHHHHHHHhccCCCCCCCHHHHHHHHHHhhcCCCCHHHHHHHHHHHcCCCHHHHHHHHHHCCCH
+Confidence            4678999998  3   999999654      555445666542     57999 9 999999899999999999999999
+
+
+Q tr|D5C179|D5C1   64 ELAELLENF   72 (73)
+Q Consensus        64 DLa~lL~~~   72 (73)
+                      ++++.+.++
+T Consensus       108 d~~~~l~~~  116 (117)
+T 2G7R_B          108 EVLQLLSPP  116 (117)
+T ss_dssp             HHHHHTCC-
+T ss_pred             HHHHHhCCC
+Confidence            999998764
+
+
+No 33
+>3MOP_J Myeloid differentiation primary response protein; Death domain complex, helical symmetry; 3.4A {Homo sapiens}
+Probab=95.59  E-value=0.00099  Score=42.99  Aligned_cols=70  Identities=20%  Similarity=0.288  Sum_probs=59.3  Template_Neff=8.500
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG--DDWKRLADCL-------EIRVSDQARF----ERGDEGR-G-IWVWLENRSRLSQLPAALREIKRGELA   66 (73)
+Q Consensus         2 vKl~fcrRLg--~dW~dLAd~l-------~Ip~~er~rF----~~G~E~~-~-iWeWLe~R~RL~eLp~AL~~IgR~DLa   66 (73)
+                      ++++||..||  ++|+.||..+       +++...+..+    ....+|+ . |..|..+++|++.|+.+|+++++.+++
+T Consensus        17 ~~~~L~~~Ld~~~~Wr~La~~l~~~~~~~~~~~~~i~~~~~~~~~~~sPt~~lL~~w~~~~~tv~~L~~~L~~~~~~d~~   96 (113)
+T 3MOP_J           17 LIRKLSDFIDPQEGWKKLAVAIKKPSGDDRYNQFHIRRFEALLQTGKSPTSELLFDWGTTNCTVGDLVDLLIQNEFFAPA   96 (113)
+T ss_dssp             HHHHHHHHHSSTTHHHHHHHHCBCTTSSBSSCHHHHHHHHGGGTTTCCHHHHHHHHTTTTCCBHHHHHHHHHTTTCHHHH
+T ss_pred             HHHHHHHHhCCCChHHHHHHHhhCCCCCCCCCHHHHHHHHHHHccCCCHHHHHHHHHHhcCCCHHHHHHHHHHCCChHHH
+Confidence            5678999998  8999999999       5555456443    3458999 9 999999899999999999999999999
+
+
+Q tr|D5C179|D5C1   67 ELLEN   71 (73)
+Q Consensus        67 ~lL~~   71 (73)
+                      +.+..
+T Consensus        97 ~~l~~  101 (113)
+T 3MOP_J           97 SLLLP  101 (113)
+T ss_dssp             HHHCS
+T ss_pred             Hhhcc
+Confidence            88764
+
+
+No 34
+>2O71_A Death domain-containing protein CRADD; RAIDD, Death Domain, APOPTOSIS; 2.0A {Homo sapiens}
+Probab=95.56  E-value=0.0011  Score=43.10  Aligned_cols=67  Identities=18%  Similarity=0.317  Sum_probs=54.7  Template_Neff=8.400
+
+Q tr|D5C179|D5C1    4 IAFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLE   70 (73)
+Q Consensus         4 l~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~   70 (73)
+                      ..++..++++|+.||..||++...|..++..     .++. . |..|..+   .+|+..|+.+|.++++.+++..+.
+T Consensus        28 ~~ia~~lg~~W~~la~~Lgl~~~~I~~i~~~~~~~~~e~~~~mL~~W~~~~g~~at~~~L~~aL~~~~~~d~~~~~~  104 (115)
+T 2O71_A           28 NQLAQRLGPEWEPMVLSLGLSQTDIYRCKANHPHNVQSQVVEAFIRWRQRFGKQATFQSLHNGLRAVEVDPSLLLHM  104 (115)
+T ss_dssp             HHHHHHCCTTHHHHHHHTTCCHHHHHHHHHHCTTCHHHHHHHHHHHHHHHHGGGCCHHHHHHHHHHTTCCTHHHHHH
+T ss_pred             HHHHHHHCcchHHHHHHcCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHCCCCcHHHHHHHHHHCCCCHHHHHHH
+Confidence            3466666799999999999998788887653     4566 7 9999987   478999999999999999887654
+
+
+No 35
+>5UKE_A Interleukin-1 receptor-associated kinase 3 (E.C.2.7.11.1); IRAK-M, Death Domain, Innate immunity; NMR {Homo sapiens}
+Probab=95.48  E-value=0.0012  Score=43.27  Aligned_cols=71  Identities=25%  Similarity=0.564  Sum_probs=62.3  Template_Neff=8.400
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG--D---DWKRLADCLEIRVSDQARFE----RGDEGR-G-IWVWLENRSRLSQLPAALREIKRGELAELLE   70 (73)
+Q Consensus         2 vKl~fcrRLg--~---dW~dLAd~l~Ip~~er~rF~----~G~E~~-~-iWeWLe~R~RL~eLp~AL~~IgR~DLa~lL~   70 (73)
+                      ++++|+.+||  .   +|+.||..++++...+..++    ...+|+ . |..|..+++||+.|+.+|+.+++.+++..+.
+T Consensus        29 ~~~~L~~~Ld~~~~~~~W~~La~~l~~~~~~i~~~~~~~~~~~sPt~~LL~~w~~~~~tv~~L~~~L~~~~~~d~~~~l~  108 (124)
+T 5UKE_A           29 LLGELCAVLDSCDGALGWRGLAERLSSSWLDVDHIEKEVDQGKSGTRELLWSWAQKNKTIGDLLQVLQEMGHRRAIHLIT  108 (124)
+T ss_dssp             THHHHHHHGGGCSSSSCTTHHHHHHTCCTTHHHHHHHHGGGTCSHHHHHHHTSSSCCCCHHHHHHHHHHHTCHHHHHHHT
+T ss_pred             HHHHHHHHHCCCCCCccHHHHHHHcCCCHHHHHHHHHHHhcCCCHHHHHHHHHHHcCCCHHHHHHHHHHCCcHHHHHHHH
+Confidence            5678999998  4   99999999999865677777    458999 9 9999999999999999999999999998887
+
+
+Q tr|D5C179|D5C1   71 NF   72 (73)
+Q Consensus        71 ~~   72 (73)
+                      ++
+T Consensus       109 ~~  110 (124)
+T 5UKE_A          109 NY  110 (124)
+T ss_dssp             TS
+T ss_pred             hc
+Confidence            53
+
+
+No 36
+>3EZQ_O Tumor necrosis factor receptor superfamily; Apoptosis, DISC, FAS, FADD, Membrane; HET: SO4; 2.73A {Homo sapiens}
+Probab=95.46  E-value=0.0013  Score=42.22  Aligned_cols=67  Identities=12%  Similarity=0.176  Sum_probs=54.1  Template_Neff=8.800
+
+Q tr|D5C179|D5C1    4 IAFCDRLG-DDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLE   70 (73)
+Q Consensus         4 l~fcrRLg-~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~   70 (73)
+                      ..++..++ .+|+.++..+|++...+..++..     .+++ . |..|..+   .+++..|+.+|..+++.++++.+.
+T Consensus        12 ~~ia~~l~~~~W~~l~~~Lgl~~~~i~~i~~~~~~~~~~~~~~~L~~W~~~~g~~a~~~~L~~aL~~~~~~~~a~~i~   89 (115)
+T 3EZQ_O           12 TTIAGVMTLSQVKGFVRKNGVNEAKIDEIKNDNVQDTAEQKVQLLRNWHQLHGKKEAYDTLIKDLKKANLCTLAEKIQ   89 (115)
+T ss_dssp             HHHHHTSCHHHHHHHHHHTTCCHHHHHHHHHHCSSCHHHHHHHHHHHHHTTSCHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHhCCHHHHHHHHHHcCCCHHHHHHHHHhCCCCHHHHHHHHHHHHHHHhCCcchHHHHHHHHHHCCcHHHHHHHH
+Confidence            34566666 89999999999987778777653     3466 7 9999877   358999999999999999888765
+
+
+No 37
+>2A9I_A Interleukin-1 receptor-associated kinase-4 (E.C.2.7.1.37); hexahelical bundle, Transferase; 1.7A {Mus musculus}
+Probab=95.25  E-value=0.002  Score=41.37  Aligned_cols=70  Identities=20%  Similarity=0.284  Sum_probs=59.0  Template_Neff=8.700
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG--DDWKRLADCLEI-------RVSDQAR----FERGDEGR-G-IWVWLENRSRLSQLPAALREIKRGELA   66 (73)
+Q Consensus         2 vKl~fcrRLg--~dW~dLAd~l~I-------p~~er~r----F~~G~E~~-~-iWeWLe~R~RL~eLp~AL~~IgR~DLa   66 (73)
+                      ++++||.+||  ++|+.||..++.       +...+..    +....+|+ . |..|..+++|++.|+.+|+.+++.+++
+T Consensus        18 ~~~~L~~~Ld~~~~Wk~La~~l~~~~~~~~~~~~~i~~~~~~~~~~~sPt~~lL~~w~~~~~tv~~L~~~L~~~~~~~~~   97 (113)
+T 2A9I_A           18 ILRKLSDFIDPQEGWKKLAVAIKKPSGDDRYNQFHIRRFEALLQTGLSPTCELLFDWGTTNCTVGDLVDLLVQIELFAPA   97 (113)
+T ss_dssp             HHHHHHHHHSGGGHHHHHHHHCBCTTSSBSSCHHHHHHHHHTTTTTCCHHHHHHHHHGGGTCBHHHHHHHHHHTTCHHHH
+T ss_pred             HHHHHHHHhCCcChHHHHHHHccCCCCCcCCCHHHHHHHHHHHccCCCHHHHHHHHHHhcCCCHHHHHHHHHHCCChhHH
+Confidence            5678999999  899999999954       3334554    34468999 9 999999999999999999999999999
+
+
+Q tr|D5C179|D5C1   67 ELLEN   71 (73)
+Q Consensus        67 ~lL~~   71 (73)
+                      +.|..
+T Consensus        98 ~~l~~  102 (113)
+T 2A9I_A           98 TLLLP  102 (113)
+T ss_dssp             HHHCG
+T ss_pred             Hhhcc
+Confidence            98864
+
+
+No 38
+>1WH4_A Interleukin-1 receptor-associated kinase4; DEATH domain, Structural genomics, RIKEN; NMR {Mus musculus} SCOP: a.77.1.2
+Probab=95.05  E-value=0.0028  Score=42.21  Aligned_cols=70  Identities=20%  Similarity=0.308  Sum_probs=58.7  Template_Neff=8.000
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG--DDWKRLADCL-------EIRVSDQAR----FERGDEGR-G-IWVWLENRSRLSQLPAALREIKRGELA   66 (73)
+Q Consensus         2 vKl~fcrRLg--~dW~dLAd~l-------~Ip~~er~r----F~~G~E~~-~-iWeWLe~R~RL~eLp~AL~~IgR~DLa   66 (73)
+                      ++++|+.+||  ++|+.||..+       +++...+..    ++...+|+ . |..|..+++|++.|+.+|+.+++.+++
+T Consensus        25 ~~~~L~~~Ld~~~~Wk~La~~l~~~~~~~~~~~~~i~~~~~~~~~~~sPt~~LL~~w~~~~~tv~~L~~~L~~~~~~d~~  104 (127)
+T 1WH4_A           25 ILRKLSDFIDPQEGWKKLAVAIKKPSGDDRYNQFHIRRFEALLQTGKSPTCELLFDWGTTNCTVGDLVDLLVQIELFAPA  104 (127)
+T ss_dssp             HHHHHHHHHSSTTHHHHHHHHCBCTTCCBSSCHHHHHHHHHHHTTTSCHHHHHHHHHHHHCCBHHHHHHHHHHTTCHHHH
+T ss_pred             HHHHHHHHhCCCChHHHHHHHccCCCCCCCCCHHHHHHHHHHHccCCCHHHHHHHHHHhcCCCHHHHHHHHHHCCChHHH
+Confidence            5688999998  9999999999       444445544    34458999 9 999999899999999999999999999
+
+
+Q tr|D5C179|D5C1   67 ELLEN   71 (73)
+Q Consensus        67 ~lL~~   71 (73)
+                      +.|..
+T Consensus       105 ~~l~~  109 (127)
+T 1WH4_A          105 TLLLP  109 (127)
+T ss_dssp             HHHCT
+T ss_pred             Hhhcc
+Confidence            88764
+
+
+No 39
+>5YGS_D Human TNRSF25 death domain; TNFRSF25, apoptosis, TL1A, NFkappaB; HET: MLR, SO4; 2.691A {Homo sapiens}
+Probab=94.21  E-value=0.0091  Score=44.15  Aligned_cols=68  Identities=19%  Similarity=0.293  Sum_probs=57.9  Template_Neff=10.800
+
+Q tr|D5C179|D5C1    4 IAFCDRLG-DDWKRLADCLEIRVSDQARFERG----DEGR-G-IWVWLEN-RSRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus         4 l~fcrRLg-~dW~dLAd~l~Ip~~er~rF~~G----~E~~-~-iWeWLe~-R~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ..|++.+. .+|+.+++.||++...|..++..    .++. + |..|..+ +.+++.|+.+|+++++.++++.|+.
+T Consensus       376 ~~i~~~~~~~~w~~~~~~lg~~~~~i~~~~~~~~~~~~~~~~~l~~W~~~~~~~~~~l~~~L~~~~~~~~~~~~~~  451 (463)
+T 5YGS_D          376 YDVMDAVPARRWKEFVRTLGLREAEIEAVEVEIGRFRDQQYEMLKRWRQQQPAGLGAVYAALERMGLDGCVEDLRS  451 (463)
+T ss_pred             HHHHHHcCcchHHHHHHHcCCCHHHHHHHHHhCCCHHHHHHHHHHHHHHhcCCCHHHHHHHHHHCCChHHHHHHHH
+Confidence            34566664 79999999999998789888876    6788 8 9999988 5569999999999999999998875
+
+
+No 40
+>2GF5_A FADD protein; Death domain, death effector domain; NMR {Homo sapiens} SCOP: a.77.1.4, a.77.1.2
+Probab=93.78  E-value=0.014  Score=40.16  Aligned_cols=66  Identities=27%  Similarity=0.567  Sum_probs=51.7  Template_Neff=9.100
+
+Q tr|D5C179|D5C1    5 AFCDRLGDDWKRLADCLEIRVSDQARFERG-----DEGR-G-IWVWLEN---RSRLSQLPAALREIKRGELAELLE   70 (73)
+Q Consensus         5 ~fcrRLg~dW~dLAd~l~Ip~~er~rF~~G-----~E~~-~-iWeWLe~---R~RL~eLp~AL~~IgR~DLa~lL~   70 (73)
+                      .++..++.+|+.+++.+|++...+..+...     .++. . |..|...   ++++..|+.+|..+++.++++.+.
+T Consensus       103 ~i~~~i~~~w~~l~r~Lg~~~~~i~~i~~~~~~~~~~~~~~~L~~w~~~~~~~a~~~~L~~aL~~~~~~~~a~~l~  178 (191)
+T 2GF5_A          103 VICDNVGKDWRRLARQLKVSDTKIDSIEDRYPRNLTERVRESLRIWKNTEKENATVAHLVGALRSCQMNLVADLVQ  178 (191)
+T ss_pred             HHHHHhCHHHHHHHHHhCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHhCCCCCHHHHHHHHHHcCChHHHHHHH
+Confidence            344455589999999999987778877653     3345 6 9999876   468899999999999998877664
+
+
+No 41
+>6GK2_F B-cell lymphoma/leukemia 10, Mucosa-associated lymphoid; BCL10, MALT1, CBM complex, helical; 4.9A {Homo sapiens}
+Probab=93.68  E-value=0.016  Score=35.47  Aligned_cols=66  Identities=18%  Similarity=0.273  Sum_probs=54.1  Template_Neff=9.200
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG-----DDWKRLADCLEIR------VSDQARF-----ERGDEGR-G-IWVWLENRSRLSQLPAALREIKRG   63 (73)
+Q Consensus         2 vKl~fcrRLg-----~dW~dLAd~l~Ip------~~er~rF-----~~G~E~~-~-iWeWLe~R~RL~eLp~AL~~IgR~   63 (73)
+                      ++++||..||     ++|+.||..++++      ...+..+     +...+|+ . |..|..+++||+.|+.+|+++++.
+T Consensus         8 ~~~~L~~~Ld~~~~~~~W~~La~~l~~~~~~~~~~~~i~~~~~~~~~~~~sPt~~LL~~w~~~~~tv~~L~~~L~~~~~~   87 (92)
+T 6GK2_F            8 LLRRLSELLDQAPEGRGWRRLAELAGSRGRLRLSCLDLEQCSLKVLEPEGSPSLCLLKLMGEKGCTVTELSDFLQAMEHT   87 (92)
+T ss_dssp             HHHHHHHHHHSCCSSSCHHHHHSCSCC------CHHHHHHHHHHTTSTTCCHHHHHHHHHHHHTCCHHHHHHHHHHTTCH
+T ss_pred             HHHHHHHHhCCCCCCCcHHHHHHHHccCCCcccCHHHHHHHhHHHhCCCCCHHHHHHHHHHHcCCCHHHHHHHHHHCCch
+Confidence            5678999997     5899999999853      3344444     4457999 9 999999999999999999999999
+
+
+Q tr|D5C179|D5C1   64 ELAE   67 (73)
+Q Consensus        64 DLa~   67 (73)
+                      +++.
+T Consensus        88 ~~~~   91 (92)
+T 6GK2_F           88 EVLQ   91 (92)
+T ss_dssp             HHHC
+T ss_pred             HHhc
+Confidence            8865
+
+
+No 42
+>3CL3_A ORF K13, NF-kappa-B essential modulator; Death effector domain, coiled-coil, Disease; 3.2A {Human herpesvirus 8}
+Probab=88.20  E-value=0.24  Score=35.55  Aligned_cols=35  Identities=14%  Similarity=0.245  Sum_probs=28.5  Template_Neff=7.400
+
+Q tr|D5C179|D5C1   38 R-G-IWVWLEN----RSRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        38 ~-~-iWeWLe~----R~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      . . +..|...    ..++..|..+|..+++.+.+..++.+
+T Consensus       135 ~l~lf~~lEk~~~l~~~~l~~L~~~L~~i~r~dL~~~v~~y  175 (183)
+T 3CL3_A          135 FLHWVYCMENLDLLGPTDVDALMSMLRSLSRVDLQRQVQTL  175 (183)
+T ss_pred             HHHHHHHHHHCCCCCcchHHHHHHHHHHcChhHHHHHHHHH
+Confidence            5 6 7777765    35688999999999999998888765
+
+
+No 43
+>1A1Z_A FADD PROTEIN; APOPTOSIS, DEATH EFFECTOR DOMAIN; NMR {Homo sapiens} SCOP: a.77.1.4
+Probab=85.44  E-value=0.47  Score=31.05  Aligned_cols=25  Identities=20%  Similarity=0.401  Sum_probs=20.1  Template_Neff=6.700
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|.+.|..++|.|.+..+..+
+T Consensus        58 ~nl~~L~elL~~i~R~DLl~~v~~~   82 (91)
+T 1A1Z_A           58 GHTELLRELLASLRRHDLLRRVDDF   82 (91)
+T ss_dssp             TCCHHHHHHHHHHTCHHHHHHHHHC
+T ss_pred             CchHHHHHHHHhCCCHHHHHHHHHH
+Confidence            4567789999999999988877654
+
+
+No 44
+>1D2Z_D DEATH DOMAIN OF PELLE/TUBE COMPLEX; SIX-HELIX BUNDLE, LINEAR ARRAY OF; HET: EPE; 2.0A {Drosophila melanogaster} SCOP: a.77.1.2
+Probab=84.13  E-value=0.6  Score=33.99  Aligned_cols=70  Identities=13%  Similarity=0.159  Sum_probs=58.0  Template_Neff=5.400
+
+Q tr|D5C179|D5C1    2 VKIAFCDRLG--DDWKRLADCLE-------------------------IRVSDQARFE-------RGDEGR-G-IWVWLE   45 (73)
+Q Consensus         2 vKl~fcrRLg--~dW~dLAd~l~-------------------------Ip~~er~rF~-------~G~E~~-~-iWeWLe   45 (73)
+                      ++++|+..||  ++|+.||..+.                         ++..++..|+       ...||+ . |..|+.
+T Consensus        18 v~~~L~~iLD~~~~W~~La~~i~~~~~~~~~~~~~~~~~~~~~~~~~~y~~~di~~~~~~~~~~~~~~SPT~~LL~eWg~   97 (153)
+T 1D2Z_D           18 DIYRLAKILDENSCWRKLMSIIPKGMDVQACSGAGCLNFPAEIKKGFKYTAQDVFQIDEAANRLPPDQSKSQMMIDEWKT   97 (153)
+T ss_dssp             HHHHHHHHHHGGGTHHHHHHHCBSSCCHHHHHSTTCCCHHHHGGGCBSCCHHHHHHHHHHHHHSCTTSCHHHHHHHHHHT
+T ss_pred             HHHHHHHHcCCCChHHHHHHhccCCcchhhcCCCcccCCchHHhcCCCCCHHHHHHHHHHHhcCCCCCCHHHHHHHHHHH
+Confidence            5678999999  99999998763                         3433455565       357999 9 999999
+
+
+Q tr|D5C179|D5C1   46 NR-----SRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus        46 ~R-----~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      ++     +||++|+..|..+++.+++++|..
+T Consensus        98 rg~~~~~~TV~~L~~lL~~~~l~rA~d~L~~  128 (153)
+T 1D2Z_D           98 SGKLNERPTVGVLLQLLVQAELFSAADFVAL  128 (153)
+T ss_dssp             CSSTTCCCBHHHHHHHHHHTTCHHHHHHCCC
+T ss_pred             cCCCCCCCCHHHHHHHHHHCCHHHHHHHHHh
+Confidence            97     799999999999999999988763
+
+
+No 45
+>6P6B_A Astrocytic phosphoprotein PEA-15; protein-protein interaction, MAP kinase, APOPTOSIS; NMR {Homo sapiens}
+Probab=79.71  E-value=1.2  Score=28.33  Aligned_cols=25  Identities=16%  Similarity=0.336  Sum_probs=20.0  Template_Neff=7.800
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|...|..+++.+.+..+..+
+T Consensus        58 ~n~~~L~~ll~~i~r~dL~~~v~~y   82 (90)
+T 6P6B_A           58 DNLSYIEHIFEISRRPDLLTMVVDY   82 (90)
+T ss_pred             chhHHHHHHHHHcCcHHHHHHHHHH
+Confidence            4578889999999998888777654
+
+
+No 46
+>1N3K_A ASTROCYTIC phosphoprotein PEA-15; DEATH EFFECTOR DOMAIN, SIX HELIX; NMR {Cricetulus griseus} SCOP: a.77.1.4
+Probab=76.17  E-value=1.8  Score=30.24  Aligned_cols=25  Identities=16%  Similarity=0.336  Sum_probs=19.3  Template_Neff=6.400
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|.+.|..+++.|.+..+..+
+T Consensus        58 ~nl~~L~elL~~i~R~DLlkkv~~y   82 (130)
+T 1N3K_A           58 DNLSYIEHIFEISRRPDLLTMVVDY   82 (130)
+T ss_pred             CchHHHHHHHHHcCCHHHHHHHHHH
+Confidence            4567788999999998888776543
+
+
+No 47
+>4IZ7_B Mitogen-activated protein kinase 1 (E.C.2.7.11.24); MAP Kinase, Death effector domain; 1.8A {Homo sapiens}
+Probab=74.82  E-value=2.1  Score=27.87  Aligned_cols=25  Identities=16%  Similarity=0.336  Sum_probs=19.9  Template_Neff=7.400
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|...|..+++.+.+..+..+
+T Consensus        59 ~n~~~L~~ll~~i~r~dL~~~v~~y   83 (97)
+T 4IZ7_B           59 DNLSYIEHIFEISRRPDLLTMVVDY   83 (97)
+T ss_pred             chhHHHHHHHHHcCcHHHHHHHHHH
+Confidence            4578888889999988888877654
+
+
+No 48
+>2GF5_A FADD protein; Death domain, death effector domain; NMR {Homo sapiens} SCOP: a.77.1.4, a.77.1.2
+Probab=73.36  E-value=2.4  Score=29.37  Aligned_cols=24  Identities=17%  Similarity=0.321  Sum_probs=18.8  Template_Neff=9.100
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLEN   71 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~   71 (73)
+                      .++..|.+.|..+++.|.++.+..
+T Consensus        58 ~~l~~L~~ll~~i~r~dL~~~i~~   81 (191)
+T 2GF5_A           58 GHTELLRELLASLRRHDLLRRVDD   81 (191)
+T ss_pred             ccHHHHHHHHHHhChHHHHHHHHH
+Confidence            467788888989998888777654
+
+
+No 49
+>4IZ5_G Mitogen-activated protein kinase 1 (E.C.2.7.11.24); MAP Kinase, Death Effector Domain; HET: ADP, SO4; 3.19A {Homo sapiens}
+Probab=69.88  E-value=3.3  Score=29.06  Aligned_cols=25  Identities=16%  Similarity=0.336  Sum_probs=19.5  Template_Neff=6.400
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|.+.|..++|.|.+..+..+
+T Consensus        61 ~nl~~L~elL~~i~R~DLl~kv~~y   85 (133)
+T 4IZ5_G           61 DNLSYIEHIFEISRRPDLLTMVVDY   85 (133)
+T ss_dssp             SCCHHHHHHHHHTTCHHHHHHHHHH
+T ss_pred             CchHHHHHHHHHcCCHHHHHHHHHH
+Confidence            4577889999999998888776543
+
+
+No 50
+>6KZJ_A Ankyrin-2, Nuclear distribution protein nudE-like; PROTEIN TRANSPORT, STRUCTURAL PROTEIN, PROTEIN; 1.5A {Homo sapiens}
+Probab=67.76  E-value=4  Score=27.35  Aligned_cols=22  Identities=9%  Similarity=-0.023  Sum_probs=15.8  Template_Neff=3.800
+
+Q tr|D5C179|D5C1   12 DDWKRLADCLEIRVSDQARFER   33 (73)
+Q Consensus        12 ~dW~dLAd~l~Ip~~er~rF~~   33 (73)
+                      .+|..||+.++.....|..+..
+T Consensus         4 ~dW~~LaseL~~~k~DI~~I~~   25 (76)
+T 6KZJ_A            4 SASPDLLSEVSEMKQDLIKMTA   25 (76)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHH
+T ss_pred             cccHHHHHhccchHHHHHHHHH
+Confidence            6899999999987666666654
+
+
+No 51
+>5LDE_B Immunoglobulin G-binding protein G,Viral FLICE; vFLIP, NF-kB, Nemo, viral protein; HET: 6ZS; 3.38A {Streptococcus sp. group G}
+Probab=62.83  E-value=5.8  Score=31.31  Aligned_cols=25  Identities=20%  Similarity=0.398  Sum_probs=20.7  Template_Neff=5.600
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|...|..+++.|.+..|..+
+T Consensus       215 dnl~~L~~lL~~I~R~DL~k~I~~y  239 (265)
+T 5LDE_B          215 TDVDALMSMLRSLSRVDLQRQVQTL  239 (265)
+T ss_pred             ccHHHHHHHHHhcChHHHHHHHHHH
+Confidence            4578899999999999888887754
+
+
+No 52
+>5JQE_A Sugar ABC transporter substrate-binding protein; apoptosis, HYDROLASE; 3.157A {Escherichia coli, Homo sapiens}
+Probab=62.63  E-value=5.8  Score=31.52  Aligned_cols=24  Identities=17%  Similarity=0.469  Sum_probs=17.6  Template_Neff=9.800
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|...|+.+++ +.+..|+++
+T Consensus       534 ~n~~~l~~~~~~~~~-~l~~~~~~y  557 (565)
+T 5JQE_A          534 GKLDILKRVCAQINK-SLLKIINDY  557 (565)
+T ss_dssp             TBCHHHHHHHHTTCT-HHHHHHHHH
+T ss_pred             chHHHHHHHHHHhcH-HHHHHHHHH
+Confidence            467778888888887 777766654
+
+
+No 53
+>5LDE_A Immunoglobulin G-binding protein G,Viral FLICE; vFLIP, NF-kB, Nemo, viral protein; HET: 6ZS; 3.38A {Streptococcus sp. group G}
+Probab=61.36  E-value=6.4  Score=31.07  Aligned_cols=25  Identities=20%  Similarity=0.398  Sum_probs=20.6  Template_Neff=5.600
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|...|..+++.|.+..|..+
+T Consensus       215 dnl~~L~~lL~~I~R~DL~k~I~~y  239 (265)
+T 5LDE_A          215 TDVDALMSMLRSLSRVDLQRQVQTL  239 (265)
+T ss_dssp             SCCHHHHHHHHTTTCHHHHHHHHHH
+T ss_pred             ccHHHHHHHHHcCCHHHHHHHHHHH
+Confidence            4578899999999999888887754
+
+
+No 54
+>2BBR_A Viral CASP8 and FADD-like apoptosis; VIRAL PROTEIN; 1.2A {Molluscum contagiosum virus subtype 1}
+Probab=58.42  E-value=7.8  Score=28.78  Aligned_cols=25  Identities=32%  Similarity=0.502  Sum_probs=20.5  Template_Neff=6.600
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|...|..+++.+.+..+.++
+T Consensus       152 ~nl~~L~~lL~~i~r~DL~~~I~~y  176 (195)
+T 2BBR_A          152 SSVSVLADMLRTLRRLDLCQQLVEY  176 (195)
+T ss_dssp             TBCHHHHHHHHHTTCHHHHHHHHHH
+T ss_pred             chHHHHHHHHHhCChHHHHHHHHHH
+Confidence            4577899999999999888887754
+
+
+No 55
+>3OMT_B uncharacterized protein; structural genomics, PSI-2, Protein Structure; 1.65A {Cytophaga hutchinsonii}
+Probab=56.86  E-value=8.6  Score=20.49  Aligned_cols=20  Identities=10%  Similarity=0.121  Sum_probs=10.5  Template_Neff=11.500
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~   32 (73)
+                      .+..++..+|++...+..+.
+T Consensus        23 ~~~~la~~~~~~~~~~~~~~   42 (73)
+T 3OMT_B           23 TNLWLTETLDKNKTTVSKWC   42 (73)
+T ss_dssp             CHHHHHHHHTCCHHHHHHHH
+T ss_pred             CHHHHHHHHCCCHHHHHHHH
+Confidence            44566666666543343333
+
+
+No 56
+>5L08_E Caspase-8 (E.C.3.4.22.61); Casp-8, filament, DED, Death domain; 4.6A {Homo sapiens}
+Probab=53.60  E-value=11  Score=27.21  Aligned_cols=23  Identities=35%  Similarity=0.195  Sum_probs=16.8  Template_Neff=7.600
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLE   70 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~   70 (73)
+                      ..+..|.+.|..++|.|.+..+.
+T Consensus        57 ~nl~~L~elL~~i~R~DLl~~~~   79 (184)
+T 5L08_E           57 SNLSFLKELLFRINRLDLLITYL   79 (184)
+T ss_dssp             TBCHHHHHHHHHTTCHHHHHHTT
+T ss_pred             ccHHHHHHHHHhCChHHHHHHHh
+Confidence            34667888888888887766543
+
+
+No 57
+>3CL3_A ORF K13, NF-kappa-B essential modulator; Death effector domain, coiled-coil, Disease; 3.2A {Human herpesvirus 8}
+Probab=51.13  E-value=12  Score=27.00  Aligned_cols=19  Identities=26%  Similarity=0.221  Sum_probs=14.0  Template_Neff=7.400
+
+Q tr|D5C179|D5C1   51 SQLPAALREIKRGELAELL   69 (73)
+Q Consensus        51 ~eLp~AL~~IgR~DLa~lL   69 (73)
+                      .-|.+.|..++|.|.+..+
+T Consensus        59 ~~L~elL~~i~R~DLl~~~   77 (183)
+T 3CL3_A           59 PLLAECLFRAGRRDLLRDL   77 (183)
+T ss_pred             HHHHHHHHHcChHHHHHHH
+Confidence            5577788888888776653
+
+
+No 58
+>5J2Y_A Regulatory protein/DNA Complex; Quorum-sensing repressor, gene regulation, RsaL-DNA; HET: MSE; 2.4A {Pseudomonas aeruginosa}
+Probab=50.16  E-value=13  Score=22.71  Aligned_cols=22  Identities=27%  Similarity=0.309  Sum_probs=13.8  Template_Neff=8.400
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFERG   34 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~~G   34 (73)
+                      ....+|..+|++...+..+..+
+T Consensus        26 s~~elA~~~gis~~tis~~e~g   47 (80)
+T 5J2Y_A           26 SQETFWSRFGISQSCGSRFENG   47 (80)
+T ss_dssp             CHHHHHHTTTCCHHHHHHHHTT
+T ss_pred             CHHHHHHHHCCCHHHHHHHHcC
+Confidence            4457777777766556555554
+
+
+No 59
+>5J2Y_B Regulatory protein/DNA Complex; Quorum-sensing repressor, gene regulation, RsaL-DNA; HET: MSE; 2.4A {Pseudomonas aeruginosa}
+Probab=50.16  E-value=13  Score=22.71  Aligned_cols=22  Identities=27%  Similarity=0.309  Sum_probs=13.8  Template_Neff=8.400
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFERG   34 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~~G   34 (73)
+                      ....+|..+|++...+..+..+
+T Consensus        26 s~~elA~~~gis~~tis~~e~g   47 (80)
+T 5J2Y_B           26 SQETFWSRFGISQSCGSRFENG   47 (80)
+T ss_dssp             CHHHHHHTTTCCHHHHHHHHTT
+T ss_pred             CHHHHHHHHCCCHHHHHHHHcC
+Confidence            4457777777766556555554
+
+
+No 60
+>2XI8_B PUTATIVE TRANSCRIPTION REGULATOR; TRANSCRIPTION, HTH DNA-BINDING MOTIF; HET: GOL; 1.21A {ENTEROCOCCUS FAECALIS}
+Probab=50.03  E-value=13  Score=18.97  Aligned_cols=18  Identities=22%  Similarity=0.167  Sum_probs=8.9  Template_Neff=11.900
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRVSDQARF   31 (73)
+Q Consensus        14 W~dLAd~l~Ip~~er~rF   31 (73)
+                      +..++..+|++...+..+
+T Consensus        17 ~~~~a~~~~~~~~~~~~~   34 (66)
+T 2XI8_B           17 QSELAALLEVSRQTINGI   34 (66)
+T ss_dssp             HHHHHHHHTSCHHHHHHH
+T ss_pred             HHHHHHHhCCCHHHHHHH
+Confidence            445566666654333333
+
+
+No 61
+>3OMT_A uncharacterized protein; structural genomics, PSI-2, Protein Structure; 1.65A {Cytophaga hutchinsonii}
+Probab=49.89  E-value=13  Score=19.66  Aligned_cols=16  Identities=13%  Similarity=0.059  Sum_probs=8.2  Template_Neff=11.600
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQ   28 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er   28 (73)
+                      .+..++..+|++...+
+T Consensus        23 ~~~~~a~~~~~~~~~~   38 (73)
+T 3OMT_A           23 TNLWLTETLDKNKTTV   38 (73)
+T ss_pred             CHHHHHHHHCCCHHHH
+Confidence            3455566666654333
+
+
+No 62
+>5L08_E Caspase-8 (E.C.3.4.22.61); Casp-8, filament, DED, Death domain; 4.6A {Homo sapiens}
+Probab=48.67  E-value=14  Score=26.56  Aligned_cols=24  Identities=17%  Similarity=0.469  Sum_probs=16.8  Template_Neff=7.600
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|...+..+++ +.+..+.++
+T Consensus       155 ~n~~~L~~~l~~i~r-dL~~~i~~y  178 (184)
+T 5L08_E          155 GKLDILKRVCAQINK-SLLKIINDY  178 (184)
+T ss_dssp             TCHHHHHHHHHTTCH-HHHHHHHTT
+T ss_pred             chHHHHHHHHHHhCH-HHHHHHHHH
+Confidence            457777888888877 676666554
+
+
+No 63
+>3JXC_L Repressor protein C2/DNA Complex, THALLIUM; protein-DNA complex, DNA-binding, Repressor, Transcription; 1.9A {Enterobacteria phage P22}
+Probab=48.05  E-value=15  Score=18.93  Aligned_cols=12  Identities=8%  Similarity=0.061  Sum_probs=6.0  Template_Neff=11.800
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRV   25 (73)
+Q Consensus        14 W~dLAd~l~Ip~   25 (73)
+                      ...++..+|++.
+T Consensus        20 ~~~~a~~~g~~~   31 (67)
+T 3JXC_L           20 QAALGKMVGVSN   31 (67)
+T ss_dssp             HHHHHHHHTSCH
+T ss_pred             HHHHHHHHCCCH
+Confidence            344555555543
+
+
+No 64
+>4ZBW_A Death effector domain; Death effector domain, caspase, HYDROLASE; 2.2A {Homo sapiens}
+Probab=48.04  E-value=15  Score=26.68  Aligned_cols=21  Identities=33%  Similarity=0.222  Sum_probs=15.2  Template_Neff=7.500
+
+Q tr|D5C179|D5C1   49 RLSQLPAALREIKRGELAELL   69 (73)
+Q Consensus        49 RL~eLp~AL~~IgR~DLa~lL   69 (73)
+                      .+..|.+.|..+++.|.+..+
+T Consensus        60 nl~~L~elL~~i~R~dLl~~~   80 (190)
+T 4ZBW_A           60 NLSFLKELLFRINRLDLLITY   80 (190)
+T ss_dssp             BCHHHHHHHHHTTCHHHHHHH
+T ss_pred             cHHHHHHHHHhcCHHHHHHHH
+Confidence            456688888888887766654
+
+
+No 65
+>2HIN_A Repressor protein; TRANSCRIPTION FACTOR, DIMER INTERFACE, HELIX-TURN-HELIX; HET: SO4; 1.05A {Enterobacteria phage N15}
+Probab=48.01  E-value=15  Score=21.13  Aligned_cols=20  Identities=10%  Similarity=0.054  Sum_probs=11.9  Template_Neff=9.500
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~   32 (73)
+                      ....+|..+|++...+..+.
+T Consensus        12 ~~~~la~~lgv~~~~i~~~~   31 (71)
+T 2HIN_A           12 DVEKAAVGVGVTPGAVYQWL   31 (71)
+T ss_dssp             SHHHHHHHHTSCHHHHHHHH
+T ss_pred             CHHHHHHHhCCCHHHHHHHH
+Confidence            45567777777654455444
+
+
+No 66
+>2HIN_B Repressor protein; TRANSCRIPTION FACTOR, DIMER INTERFACE, HELIX-TURN-HELIX; HET: SO4; 1.05A {Enterobacteria phage N15}
+Probab=48.01  E-value=15  Score=21.13  Aligned_cols=20  Identities=10%  Similarity=0.054  Sum_probs=11.9  Template_Neff=9.500
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~   32 (73)
+                      ....+|..+|++...+..+.
+T Consensus        12 ~~~~la~~lgv~~~~i~~~~   31 (71)
+T 2HIN_B           12 DVEKAAVGVGVTPGAVYQWL   31 (71)
+T ss_dssp             SHHHHHHHHTSCHHHHHHHH
+T ss_pred             CHHHHHHHhCCCHHHHHHHH
+Confidence            45567777777654455444
+
+
+No 67
+>3JXB_C Repressor protein C2/DNA Complex; protein-DNA complex, DNA-binding, Repressor, Transcription; 1.67A {Enterobacteria phage P22}
+Probab=46.48  E-value=16  Score=18.77  Aligned_cols=16  Identities=6%  Similarity=0.003  Sum_probs=7.8  Template_Neff=11.800
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRVSDQA   29 (73)
+Q Consensus        14 W~dLAd~l~Ip~~er~   29 (73)
+                      ...++..+|++...+.
+T Consensus        20 ~~~~a~~~g~~~~~~~   35 (67)
+T 3JXB_C           20 QAALGKMVGVSNVAIS   35 (67)
+T ss_pred             HHHHHHHHCCCHHHHH
+Confidence            3455555555543333
+
+
+No 68
+>5JHF_A KLTH0D11660p, KLTH0C07942p, KLTH0D15642p, Atg13 17BR; coiled-coil, PROTEIN TRANSPORT; 3.21A {Lachancea thermotolerans (strain ATCC 56472 / CBS 6340 / NRRL Y-8284)}
+Probab=45.16  E-value=18  Score=24.64  Aligned_cols=14  Identities=36%  Similarity=0.582  Sum_probs=11.2  Template_Neff=4.600
+
+Q tr|D5C179|D5C1   12 DDWKRLADCLEIRV   25 (73)
+Q Consensus        12 ~dW~dLAd~l~Ip~   25 (73)
+                      -||+.||..++.+.
+T Consensus        50 iDW~~La~~~~Vp~   63 (87)
+T 5JHF_A           50 IDWKRLSREFKAPE   63 (87)
+T ss_dssp             -CHHHHHHHTTCCH
+T ss_pred             CCHHHHHHHhCCCH
+Confidence            59999999988764
+
+
+No 69
+>5JHF_D KLTH0D11660p, KLTH0C07942p, KLTH0D15642p, Atg13 17BR; coiled-coil, PROTEIN TRANSPORT; 3.21A {Lachancea thermotolerans (strain ATCC 56472 / CBS 6340 / NRRL Y-8284)}
+Probab=45.16  E-value=18  Score=24.64  Aligned_cols=14  Identities=36%  Similarity=0.582  Sum_probs=11.8  Template_Neff=4.600
+
+Q tr|D5C179|D5C1   12 DDWKRLADCLEIRV   25 (73)
+Q Consensus        12 ~dW~dLAd~l~Ip~   25 (73)
+                      -||+.||..++.+.
+T Consensus        50 iDW~~La~~~~Vp~   63 (87)
+T 5JHF_D           50 IDWKRLSREFKAPE   63 (87)
+T ss_dssp             CCHHHHHHHTTSCH
+T ss_pred             CCHHHHHHHhCCCH
+Confidence            59999999988764
+
+
+No 70
+>1ADR_A P22 C2 REPRESSOR (AMINO-TERMINAL DNA-BINDING; TRANSCRIPTION REGULATION; NMR {Enterobacteria phage P22} SCOP: a.35.1.2
+Probab=44.90  E-value=18  Score=19.75  Aligned_cols=20  Identities=10%  Similarity=0.142  Sum_probs=9.9  Template_Neff=11.100
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~   32 (73)
+                      .+..++..+|++...+..+.
+T Consensus        20 ~~~~la~~~~~~~~~~~~~~   39 (76)
+T 1ADR_A           20 RQAALGKMVGVSNVAISQWE   39 (76)
+T ss_pred             CHHHHHHHHCCCHHHHHHHH
+Confidence            34555666665543344433
+
+
+No 71
+>6AGW_A Caspase-8 pro-domain (E.C.3.4.22.61); Pro-domain, HYDROLASE; 2.093A {Homo sapiens}
+Probab=44.88  E-value=18  Score=26.48  Aligned_cols=21  Identities=33%  Similarity=0.222  Sum_probs=15.5  Template_Neff=7.000
+
+Q tr|D5C179|D5C1   49 RLSQLPAALREIKRGELAELL   69 (73)
+Q Consensus        49 RL~eLp~AL~~IgR~DLa~lL   69 (73)
+                      .+.-|.+.|..++|.|.+..+
+T Consensus        58 nl~~L~elL~~i~R~DLl~~~   78 (185)
+T 6AGW_A           58 NLSFLKELLFRINRLDLLITY   78 (185)
+T ss_dssp             BCHHHHHHHHHTTCHHHHHHH
+T ss_pred             cHHHHHHHHHHhCcHHHHHHH
+Confidence            456688888888888776653
+
+
+No 72
+>5TN0_A HTH-type transcriptional regulator SinR; biofilm formation, TRANSCRIPTION; NMR {Bacillus subtilis (strain 168)}
+Probab=44.78  E-value=18  Score=18.54  Aligned_cols=13  Identities=15%  Similarity=0.141  Sum_probs=7.6  Template_Neff=12.000
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRV   25 (73)
+Q Consensus        13 dW~dLAd~l~Ip~   25 (73)
+                      .+..++..+|++.
+T Consensus        16 ~~~~~a~~~~~~~   28 (69)
+T 5TN0_A           16 SLSELAEKAGVAK   28 (69)
+T ss_dssp             CHHHHHHHHTSCH
+T ss_pred             CHHHHHHHHCCCH
+Confidence            4556666666654
+
+
+No 73
+>1Y7Y_A C.AhdI; HELIX-TURN-HELIX, DNA-BINDING PROTEIN, TRANSCRIPTIONAL REGULATOR; 1.69A {Aeromonas hydrophila} SCOP: a.35.1.3
+Probab=44.15  E-value=19  Score=19.21  Aligned_cols=13  Identities=15%  Similarity=-0.079  Sum_probs=7.0  Template_Neff=11.500
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRV   25 (73)
+Q Consensus        13 dW~dLAd~l~Ip~   25 (73)
+                      .+..++..+|++.
+T Consensus        28 ~~~~~a~~~~~~~   40 (74)
+T 1Y7Y_A           28 SQETLAFLSGLDR   40 (74)
+T ss_dssp             CHHHHHHHHTCCH
+T ss_pred             CHHHHHHHHCCCH
+Confidence            4455555555544
+
+
+No 74
+>4I6R_B Regulatory protein; Restriction-modification, helix-turn-helix, transcriptional regulator, DNA; HET: GOL, SO4; 1.38A {Enterobacter sp.}
+Probab=42.45  E-value=21  Score=20.31  Aligned_cols=23  Identities=17%  Similarity=0.030  Sum_probs=14.9  Template_Neff=10.500
+
+Q tr|D5C179|D5C1   12 DDWKRLADCLEIRVSDQARFERG   34 (73)
+Q Consensus        12 ~dW~dLAd~l~Ip~~er~rF~~G   34 (73)
+                      -.|..+|..+|++...+..+...
+T Consensus        25 ~t~~~la~~~gis~~~~~~~~~~   47 (82)
+T 4I6R_B           25 MTQEDLAYKSNLDRTYISGIERN   47 (82)
+T ss_dssp             CCHHHHHHHHTSCHHHHHHHHHC
+T ss_pred             CCHHHHHHHhCCCHHHHHHHHcC
+Confidence            46778888888876555555443
+
+
+No 75
+>2WIU_B PROTEIN HIPA (E.C.2.7.11.1), HTH-TYPE TRANSCRIPTIONAL; TRANSFERASE TRANSCRIPTION COMPLEX, SERINE KINASE; HET: CL; 2.35A {ESCHERICHIA COLI}
+Probab=42.43  E-value=21  Score=20.43  Aligned_cols=21  Identities=24%  Similarity=0.328  Sum_probs=11.7  Template_Neff=10.700
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFER   33 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~~   33 (73)
+                      .+..+|..+|++...+..+..
+T Consensus        27 s~~~la~~l~i~~~~v~~~~~   47 (88)
+T 2WIU_B           27 TQSELAKKIGIKQATISNFEN   47 (88)
+T ss_dssp             CHHHHHHHHTCCHHHHHHHHH
+T ss_pred             CHHHHHHHHCCCHHHHHHHHc
+Confidence            445667777766544444443
+
+
+No 76
+>2R1J_R Repressor protein C2/DNA Complex; Protein-DNA complex, Helix-turn-helix, DNA-binding, Repressor; 1.53A {Enterobacteria phage P22} SCOP: a.35.1.2
+Probab=41.54  E-value=22  Score=18.34  Aligned_cols=10  Identities=10%  Similarity=0.175  Sum_probs=4.6  Template_Neff=11.800
+
+Q tr|D5C179|D5C1   16 RLADCLEIRV   25 (73)
+Q Consensus        16 dLAd~l~Ip~   25 (73)
+                      .++..+|++.
+T Consensus        23 ~~a~~~~~~~   32 (68)
+T 2R1J_R           23 ALGKMVGVSN   32 (68)
+T ss_dssp             HHHHHHTSCH
+T ss_pred             HHHHHHCCCH
+Confidence            3444445443
+
+
+No 77
+>4I6U_A Regulatory protein; Restriction-modification, helix-turn-helix, transcriptional regulato, DNA; HET: GOL, PEG, ACT; 1.97A {Enterobacter sp.}
+Probab=41.33  E-value=22  Score=20.19  Aligned_cols=22  Identities=18%  Similarity=-0.000  Sum_probs=13.1  Template_Neff=10.500
+
+Q tr|D5C179|D5C1   12 DDWKRLADCLEIRVSDQARFER   33 (73)
+Q Consensus        12 ~dW~dLAd~l~Ip~~er~rF~~   33 (73)
+                      -.+..++..+|++...+..+..
+T Consensus        25 ~~~~~la~~~g~~~~~i~~~~~   46 (82)
+T 4I6U_A           25 MTQEDLAYKSNLDRTFISGIER   46 (82)
+T ss_dssp             CCHHHHHHHHTCCHHHHHHHHT
+T ss_pred             CCHHHHHHHcCCCHHHHHHHHh
+Confidence            3556777777776544544443
+
+
+No 78
+>4ZBW_A Death effector domain; Death effector domain, caspase, HYDROLASE; 2.2A {Homo sapiens}
+Probab=40.85  E-value=23  Score=25.75  Aligned_cols=24  Identities=17%  Similarity=0.469  Sum_probs=18.0  Template_Neff=7.500
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|...++.+++ +.+..+.++
+T Consensus       157 ~nl~~L~~il~~i~~-dL~~~i~~y  180 (190)
+T 4ZBW_A          157 GKLDILKRVCAQINK-SLLKIINDY  180 (190)
+T ss_dssp             TBCHHHHHHHHTTCH-HHHHHHHHH
+T ss_pred             ChHHHHHHHHHHhCH-HHHHHHHHH
+Confidence            457778888888877 877777654
+
+
+No 79
+>2K9Q_B uncharacterized protein; all helix, helix-turn-helix, Plasmid, Structural; NMR {Bacteroides thetaiotaomicron}
+Probab=40.66  E-value=23  Score=20.27  Aligned_cols=23  Identities=17%  Similarity=0.146  Sum_probs=14.1  Template_Neff=10.000
+
+Q tr|D5C179|D5C1   12 DDWKRLADCLEIRVSDQARFERG   34 (73)
+Q Consensus        12 ~dW~dLAd~l~Ip~~er~rF~~G   34 (73)
+                      -.++.++..+|++...+..+..+
+T Consensus        16 ~s~~~la~~~~is~~~l~~~~~g   38 (77)
+T 2K9Q_B           16 LTAKSVAEEMGISRQQLCNIEQS   38 (77)
+T ss_dssp             CCHHHHHHHHTSCHHHHHHHHTS
+T ss_pred             CCHHHHHHHHCCCHHHHHHHHCC
+Confidence            35667777777765455554443
+
+
+No 80
+>2BBZ_D Viral CASP8 and FADD-like apoptosis; death effector domain, VIRAL PROTEIN; 3.8A {Molluscum contagiosum virus subtype 1}
+Probab=40.62  E-value=23  Score=27.93  Aligned_cols=25  Identities=32%  Similarity=0.502  Sum_probs=20.6  Template_Neff=5.400
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|...|..+++.+.+..|..+
+T Consensus       152 dnL~~Le~iL~~I~R~DL~k~I~~Y  176 (249)
+T 2BBZ_D          152 SSVSVLADMLRTLRRLDLCQQLVEY  176 (249)
+T ss_dssp             TCCHHHHHHHTTTTCHHHHHHTHHH
+T ss_pred             chHHHHHHHHHhCChHHHHHHHHHH
+Confidence            5688899999999998888887754
+
+
+No 81
+>3D3D_B BACTERIOPHAGE LAMBDA LYSOZYME COMPLEXED WITH; GLYCOSIDASE, TRANSGLYCOSYLASE, LYSOZYME, PROTEIN-CHITOHEXASSACHARIDE COMPLEX; HET: NAG, SO4; 2.6A {Enterobacteria phage lambda} SCOP: d.2.1.4
+Probab=40.49  E-value=23  Score=25.63  Aligned_cols=13  Identities=15%  Similarity=0.381  Sum_probs=9.4  Template_Neff=6.200
+
+Q tr|D5C179|D5C1   12 DDWKRLADCLEIR   24 (73)
+Q Consensus        12 ~dW~dLAd~l~Ip   24 (73)
+                      ..|..++..+|++
+T Consensus        72 ~Tw~~~~~~~gl~   84 (154)
+T 3D3D_B           72 RWWDAYRKQLGLK   84 (154)
+T ss_dssp             HHHHHHHHHHTCC
+T ss_pred             HHHHHHHHHHCCC
+Confidence            5777777777765
+
+
+No 82
+>2B5A_C C.BclI; HELIX-TURN-HELIX motif, GENE REGULATION; 1.543A {Bacillus caldolyticus} SCOP: a.35.1.3
+Probab=38.55  E-value=26  Score=18.80  Aligned_cols=19  Identities=21%  Similarity=0.176  Sum_probs=9.6  Template_Neff=11.500
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        14 W~dLAd~l~Ip~~er~rF~   32 (73)
+                      +..++..+|++...+..+.
+T Consensus        26 ~~~~a~~~g~s~~~~~~~~   44 (77)
+T 2B5A_C           26 QEELADLAGLHRTYISEVE   44 (77)
+T ss_dssp             HHHHHHHHTCCHHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHHH
+Confidence            4455666666543444333
+
+
+No 83
+>3KZ3_B Repressor protein CI; Five helix bundle, DNA-binding, Repressor; 1.64A {Enterobacteria phage lambda}
+Probab=37.78  E-value=27  Score=19.79  Aligned_cols=22  Identities=23%  Similarity=0.318  Sum_probs=12.0  Template_Neff=10.400
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFERG   34 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~~G   34 (73)
+                      .+..++..+|++...+..+...
+T Consensus        27 s~~~la~~~gis~~~i~~~~~~   48 (80)
+T 3KZ3_B           27 SYESVADKMGMGQSAVAALFNG   48 (80)
+T ss_dssp             CHHHHHHHHTSCHHHHHHHHTT
+T ss_pred             CHHHHHHHHCCCHHHHHHHHcC
+Confidence            3445666667665445444443
+
+
+No 84
+>6AGW_A Caspase-8 pro-domain (E.C.3.4.22.61); Pro-domain, HYDROLASE; 2.093A {Homo sapiens}
+Probab=36.29  E-value=30  Score=25.35  Aligned_cols=24  Identities=17%  Similarity=0.469  Sum_probs=15.7  Template_Neff=7.000
+
+Q tr|D5C179|D5C1   48 SRLSQLPAALREIKRGELAELLENF   72 (73)
+Q Consensus        48 ~RL~eLp~AL~~IgR~DLa~lL~~~   72 (73)
+                      ..+..|...|..+++ +.+..+.+|
+T Consensus       155 ~nl~~L~~il~~i~r-dL~~~i~~~  178 (185)
+T 6AGW_A          155 GKLDILKRVCAQINK-SLLKIINDY  178 (185)
+T ss_dssp             TBCH----HHHHTCH-HHHHHHHHH
+T ss_pred             hHHHHHHHHHHHhCH-HHHHHHHHH
+Confidence            567888888999999 888877765
+
+
+No 85
+>1X57_A Endothelial differentiation-related factor 1; EDF1, HMBF1alpha, helix-turn-helix, Structural Genomics; NMR {Homo sapiens} SCOP: a.35.1.12
+Probab=34.53  E-value=34  Score=19.45  Aligned_cols=18  Identities=22%  Similarity=0.156  Sum_probs=8.6  Template_Neff=11.000
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRVSDQARF   31 (73)
+Q Consensus        14 W~dLAd~l~Ip~~er~rF   31 (73)
+                      +..++..++++...+..+
+T Consensus        29 ~~~~a~~~~i~~~~~~~~   46 (91)
+T 1X57_A           29 QKDLATKINEKPQVIADY   46 (91)
+T ss_dssp             HHHHHHHHTSCHHHHHHH
+T ss_pred             HHHHHHHhCCCHHHHHHH
+Confidence            445555555543333333
+
+
+No 86
+>5LDE_B Immunoglobulin G-binding protein G,Viral FLICE; vFLIP, NF-kB, Nemo, viral protein; HET: 6ZS; 3.38A {Streptococcus sp. group G}
+Probab=34.17  E-value=34  Score=27.17  Aligned_cols=19  Identities=26%  Similarity=0.221  Sum_probs=14.4  Template_Neff=5.600
+
+Q tr|D5C179|D5C1   51 SQLPAALREIKRGELAELL   69 (73)
+Q Consensus        51 ~eLp~AL~~IgR~DLa~lL   69 (73)
+                      .-|.+.|..++|.|.+..+
+T Consensus       123 ~~L~ELL~~I~R~DLL~~v  141 (265)
+T 5LDE_B          123 PLLAECLFRAGRRDLLRDL  141 (265)
+T ss_pred             HHHHHHHHHcChHHHHHHH
+Confidence            4578888888888877664
+
+
+No 87
+>1R63_A REPRESSOR PROTEIN FROM BACTERIOPHAGE 434; GENE REGULATING PROTEIN, PHAGE 434; NMR {Phage 434} SCOP: a.35.1.2
+Probab=33.04  E-value=37  Score=17.26  Aligned_cols=12  Identities=17%  Similarity=0.016  Sum_probs=6.0  Template_Neff=11.700
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRV   25 (73)
+Q Consensus        14 W~dLAd~l~Ip~   25 (73)
+                      +..++..++++.
+T Consensus        17 ~~~la~~~~~~~   28 (63)
+T 1R63_A           17 QAELAQKVGTTQ   28 (63)
+T ss_dssp             HHHHHHHHTSCH
+T ss_pred             HHHHHHHHCCCH
+Confidence            344555555543
+
+
+No 88
+>2EF8_A Putative transcription factor; helix-turn-helix, DNA binding protein, TRANSCRIPTION; 1.95A {Enterobacteria phage P2}
+Probab=32.51  E-value=38  Score=19.56  Aligned_cols=12  Identities=25%  Similarity=0.111  Sum_probs=5.6  Template_Neff=10.200
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRV   25 (73)
+Q Consensus        14 W~dLAd~l~Ip~   25 (73)
+                      ...++..+|++.
+T Consensus        26 ~~~la~~~gis~   37 (84)
+T 2EF8_A           26 QSELAIFLGLSQ   37 (84)
+T ss_dssp             HHHHHHHHTCCH
+T ss_pred             HHHHHHHHCCCH
+Confidence            334455555543
+
+
+No 89
+>3B7H_A Prophage Lp1 protein 11; prophage Lp1 protein 11, structural; 2.0A {Lactobacillus plantarum WCFS1}
+Probab=32.41  E-value=38  Score=18.70  Aligned_cols=19  Identities=16%  Similarity=0.102  Sum_probs=9.6  Template_Neff=10.900
+
+Q tr|D5C179|D5C1   15 KRLADCLEIRVSDQARFER   33 (73)
+Q Consensus        15 ~dLAd~l~Ip~~er~rF~~   33 (73)
+                      ..++..+|++...+..+..
+T Consensus        24 ~~la~~~gi~~~~l~~~~~   42 (78)
+T 3B7H_A           24 NRVATLAGLNQSTVNAMFE   42 (78)
+T ss_dssp             HHHHHHHTCCHHHHHHHHC
+T ss_pred             HHHHHHHCCCHHHHHHHHc
+Confidence            4555666665434444443
+
+
+No 90
+>5LDE_A Immunoglobulin G-binding protein G,Viral FLICE; vFLIP, NF-kB, Nemo, viral protein; HET: 6ZS; 3.38A {Streptococcus sp. group G}
+Probab=32.35  E-value=38  Score=26.91  Aligned_cols=19  Identities=26%  Similarity=0.221  Sum_probs=14.3  Template_Neff=5.600
+
+Q tr|D5C179|D5C1   51 SQLPAALREIKRGELAELL   69 (73)
+Q Consensus        51 ~eLp~AL~~IgR~DLa~lL   69 (73)
+                      .-|.+.|..++|.|.+..+
+T Consensus       123 ~~L~ELL~~I~R~DLL~~l  141 (265)
+T 5LDE_A          123 PLLAECLFRAGRRDLLRDL  141 (265)
+T ss_dssp             HHHHHHHHHHTCHHHHHHT
+T ss_pred             HHHHHHHHHcChHHHHHHH
+Confidence            4577888888888877664
+
+
+No 91
+>2MQK_A ATP-dependent target DNA activator B; HYDROLASE; NMR {Enterobacteria phage Mu}
+Probab=31.76  E-value=40  Score=17.42  Aligned_cols=9  Identities=11%  Similarity=-0.020  Sum_probs=4.0  Template_Neff=11.500
+
+Q tr|D5C179|D5C1   16 RLADCLEIR   24 (73)
+Q Consensus        16 dLAd~l~Ip   24 (73)
+                      .++..+|++
+T Consensus        25 ~~a~~~gi~   33 (65)
+T 2MQK_A           25 QIALESGLS   33 (65)
+T ss_dssp             HHHHHHTSC
+T ss_pred             HHHHHhCCC
+Confidence            444444443
+
+
+No 92
+>6RNZ_B HTH-type transcriptional regulator DdrOC; ----, DNA BINDING PROTEIN; HET: GOL; 1.35A {Deinococcus deserti}
+Probab=31.31  E-value=41  Score=17.09  Aligned_cols=11  Identities=36%  Similarity=0.531  Sum_probs=5.9  Template_Neff=11.900
+
+Q tr|D5C179|D5C1   15 KRLADCLEIRV   25 (73)
+Q Consensus        15 ~dLAd~l~Ip~   25 (73)
+                      ..++..+|++.
+T Consensus        19 ~~~a~~~g~~~   29 (66)
+T 6RNZ_B           19 KDVAEVAQISV   29 (66)
+T ss_dssp             HHHHHHHTCCH
+T ss_pred             HHHHHHhCCCH
+Confidence            44555555554
+
+
+No 93
+>2XIU_A CYLR2; DNA BINDING PROTEIN, HTH-DNA BINDING; HET: MTN; 1.5A {ENTEROCOCCUS FAECALIS}
+Probab=30.56  E-value=43  Score=16.84  Aligned_cols=11  Identities=36%  Similarity=0.413  Sum_probs=5.5  Template_Neff=12.100
+
+Q tr|D5C179|D5C1   15 KRLADCLEIRV   25 (73)
+Q Consensus        15 ~dLAd~l~Ip~   25 (73)
+                      ..++..+|++.
+T Consensus        18 ~~~a~~~~~~~   28 (66)
+T 2XIU_A           18 SELAALLEVSR   28 (66)
+T ss_dssp             HHHHHHHTSCH
+T ss_pred             HHHHHHhCCCH
+Confidence            44555555543
+
+
+No 94
+>6B8H_d ATP synthase subunit 9, mitochondrial; Complex, Proton transporter, MEMBRANE PROTEIN; HET: ANP, MG; 3.6A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=28.98  E-value=48  Score=24.15  Aligned_cols=14  Identities=29%  Similarity=0.565  Sum_probs=9.2  Template_Neff=6.900
+
+Q tr|D5C179|D5C1   12 DDWKRLADCLEIRV   25 (73)
+Q Consensus        12 ~dW~dLAd~l~Ip~   25 (73)
+                      -+|..++..++++.
+T Consensus        10 idW~~l~~~~~v~~   23 (173)
+T 6B8H_d           10 LDWAKVISSLRITG   23 (173)
+T ss_pred             cCHHHHHHHcCCCH
+Confidence            47888887555543
+
+
+No 95
+>6CP6_7 ATP synthase subunit 9, mitochondrial; ATP synthase, BIOSYNTHETIC PROTEIN; HET: FME, ATP, ADP;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=28.98  E-value=48  Score=24.15  Aligned_cols=14  Identities=29%  Similarity=0.565  Sum_probs=9.2  Template_Neff=6.900
+
+Q tr|D5C179|D5C1   12 DDWKRLADCLEIRV   25 (73)
+Q Consensus        12 ~dW~dLAd~l~Ip~   25 (73)
+                      -+|..++..++++.
+T Consensus        10 idW~~l~~~~~v~~   23 (173)
+T 6CP6_7           10 LDWAKVISSLRITG   23 (173)
+T ss_pred             cCHHHHHHHcCCCH
+Confidence            47888887555543
+
+
+No 96
+>4YBA_B C.kpn2I controller protein; DNA-protein interactions, helix-turn-helix, restriction-modification, controller; 1.7A {Klebsiella pneumoniae}
+Probab=28.45  E-value=49  Score=19.23  Aligned_cols=15  Identities=33%  Similarity=0.166  Sum_probs=7.1  Template_Neff=10.800
+
+Q tr|D5C179|D5C1   15 KRLADCLEIRVSDQA   29 (73)
+Q Consensus        15 ~dLAd~l~Ip~~er~   29 (73)
+                      ..++..+|++...+.
+T Consensus        26 ~~la~~~gi~~~~l~   40 (99)
+T 4YBA_B           26 KELALMAGIATPTIA   40 (99)
+T ss_dssp             HHHHHHHTCCHHHHH
+T ss_pred             HHHHHHHCCCHHHHH
+Confidence            345555555433333
+
+
+No 97
+>3F6W_C XRE-family like protein; helix-turn-helix  DNA binding protein; HET: BTB, MSE; 1.85A {Pseudomonas syringae pv. tomato}
+Probab=28.12  E-value=50  Score=18.52  Aligned_cols=21  Identities=29%  Similarity=0.080  Sum_probs=10.6  Template_Neff=10.800
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFER   33 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~~   33 (73)
+                      ....++..+|++...+..+..
+T Consensus        29 ~~~~la~~~g~~~~~l~~~~~   49 (83)
+T 3F6W_C           29 TQKELAARLGRPQSFVSKTEN   49 (83)
+T ss_dssp             CHHHHHHHHTSCHHHHHHHHT
+T ss_pred             CHHHHHHHHCCCHHHHHHHHc
+Confidence            334566666665434444443
+
+
+No 98
+>6JQ1_B Transcriptional regulator, XRE family; Transcription factor, Xre, HTH, Dimerization; 2.3A {Deinococcus geothermalis DSM 11300}
+Probab=27.98  E-value=51  Score=20.51  Aligned_cols=20  Identities=25%  Similarity=0.267  Sum_probs=10.2  Template_Neff=10.500
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~   32 (73)
+                      ..+.+|..+|++...+..+.
+T Consensus        20 s~~~la~~~gi~~~~~~~~~   39 (132)
+T 6JQ1_B           20 RLKDVAETAGISVPYLSDLE   39 (132)
+T ss_pred             CHHHHHHHHCCCHHHHHHHH
+Confidence            34456666666544444443
+
+
+No 99
+>3OP9_A Pli0006 protein; Structural Genomics, PSI-2, Protein Structure; 1.898A {Listeria innocua}
+Probab=27.68  E-value=52  Score=19.43  Aligned_cols=16  Identities=13%  Similarity=0.277  Sum_probs=8.1  Template_Neff=11.100
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQ   28 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er   28 (73)
+                      .+..++..+|++...+
+T Consensus        24 s~~~~a~~~~i~~~~~   39 (114)
+T 3OP9_A           24 KNHQIAELLNVQTRTV   39 (114)
+T ss_dssp             CHHHHHHHHTSCHHHH
+T ss_pred             CHHHHHHHhCCCHHHH
+Confidence            3445666666543333
+
+
+No 100
+>4Z5H_A E.coli transcription repressor, HipB subunit; HTH motif, Transcription repressor, HipA; 2.1A {Escherichia coli}
+Probab=27.49  E-value=53  Score=17.42  Aligned_cols=16  Identities=19%  Similarity=0.187  Sum_probs=7.7  Template_Neff=11.400
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRVSDQA   29 (73)
+Q Consensus        14 W~dLAd~l~Ip~~er~   29 (73)
+                      +..++..+|++...+.
+T Consensus        26 ~~~~a~~~~~~~~~~~   41 (72)
+T 4Z5H_A           26 QAELAKKIGIKQATIS   41 (72)
+T ss_dssp             HHHHHHHHTSCHHHHH
+T ss_pred             HHHHHHHHCCCHHHHH
+Confidence            3455555555443333
+
+
+No 101
+>1RZS_A Regulatory protein cro; HELIX-TURN-HELIX, DNA-BINDING PROTEIN, STRUCTURAL EVOLUTION; NMR {Enterobacteria phage P22} SCOP: a.35.1.2
+Probab=27.26  E-value=54  Score=16.51  Aligned_cols=10  Identities=30%  Similarity=0.478  Sum_probs=4.6  Template_Neff=11.700
+
+Q tr|D5C179|D5C1   15 KRLADCLEIR   24 (73)
+Q Consensus        15 ~dLAd~l~Ip   24 (73)
+                      +.++..+|++
+T Consensus        14 ~~la~~~g~~   23 (61)
+T 1RZS_A           14 RAVAKALGIS   23 (61)
+T ss_dssp             HHHHHHHTCC
+T ss_pred             HHHHHHhCCC
+Confidence            3444444444
+
+
+No 102
+>1R69_A 434 REPRESSOR (AMINO-TERMINAL DOMAIN) (R1-69); GENE REGULATING PROTEIN; 2.0A {Phage 434} SCOP: a.35.1.2
+Probab=26.50  E-value=56  Score=16.98  Aligned_cols=13  Identities=15%  Similarity=0.072  Sum_probs=6.5  Template_Neff=11.600
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRV   25 (73)
+Q Consensus        13 dW~dLAd~l~Ip~   25 (73)
+                      .+..++..++++.
+T Consensus        16 ~~~~~a~~~~~~~   28 (69)
+T 1R69_A           16 NQAELAQKVGTTQ   28 (69)
+T ss_dssp             CHHHHHHHHTSCH
+T ss_pred             CHHHHHHHHCCCH
+Confidence            3445555555543
+
+
+No 103
+>4YG7_C HipB, HipA/DNA Complex; persistence, multidrug tolerance, autorepression, promoter; 3.77A {Escherichia coli (strain K12)}
+Probab=26.46  E-value=57  Score=17.49  Aligned_cols=20  Identities=25%  Similarity=0.340  Sum_probs=10.3  Template_Neff=11.100
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~   32 (73)
+                      .+..++..+|++...+..+.
+T Consensus        24 ~~~~~a~~~g~~~~~i~~~~   43 (71)
+T 4YG7_C           24 TQSELAKKIGIKQATISNFE   43 (71)
+T ss_dssp             CHHHHHHHHTSCHHHHHHHH
+T ss_pred             CHHHHHHHHCCCHHHHHHHH
+Confidence            34456666666543444433
+
+
+No 104
+>4Z59_A E.coli transcription repressor, HipB/DNA Complex; HTH motif, Transcription repressor, HipA; 2.3A {Escherichia coli}
+Probab=26.46  E-value=57  Score=17.49  Aligned_cols=20  Identities=25%  Similarity=0.340  Sum_probs=10.3  Template_Neff=11.100
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~   32 (73)
+                      .+..++..+|++...+..+.
+T Consensus        24 ~~~~~a~~~g~~~~~i~~~~   43 (71)
+T 4Z59_A           24 TQSELAKKIGIKQATISNFE   43 (71)
+T ss_dssp             CHHHHHHHHTSCHHHHHHHH
+T ss_pred             CHHHHHHHHCCCHHHHHHHH
+Confidence            34456666666543444433
+
+
+No 105
+>5D4Z_M Repressor; Repressor, DNA BINDING PROTEIN; 2.98A {Salmonella phage SPC32H}
+Probab=26.43  E-value=57  Score=20.12  Aligned_cols=20  Identities=20%  Similarity=0.141  Sum_probs=10.9  Template_Neff=9.700
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRVSDQARFER   33 (73)
+Q Consensus        14 W~dLAd~l~Ip~~er~rF~~   33 (73)
+                      +..++..+|++...+..+..
+T Consensus        22 ~~~la~~~gvs~~~i~~~~~   41 (107)
+T 5D4Z_M           22 EKKVAVAAGIGPATVNRIMK   41 (107)
+T ss_dssp             SHHHHTCSSSCSCGGGTTTS
+T ss_pred             HHHHHHHhCCCHHHHHHHHh
+Confidence            44666666665544444443
+
+
+No 106
+>1CJG_A LAC REPRESSOR HP62/DNA COMPLEX; TRANSCRIPTION REGULATION, LAC OPERON, LAC; NMR {Escherichia coli} SCOP: a.35.1.5
+Probab=26.23  E-value=57  Score=17.18  Aligned_cols=16  Identities=13%  Similarity=0.221  Sum_probs=8.3  Template_Neff=10.800
+
+Q tr|D5C179|D5C1   16 RLADCLEIRVSDQARF   31 (73)
+Q Consensus        16 dLAd~l~Ip~~er~rF   31 (73)
+                      .++..+|++...+..+
+T Consensus         8 ~la~~~g~s~~~i~~~   23 (62)
+T 1CJG_A            8 DVAEYAGVSYQTVSRV   23 (62)
+T ss_dssp             HHHHHHTSCHHHHHHH
+T ss_pred             HHHHHHCCCHHHHHHH
+Confidence            4556666654344433
+
+
+No 107
+>2BBR_A Viral CASP8 and FADD-like apoptosis; VIRAL PROTEIN; 1.2A {Molluscum contagiosum virus subtype 1}
+Probab=25.69  E-value=60  Score=24.27  Aligned_cols=19  Identities=21%  Similarity=0.188  Sum_probs=14.4  Template_Neff=6.600
+
+Q tr|D5C179|D5C1   51 SQLPAALREIKRGELAELL   69 (73)
+Q Consensus        51 ~eLp~AL~~IgR~DLa~lL   69 (73)
+                      .-|.+.|..++|.|.+..+
+T Consensus        58 ~~L~elL~~i~R~DLl~~~   76 (195)
+T 2BBR_A           58 AALVEMLYVLQRMDLLKSR   76 (195)
+T ss_dssp             HHHHHHHHHTTCHHHHHHH
+T ss_pred             HHHHHHHHHcChHHHHHHH
+Confidence            4578888888888877663
+
+
+No 108
+>2EBY_A Putative HTH-type transcriptional regulator ybaQ; Hypothetical protein, JW0472, Structural Genomics; HET: SO4; 2.25A {Escherichia coli}
+Probab=24.79  E-value=64  Score=19.35  Aligned_cols=19  Identities=16%  Similarity=0.226  Sum_probs=9.6  Template_Neff=10.700
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        14 W~dLAd~l~Ip~~er~rF~   32 (73)
+                      ...++..+|++...+..+.
+T Consensus        27 ~~~~a~~~gi~~~~i~~~~   45 (113)
+T 2EBY_A           27 INELAELLHVHRNSVSALI   45 (113)
+T ss_dssp             HHHHHHHHTSCHHHHHHHH
+T ss_pred             HHHHHHHhCCCHHHHHHHH
+Confidence            4456666666543343333
+
+
+No 109
+>3BD1_A Cro protein; transcription factor, helix-turn-helix, prophage, structural; HET: GOL, SO4; 1.4A {Xylella fastidiosa}
+Probab=24.79  E-value=64  Score=18.23  Aligned_cols=19  Identities=26%  Similarity=0.319  Sum_probs=9.3  Template_Neff=10.400
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARF   31 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF   31 (73)
+                      .+..++..+|++...+..+
+T Consensus        13 ~~~~~a~~~g~~~~~l~~~   31 (79)
+T 3BD1_A           13 SVSALAASLGVRQSAISNW   31 (79)
+T ss_dssp             SHHHHHHHHTCCHHHHHHH
+T ss_pred             CHHHHHHHhCCCHHHHHHH
+Confidence            3445566666554333333
+
+
+No 110
+>6FKG_C Uncharacterized protein Rv1989c, Uncharacterized protein; Toxin-Antitoxin system Phosphorylase NAD+-binding, TOXIN; HET: GOL; 1.8A {Mycobacterium tuberculosis}
+Probab=24.36  E-value=66  Score=19.35  Aligned_cols=16  Identities=13%  Similarity=0.304  Sum_probs=7.7  Template_Neff=10.700
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRVSDQA   29 (73)
+Q Consensus        14 W~dLAd~l~Ip~~er~   29 (73)
+                      ...++..+|++...+.
+T Consensus        23 ~~~~a~~lgi~~~~i~   38 (115)
+T 6FKG_C           23 YEEVGDIVDASPRSVA   38 (115)
+T ss_dssp             HHHHHHHHTCCHHHHH
+T ss_pred             HHHHHHHHCCCHHHHH
+Confidence            3455555565443333
+
+
+No 111
+>2JML_A DNA BINDING DOMAIN/TRANSCRIPTIONAL REGULATOR; anti-repressor, MerR, carotenogenesis, TRANSCRIPTION; NMR {Myxococcus xanthus}
+Probab=24.11  E-value=67  Score=17.69  Aligned_cols=16  Identities=19%  Similarity=0.200  Sum_probs=7.6  Template_Neff=11.100
+
+Q tr|D5C179|D5C1   15 KRLADCLEIRVSDQAR   30 (73)
+Q Consensus        15 ~dLAd~l~Ip~~er~r   30 (73)
+                      +.++..+|++...+..
+T Consensus         9 ~e~a~~~gis~~tl~~   24 (81)
+T 2JML_A            9 RTIARMTGIREATLRA   24 (81)
+T ss_dssp             HHHHHTTSTTHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHH
+Confidence            3455555555433333
+
+
+No 112
+>1WI9_A Protein C20orf116 homolog; helix-turn-helix motif, STRUCTURAL GENOMICS, RIKEN; NMR {Mus musculus} SCOP: a.4.5.47
+Probab=23.25  E-value=71  Score=18.90  Aligned_cols=12  Identities=25%  Similarity=0.147  Sum_probs=6.6  Template_Neff=8.700
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIR   24 (73)
+Q Consensus        13 dW~dLAd~l~Ip   24 (73)
+                      ....+|..++++
+T Consensus        23 s~~ela~~l~vs   34 (72)
+T 1WI9_A           23 LLEDLAFQMGLR   34 (72)
+T ss_dssp             CHHHHHHHHCSC
+T ss_pred             cHHHHHHHhCCC
+Confidence            444556666554
+
+
+No 113
+>2OX6_C Hypothetical protein; Shewanella oneidensis, Structural genomics, PSI-2; HET: MG; 1.7A {Shewanella oneidensis}
+Probab=23.03  E-value=72  Score=21.92  Aligned_cols=21  Identities=5%  Similarity=0.050  Sum_probs=12.3  Template_Neff=8.800
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRVSDQARFERG   34 (73)
+Q Consensus        14 W~dLAd~l~Ip~~er~rF~~G   34 (73)
+                      ...++..+|++...+..++.+
+T Consensus        23 q~elA~~~gvs~~~v~~we~g   43 (166)
+T 2OX6_C           23 AAQVGQLTNHSEAEVLAWENA   43 (166)
+T ss_dssp             HHHHHHHHTCCHHHHHHHHTT
+T ss_pred             HHHHHHHhCCCHHHHHHHHcC
+Confidence            345666677765556555544
+
+
+No 114
+>1LCC_A LAC REPRESSOR HEADPIECE/DNA Complex; DNA, HALF-OPERATOR, LAC OPERATOR, LAC; NMR {Escherichia coli} SCOP: a.35.1.5
+Probab=22.97  E-value=73  Score=14.84  Aligned_cols=10  Identities=10%  Similarity=0.199  Sum_probs=4.5  Template_Neff=12.300
+
+Q tr|D5C179|D5C1   16 RLADCLEIRV   25 (73)
+Q Consensus        16 dLAd~l~Ip~   25 (73)
+                      .++..++++.
+T Consensus         8 ~~a~~~~~s~   17 (51)
+T 1LCC_A            8 DVAEYAGVSY   17 (51)
+T ss_dssp             HHHHHHTSCH
+T ss_pred             HHHHHHCCCH
+Confidence            3444455443
+
+
+No 115
+>5SXY_A Bifunctional coenzyme PQQ synthesis protein; RiPP RRE peptide scaffolding, CHAPERONE; NMR {Methylobacterium extorquens (strain ATCC 14718 / DSM 1338 / AM1)}
+Probab=22.83  E-value=73  Score=19.15  Aligned_cols=10  Identities=30%  Similarity=0.451  Sum_probs=4.8  Template_Neff=9.700
+
+Q tr|D5C179|D5C1   48 SRLSQLPAAL   57 (73)
+Q Consensus        48 ~RL~eLp~AL   57 (73)
+                      .|+.++...+
+T Consensus        55 ~t~~~i~~~l   64 (94)
+T 5SXY_A           55 NTVSQIAQIL   64 (94)
+T ss_dssp             CCHHHHHHHH
+T ss_pred             CCHHHHHHHH
+Confidence            3455554444
+
+
+No 116
+>3TRB_B Virulence-associated protein I; Mobile and extrachromosomal element functions; HET: MSE; 2.001A {Coxiella burnetii}
+Probab=22.49  E-value=75  Score=18.95  Aligned_cols=19  Identities=21%  Similarity=0.212  Sum_probs=9.5  Template_Neff=10.400
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARF   31 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF   31 (73)
+                      .+..++..+|++...+..+
+T Consensus        29 s~~~la~~~~i~~~~l~~~   47 (104)
+T 3TRB_B           29 SANQLAKHLAIPTNRVTAI   47 (104)
+T ss_dssp             CHHHHHHHHTSCHHHHHHH
+T ss_pred             CHHHHHHHhCCCHHHHHHH
+Confidence            3445666666654334333
+
+
+No 117
+>2ICT_A Putative HTH-type transcriptional regulator yddM; helix-turn-helix, Structural Genomics, PSI-2, Protein; 1.63A {Escherichia coli} SCOP: a.35.1.3
+Probab=22.25  E-value=77  Score=18.62  Aligned_cols=20  Identities=25%  Similarity=0.376  Sum_probs=11.4  Template_Neff=10.300
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~   32 (73)
+                      .+..++..+|++...+..+.
+T Consensus        23 ~~~~la~~lg~~~~~~~~~~   42 (94)
+T 2ICT_A           23 SLREFARAMEIAPSTASRLL   42 (94)
+T ss_dssp             CHHHHHHHHTCCHHHHHHHH
+T ss_pred             CHHHHHHHhCCCHHHHHHHH
+Confidence            34566777776654444443
+
+
+No 118
+>2LCV_A HTH-type transcriptional repressor CytR; BACTERIAL GENE REPRESSOR, HELIX TURN; NMR {Escherichia coli K-12}
+Probab=22.22  E-value=77  Score=16.10  Aligned_cols=10  Identities=10%  Similarity=0.003  Sum_probs=5.2  Template_Neff=11.900
+
+Q tr|D5C179|D5C1   16 RLADCLEIRV   25 (73)
+Q Consensus        16 dLAd~l~Ip~   25 (73)
+                      .++..++++.
+T Consensus        14 ~~a~~~~~~~   23 (67)
+T 2LCV_A           14 DVALKAKVST   23 (67)
+T ss_dssp             HHHHHTTCCH
+T ss_pred             HHHHHhCCCH
+Confidence            4555555543
+
+
+No 119
+>2OX6_A Hypothetical protein; Shewanella oneidensis, Structural genomics, PSI-2; HET: MG; 1.7A {Shewanella oneidensis} SCOP: a.35.1.6
+Probab=22.19  E-value=77  Score=21.78  Aligned_cols=21  Identities=5%  Similarity=0.050  Sum_probs=12.1  Template_Neff=8.800
+
+Q tr|D5C179|D5C1   14 WKRLADCLEIRVSDQARFERG   34 (73)
+Q Consensus        14 W~dLAd~l~Ip~~er~rF~~G   34 (73)
+                      ...++..+|++...+..++.+
+T Consensus        23 q~elA~~~gvs~~~v~~we~g   43 (166)
+T 2OX6_A           23 AAQVGQLTNHSEAEVLAWENA   43 (166)
+T ss_dssp             HHHHHHHHTCCHHHHHHHHTT
+T ss_pred             HHHHHHHhCCCHHHHHHHHcC
+Confidence            345666667665455555543
+
+
+No 120
+>5TIZ_A Sulfotransferase; SULFOTRANSFERASE, PARASITE, HELMINTH, TRANSFERASE; HET: A3P; 2.87A {Schistosoma japonicum}
+Probab=21.35  E-value=82  Score=23.04  Aligned_cols=13  Identities=23%  Similarity=0.785  Sum_probs=6.8  Template_Neff=9.200
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRV   25 (73)
+Q Consensus        13 dW~dLAd~l~Ip~   25 (73)
+                      .|+.+..-+|++.
+T Consensus       202 ~~~~l~~FLGl~~  214 (263)
+T 5TIZ_A          202 GWEPLCQFLNVNI  214 (263)
+T ss_dssp             CHHHHHHHHTCCC
+T ss_pred             cHHHHHHHcCCCC
+Confidence            4555555555543
+
+
+No 121
+>3BS3_A Putative DNA-binding protein; DNA-binding, XRE-family, Structural Genomics, PSI-2; 1.65A {Bacteroides fragilis}
+Probab=21.25  E-value=83  Score=16.68  Aligned_cols=10  Identities=20%  Similarity=0.252  Sum_probs=4.5  Template_Neff=11.600
+
+Q tr|D5C179|D5C1   15 KRLADCLEIR   24 (73)
+Q Consensus        15 ~dLAd~l~Ip   24 (73)
+                      ..++..+|++
+T Consensus        27 ~~~a~~~g~~   36 (76)
+T 3BS3_A           27 RWLAEQMGKS   36 (76)
+T ss_dssp             HHHHHHHTCC
+T ss_pred             HHHHHHHCCC
+Confidence            3444444444
+
+
+No 122
+>1EJW_B CRYSTAL STRUCTURE OF WILD-TYPE KLEBSIELLA; alpha-beta barrel, nickel metalloenzyme, HYDROLASE; HET: KCX; 1.9A {Klebsiella aerogenes} SCOP: b.85.3.1
+Probab=21.20  E-value=83  Score=22.28  Aligned_cols=19  Identities=32%  Similarity=0.406  Sum_probs=8.4  Template_Neff=3.900
+
+Q tr|D5C179|D5C1   16 RLADCLEIRVSDQARFERG   34 (73)
+Q Consensus        16 dLAd~l~Ip~~er~rF~~G   34 (73)
+                      .....|+++....-.|+..
+T Consensus        56 A~G~RLdIpaGTavRFEPG   74 (101)
+T 1EJW_B           56 AAGYRLNIPAGTAVRFEPG   74 (101)
+T ss_dssp             TTTEEECSSTTCEEEECTT
+T ss_pred             ccceecCCCCcceeccCCC
+Confidence            3344455544344444443
+
+
+No 123
+>4EP8_B Urease subunit alpha (E.C.3.5.1.5), Urease; alpha-beta barrel, nickel metalloenzyme, hydrolase; 1.55A {Enterobacter aerogenes}
+Probab=21.20  E-value=83  Score=22.28  Aligned_cols=19  Identities=32%  Similarity=0.406  Sum_probs=8.4  Template_Neff=3.900
+
+Q tr|D5C179|D5C1   16 RLADCLEIRVSDQARFERG   34 (73)
+Q Consensus        16 dLAd~l~Ip~~er~rF~~G   34 (73)
+                      .....|+++....-.|+..
+T Consensus        56 A~G~RLdIpaGTavRFEPG   74 (101)
+T 4EP8_B           56 AAGYRLNIPAGTAVRFEPG   74 (101)
+T ss_dssp             TTTEEECSSTTCEEEECTT
+T ss_pred             ccceecCCCCcceeccCCC
+Confidence            3344455544344444443
+
+
+No 124
+>4EPD_B Urease subunit alpha (E.C.3.5.1.5), Urease; alpha-beta barrel, nickel metalloenzyme, hydrolase; 1.7A {Enterobacter aerogenes}
+Probab=21.20  E-value=83  Score=22.28  Aligned_cols=19  Identities=32%  Similarity=0.406  Sum_probs=8.4  Template_Neff=3.900
+
+Q tr|D5C179|D5C1   16 RLADCLEIRVSDQARFERG   34 (73)
+Q Consensus        16 dLAd~l~Ip~~er~rF~~G   34 (73)
+                      .....|+++....-.|+..
+T Consensus        56 A~G~RLdIpaGTavRFEPG   74 (101)
+T 4EPD_B           56 AAGYRLNIPAGTAVRFEPG   74 (101)
+T ss_dssp             HTTEEECSCTTCEEEECTT
+T ss_pred             ccceecCCCCcceeccCCC
+Confidence            3344455544344444443
+
+
+No 125
+>1AM7_B LYSOZYME; GLYCOSIDASE, TRANSGLYCOSYLASE, EVOLUTION, LYSOZYME; HET: IPA, TRN; 2.3A {Enterobacteria phage lambda} SCOP: d.2.1.4
+Probab=21.18  E-value=83  Score=23.08  Aligned_cols=13  Identities=8%  Similarity=0.150  Sum_probs=9.0  Template_Neff=6.000
+
+Q tr|D5C179|D5C1   12 DDWKRLADCLEIR   24 (73)
+Q Consensus        12 ~dW~dLAd~l~Ip   24 (73)
+                      ..|..++.++|++
+T Consensus        72 ~T~~~~~~~~gl~   84 (158)
+T 1AM7_B           72 RXXDAYRKQLGLK   84 (158)
+T ss_dssp             HHHHHHHHHHTCC
+T ss_pred             ccHHHHHHHhCCC
+Confidence            5677777777765
+
+
+No 126
+>5I41_B Chromosome-anchoring protein RacA; RacA, axial filament, sporulation, B.; 1.8A {Bacillus subtilis}
+Probab=20.85  E-value=85  Score=15.87  Aligned_cols=6  Identities=17%  Similarity=0.202  Sum_probs=2.3  Template_Neff=12.100
+
+Q tr|D5C179|D5C1   19 DCLEIR   24 (73)
+Q Consensus        19 d~l~Ip   24 (73)
+                      ..+|++
+T Consensus        11 ~~~gi~   16 (69)
+T 5I41_B           11 SELGVS   16 (69)
+T ss_dssp             HHHTSC
+T ss_pred             HHHCCC
+Confidence            333443
+
+
+No 127
+>5I44_A Chromosome-anchoring protein RacA/DNA Complex; RacA, B. subtilis, axial filament; 2.621A {Bacillus subtilis}
+Probab=20.85  E-value=85  Score=15.87  Aligned_cols=6  Identities=17%  Similarity=0.202  Sum_probs=2.3  Template_Neff=12.100
+
+Q tr|D5C179|D5C1   19 DCLEIR   24 (73)
+Q Consensus        19 d~l~Ip   24 (73)
+                      ..+|++
+T Consensus        11 ~~~gi~   16 (69)
+T 5I44_A           11 SELGVS   16 (69)
+T ss_dssp             HHHTSC
+T ss_pred             HHHCCC
+Confidence            333443
+
+
+No 128
+>4J2N_B Gp37; Winged-Helix, Doman Swap, Filament, VIRAL; HET: SO4; 2.348A {Mycobacterium phage Pukovnik}
+Probab=20.81  E-value=86  Score=15.54  Aligned_cols=10  Identities=30%  Similarity=0.431  Sum_probs=4.8  Template_Neff=11.700
+
+Q tr|D5C179|D5C1   16 RLADCLEIRV   25 (73)
+Q Consensus        16 dLAd~l~Ip~   25 (73)
+                      .++..++++.
+T Consensus        11 ~~a~~~~~s~   20 (58)
+T 4J2N_B           11 QTADYLGVST   20 (58)
+T ss_dssp             HHHHHHTSCH
+T ss_pred             HHHHHHCCCH
+Confidence            4444555543
+
+
+No 129
+>4J2N_C Gp37; Winged-Helix, Doman Swap, Filament, VIRAL; HET: SO4; 2.348A {Mycobacterium phage Pukovnik}
+Probab=20.81  E-value=86  Score=15.54  Aligned_cols=10  Identities=30%  Similarity=0.431  Sum_probs=4.8  Template_Neff=11.700
+
+Q tr|D5C179|D5C1   16 RLADCLEIRV   25 (73)
+Q Consensus        16 dLAd~l~Ip~   25 (73)
+                      .++..++++.
+T Consensus        11 ~~a~~~~~s~   20 (58)
+T 4J2N_C           11 QTADYLGVST   20 (58)
+T ss_dssp             HHHHHHTCCH
+T ss_pred             HHHHHHCCCH
+Confidence            4444555543
+
+
+No 130
+>2L49_A C protein; P2 bacteriophage, P2 C, direct; NMR {Enterobacteria phage P2}
+Probab=20.69  E-value=87  Score=18.05  Aligned_cols=20  Identities=20%  Similarity=0.290  Sum_probs=10.3  Template_Neff=11.000
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~   32 (73)
+                      ....++..+|++...+..+.
+T Consensus        19 ~~~~~a~~~g~~~~~i~~~~   38 (99)
+T 2L49_A           19 SRQQLADLTGVPYGTLSYYE   38 (99)
+T ss_dssp             CHHHHHHHHCCCHHHHHHHT
+T ss_pred             CHHHHHHHHCCCHHHHHHHH
+Confidence            34556666666543444433
+
+
+No 131
+>2XCJ_B C PROTEIN; DIRECT REPEATS, REPRESSOR, HELIX-TURN-HELIX, VIRAL; HET: GOL; 1.8A {ENTEROBACTERIA PHAGE P2}
+Probab=20.69  E-value=87  Score=18.05  Aligned_cols=20  Identities=20%  Similarity=0.290  Sum_probs=10.3  Template_Neff=11.000
+
+Q tr|D5C179|D5C1   13 DWKRLADCLEIRVSDQARFE   32 (73)
+Q Consensus        13 dW~dLAd~l~Ip~~er~rF~   32 (73)
+                      ....++..+|++...+..+.
+T Consensus        19 ~~~~~a~~~g~~~~~i~~~~   38 (99)
+T 2XCJ_B           19 SRQQLADLTGVPYGTLSYYE   38 (99)
+T ss_dssp             CHHHHHHHHCCCHHHHHHHH
+T ss_pred             CHHHHHHHHCCCHHHHHHHH
+Confidence            34556666666543444433
+
+
+No 132
+>1NR3_A DNA-BINDING PROTEIN TFX; NORTHEAST STRUCTURAL GENOMICS CONSORTIUM, REDUCED-DIMENSIONALITY; NMR {Methanothermobacter thermautotrophicus} SCOP: d.236.1.1
+Probab=20.68  E-value=87  Score=19.72  Aligned_cols=7  Identities=29%  Similarity=0.311  Sum_probs=2.8  Template_Neff=9.800
+
+Q tr|D5C179|D5C1   17 LADCLEI   23 (73)
+Q Consensus        17 LAd~l~I   23 (73)
+                      +|..+|+
+T Consensus        11 la~~lgi   17 (122)
+T 1NR3_A           11 IARELKT   17 (122)
+T ss_dssp             THHHHHH
+T ss_pred             HHHHHCC
+Confidence            3344443
+
+
