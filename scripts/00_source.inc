@@ -3,8 +3,9 @@ MODEL=yes
 
 #FOLDER=GFP
 #FOLDER=MYD88-DD
-FOLDER=MYD88
-#FOLDER=BDLD
+#FOLDER=MYD88
+#FOLDER=TIR_LIB
+FOLDER=BDLD
 	# Specify the folder where your fasta files are located.
 	# This folder will be used to create a list of the fasta base names, for which models will be run.
 	# Once created, you can adapt the list to batches if necessary.
@@ -19,7 +20,7 @@ LOC_FASTA=~/fluffyAlpaca/fasta_files		  # Specify where fasta_files   are locate
 LOC_FEATURES=~/fluffyAlpaca/feature_files/${FILE} # Specify where feature_files are located
 
 STOICH=simple
-STOICH=advanced
+#STOICH=advanced
 	# See NOTES below for explanation.
 
 if   [ $STOICH = 'simple' ]; then
@@ -28,8 +29,9 @@ if   [ $STOICH = 'simple' ]; then
 
 elif [ $STOICH = 'advanced' ]; then
 	STOICHIOMETRY=IL1R:1/IL1AP:1/${FILE}:${N}
-	#COMPLEX=IL1R_x1+IL1AP_x1_${FILE}_x${N}
-	LOC_OUT=~/fluffyAlpaca/output_files/${FILE}_COMPLEX_x${N}
+	OUT_NAME=IL1R_x1+IL1AP_x1_${FILE}_x${N}
+	#LOC_OUT=~/fluffyAlpaca/output_files/${FILE}_COMPLEX_x${N}
+	LOC_OUT=~/fluffyAlpaca/output_files/$OUT_NAME
 else 
 	echo "Please specify your stoichiometry of choice."
 	echo "You can unhash the advanced version if necessary."

@@ -10,7 +10,7 @@ cd ${LOC_SCRIPTS}/myRuns/${FILE}_COMPLEX
 echo FILE=${FILE}_COMPLEX > 00_user_parameters.inc
 
 ### SET TARGET STOICHIOMETRY
-echo $STOICHIOMETRY > target.lst
+echo $STOICHIOMETRY 300 $OUT_NAME > target.lst
 
 ### START SLURM SUBMISSION DEPENDING ON CURRENT PROGRESS STATUS
 
@@ -34,8 +34,8 @@ if [ -f $LOC_FEATURES/features.pkl ]
 
 				cd ${LOC_SCRIPTS}/myRuns/${FILE}_COMPLEX/
 				cat slurm* > ${LOC_OUT}/slurm.out
-				mkdir -p ${LOC_SCRIPTS}/myRuns/${FILE}_COMPLEX/temp/
-				mv slurm* ${LOC_SCRIPTS}/myRuns/${FILE}_COMPLEX/temp/
+				mkdir -p ${LOC_SCRIPTS}/myRuns/${FILE}_COMPLEX/temp_x${N}/
+				mv slurm* ${LOC_SCRIPTS}/myRuns/${FILE}_COMPLEX/temp_x${N}/
 
 				cd $LOC_OUT
 				for i in {1..5}; do
@@ -55,7 +55,7 @@ if [ -f $LOC_FEATURES/features.pkl ]
 
 	elif [ -f $LOC_OUT/${FILE}_COMPLEX_rlx_model_1_x${N}.pdb -a $LOC_OUT/${FILE}_COMPLEX_rlx_model_2_x${N}.pdb -a $LOC_OUT/${FILE}_COMPLEX_rlx_model_3_x${N}.pdb -a $LOC_OUT/${FILE}_COMPLEX_rlx_model_4_x${N}.pdb -a $LOC_OUT/${FILE}_COMPLEX_rlx_model_5_x${N}.pdb ]
                 then
-		[ -f $LOC_OUT/model_*_*_*_*_*_*.pkl ]; rm $LOC_OUT/model_*_*_*_*_*_*.pkl
+		[ -f $LOC_OUT/model_*_*_*_*_*.pkl ]; rm $LOC_OUT/model_*_*_*_*_*.pkl
 		echo "(2) PREDICTION OF ${FILE}_COMPLEX FINISHED SUCCESSFULLY."
 		echo "(3) RELAXATION OF ${FILE}_COMPLEX FINISHED SUCCESSFULLY."
 		echo "(4) R PREPARATION OF ${FILE}_COMPLEX FINISHED SUCCESSFULLY."
@@ -72,9 +72,9 @@ if [ -f $LOC_FEATURES/features.pkl ]
 				then 
 				echo " ---> PREDICTION ${i} DONE."
 			else 
-				if [ -f $LOC_OUT/model_${i}_*_*_*_*_*.pkl ] 
+				if [ -f $LOC_OUT/model_${i}_*_*_*_*.pkl ] 
 					then 
-					rm $LOC_OUT/model_${i}_*_*_*_*_*.pkl
+					rm $LOC_OUT/model_${i}_*_*_*_*.pkl
 				fi
 				bash ${LOC_SCRIPTS}/myRuns/${FILE}_COMPLEX/submit_${i}.sh
 			fi

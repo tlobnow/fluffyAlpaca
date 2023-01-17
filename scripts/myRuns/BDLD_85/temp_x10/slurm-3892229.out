@@ -1,0 +1,100 @@
+Info: target file is /u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD_85/target.lst
+Info: input directory of unrelaxed models is /u/flobnow/fluffyAlpaca/output_files
+Info: output directory of relaxed models is /u/flobnow/fluffyAlpaca/output_files
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 10:58:31.866261 22434154047296 run_af2c_min.py:88] BDLD_85_x10 processing model_5_multimer_v2_p1_230116_407201.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 10:58:51.688071 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 73 (TRP) of chain 0>: ['OXT'], <Residue 147 (TRP) of chain 1>: ['OXT'], <Residue 221 (TRP) of chain 2>: ['OXT'], <Residue 295 (TRP) of chain 3>: ['OXT'], <Residue 369 (TRP) of chain 4>: ['OXT'], <Residue 443 (TRP) of chain 5>: ['OXT'], <Residue 517 (TRP) of chain 6>: ['OXT'], <Residue 591 (TRP) of chain 7>: ['OXT'], <Residue 665 (TRP) of chain 8>: ['OXT'], <Residue 739 (TRP) of chain 9>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 10:58:52.866859 22434154047296 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0116 10:58:54.149576 22434154047296 amber_minimize.py:69] Restraining 6360 / 12630 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:00:04.196786 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:00:05.416444 22434154047296 tpu_client.py:54] Starting the local TPU driver.
+I0116 11:00:05.416762 22434154047296 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0116 11:00:05.633584 22434154047296 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0116 11:00:16.225311 22434154047296 amber_minimize.py:500] Iteration completed: Einit 31229.37 Efinal -20250.06 Time 56.03 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:00:32.347582 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 73 (TRP) of chain 0>: ['OXT'], <Residue 147 (TRP) of chain 1>: ['OXT'], <Residue 221 (TRP) of chain 2>: ['OXT'], <Residue 295 (TRP) of chain 3>: ['OXT'], <Residue 369 (TRP) of chain 4>: ['OXT'], <Residue 443 (TRP) of chain 5>: ['OXT'], <Residue 517 (TRP) of chain 6>: ['OXT'], <Residue 591 (TRP) of chain 7>: ['OXT'], <Residue 665 (TRP) of chain 8>: ['OXT'], <Residue 739 (TRP) of chain 9>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:00:34.844645 22434154047296 run_af2c_min.py:110] BDLD_85_x10 relaxation done, time spent 122.6 seconds, Efinal -20250.06, rmsd 0.43
+I0116 11:00:34.844779 22434154047296 run_af2c_min.py:88] BDLD_85_x10 processing model_4_multimer_v2_p1_230116_309841.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:00:49.813929 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 73 (TRP) of chain 0>: ['OXT'], <Residue 147 (TRP) of chain 1>: ['OXT'], <Residue 221 (TRP) of chain 2>: ['OXT'], <Residue 295 (TRP) of chain 3>: ['OXT'], <Residue 369 (TRP) of chain 4>: ['OXT'], <Residue 443 (TRP) of chain 5>: ['OXT'], <Residue 517 (TRP) of chain 6>: ['OXT'], <Residue 591 (TRP) of chain 7>: ['OXT'], <Residue 665 (TRP) of chain 8>: ['OXT'], <Residue 739 (TRP) of chain 9>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:00:51.045555 22434154047296 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0116 11:00:52.291284 22434154047296 amber_minimize.py:69] Restraining 6360 / 12630 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:01:59.539285 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:02:02.564277 22434154047296 amber_minimize.py:500] Iteration completed: Einit 129609.13 Efinal -21791.09 Time 55.54 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:02:17.471468 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 73 (TRP) of chain 0>: ['OXT'], <Residue 147 (TRP) of chain 1>: ['OXT'], <Residue 221 (TRP) of chain 2>: ['OXT'], <Residue 295 (TRP) of chain 3>: ['OXT'], <Residue 369 (TRP) of chain 4>: ['OXT'], <Residue 443 (TRP) of chain 5>: ['OXT'], <Residue 517 (TRP) of chain 6>: ['OXT'], <Residue 591 (TRP) of chain 7>: ['OXT'], <Residue 665 (TRP) of chain 8>: ['OXT'], <Residue 739 (TRP) of chain 9>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:02:19.951555 22434154047296 run_af2c_min.py:110] BDLD_85_x10 relaxation done, time spent 104.8 seconds, Efinal -21791.09, rmsd 0.41
+I0116 11:02:19.951676 22434154047296 run_af2c_min.py:88] BDLD_85_x10 processing model_3_multimer_v2_p1_230116_196494.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:02:35.822719 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 73 (TRP) of chain 0>: ['OXT'], <Residue 147 (TRP) of chain 1>: ['OXT'], <Residue 221 (TRP) of chain 2>: ['OXT'], <Residue 295 (TRP) of chain 3>: ['OXT'], <Residue 369 (TRP) of chain 4>: ['OXT'], <Residue 443 (TRP) of chain 5>: ['OXT'], <Residue 517 (TRP) of chain 6>: ['OXT'], <Residue 591 (TRP) of chain 7>: ['OXT'], <Residue 665 (TRP) of chain 8>: ['OXT'], <Residue 739 (TRP) of chain 9>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:02:36.981520 22434154047296 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0116 11:02:38.208006 22434154047296 amber_minimize.py:69] Restraining 6360 / 12630 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:03:48.241106 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:03:51.293885 22434154047296 amber_minimize.py:500] Iteration completed: Einit 45630.57 Efinal -20433.83 Time 56.67 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:04:07.123327 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 73 (TRP) of chain 0>: ['OXT'], <Residue 147 (TRP) of chain 1>: ['OXT'], <Residue 221 (TRP) of chain 2>: ['OXT'], <Residue 295 (TRP) of chain 3>: ['OXT'], <Residue 369 (TRP) of chain 4>: ['OXT'], <Residue 443 (TRP) of chain 5>: ['OXT'], <Residue 517 (TRP) of chain 6>: ['OXT'], <Residue 591 (TRP) of chain 7>: ['OXT'], <Residue 665 (TRP) of chain 8>: ['OXT'], <Residue 739 (TRP) of chain 9>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:04:09.606695 22434154047296 run_af2c_min.py:110] BDLD_85_x10 relaxation done, time spent 109.2 seconds, Efinal -20433.83, rmsd 0.42
+I0116 11:04:09.606822 22434154047296 run_af2c_min.py:88] BDLD_85_x10 processing model_1_multimer_v2_p1_230116_276939.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:04:26.735214 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 73 (TRP) of chain 0>: ['OXT'], <Residue 147 (TRP) of chain 1>: ['OXT'], <Residue 221 (TRP) of chain 2>: ['OXT'], <Residue 295 (TRP) of chain 3>: ['OXT'], <Residue 369 (TRP) of chain 4>: ['OXT'], <Residue 443 (TRP) of chain 5>: ['OXT'], <Residue 517 (TRP) of chain 6>: ['OXT'], <Residue 591 (TRP) of chain 7>: ['OXT'], <Residue 665 (TRP) of chain 8>: ['OXT'], <Residue 739 (TRP) of chain 9>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:04:27.852619 22434154047296 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0116 11:04:29.071894 22434154047296 amber_minimize.py:69] Restraining 6360 / 12630 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:05:50.042503 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:05:53.030449 22434154047296 amber_minimize.py:500] Iteration completed: Einit 50055.34 Efinal -22322.98 Time 66.15 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:06:10.146192 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 73 (TRP) of chain 0>: ['OXT'], <Residue 147 (TRP) of chain 1>: ['OXT'], <Residue 221 (TRP) of chain 2>: ['OXT'], <Residue 295 (TRP) of chain 3>: ['OXT'], <Residue 369 (TRP) of chain 4>: ['OXT'], <Residue 443 (TRP) of chain 5>: ['OXT'], <Residue 517 (TRP) of chain 6>: ['OXT'], <Residue 591 (TRP) of chain 7>: ['OXT'], <Residue 665 (TRP) of chain 8>: ['OXT'], <Residue 739 (TRP) of chain 9>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:06:12.593727 22434154047296 run_af2c_min.py:110] BDLD_85_x10 relaxation done, time spent 122.6 seconds, Efinal -22322.98, rmsd 0.40
+I0116 11:06:12.593849 22434154047296 run_af2c_min.py:88] BDLD_85_x10 processing model_2_multimer_v2_p1_230116_225747.pdb
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:06:29.843890 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 73 (TRP) of chain 0>: ['OXT'], <Residue 147 (TRP) of chain 1>: ['OXT'], <Residue 221 (TRP) of chain 2>: ['OXT'], <Residue 295 (TRP) of chain 3>: ['OXT'], <Residue 369 (TRP) of chain 4>: ['OXT'], <Residue 443 (TRP) of chain 5>: ['OXT'], <Residue 517 (TRP) of chain 6>: ['OXT'], <Residue 591 (TRP) of chain 7>: ['OXT'], <Residue 665 (TRP) of chain 8>: ['OXT'], <Residue 739 (TRP) of chain 9>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:06:31.058369 22434154047296 amber_minimize.py:408] Minimizing protein, attempt 1 of 100.
+I0116 11:06:32.270964 22434154047296 amber_minimize.py:69] Restraining 6360 / 12630 particles.
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:07:57.823747 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:08:00.873227 22434154047296 amber_minimize.py:500] Iteration completed: Einit 57989.82 Efinal -21318.75 Time 70.82 s num residue violations 0 num residue exclusions 0 
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+I0116 11:08:17.731834 22434154047296 amber_minimize.py:177] alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 73 (TRP) of chain 0>: ['OXT'], <Residue 147 (TRP) of chain 1>: ['OXT'], <Residue 221 (TRP) of chain 2>: ['OXT'], <Residue 295 (TRP) of chain 3>: ['OXT'], <Residue 369 (TRP) of chain 4>: ['OXT'], <Residue 443 (TRP) of chain 5>: ['OXT'], <Residue 517 (TRP) of chain 6>: ['OXT'], <Residue 591 (TRP) of chain 7>: ['OXT'], <Residue 665 (TRP) of chain 8>: ['OXT'], <Residue 739 (TRP) of chain 9>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+I0116 11:08:20.242900 22434154047296 run_af2c_min.py:110] BDLD_85_x10 relaxation done, time spent 127.2 seconds, Efinal -21318.75, rmsd 0.44
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  6_RLX
+Node list: ravg1095
+Job start: Mon Jan 16 10:58:22 CET 2023
+Job end:   Mon Jan 16 11:08:21 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD_85
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/BDLD_85/script3_relaxation.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3892229            6_RLX      1           108                             00:09:59      0:0
+3892229.0        python3      1      1    108    14266.62M    14266.62M   00:09:55      0:0
+  
+Maximum memory per node: 14.959633 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 49.5 %
+  

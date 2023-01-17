@@ -28,7 +28,8 @@ do
 				cp -r ${LOC_SCRIPTS}/template ${LOC_SCRIPTS}/myRuns/$(basename -a -s .fasta $i); done
 		else
 			for i in ${LOC_FASTA}/${FOLDER}/*.fasta; do
-				cp -r ${LOC_SCRIPTS}/template ${LOC_SCRIPTS}/myRuns/$(basename -a -s .fasta $i)_COMPLEX ; done
+				#cp -r ${LOC_SCRIPTS}/template ${LOC_SCRIPTS}/myRuns/$(basename -a -s .fasta $i)_COMPLEX ; done
+				cp -r ${LOC_SCRIPTS}/template ${LOC_SCRIPTS}/myRuns/IL1R_x1+IL1AP_x1_$(basename -a -s .fasta $i)_x${N} ; done
 		fi
 		cp ${LOC_FASTA}/${FOLDER}/*.fasta $LOC_FASTA
 	fi

@@ -1,0 +1,84 @@
+Info: input file name is MYD88_COMPLEX
+Info: input target list is /u/flobnow/fluffyAlpaca/scripts/myRuns/MYD88_COMPLEX/target.lst
+Info: input feature directory is /u/flobnow/fluffyAlpaca/feature_files
+Info: result output directory is /u/flobnow/fluffyAlpaca/output_files
+Info: model preset is multimer_np
+Info: msa pairing is all
+Info: recycling setting is 1
+/bin/sh: /mpcdf/soft/SLE_15/packages/x86_64/alphafold/2.2.0/lib/libtinfo.so.6: no version information available (required by /lib64/libreadline.so.7)
+Info: using preset super2
+Info: set num_ensemble = 2
+Info: set max_recyles = 20
+Info: set recycle_tol = 0.1
+Info: mas_pairing mode is all
+I0115 19:19:01.903033 22588012865344 tpu_client.py:54] Starting the local TPU driver.
+I0115 19:19:01.988075 22588012865344 xla_bridge.py:212] Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+I0115 19:19:02.355573 22588012865344 xla_bridge.py:212] Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+I0115 19:19:05.835771 22588012865344 run_af2c_mod.py:482] Have 1 models: ['model_1_multimer_v2_p1']
+Info: working on target IL1R_x1+IL1AP_x1+MYD88_x6
+I0115 19:19:05.835925 22588012865344 run_af2c_mod.py:512] Using random seed 7505345864612471654 for the data pipeline
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 found monomer IL1R msa_depth = 13158, seq_len = 576, num_templ = 20
+Info: IL1R MSA size is too large, reducing to 10000
+Info: IL1R reducing the number of structural templates to 4
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 found monomer IL1AP msa_depth = 11997, seq_len = 570, num_templ = 20
+Info: IL1AP MSA size is too large, reducing to 10000
+Info: IL1AP reducing the number of structural templates to 4
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 found monomer MYD88 msa_depth = 5045, seq_len = 296, num_templ = 20
+Info: MYD88 reducing the number of structural templates to 4
+Info: 8 chain(s) to model {'A': 'IL1R_1', 'B': 'IL1AP_1', 'C': 'MYD88_1', 'D': 'MYD88_1', 'E': 'MYD88_1', 'F': 'MYD88_1', 'G': 'MYD88_1', 'H': 'MYD88_1'}
+Info: modeling IL1R_x1+IL1AP_x1+MYD88_x6 with msa_depth = 14999, seq_len = 2922, num_templ = 32
+I0115 19:19:10.192728 22588012865344 run_af2c_mod.py:216] Running model model_1_multimer_v2_p1_230115_471654
+I0115 19:19:10.193275 22588012865344 model.py:206] Running predict with shape(feat) = {'msa': (14999, 2922), 'bert_mask': (14999, 2922), 'num_alignments': (), 'aatype': (2922,), 'seq_length': (), 'template_aatype': (32, 2922), 'template_all_atom_mask': (32, 2922, 37), 'template_all_atom_positions': (32, 2922, 37, 3), 'all_atom_positions': (2922, 37, 3), 'template_domain_names': (32,), 'asym_id': (2922,), 'sym_id': (2922,), 'entity_id': (2922,), 'residue_index': (2922,), 'deletion_matrix': (14999, 2922), 'seq_mask': (2922,), 'msa_mask': (14999, 2922), 'cluster_bias_mask': (14999,), 'pdb_residue_index': (2922,)}
+I0116 06:01:43.541087 22588012865344 run_af2c_mod.py:271] Total JAX model model_1_multimer_v2_p1_230115_471654 predict time (includes compilation time): 38553.3 seconds
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_00,  tol =   inf, pLDDT = 64.18, pTM-score = 0.2915, piTM-score = 0.1896, interface-score = 0.1302, iRes = 42   iCnt = 33  
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_01,  tol = 141.97, pLDDT = 62.44, pTM-score = 0.2910, piTM-score = 0.2202, interface-score = 0.1941, iRes = 46   iCnt = 43  
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_02,  tol = 65.05, pLDDT = 64.52, pTM-score = 0.3095, piTM-score = 0.3137, interface-score = 0.1548, iRes = 240  iCnt = 539 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_03,  tol = 43.83, pLDDT = 64.09, pTM-score = 0.3170, piTM-score = 0.2594, interface-score = 0.2959, iRes = 94   iCnt = 82  
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_04,  tol = 26.99, pLDDT = 64.10, pTM-score = 0.3075, piTM-score = 0.2316, interface-score = 0.2846, iRes = 95   iCnt = 82  
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_05,  tol = 18.86, pLDDT = 64.19, pTM-score = 0.3061, piTM-score = 0.1947, interface-score = 0.2614, iRes = 102  iCnt = 86  
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_06,  tol = 24.57, pLDDT = 65.44, pTM-score = 0.3176, piTM-score = 0.2275, interface-score = 0.2617, iRes = 113  iCnt = 97  
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_07,  tol = 26.11, pLDDT = 66.87, pTM-score = 0.4157, piTM-score = 0.3728, interface-score = 0.4079, iRes = 343  iCnt = 424 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_08,  tol = 47.78, pLDDT = 66.63, pTM-score = 0.4219, piTM-score = 0.4025, interface-score = 0.4622, iRes = 377  iCnt = 440 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_09,  tol = 13.92, pLDDT = 68.87, pTM-score = 0.4387, piTM-score = 0.4942, interface-score = 0.5591, iRes = 251  iCnt = 264 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_10,  tol = 31.10, pLDDT = 69.58, pTM-score = 0.4595, piTM-score = 0.5163, interface-score = 0.5947, iRes = 290  iCnt = 315 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_11,  tol = 10.31, pLDDT = 70.64, pTM-score = 0.4730, piTM-score = 0.5438, interface-score = 0.6178, iRes = 307  iCnt = 345 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_12,  tol = 11.12, pLDDT = 70.56, pTM-score = 0.4686, piTM-score = 0.5439, interface-score = 0.6181, iRes = 305  iCnt = 343 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_13,  tol =  3.48, pLDDT = 70.44, pTM-score = 0.4716, piTM-score = 0.5582, interface-score = 0.6338, iRes = 321  iCnt = 363 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_14,  tol =  3.83, pLDDT = 70.77, pTM-score = 0.4760, piTM-score = 0.5624, interface-score = 0.6397, iRes = 319  iCnt = 368 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_15,  tol =  4.51, pLDDT = 71.32, pTM-score = 0.4804, piTM-score = 0.5833, interface-score = 0.6589, iRes = 323  iCnt = 372 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_16,  tol =  1.92, pLDDT = 70.11, pTM-score = 0.4639, piTM-score = 0.5413, interface-score = 0.6199, iRes = 307  iCnt = 336 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_17,  tol =  4.02, pLDDT = 70.90, pTM-score = 0.4806, piTM-score = 0.5739, interface-score = 0.6463, iRes = 326  iCnt = 373 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_18,  tol =  6.40, pLDDT = 70.79, pTM-score = 0.4778, piTM-score = 0.5710, interface-score = 0.6459, iRes = 322  iCnt = 370 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654_recycled_19,  tol =  4.69, pLDDT = 70.98, pTM-score = 0.4848, piTM-score = 0.5825, interface-score = 0.6594, iRes = 330  iCnt = 385 
+Info: IL1R_x1+IL1AP_x1+MYD88_x6 model_1_multimer_v2_p1_230115_471654 performed 20 recycles, final tol = 4.17, pLDDT = 70.93, pTM-score = 0.4808, piTM-score = 0.5778, interface-score = 0.6526, iRes = 317  iCnt = 360 
+Info: num_clusters = 1, cluster_sizes = [8],  clusters = [['IL1R_0', 'IL1AP_0', 'MYD88_0', 'MYD88_1', 'MYD88_2', 'MYD88_3', 'MYD88_4', 'MYD88_5']]
+
+I0116 06:01:58.004262 22588012865344 run_af2c_mod.py:404] Final timings for IL1R_x1+IL1AP_x1+MYD88_x6: {'features': 4.36, 'process_features_model_1_multimer_v2_p1_230115_471654': 0.0, 'predict_and_compile_model_1_multimer_v2_p1_230115_471654': 38553.3}
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: flobnow(42847)
+Job name:  1_AF2C
+Node list: ravg1178
+Job start: Sun Jan 15 19:18:27 CET 2023
+Job end:   Mon Jan 16 06:02:13 CET 2023
+Work dir:  /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/MYD88_COMPLEX
+Command:   /raven/u/flobnow/fluffyAlpaca/scripts/myRuns/MYD88_COMPLEX/script2_comp_model_1.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS        0.00M        0.00M    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+3887625           1_AF2C      1           108                             10:43:46      0:0
+3887625.0        python3      1      1    108   238466.88M   238466.88M   10:43:38      0:0
+  
+Maximum memory per node: 250.050646 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 1.8 %
+  
